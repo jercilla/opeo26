@@ -63,10 +63,25 @@ def highlight(text, other):
         html += '</span>'
     return html
 
-def process_question(q):
+def process_question(q, threshold=15):
     opts = q['opciones']
     letters = list(opts.keys())
     texts = [opts[l] for l in letters]
+
+    # Compute max similarity score between any pair of options
+    max_score = 0
+    for i in range(len(letters)):
+        for j in range(i + 1, len(letters)):
+            score = common_word_count(texts[i], texts[j])
+            if score > max_score:
+                max_score = score
+
+    # Only generate diffs if options are sufficiently similar
+    if max_score < threshold:
+        if 'diffs' in q:
+            del q['diffs']
+        return q
+
     diffs = {}
     for i, li in enumerate(letters):
         best = -1

@@ -14,13 +14,7 @@ const QUIZZES = {
           "D": "Todo lo anterior."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "La <span class=\"diff-highlight\">colegiación,</span> cuando una ley estatal establezca <span class=\"diff-highlight\">esta</span> obligación <span class=\"diff-highlight\">para</span> el <span class=\"diff-highlight\">ejercicio</span> de <span class=\"diff-highlight\">una</span> <span class=\"diff-highlight\">profesión</span> <span class=\"diff-highlight\">titulada</span> o <span class=\"diff-highlight\">algunas</span> <span class=\"diff-highlight\">actividades</span> <span class=\"diff-highlight\">propias</span> de <span class=\"diff-highlight\">ésta.</span>",
-          "B": "La <span class=\"diff-highlight\">inexistencia de inhabilitación o suspensión para el ejercicio profesional por sentencia judicial, aunque no sea firme, durante el periodo de tiempo que fije ésta; por resolución sancionadora impuesta por un colegio profesional sanitario,</span> cuando una ley estatal establezca <span class=\"diff-highlight\">para este ejercicio la</span> obligación <span class=\"diff-highlight\">de pertenecer al colegio profesional respectivo durante</span> el <span class=\"diff-highlight\">periodo</span> de <span class=\"diff-highlight\">tiempo</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">fije ésta;</span> o <span class=\"diff-highlight\">por</span> <span class=\"diff-highlight\">resolución</span> <span class=\"diff-highlight\">administrativa sancionadora firme, durante el periodo</span> de <span class=\"diff-highlight\">tiempo que fije ésta, cuando se ejerza la profesión en el ámbito de la asistencia sanitaria pública.</span>",
-          "C": "<span class=\"diff-highlight\">Tener</span> <span class=\"diff-highlight\">suscrito</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">vigente</span> <span class=\"diff-highlight\">un</span> <span class=\"diff-highlight\">seguro</span> de <span class=\"diff-highlight\">responsabilidad,</span> <span class=\"diff-highlight\">un</span> <span class=\"diff-highlight\">aval</span> <span class=\"diff-highlight\">u</span> <span class=\"diff-highlight\">otra</span> <span class=\"diff-highlight\">garantía</span> <span class=\"diff-highlight\">financiera,</span> <span class=\"diff-highlight\">ya</span> <span class=\"diff-highlight\">sean</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">protección</span> <span class=\"diff-highlight\">personal</span> <span class=\"diff-highlight\">o</span> <span class=\"diff-highlight\">colectiva,</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">cubra</span> <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">indemnizaciones</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">se</span> <span class=\"diff-highlight\">puedan</span> <span class=\"diff-highlight\">derivar</span> de <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">responsabilidad</span> profesional <span class=\"diff-highlight\">por</span> <span class=\"diff-highlight\">un</span> <span class=\"diff-highlight\">eventual</span> <span class=\"diff-highlight\">daño</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">personas,</span> <span class=\"diff-highlight\">causado</span> <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">ocasión</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">prestación</span> de <span class=\"diff-highlight\">tal</span> <span class=\"diff-highlight\">asistencia</span> <span class=\"diff-highlight\">o</span> <span class=\"diff-highlight\">servicios,</span> cuando se ejerza la profesión en el ámbito de la asistencia sanitaria pública.",
-          "D": "Todo lo anterior."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 2,
@@ -109,13 +103,7 @@ const QUIZZES = {
           "D": "La renuncia se ejerza de acuerdo con procedimientos establecidos y explícitos."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Su renuncia no conlleve desatención de la persona paciente.",
-          "B": "La renuncia se ejerza de acuerdo con procedimientos <span class=\"diff-highlight\">regulares.</span>",
-          "C": "Quede constancia, aunque no sea formal, de la renuncia.",
-          "D": "La renuncia se ejerza de acuerdo con procedimientos <span class=\"diff-highlight\">establecidos y explícitos.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 7,
@@ -128,13 +116,7 @@ const QUIZZES = {
           "D": "Cada cuatro años como mínimo."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Cada <span class=\"diff-highlight\">cinco</span> años como mínimo.",
-          "B": "Cada <span class=\"diff-highlight\">tres</span> años como mínimo.",
-          "C": "Cada <span class=\"diff-highlight\">dos</span> años como mínimo.",
-          "D": "Cada <span class=\"diff-highlight\">cuatro</span> años como mínimo."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 8,
@@ -166,13 +148,7 @@ const QUIZZES = {
           "D": "El personal profesional tiene el deber de respetar la personalidad, dignidad e intimidad de las personas a su cuidado y debe respetar su participación en las tomas de decisiones que les afecten. En todo caso, deben ofrecer una información suficiente y adecuada para que puedan ejercer su derecho al consentimiento sobre dichas decisiones."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "El personal profesional tiene el deber de <span class=\"diff-highlight\">hacer</span> <span class=\"diff-highlight\">un</span> <span class=\"diff-highlight\">uso</span> <span class=\"diff-highlight\">racional</span> de <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">recursos</span> <span class=\"diff-highlight\">diagnósticos</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">terapéuticos</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">cargo,</span> <span class=\"diff-highlight\">tomando</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">consideración,</span> <span class=\"diff-highlight\">entre</span> <span class=\"diff-highlight\">otros,</span> los <span class=\"diff-highlight\">costes</span> de <span class=\"diff-highlight\">sus</span> <span class=\"diff-highlight\">decisiones</span> y <span class=\"diff-highlight\">evitando</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">sobreutilización,</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">infrautilización</span> y <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">inadecuada</span> <span class=\"diff-highlight\">utilización</span> de <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">mismos.</span>",
-          "B": "El personal profesional tiene el deber de <span class=\"diff-highlight\">prestar</span> <span class=\"diff-highlight\">una</span> <span class=\"diff-highlight\">atención</span> <span class=\"diff-highlight\">sanitaria</span> <span class=\"diff-highlight\">técnica</span> <span class=\"diff-highlight\">y profesional adecuada a las necesidades de salud</span> de las personas <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">atiende,</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">acuerdo</span> <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">estado</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">desarrollo</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">los conocimientos científicos</span> de <span class=\"diff-highlight\">cada</span> <span class=\"diff-highlight\">momento</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">niveles</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">calidad</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">seguridad</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">se</span> <span class=\"diff-highlight\">establecen</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">esta</span> <span class=\"diff-highlight\">ley</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">resto</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">normas</span> <span class=\"diff-highlight\">legales</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">deontológicas</span> <span class=\"diff-highlight\">aplicables.</span>",
-          "C": "El personal profesional tiene el deber de <span class=\"diff-highlight\">proporcionar</span> <span class=\"diff-highlight\">a</span> las personas <span class=\"diff-highlight\">pacientes</span> <span class=\"diff-highlight\">información</span> <span class=\"diff-highlight\">precisa</span> <span class=\"diff-highlight\">sobre</span> su <span class=\"diff-highlight\">formación</span> <span class=\"diff-highlight\">profesional,</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">forma</span> <span class=\"diff-highlight\">en</span> que <span class=\"diff-highlight\">han</span> <span class=\"diff-highlight\">actualizado</span> <span class=\"diff-highlight\">sus</span> <span class=\"diff-highlight\">conocimientos</span> y <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">demandas</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">responsabilidad</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">hayan</span> <span class=\"diff-highlight\">podido</span> <span class=\"diff-highlight\">derivar</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">responsabilidades</span> <span class=\"diff-highlight\">administrativas.</span>",
-          "D": "El personal profesional tiene el deber de <span class=\"diff-highlight\">respetar</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">personalidad,</span> <span class=\"diff-highlight\">dignidad</span> <span class=\"diff-highlight\">e</span> <span class=\"diff-highlight\">intimidad</span> de las personas <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">cuidado</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">debe</span> <span class=\"diff-highlight\">respetar</span> <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">participación</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">tomas</span> de <span class=\"diff-highlight\">decisiones</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">les</span> <span class=\"diff-highlight\">afecten.</span> <span class=\"diff-highlight\">En</span> <span class=\"diff-highlight\">todo</span> <span class=\"diff-highlight\">caso,</span> <span class=\"diff-highlight\">deben</span> <span class=\"diff-highlight\">ofrecer</span> <span class=\"diff-highlight\">una</span> <span class=\"diff-highlight\">información</span> <span class=\"diff-highlight\">suficiente</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">adecuada</span> <span class=\"diff-highlight\">para</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">puedan</span> <span class=\"diff-highlight\">ejercer</span> <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">derecho</span> <span class=\"diff-highlight\">al</span> <span class=\"diff-highlight\">consentimiento</span> <span class=\"diff-highlight\">sobre</span> <span class=\"diff-highlight\">dichas</span> <span class=\"diff-highlight\">decisiones.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 10,
@@ -204,13 +180,7 @@ const QUIZZES = {
           "D": "Únicamente a los servicios sanitarios de financiación pública."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "A los servicios sanitarios de financiación <span class=\"diff-highlight\">pública</span> <span class=\"diff-highlight\">y</span> a los <span class=\"diff-highlight\">privados,</span> en <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">mismos</span> <span class=\"diff-highlight\">términos.</span>",
-          "B": "A los servicios sanitarios de financiación <span class=\"diff-highlight\">pública.</span> <span class=\"diff-highlight\">También</span> a los <span class=\"diff-highlight\">privados</span> en <span class=\"diff-highlight\">lo</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">se refiere al control de las actividades de salud pública y en materia de garantías de información, seguridad y calidad.</span>",
-          "C": "A los servicios sanitarios de financiación pública y a los <span class=\"diff-highlight\">privados</span> <span class=\"diff-highlight\">concertados.</span>",
-          "D": "<span class=\"diff-highlight\">Únicamente a</span> los servicios sanitarios de financiación <span class=\"diff-highlight\">pública.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 12,
@@ -223,13 +193,7 @@ const QUIZZES = {
           "D": "Ninguna de las respuestas anteriores es correcta."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "A recibir asistencia sanitaria <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">su</span> comunidad autónoma <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">residencia.</span>",
-          "B": "A recibir el reembolso de los gastos derivados de la asistencia <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">sanidad</span> <span class=\"diff-highlight\">privada</span> <span class=\"diff-highlight\">cuando</span> <span class=\"diff-highlight\">se</span> <span class=\"diff-highlight\">trate</span> de <span class=\"diff-highlight\">servicios</span> <span class=\"diff-highlight\">recogidos</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">catálogo</span> de <span class=\"diff-highlight\">prestaciones</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">Sistema</span> <span class=\"diff-highlight\">Nacional</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">Salud.</span> <span class=\"diff-highlight\">programas</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">formación</span> <span class=\"diff-highlight\">continuada:</span>",
-          "C": "A recibir el reembolso de los gastos derivados de la asistencia <span class=\"diff-highlight\">sanitaria</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">catálogo</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">prestaciones</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">Sistema Nacional</span> de <span class=\"diff-highlight\">Salud</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">pudiera</span> <span class=\"diff-highlight\">requerir</span> <span class=\"diff-highlight\">del servicio</span> de <span class=\"diff-highlight\">salud</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">comunidad</span> <span class=\"diff-highlight\">autónoma</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">se</span> <span class=\"diff-highlight\">encuentre desplazado/a.</span>",
-          "D": "Ninguna de las respuestas anteriores es correcta."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 13,
@@ -242,13 +206,7 @@ const QUIZZES = {
           "D": "Cartera común nacional y autonómica básica de servicios asistenciales, cartera común nacional y autonómica suplementaria y cartera común nacional y autonómica de servicios accesorios."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "Cartera común básica de servicios asistenciales, cartera común suplementaria y cartera común de servicios <span class=\"diff-highlight\">accesorios.</span>",
-          "B": "Cartera común básica<span class=\"diff-highlight\"> nacional</span> de servicios <span class=\"diff-highlight\">asistenciales</span> y cartera común<span class=\"diff-highlight\"> autonómica</span> de servicios <span class=\"diff-highlight\">asistenciales.</span>",
-          "C": "Cartera común nacional básica de servicios asistenciales, cartera común <span class=\"diff-highlight\">suplementaria</span> autonómica y cartera común de servicios <span class=\"diff-highlight\">accesorios autonómicos.</span>",
-          "D": "Cartera común nacional<span class=\"diff-highlight\"> y autonómica</span> básica de servicios asistenciales, cartera común <span class=\"diff-highlight\">nacional y</span> autonómica<span class=\"diff-highlight\"> suplementaria</span> y cartera común<span class=\"diff-highlight\"> nacional y autonómica</span> de servicios <span class=\"diff-highlight\">accesorios.</span>"
-        }
+        "metodo": "acierto"
       },
       {
         "num": 14,
@@ -280,13 +238,7 @@ const QUIZZES = {
           "D": "La prestación farmacéutica, la prestación ortoprotésica y la prestación con productos dietéticos."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Únicamente la prestación <span class=\"diff-highlight\">farmacéutica.</span>",
-          "B": "Únicamente la prestación ortoprotésica.",
-          "C": "Únicamente la prestación <span class=\"diff-highlight\">farmacéutica y la prestación ortoprotésica.</span>",
-          "D": "<span class=\"diff-highlight\">La prestación farmacéutica,</span> la prestación <span class=\"diff-highlight\">ortoprotésica</span> y la prestación <span class=\"diff-highlight\">con productos dietéticos.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 16,
@@ -299,13 +251,7 @@ const QUIZZES = {
           "D": "Ninguna de las respuestas anteriores es correcta."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La atención a la salud bucodental.",
-          "B": "La atención paliativa a personas enfermas terminales.",
-          "C": "La rehabilitación básica.",
-          "D": "Ninguna de las respuestas anteriores es correcta."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 17,
@@ -337,13 +283,7 @@ const QUIZZES = {
           "D": "Todas las respuestas anteriores son correctas."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "Se evidencie su falta de eficacia, efectividad o eficiencia, o que el balance entre beneficio y riesgo sea significativamente desfavorable.",
-          "B": "Requiera una formación para la que no exista la especialidad médica correspondiente.",
-          "C": "Hayan cambiado las condiciones económicas de su implantación.",
-          "D": "Todas las respuestas anteriores son correctas."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 19,
@@ -356,13 +296,7 @@ const QUIZZES = {
           "D": "La superación del proceso selectivo oficial convocado por la autoridad competente para la adquisición del vínculo estatutario con los servicios sanitarios."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La acreditación de formación continuada a lo largo del desempeño de su carrera profesional.",
-          "B": "La <span class=\"diff-highlight\">competencia</span> <span class=\"diff-highlight\">acreditada</span> por <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">título</span> <span class=\"diff-highlight\">correspondiente</span> <span class=\"diff-highlight\">acreditativo de</span> la adquisición <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">conocimientos</span> <span class=\"diff-highlight\">requeridos</span> <span class=\"diff-highlight\">para</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">desempeño</span> <span class=\"diff-highlight\">del puesto designado.</span>",
-          "C": "La <span class=\"diff-highlight\">aptitud</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">personal</span> <span class=\"diff-highlight\">profesional</span> <span class=\"diff-highlight\">sanitario</span> <span class=\"diff-highlight\">para</span> <span class=\"diff-highlight\">integrar</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">aplicar</span> <span class=\"diff-highlight\">los conocimientos, habilidades y actitudes asociados a las buenas prácticas</span> de <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">profesión</span> para <span class=\"diff-highlight\">resolver</span> <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">problemas</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">se le plantean.</span>",
-          "D": "La <span class=\"diff-highlight\">superación</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">proceso</span> <span class=\"diff-highlight\">selectivo</span> <span class=\"diff-highlight\">oficial</span> <span class=\"diff-highlight\">convocado</span> <span class=\"diff-highlight\">por</span> la <span class=\"diff-highlight\">autoridad</span> <span class=\"diff-highlight\">competente</span> para <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">adquisición</span> del <span class=\"diff-highlight\">vínculo</span> <span class=\"diff-highlight\">estatutario con los servicios sanitarios.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 20,
@@ -375,13 +309,7 @@ const QUIZZES = {
           "D": "Las respuestas a) y b) son verdaderas y la c) es falsa."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">Responder</span> a situaciones de especial riesgo o alarma para la salud pública.",
-          "B": "<span class=\"diff-highlight\">Establecer planes preventivos para hacer frente</span> a situaciones de especial riesgo o alarma para la salud pública.",
-          "C": "<span class=\"diff-highlight\">Realizar</span> <span class=\"diff-highlight\">análisis</span> <span class=\"diff-highlight\">epidemiológicos</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">permitan</span> <span class=\"diff-highlight\">establecer</span> <span class=\"diff-highlight\">estructuras</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">recursos</span> <span class=\"diff-highlight\">según</span> <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">previsiones</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">materia</span> <span class=\"diff-highlight\">de</span> salud <span class=\"diff-highlight\">pública y seguridad alimentaria.</span>",
-          "D": "Las respuestas a) y b) son verdaderas y la c) es falsa."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 21,
@@ -394,13 +322,7 @@ const QUIZZES = {
           "D": "Coordinación, cooperación y mutua información entre las Administraciones sanitarias públicas."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Sometimiento pleno a la ley y el derecho.",
-          "B": "Igualdad, mérito, capacidad y promoción en el acceso a la condición de personal estatutario.",
-          "C": "Integración en el régimen organizativo y funcional del servicio de salud y de sus centros e instituciones.",
-          "D": "Coordinación, cooperación y mutua información entre las Administraciones sanitarias públicas."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 22,
@@ -432,13 +354,7 @@ const QUIZZES = {
           "D": "Una vez superado el proceso selectivo, automáticamente se procede al nombramiento por el órgano competente."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "No acrediten que reúnen los requisitos y condiciones exigidos en la convocatoria, <span class=\"diff-highlight\">una</span> <span class=\"diff-highlight\">vez</span> <span class=\"diff-highlight\">superado</span> <span class=\"diff-highlight\">el</span> proceso selectivo.",
-          "B": "No acrediten que reúnen los requisitos y condiciones exigidos en la convocatoria, <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">carácter</span> <span class=\"diff-highlight\">previo</span> <span class=\"diff-highlight\">a la superación del</span> proceso selectivo.",
-          "C": "No acrediten que reúnen los requisitos y condiciones exigidos en la convocatoria, una vez <span class=\"diff-highlight\">firmada</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">convocatoria.</span>",
-          "D": "<span class=\"diff-highlight\">Una</span> <span class=\"diff-highlight\">vez</span> <span class=\"diff-highlight\">superado</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">proceso</span> <span class=\"diff-highlight\">selectivo,</span> <span class=\"diff-highlight\">automáticamente</span> <span class=\"diff-highlight\">se</span> <span class=\"diff-highlight\">procede</span> <span class=\"diff-highlight\">al</span> <span class=\"diff-highlight\">nombramiento</span> <span class=\"diff-highlight\">por</span> el <span class=\"diff-highlight\">órgano</span> <span class=\"diff-highlight\">competente.</span>"
-        }
+        "metodo": "acierto"
       },
       {
         "num": 24,
@@ -451,13 +367,7 @@ const QUIZZES = {
           "D": "En caso de que se adopte la pena de inhabilitación especial para la correspondiente profesión, siempre que esta exceda de tres años."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">Siempre en</span> caso de pena de inhabilitación especial para <span class=\"diff-highlight\">empleo</span> <span class=\"diff-highlight\">o</span> <span class=\"diff-highlight\">cargo</span> <span class=\"diff-highlight\">público,</span> <span class=\"diff-highlight\">afecte</span> <span class=\"diff-highlight\">o</span> <span class=\"diff-highlight\">no</span> <span class=\"diff-highlight\">al</span> <span class=\"diff-highlight\">correspondiente</span> <span class=\"diff-highlight\">nombramiento.</span>",
-          "B": "En caso de que se adopte la pena de inhabilitación <span class=\"diff-highlight\">absoluta</span> <span class=\"diff-highlight\">sea</span> <span class=\"diff-highlight\">firme</span> <span class=\"diff-highlight\">o</span> <span class=\"diff-highlight\">no.</span>",
-          "C": "En caso de que se adopte la pena de inhabilitación especial para la correspondiente profesión, siempre que esta exceda de <span class=\"diff-highlight\">seis</span> años.",
-          "D": "En caso de que se adopte la pena de inhabilitación especial para la correspondiente profesión, siempre que esta exceda de <span class=\"diff-highlight\">tres</span> años."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 25,
@@ -470,13 +380,7 @@ const QUIZZES = {
           "D": "Podrá optar a la jubilación voluntaria, total o parcial, el personal estatutario que reúna los requisitos establecidos en la legislación de Seguridad Social."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La jubilación puede ser forzosa o voluntaria.",
-          "B": "<span class=\"diff-highlight\">Para</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">persona</span> <span class=\"diff-highlight\">interesada</span> <span class=\"diff-highlight\">pueda prolongar su permanencia en servicio activo hasta</span> cumplir <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">70</span> <span class=\"diff-highlight\">años,</span> <span class=\"diff-highlight\">bastará</span> <span class=\"diff-highlight\">con que lo solicite voluntariamente.</span>",
-          "C": "<span class=\"diff-highlight\">La</span> <span class=\"diff-highlight\">jubilación</span> <span class=\"diff-highlight\">forzosa</span> <span class=\"diff-highlight\">se</span> <span class=\"diff-highlight\">declarará</span> <span class=\"diff-highlight\">al</span> cumplir <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">persona</span> <span class=\"diff-highlight\">interesada</span> <span class=\"diff-highlight\">65</span> <span class=\"diff-highlight\">años.</span>",
-          "D": "Podrá optar a la jubilación voluntaria, total o parcial, el personal estatutario que reúna los requisitos establecidos en la legislación de Seguridad Social."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 26,
@@ -489,13 +393,7 @@ const QUIZZES = {
           "D": "Todas las anteriores respuestas son correctas."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Cuando se produzca la pérdida de la nacionalidad.",
-          "B": "En caso de recaer sanción firme disciplinaria de separación del servicio.",
-          "C": "Siempre que se imponga una pena principal o accesoria de inhabilitación especial para empleo o cargo público o para el ejercicio de la correspondiente profesión.",
-          "D": "Todas las anteriores respuestas son correctas."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 27,
@@ -508,13 +406,7 @@ const QUIZZES = {
           "D": "Todas las respuestas son correctas."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">El</span> <span class=\"diff-highlight\">sistema retributivo</span> del personal estatutario se <span class=\"diff-highlight\">estructura</span> en <span class=\"diff-highlight\">retribuciones</span> <span class=\"diff-highlight\">básicas</span> y <span class=\"diff-highlight\">retribuciones complementarias.</span>",
-          "B": "<span class=\"diff-highlight\">La</span> <span class=\"diff-highlight\">evaluación</span> del personal estatutario<span class=\"diff-highlight\"> a efectos de determinación de una parte de la retribuciones complementarias</span> se <span class=\"diff-highlight\">establecerá a través de procedimientos fundados</span> en <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">principios</span> <span class=\"diff-highlight\">igualdad,</span> <span class=\"diff-highlight\">objetividad</span> <span class=\"diff-highlight\">y transparencia.</span>",
-          "C": "El sistema retributivo del personal estatutario <span class=\"diff-highlight\">responde</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">principios</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">cualificación</span> <span class=\"diff-highlight\">técnica</span> <span class=\"diff-highlight\">y profesional.</span>",
-          "D": "Todas las respuestas son correctas."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 28,
@@ -527,13 +419,7 @@ const QUIZZES = {
           "D": "El complemento de atención continuada está destinado a retribuir la iniciativa continuada y permanente de la persona titular del puesto."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "Las retribuciones básicas <span class=\"diff-highlight\">son:</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">sueldo</span> <span class=\"diff-highlight\">asignado</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">cada</span> <span class=\"diff-highlight\">categoría</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">función</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">título</span> <span class=\"diff-highlight\">exigido</span> <span class=\"diff-highlight\">para</span> <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">desempeño;</span> <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">trienios; y las pagas extraordinarias.</span>",
-          "B": "Las retribuciones básicas <span class=\"diff-highlight\">serán</span> <span class=\"diff-highlight\">iguales</span> en <span class=\"diff-highlight\">todos</span> <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">servicios</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">salud</span> <span class=\"diff-highlight\">independientemente</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">anualidad</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">se perciban.</span>",
-          "C": "<span class=\"diff-highlight\">El</span> <span class=\"diff-highlight\">personal</span> <span class=\"diff-highlight\">estatutario</span> <span class=\"diff-highlight\">temporal</span> <span class=\"diff-highlight\">percibirá la totalidad de las retribuciones que,</span> en <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">correspondiente</span> <span class=\"diff-highlight\">servicio</span> de <span class=\"diff-highlight\">salud,</span> <span class=\"diff-highlight\">correspondan</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">nombramiento,</span> <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">excepción</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">complemento</span> <span class=\"diff-highlight\">de carrera.</span>",
-          "D": "El complemento de atención continuada está destinado a retribuir la iniciativa continuada y permanente de la persona titular del puesto."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 29,
@@ -546,13 +432,7 @@ const QUIZZES = {
           "D": "Todas las respuestas son correctas."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "En grado de incapacidad <span class=\"diff-highlight\">permanente total</span> para <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">profesión habitual.</span>",
-          "B": "En grado de incapacidad <span class=\"diff-highlight\">absoluta</span> para <span class=\"diff-highlight\">todo</span> <span class=\"diff-highlight\">trabajo.</span>",
-          "C": "En grado de gran invalidez.",
-          "D": "Todas las respuestas son correctas."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 30,
@@ -565,13 +445,7 @@ const QUIZZES = {
           "D": "El período de localización es aquel período de tiempo en el que el personal se encuentra en situación de disponibilidad a los solos efectos de asegurar su posible localización."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "El período de localización es aquel período de tiempo en el que el personal se encuentra<span class=\"diff-highlight\"> únicamente</span> en situación de <span class=\"diff-highlight\">disponibilidad.</span>",
-          "B": "<span class=\"diff-highlight\">Se considera</span> período de <span class=\"diff-highlight\">descanso</span> <span class=\"diff-highlight\">todo</span> período de tiempo que <span class=\"diff-highlight\">no</span> <span class=\"diff-highlight\">sea</span> <span class=\"diff-highlight\">tiempo</span> de <span class=\"diff-highlight\">trabajo.</span>",
-          "C": "El trabajo por turnos es una forma de organización del trabajo en equipo con arreglo al ritmo rotatorio y siempre de tipo continuo.",
-          "D": "El período de localización es aquel período de tiempo en el que el personal se encuentra en situación de <span class=\"diff-highlight\">disponibilidad a los solos efectos de asegurar su posible localización.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 31,
@@ -584,13 +458,7 @@ const QUIZZES = {
           "D": "Mínima de siete horas e incluirá necesariamente el período comprendido entre las doce y las cinco horas de cada día natural."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "Mínima de <span class=\"diff-highlight\">siete</span> horas e incluirá necesariamente el período comprendido entre las cero y las cinco horas de cada día natural.",
-          "B": "Mínima de <span class=\"diff-highlight\">ocho</span> horas e incluirá necesariamente el período comprendido entre las cero y las cinco horas de cada día natural.",
-          "C": "Mínima de ocho horas e incluirá necesariamente el período comprendido entre las <span class=\"diff-highlight\">doce</span> y las cinco horas de cada día natural.",
-          "D": "Mínima de siete horas e incluirá necesariamente el período comprendido entre las <span class=\"diff-highlight\">doce</span> y las cinco horas de cada día natural."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 32,
@@ -603,13 +471,7 @@ const QUIZZES = {
           "D": "Para el personal licenciado sanitario el complemento específico resulta irrenunciable."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">Resulta</span> <span class=\"diff-highlight\">incompatible</span> <span class=\"diff-highlight\">para</span> el personal estatutario de los servicios de salud <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">ejercicio de</span> las funciones sanitarias <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">cualquier otro tipo de funciones.</span>",
-          "B": "<span class=\"diff-highlight\">Al</span> personal estatutario de los servicios de salud <span class=\"diff-highlight\">le</span> <span class=\"diff-highlight\">resulta</span> <span class=\"diff-highlight\">aplicable</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">mismo</span> <span class=\"diff-highlight\">régimen</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">incompatibilidades</span> <span class=\"diff-highlight\">establecido</span> <span class=\"diff-highlight\">para</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">personal funcionario.</span>",
-          "C": "<span class=\"diff-highlight\">Atendiendo</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">lo que establezca la legislación vigente,</span> el personal estatutario de los servicios de salud <span class=\"diff-highlight\">podrá</span> <span class=\"diff-highlight\">compatibilizar</span> las funciones sanitarias <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">docente.</span>",
-          "D": "<span class=\"diff-highlight\">Para</span> el personal <span class=\"diff-highlight\">licenciado</span> <span class=\"diff-highlight\">sanitario</span> el <span class=\"diff-highlight\">complemento</span> <span class=\"diff-highlight\">específico</span> <span class=\"diff-highlight\">resulta</span> <span class=\"diff-highlight\">irrenunciable.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 33,
@@ -622,13 +484,7 @@ const QUIZZES = {
           "D": "El período de referencia para el cálculo del período de descanso semanal será de dos meses."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">El</span> <span class=\"diff-highlight\">personal</span> <span class=\"diff-highlight\">tendrá</span> <span class=\"diff-highlight\">derecho</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">un</span> <span class=\"diff-highlight\">período</span> mínimo <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">siempre</span> <span class=\"diff-highlight\">será</span> <span class=\"diff-highlight\">fijo</span> de <span class=\"diff-highlight\">descanso</span> <span class=\"diff-highlight\">ininterrumpido</span> <span class=\"diff-highlight\">con</span> una <span class=\"diff-highlight\">duración</span> <span class=\"diff-highlight\">media</span> de <span class=\"diff-highlight\">24</span> <span class=\"diff-highlight\">horas semanales.</span>",
-          "B": "El período de referencia para el cálculo del período de descanso semanal será de <span class=\"diff-highlight\">tres</span> meses.",
-          "C": "<span class=\"diff-highlight\">En</span> <span class=\"diff-highlight\">el caso</span> de <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">no</span> <span class=\"diff-highlight\">se</span> <span class=\"diff-highlight\">hubiera disfrutado</span> del <span class=\"diff-highlight\">tiempo mínimo</span> de descanso semanal <span class=\"diff-highlight\">en el período</span> de tres <span class=\"diff-highlight\">meses se producirá una compensación a través del régimen de descansos alternativos.</span>",
-          "D": "El período de referencia para el cálculo del período de descanso semanal será de <span class=\"diff-highlight\">dos</span> meses."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 34,
@@ -641,13 +497,7 @@ const QUIZZES = {
           "D": "Anualmente, el personal tendrá derecho a una vacación retribuida cuya duración no será inferior a 30 días naturales, o al tiempo que proporcionalmente corresponda en función del tiempo de servicios."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">El</span> personal tendrá derecho a una vacación retribuida cuya duración no será inferior en <span class=\"diff-highlight\">ningún</span> <span class=\"diff-highlight\">caso</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">30</span> <span class=\"diff-highlight\">días naturales.</span>",
-          "B": "<span class=\"diff-highlight\">El</span> <span class=\"diff-highlight\">personal</span> <span class=\"diff-highlight\">estatutario</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">servicios</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">salud</span> <span class=\"diff-highlight\">podrá</span> <span class=\"diff-highlight\">elegir</span> <span class=\"diff-highlight\">sustituir</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">período</span> de <span class=\"diff-highlight\">vacación</span> <span class=\"diff-highlight\">por</span> <span class=\"diff-highlight\">una</span> <span class=\"diff-highlight\">compensación</span> <span class=\"diff-highlight\">económica.</span>",
-          "C": "<span class=\"diff-highlight\">Solo</span> <span class=\"diff-highlight\">podrá</span> <span class=\"diff-highlight\">ser</span> <span class=\"diff-highlight\">sustituido</span> <span class=\"diff-highlight\">por</span> <span class=\"diff-highlight\">una</span> <span class=\"diff-highlight\">compensación</span> <span class=\"diff-highlight\">económica</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">período</span> <span class=\"diff-highlight\">vacacional</span> <span class=\"diff-highlight\">anual</span> <span class=\"diff-highlight\">mediante la programación funcional</span> de <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">centros,</span> <span class=\"diff-highlight\">cuando</span> <span class=\"diff-highlight\">así</span> <span class=\"diff-highlight\">lo aconsejen razones organizativas.</span>",
-          "D": "<span class=\"diff-highlight\">Anualmente, el</span> personal tendrá derecho a una vacación retribuida cuya duración no será inferior a 30 días <span class=\"diff-highlight\">naturales, o al tiempo que proporcionalmente corresponda en función del tiempo de servicios.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 35,
@@ -660,13 +510,7 @@ const QUIZZES = {
           "D": "Los tres años inmediatamente anteriores."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "Los <span class=\"diff-highlight\">cinco</span> años inmediatamente anteriores.",
-          "B": "Los <span class=\"diff-highlight\">cuatro</span> años inmediatamente anteriores.",
-          "C": "Los <span class=\"diff-highlight\">dos</span> años inmediatamente anteriores.",
-          "D": "Los <span class=\"diff-highlight\">tres</span> años inmediatamente anteriores."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 36,
@@ -679,13 +523,7 @@ const QUIZZES = {
           "D": "Son correctas todas las respuestas."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Medidas preventivas.",
-          "B": "Promoción de la salud.",
-          "C": "Prestaciones sanitarias individuales.",
-          "D": "Son correctas todas las respuestas."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 37,
@@ -698,13 +536,7 @@ const QUIZZES = {
           "D": "Solo para las personas de quienes pueda predicarse la condición política de vascos."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "Todas las personas residentes en <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">territorio</span> de Euskadi, así como para las personas transeúntes.",
-          "B": "Todas las personas residentes en <span class=\"diff-highlight\">Euskadi</span> <span class=\"diff-highlight\">o fuera</span> de Euskadi, así como para las personas transeúntes.",
-          "C": "<span class=\"diff-highlight\">Solo para</span> las personas <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">tengan</span> <span class=\"diff-highlight\">vecindad</span> <span class=\"diff-highlight\">administrativa</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">Euskadi.</span>",
-          "D": "Solo para las personas <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">quienes</span> <span class=\"diff-highlight\">pueda</span> <span class=\"diff-highlight\">predicarse</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">condición política de vascos.</span>"
-        }
+        "metodo": "acierto"
       },
       {
         "num": 38,
@@ -717,13 +549,7 @@ const QUIZZES = {
           "D": "Calidad de los servicios."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Universalidad.",
-          "B": "Solidaridad ciudadana.",
-          "C": "Equidad.",
-          "D": "Calidad de los servicios."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 39,
@@ -736,13 +562,7 @@ const QUIZZES = {
           "D": "Son correctas la a) y la c)."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">La</span> <span class=\"diff-highlight\">Comunidad</span> <span class=\"diff-highlight\">Autónoma</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">País Vasco</span> se <span class=\"diff-highlight\">divide</span> <span class=\"diff-highlight\">territorialmente</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">áreas</span> de <span class=\"diff-highlight\">salud</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">acuerdo</span> <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">situación</span> <span class=\"diff-highlight\">socio-económica</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">cada</span> <span class=\"diff-highlight\">demarcación geográfica.</span>",
-          "B": "En cada área de salud <span class=\"diff-highlight\">pueden</span> <span class=\"diff-highlight\">ponerse</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">práctica</span> <span class=\"diff-highlight\">las actuaciones esenciales que requiere la tutela general</span> de la <span class=\"diff-highlight\">salud</span> <span class=\"diff-highlight\">pública</span> y <span class=\"diff-highlight\">exclusivamente</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">asistencia</span> <span class=\"diff-highlight\">sanitaria</span> <span class=\"diff-highlight\">primaria</span> <span class=\"diff-highlight\">.</span>",
-          "C": "En cada área de salud <span class=\"diff-highlight\">se</span> <span class=\"diff-highlight\">garantizará</span> <span class=\"diff-highlight\">una</span> <span class=\"diff-highlight\">adecuada</span> <span class=\"diff-highlight\">ordenación</span> de la <span class=\"diff-highlight\">atención</span> <span class=\"diff-highlight\">primaria</span> y <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">coordinación</span> <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">atención</span> <span class=\"diff-highlight\">especializada.</span>",
-          "D": "Son correctas la a) y la c)."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 40,
@@ -755,13 +575,7 @@ const QUIZZES = {
           "D": "Basta con que la actuación se encuentre debidamente autorizada."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">Siempre</span> <span class=\"diff-highlight\">debe</span> <span class=\"diff-highlight\">constar</span> el previo consentimiento de la persona <span class=\"diff-highlight\">afectada.</span>",
-          "B": "<span class=\"diff-highlight\">Si</span> <span class=\"diff-highlight\">no consta</span> el previo consentimiento de la persona afectada <span class=\"diff-highlight\">se</span> <span class=\"diff-highlight\">requiere</span> que<span class=\"diff-highlight\"> la actuación se encuentre debidamente autorizada y</span> se<span class=\"diff-highlight\"> efectúe previo procedimiento de disociación que</span> garantice el anonimato de la información.",
-          "C": "<span class=\"diff-highlight\">Que</span> <span class=\"diff-highlight\">conste</span> el previo consentimiento de la persona afectada <span class=\"diff-highlight\">por</span> <span class=\"diff-highlight\">escrito</span> y que<span class=\"diff-highlight\"> se</span> garantice el anonimato de la información.",
-          "D": "<span class=\"diff-highlight\">Basta</span> <span class=\"diff-highlight\">con</span> que la actuación se encuentre debidamente <span class=\"diff-highlight\">autorizada.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 41,
@@ -774,13 +588,7 @@ const QUIZZES = {
           "D": "No existe en la Ley ninguna previsión a este respecto, de modo que será el personal facultativo el que decida si el proceso diagnóstico o terapéutico debe quedar registrado."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "La obligación de dejar constancia <span class=\"diff-highlight\">escrita</span> de todo proceso diagnóstico o terapéutico.",
-          "B": "La obligación de dejar constancia por cualquier medio de todo proceso <span class=\"diff-highlight\">diagnóstico.</span>",
-          "C": "La obligación de dejar constancia por cualquier medio de todo proceso <span class=\"diff-highlight\">diagnóstico o terapéutico.</span>",
-          "D": "<span class=\"diff-highlight\">No</span> <span class=\"diff-highlight\">existe</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">Ley</span> <span class=\"diff-highlight\">ninguna previsión a este respecto,</span> de <span class=\"diff-highlight\">modo que será el personal facultativo el que decida si el</span> proceso diagnóstico o <span class=\"diff-highlight\">terapéutico debe quedar registrado.</span>"
-        }
+        "metodo": "acierto"
       },
       {
         "num": 42,
@@ -812,13 +620,7 @@ const QUIZZES = {
           "D": "La persona titular de la presidencia, la Consejería del Departamento competente en materia de sanidad y tres miembros en representación de la Administración de la Comunidad Autónoma de Euskadi."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "La persona titular de la presidencia y por un número no superior a <span class=\"diff-highlight\">cinco</span> miembros en representación de la Administración de la Comunidad Autónoma de Euskadi.",
-          "B": "La persona titular de la presidencia y por un número no superior a <span class=\"diff-highlight\">tres</span> miembros en representación de la Administración de la Comunidad Autónoma de Euskadi.",
-          "C": "La persona titular de la <span class=\"diff-highlight\">presidencia</span> y <span class=\"diff-highlight\">por cinco</span> miembros en representación <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">Departamento</span> <span class=\"diff-highlight\">competente</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">materia</span> de <span class=\"diff-highlight\">sanidad.</span>",
-          "D": "La persona titular de la <span class=\"diff-highlight\">presidencia,</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">Consejería</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">Departamento</span> <span class=\"diff-highlight\">competente</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">materia de sanidad y</span> tres miembros en representación de la Administración de la Comunidad Autónoma de Euskadi."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 44,
@@ -850,13 +652,7 @@ const QUIZZES = {
           "D": "Deberán ajustarse al número máximo de efectivos, según grupos de titulación, que anualmente aprobará el Departamento de Sanidad."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">Serán</span> <span class=\"diff-highlight\">aprobadas</span> <span class=\"diff-highlight\">por</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">Presidencia</span> a propuesta del <span class=\"diff-highlight\">consejo</span> de <span class=\"diff-highlight\">administración.</span>",
-          "B": "<span class=\"diff-highlight\">Se</span> <span class=\"diff-highlight\">denomina así</span> al número de <span class=\"diff-highlight\">efectivos</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">carácter</span> <span class=\"diff-highlight\">estructural con</span> que <span class=\"diff-highlight\">cuentan</span> <span class=\"diff-highlight\">tanto</span> su <span class=\"diff-highlight\">organización central</span> de administración <span class=\"diff-highlight\">como</span> <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">organizaciones</span> <span class=\"diff-highlight\">de servicios dependientes</span> de <span class=\"diff-highlight\">Osakidetza-Servicio Vasco de Salud.</span>",
-          "C": "Deberán ajustarse al número máximo de efectivos, según grupos <span class=\"diff-highlight\">profesionales,</span> que anualmente aprobará <span class=\"diff-highlight\">su consejo de administración a propuesta del</span> Departamento de Sanidad.",
-          "D": "Deberán ajustarse al número máximo de efectivos, según grupos <span class=\"diff-highlight\">de titulación,</span> que anualmente aprobará <span class=\"diff-highlight\">el</span> Departamento de Sanidad."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 46,
@@ -869,13 +665,7 @@ const QUIZZES = {
           "D": "La inspección en materia sanitaria no es competencia de la Comunidad Autónoma de Euskadi."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "A la inspección de trabajo del País Vasco adscrita al Departamento de trabajo y empleo del Gobierno Vasco.",
-          "B": "En todos los casos a las corporaciones locales de la Comunidad Autónoma.",
-          "C": "Al Departamento competente en materia de sanidad.",
-          "D": "La inspección en materia sanitaria no es competencia de la Comunidad Autónoma de Euskadi."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 47,
@@ -888,13 +678,7 @@ const QUIZZES = {
           "D": "La gravedad de la alteración sanitaria y social producida."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "La cuantía de la indemnización solicitada.",
-          "B": "Los riesgos para la salud.",
-          "C": "El grado de intencionalidad.",
-          "D": "La gravedad de la alteración sanitaria y social producida."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 48,
@@ -926,13 +710,7 @@ const QUIZZES = {
           "D": "Para realizar su actividad dependen presupuestariamente del ente público Osakidetza- Servicio Vasco de Salud."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "Realizarán su actividad bajo el principio de autonomía económico-financiera y de gestión.",
-          "B": "Se <span class=\"diff-highlight\">configurarán</span> como <span class=\"diff-highlight\">instituciones</span> de titularidad <span class=\"diff-highlight\">privada</span> y con personalidad jurídica propia.",
-          "C": "Se <span class=\"diff-highlight\">crearán por ley</span> como <span class=\"diff-highlight\">entidades</span> de titularidad <span class=\"diff-highlight\">pública</span> y con personalidad jurídica propia.",
-          "D": "Para realizar su actividad dependen presupuestariamente del ente público Osakidetza- Servicio Vasco de Salud."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 50,
@@ -945,13 +723,7 @@ const QUIZZES = {
           "D": "El grupo de titulación constituye el instrumento de clasificación del personal en base al agrupamiento unitario de las aptitudes profesionales y contenido específico da las tareas propias de la prestación."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">Este</span> <span class=\"diff-highlight\">vínculo</span> <span class=\"diff-highlight\">estatutario</span> <span class=\"diff-highlight\">se adquiere mediante</span> el <span class=\"diff-highlight\">cumplimiento</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">dos</span> <span class=\"diff-highlight\">siguientes</span> <span class=\"diff-highlight\">requisitos:</span> <span class=\"diff-highlight\">superación</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">proceso</span> <span class=\"diff-highlight\">selectivo</span> <span class=\"diff-highlight\">correspondiente</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">nombramiento</span> <span class=\"diff-highlight\">conferido</span> <span class=\"diff-highlight\">por</span> <span class=\"diff-highlight\">autoridad competente.</span>",
-          "B": "<span class=\"diff-highlight\">Los</span> <span class=\"diff-highlight\">principios</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">rigen</span> el <span class=\"diff-highlight\">procedimiento</span> <span class=\"diff-highlight\">selectivo</span> <span class=\"diff-highlight\">para</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">adquisición</span> del <span class=\"diff-highlight\">vínculo</span> <span class=\"diff-highlight\">estatutario</span> <span class=\"diff-highlight\">son</span> <span class=\"diff-highlight\">exclusivamente</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">igualdad,</span> <span class=\"diff-highlight\">mérito</span> <span class=\"diff-highlight\">y capacidad.</span>",
-          "C": "Los <span class=\"diff-highlight\">instrumentos</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">clasificación</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">personal</span> <span class=\"diff-highlight\">sujeto</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">este</span> <span class=\"diff-highlight\">régimen</span> estatutario son el<span class=\"diff-highlight\"> grupo</span> de <span class=\"diff-highlight\">titulación,</span> <span class=\"diff-highlight\">el grupo profesional, la categoría</span> y <span class=\"diff-highlight\">el puesto funcional que se desempeñe.</span>",
-          "D": "<span class=\"diff-highlight\">El</span> <span class=\"diff-highlight\">grupo</span> de <span class=\"diff-highlight\">titulación</span> <span class=\"diff-highlight\">constituye</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">instrumento</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">clasificación</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">personal</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">base</span> <span class=\"diff-highlight\">al agrupamiento unitario</span> de <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">aptitudes</span> <span class=\"diff-highlight\">profesionales</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">contenido</span> <span class=\"diff-highlight\">específico</span> <span class=\"diff-highlight\">da</span> <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">tareas</span> <span class=\"diff-highlight\">propias</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">prestación.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 51,
@@ -964,13 +736,7 @@ const QUIZZES = {
           "D": "Quien ostente la titularidad de del Departamento de Sanidad."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">Quien</span> ostente la presidencia del Gobierno (Lehendakari) de la Comunidad Autónoma del País Vasco.",
-          "B": "La Diputación General del Territorio Histórico en que esté situado el Ente.",
-          "C": "<span class=\"diff-highlight\">La presidencia a quien ostente la titularidad del Departamento de Sanidad y la presidencia de honor a quien</span> ostente la presidencia del Gobierno (Lehendakari) de la Comunidad Autónoma del País Vasco.",
-          "D": "<span class=\"diff-highlight\">Quien</span> ostente la titularidad de del <span class=\"diff-highlight\">Departamento</span> de <span class=\"diff-highlight\">Sanidad.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 52,
@@ -983,13 +749,7 @@ const QUIZZES = {
           "D": "Ninguno de los anteriores."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "El Consejo de Administración del Ente.",
-          "B": "La Dirección General del Ente.",
-          "C": "La Presidencia del Ente.",
-          "D": "Ninguno de los anteriores."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 53,
@@ -1021,13 +781,7 @@ const QUIZZES = {
           "D": "Todas las anteriores son ciertas."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "Será <span class=\"diff-highlight\">formulada</span> por la <span class=\"diff-highlight\">Dirección General</span> del Ente.",
-          "B": "Será <span class=\"diff-highlight\">aprobada</span> por la <span class=\"diff-highlight\">Presidencia</span> del Ente.",
-          "C": "Será <span class=\"diff-highlight\">sometida</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">informe</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">Consejo de Administración</span> del Ente.",
-          "D": "Todas las anteriores son ciertas."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 55,
@@ -1040,13 +794,7 @@ const QUIZZES = {
           "D": "Ninguna de las anteriores."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La Dirección General.",
-          "B": "La Presidencia.",
-          "C": "La persona de mayor antigüedad del Consejo de Administración.",
-          "D": "Ninguna de las anteriores."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 56,
@@ -1059,13 +807,7 @@ const QUIZZES = {
           "D": "Asistirá a las reuniones del Consejo de Administración del Ente con voz y sin voto."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">No podrá asistir a</span> las reuniones del Consejo de Administración del Ente.",
-          "B": "<span class=\"diff-highlight\">Presidirá</span> las reuniones del Consejo de Administración del Ente.",
-          "C": "Asistirá a las reuniones del Consejo de Administración del Ente con voz y voto.",
-          "D": "Asistirá a las reuniones del Consejo de Administración del Ente con voz y<span class=\"diff-highlight\"> sin</span> voto."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 57,
@@ -1078,13 +820,7 @@ const QUIZZES = {
           "D": "Promover protocolos de interés general."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Supervisar el cumplimiento de las políticas generales de calidad y realizar auditorías.",
-          "B": "Definir criterios generales y proponer la política de precios correspondiente a la prestación de servicios sanitarios incluida en la cobertura pública.",
-          "C": "Coordinar los recursos y, en su caso, proponer medidas de intervención sobre las listas de espera.",
-          "D": "Promover protocolos de interés general."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 58,
@@ -1097,13 +833,7 @@ const QUIZZES = {
           "D": "Gestionar los procesos de selección y de provisión que el Consejo de Administración determine, por su carácter general, previsible número de aspirantes u otras circunstancias análogas, y, a tal fin, convocarlos, establecer sus bases, programas y contenidos, y designar a los tribunales calificadores de los mismos."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Supervisar, controlar y evaluar las políticas de personal del Ente.",
-          "B": "Promover acuerdos de cooperación con centros correspondientes a la sanidad privada.",
-          "C": "Dirigir el funcionamiento del registro de personal.",
-          "D": "Gestionar los procesos de selección y de provisión que el Consejo de Administración determine, por su carácter general, previsible número de aspirantes u otras circunstancias análogas, y, a tal fin, convocarlos, establecer sus bases, programas y contenidos, y designar a los tribunales calificadores de los mismos."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 59,
@@ -1135,13 +865,7 @@ const QUIZZES = {
           "D": "La normativa que rige su estatuto jurídico no establece un número determinado sino un máximo de cinco."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Oscilará entre <span class=\"diff-highlight\">dos</span> y <span class=\"diff-highlight\">tres.</span>",
-          "B": "Oscilará entre <span class=\"diff-highlight\">tres</span> y <span class=\"diff-highlight\">cuatro.</span>",
-          "C": "Oscilará entre <span class=\"diff-highlight\">cuatro</span> y <span class=\"diff-highlight\">cinco.</span>",
-          "D": "La normativa que rige su estatuto jurídico no establece un número determinado sino un máximo de cinco."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 61,
@@ -1154,13 +878,7 @@ const QUIZZES = {
           "D": "Ninguna de las anteriores."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">La</span> <span class=\"diff-highlight\">organización central</span> de <span class=\"diff-highlight\">administración y gestión corporativa</span> del ente público Osakidetza-Servicio Vasco de Salud.",
-          "B": "La <span class=\"diff-highlight\">Presidencia</span> del ente público Osakidetza-Servicio Vasco de Salud.",
-          "C": "<span class=\"diff-highlight\">El</span> <span class=\"diff-highlight\">Consejo</span> de <span class=\"diff-highlight\">Administración</span> del ente público Osakidetza-Servicio Vasco de Salud.",
-          "D": "Ninguna de las anteriores."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 62,
@@ -1211,13 +929,7 @@ const QUIZZES = {
           "D": "A quien ostente la titularidad de la Dirección-Gerencia de cada organización de servicios sanitarios del Osakidetza-Servicio Vasco de Salud."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">El</span> <span class=\"diff-highlight\">Consejo</span> de <span class=\"diff-highlight\">Administración</span> del ente público Osakidetza-Servicio Vasco de Salud.",
-          "B": "<span class=\"diff-highlight\">La</span> <span class=\"diff-highlight\">organización central</span> de <span class=\"diff-highlight\">administración y gestión corporativa</span> del ente público Osakidetza-Servicio Vasco de Salud.",
-          "C": "La organización de <span class=\"diff-highlight\">servicios</span> del ente público Osakidetza-Servicio Vasco de Salud.",
-          "D": "<span class=\"diff-highlight\">A quien ostente la titularidad de la Dirección-Gerencia de cada</span> organización de servicios <span class=\"diff-highlight\">sanitarios</span> <span class=\"diff-highlight\">del</span> Osakidetza-Servicio Vasco de Salud."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 65,
@@ -1230,13 +942,7 @@ const QUIZZES = {
           "D": "Ninguna de las anteriores."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">La</span> <span class=\"diff-highlight\">Dirección</span> <span class=\"diff-highlight\">General</span> del Ente.",
-          "B": "<span class=\"diff-highlight\">Quien</span> <span class=\"diff-highlight\">ostente</span> <span class=\"diff-highlight\">la titularidad de la Dirección-Gerencia</span> del Ente.",
-          "C": "La Dirección <span class=\"diff-highlight\">Médica</span> del Ente.",
-          "D": "Ninguna de las anteriores."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 66,
@@ -1249,13 +955,7 @@ const QUIZZES = {
           "D": "Atención primaria y Atención hospitalaria."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Atención especializada y Atención de Urgencias.",
-          "B": "Salud Pública y Servicios Sociosanitarios.",
-          "C": "Atención hospitalaria y Atención de Emergencias.",
-          "D": "Atención primaria y Atención hospitalaria."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 67,
@@ -1268,13 +968,7 @@ const QUIZZES = {
           "D": "Eliminar las categorías profesionales de atención primaria para unificarlas con las hospitalarias."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Reducir el gasto farmacéutico mediante la unificación de compras.",
-          "B": "Favorecer la integración clínica de manera que la atención se articule en torno a la persona.",
-          "C": "<span class=\"diff-highlight\">Centralizar</span> <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">servicios</span> de atención primaria <span class=\"diff-highlight\">en</span> las<span class=\"diff-highlight\"> sedes</span> hospitalarias.",
-          "D": "<span class=\"diff-highlight\">Eliminar</span> <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">categorías profesionales</span> de atención primaria <span class=\"diff-highlight\">para</span> <span class=\"diff-highlight\">unificarlas</span> <span class=\"diff-highlight\">con las</span> hospitalarias."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 68,
@@ -1287,13 +981,7 @@ const QUIZZES = {
           "D": "Principio de centralización de todos los recursos."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Principio de coordinación territorial y sectorial.",
-          "B": "Principio de jerarquía funcional única.",
-          "C": "Principio de autonomía económico-financiera y de gestión.",
-          "D": "Principio de centralización de todos los recursos."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 69,
@@ -1306,13 +994,7 @@ const QUIZZES = {
           "D": "Es la organización que carece de servicios de atención primaria."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Es aquella donde solo se integran servicios de atención hospitalaria especializada.",
-          "B": "Es aquella cuya actividad asistencial gira en torno a un ámbito específico, integrando sus servicios y dispositivos.",
-          "C": "Es una organización que solo atiende a una patología crónica específica.",
-          "D": "Es la organización que carece de servicios de atención primaria."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 70,
@@ -1325,13 +1007,7 @@ const QUIZZES = {
           "D": "Ser organizaciones de servicios de carácter monográfico y de pequeño tamaño."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Una base poblacional adscrita inferior a 300.000 habitantes.",
-          "B": "Una Dirección de Gestión que asume todas las funciones asistenciales.",
-          "C": "Unidades o servicios calificados de referencia para el conjunto del sistema sanitario vasco.",
-          "D": "Ser organizaciones de servicios de carácter monográfico y de pequeño tamaño."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 71,
@@ -1344,13 +1020,7 @@ const QUIZZES = {
           "D": "100.000 habitantes."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "500.000 habitantes.",
-          "B": "200.000 habitantes.",
-          "C": "300.000 habitantes.",
-          "D": "100.000 habitantes."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 72,
@@ -1363,13 +1033,7 @@ const QUIZZES = {
           "D": "El Consejo de Dirección, el Consejo Social y el Comité de Evaluación."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "El Consejo de Dirección, el <span class=\"diff-highlight\">Comité</span> <span class=\"diff-highlight\">Ejecutivo</span> y el Comité de <span class=\"diff-highlight\">Ética Asistencial.</span>",
-          "B": "El Consejo Clínico Asistencial, el Consejo Social y la Comisión Sociosanitaria.",
-          "C": "La Comisión de Seguridad, la Comisión de Docencia y la Comisión de Investigación.",
-          "D": "El Consejo de Dirección, el <span class=\"diff-highlight\">Consejo</span> <span class=\"diff-highlight\">Social</span> y el Comité de <span class=\"diff-highlight\">Evaluación.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 73,
@@ -1382,13 +1046,7 @@ const QUIZZES = {
           "D": "La Dirección Gerencia y las Jefaturas de Servicio de cada centro de salud."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Solo la Dirección Gerencia y la Dirección Médica.",
-          "B": "Las Direcciones Médica, de Atención Integrada, de Enfermería, de Personas, Económico-Financiera y de Gestión.",
-          "C": "El Consejo de Dirección y el Consejo Social exclusivamente.",
-          "D": "La Dirección Gerencia y las Jefaturas de Servicio de cada centro de salud."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 74,
@@ -1401,13 +1059,7 @@ const QUIZZES = {
           "D": "La Dirección de Gestión y el Consejo de Dirección."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La Dirección de Personas y la Dirección Económico-Financiera.",
-          "B": "La Dirección de Personas y la Dirección de Atención Integrada.",
-          "C": "La Dirección Médica y la Dirección de Enfermería.",
-          "D": "La Dirección de Gestión y el Consejo de Dirección."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 75,
@@ -1420,13 +1072,7 @@ const QUIZZES = {
           "D": "La Dirección Económico-Financiera."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La Dirección de Personas.",
-          "B": "El Consejo Clínico Asistencial.",
-          "C": "La Dirección de Atención Integrada.",
-          "D": "La Dirección Económico-Financiera."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 76,
@@ -1439,13 +1085,7 @@ const QUIZZES = {
           "D": "La Dirección de Personas de la propia OSI."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "El Consejero o la Consejera de Salud.",
-          "B": "La Dirección General del Ente Público Osakidetza.",
-          "C": "El Consejo de Administración a propuesta de Lehendakaritza.",
-          "D": "La Dirección de Personas de la propia OSI."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 77,
@@ -1458,13 +1098,7 @@ const QUIZZES = {
           "D": "Tener la condición de personal estatutario fijo en la categoría de técnico/a superior."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Haber pertenecido al Consejo Clínico Asistencial durante al menos dos años.",
-          "B": "Superar un examen de oposición específico para gerencia sanitaria.",
-          "C": "Previa convocatoria pública donde se acredite titulación, capacidad y experiencia profesional.",
-          "D": "Tener la condición de personal estatutario fijo en la categoría de técnico/a superior."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 78,
@@ -1477,13 +1111,7 @@ const QUIZZES = {
           "D": "Dirección Económico-Financiera."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Dirección de Atención Integrada.",
-          "B": "Dirección Gerencia.",
-          "C": "Dirección de Enfermería.",
-          "D": "Dirección Económico-Financiera."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 79,
@@ -1496,13 +1124,7 @@ const QUIZZES = {
           "D": "Con las entidades locales y las empresas privadas de gestión."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Con el ámbito de Recursos Humanos y con la Universidad.",
-          "B": "Con el ámbito comunitario y socio-sanitario.",
-          "C": "Únicamente con el sociosanitario.",
-          "D": "Con las entidades locales y las empresas privadas de gestión."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 80,
@@ -1515,13 +1137,7 @@ const QUIZZES = {
           "D": "La persona de mayor antigüedad en la vocalía de Atención Primaria."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La persona titular de la Dirección <span class=\"diff-highlight\">Gerencia.</span>",
-          "B": "La persona titular de la Dirección <span class=\"diff-highlight\">Médica.</span>",
-          "C": "La persona titular de la Dirección <span class=\"diff-highlight\">de Enfermería.</span>",
-          "D": "La persona de mayor antigüedad en la vocalía de Atención Primaria."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 81,
@@ -1534,13 +1150,7 @@ const QUIZZES = {
           "D": "Todas las respuestas anteriores son correctas."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "Todas las personas <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">accedan o utilicen las prestaciones y servicios sanitarios que se proporcionan por el sistema sanitario de</span> Euskadi.",
-          "B": "Todas las personas <span class=\"diff-highlight\">nacidas</span> <span class=\"diff-highlight\">en</span> Euskadi.",
-          "C": "Todas las personas <span class=\"diff-highlight\">empadronadas</span> <span class=\"diff-highlight\">en</span> Euskadi.",
-          "D": "Todas las respuestas anteriores son correctas."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 82,
@@ -1572,13 +1182,7 @@ const QUIZZES = {
           "D": "Todas las respuestas anteriores son correctas."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "El respeto a la libertad de la persona, a su dignidad y a la autonomía en las decisiones que afecten a su salud.",
-          "B": "<span class=\"diff-highlight\">El</span> <span class=\"diff-highlight\">respeto</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">todo</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">personal</span> <span class=\"diff-highlight\">profesional</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">integra</span> <span class=\"diff-highlight\">el</span> sistema sanitario de Euskadi.",
-          "C": "<span class=\"diff-highlight\">La</span> <span class=\"diff-highlight\">promoción</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">investigación</span> <span class=\"diff-highlight\">científica</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">marco</span> <span class=\"diff-highlight\">del</span> sistema sanitario de Euskadi.",
-          "D": "Todas las respuestas anteriores son correctas."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 84,
@@ -1591,13 +1195,7 @@ const QUIZZES = {
           "D": "1. Infancia y adolescencia. 2. Salud sexual y reproductiva. 3. Personas mayores. 4. Final de la vida."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "1. <span class=\"diff-highlight\">Neonatología,</span> <span class=\"diff-highlight\">infancia</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">adolescencia. 2. Salud</span> sexual y <span class=\"diff-highlight\">reproductiva, embarazo y parto.</span> 3. <span class=\"diff-highlight\">Salud</span> <span class=\"diff-highlight\">laboral.</span> 4. <span class=\"diff-highlight\">Personas mayores y final</span> de la vida.",
-          "B": "1. <span class=\"diff-highlight\">Infancia</span> y adolescencia. 2. Salud sexual y <span class=\"diff-highlight\">reproductiva.</span> 3. Salud laboral. 4. Personas <span class=\"diff-highlight\">mayores.</span>",
-          "C": "1. <span class=\"diff-highlight\">Infancia.</span> 2. <span class=\"diff-highlight\">Adolescencia,</span> <span class=\"diff-highlight\">salud</span> <span class=\"diff-highlight\">sexual</span> y <span class=\"diff-highlight\">reproductiva.</span> 3. Personas <span class=\"diff-highlight\">mayores.</span> <span class=\"diff-highlight\">4.</span> <span class=\"diff-highlight\">Final</span> de la vida.",
-          "D": "1. <span class=\"diff-highlight\">Infancia</span> y adolescencia. 2. Salud sexual y <span class=\"diff-highlight\">reproductiva.</span> 3. Personas <span class=\"diff-highlight\">mayores.</span> <span class=\"diff-highlight\">4.</span> <span class=\"diff-highlight\">Final</span> de la vida."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 85,
@@ -1610,13 +1208,7 @@ const QUIZZES = {
           "D": "Todas las respuestas anteriores son correctas."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Al acompañamiento de familiares y personas allegadas en los procesos con hospitalización.",
-          "B": "Al uso, con carácter general, de habitación individual.",
-          "C": "Al acompañamiento espiritual.",
-          "D": "Todas las respuestas anteriores son correctas."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 86,
@@ -1629,13 +1221,7 @@ const QUIZZES = {
           "D": "Debe dejar por escrito las decisiones cuando puedan tener relevancia a efectos de responsabilidad legal."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "Debe dejar por escrito las decisiones cuando <span class=\"diff-highlight\">sea</span> <span class=\"diff-highlight\">legalmente</span> <span class=\"diff-highlight\">exigible</span> <span class=\"diff-highlight\">o</span> <span class=\"diff-highlight\">recomendable.</span>",
-          "B": "Debe dejar por escrito las decisiones cuando <span class=\"diff-highlight\">se</span> <span class=\"diff-highlight\">lo</span> <span class=\"diff-highlight\">solicite</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">personal profesional que le atienda.</span>",
-          "C": "Debe dejar por escrito las decisiones cuando <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">política</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">centro</span> <span class=\"diff-highlight\">sanitario así lo establezca.</span>",
-          "D": "Debe dejar por escrito las decisiones cuando <span class=\"diff-highlight\">puedan</span> <span class=\"diff-highlight\">tener</span> <span class=\"diff-highlight\">relevancia</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">efectos de responsabilidad legal.</span>"
-        }
+        "metodo": "acierto"
       },
       {
         "num": 87,
@@ -1686,13 +1272,7 @@ const QUIZZES = {
           "D": "El soporte de cualquier tipo o clase que contiene un conjunto de datos e informaciones de carácter asistencial."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La información contenida en la historia clínica.",
-          "B": "El soporte de cualquier tipo o clase que contiene un conjunto de datos e informaciones de carácter asistencial y <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">documentación</span> <span class=\"diff-highlight\">relativa a las voluntades anticipadas.</span>",
-          "C": "El soporte de cualquier tipo o clase que contiene un conjunto de datos e informaciones de carácter asistencial y <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">investigación</span> <span class=\"diff-highlight\">biomédica.</span>",
-          "D": "El soporte de cualquier tipo o clase que contiene un conjunto de datos e informaciones de carácter <span class=\"diff-highlight\">asistencial.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 90,
@@ -1705,13 +1285,7 @@ const QUIZZES = {
           "D": "Como regla general se proporcionará por escrito cuando se trate de pacientes menores de edad."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "Como regla general se proporcionará <span class=\"diff-highlight\">verbalmente.</span>",
-          "B": "Como regla general se proporcionará por escrito.",
-          "C": "Como regla general se proporcionará<span class=\"diff-highlight\"> verbalmente y</span> por escrito.",
-          "D": "Como regla general se proporcionará por <span class=\"diff-highlight\">escrito cuando se trate de pacientes menores de edad.</span>"
-        }
+        "metodo": "acierto"
       },
       {
         "num": 91,
@@ -1724,13 +1298,7 @@ const QUIZZES = {
           "D": "La finalidad y la naturaleza de cada intervención, sus riesgos, sus consecuencias y los derechos de las personas pacientes."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La finalidad y la naturaleza de cada <span class=\"diff-highlight\">intervención.</span>",
-          "B": "La finalidad y la naturaleza de cada <span class=\"diff-highlight\">intervención</span> y sus <span class=\"diff-highlight\">riesgos.</span>",
-          "C": "La finalidad y la naturaleza de cada intervención, sus <span class=\"diff-highlight\">riesgos</span> y <span class=\"diff-highlight\">sus</span> <span class=\"diff-highlight\">consecuencias.</span>",
-          "D": "La finalidad y la naturaleza de cada intervención, sus <span class=\"diff-highlight\">riesgos, sus consecuencias</span> y <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">derechos de las personas pacientes.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 92,
@@ -1743,13 +1311,7 @@ const QUIZZES = {
           "D": "El centro sanitario."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La persona facultativa responsable de la persona paciente",
-          "B": "La persona facultativa responsable de la persona paciente y el personal <span class=\"diff-highlight\">profesional</span> <span class=\"diff-highlight\">que le atienda durante el proceso asistencial o le aplique una técnica o un procedimiento concreto.</span>",
-          "C": "La persona facultativa responsable de la persona paciente y el personal <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">enfermería.</span>",
-          "D": "El centro sanitario."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 93,
@@ -1838,13 +1400,7 @@ const QUIZZES = {
           "D": "Documentar la actuación del personal profesional sanitario a efectos de responsabilidad legal en situaciones donde la persona paciente no puede expresar su voluntad por sí misma."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Conocer la voluntad de la persona paciente en relación con la <span class=\"diff-highlight\">administración</span> de <span class=\"diff-highlight\">sedación.</span>",
-          "B": "Conocer la voluntad de la persona paciente en relación con la <span class=\"diff-highlight\">finalización</span> de <span class=\"diff-highlight\">tratamientos de soporte vital.</span>",
-          "C": "Ayudar a interpretar las instrucciones y servir de orientación para la toma de decisiones clínicas.",
-          "D": "<span class=\"diff-highlight\">Documentar</span> la <span class=\"diff-highlight\">actuación del personal profesional sanitario a efectos</span> de<span class=\"diff-highlight\"> responsabilidad legal en situaciones donde</span> la persona paciente <span class=\"diff-highlight\">no</span> <span class=\"diff-highlight\">puede</span> <span class=\"diff-highlight\">expresar</span> <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">voluntad</span> <span class=\"diff-highlight\">por</span> <span class=\"diff-highlight\">sí misma.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 98,
@@ -1895,13 +1451,7 @@ const QUIZZES = {
           "D": "Exclusivamente a una enfermedad o lesión que la persona otorgante eventualmente podría padecer en un futuro, siempre que sea de carácter grave."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">A</span> una enfermedad o lesión que la persona otorgante<span class=\"diff-highlight\"> ya padece o a las que</span> eventualmente podría padecer en un <span class=\"diff-highlight\">futuro.</span>",
-          "B": "<span class=\"diff-highlight\">Exclusivamente a</span> una enfermedad o lesión que la persona otorgante ya <span class=\"diff-highlight\">padece.</span>",
-          "C": "Exclusivamente a una enfermedad o lesión que la persona otorgante eventualmente podría padecer en un <span class=\"diff-highlight\">futuro</span>",
-          "D": "Exclusivamente a una enfermedad o lesión que la persona otorgante eventualmente podría padecer en un <span class=\"diff-highlight\">futuro, siempre que sea de carácter grave.</span>"
-        }
+        "metodo": "acierto"
       },
       {
         "num": 101,
@@ -1933,13 +1483,7 @@ const QUIZZES = {
           "D": "Siempre que conserve la capacidad y actúe libremente."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Siempre que conserve la capacidad<span class=\"diff-highlight\"> o actúe con la asistencia de su representante legal</span> y actúe libremente.",
-          "B": "Siempre que conserve la capacidad o <span class=\"diff-highlight\">exista</span> <span class=\"diff-highlight\">autorización</span> <span class=\"diff-highlight\">judicial.</span>",
-          "C": "Siempre que actúe libremente.",
-          "D": "Siempre que conserve la capacidad y actúe libremente."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 103,
@@ -1952,13 +1496,7 @@ const QUIZZES = {
           "D": "La persona otorgante conserve su capacidad, su libertad de actuación y la posibilidad de expresarse de manera inequívoca o a través de la persona interlocutora designada al efecto."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La persona otorgante conserve su <span class=\"diff-highlight\">capacidad</span> y <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">libertad</span> de <span class=\"diff-highlight\">actuación.</span>",
-          "B": "La persona otorgante conserve su capacidad, su libertad de actuación y la posibilidad de <span class=\"diff-highlight\">expresarse.</span>",
-          "C": "La persona otorgante conserve su capacidad, su libertad de actuación y la posibilidad de expresarse de manera <span class=\"diff-highlight\">inequívoca.</span>",
-          "D": "La persona otorgante conserve su capacidad, su libertad de actuación y la posibilidad de expresarse de manera <span class=\"diff-highlight\">inequívoca o a través de la persona interlocutora designada al efecto.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 104,
@@ -1971,13 +1509,7 @@ const QUIZZES = {
           "D": "Las instrucciones que en el momento de ser aplicadas no se aprueben por el comité de ética del centro."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "Las instrucciones que en el momento de ser <span class=\"diff-highlight\">aplicadas</span> resulten contrarias al ordenamiento jurídico.",
-          "B": "Las instrucciones que en el momento de ser <span class=\"diff-highlight\">otorgadas</span> resulten contrarias al ordenamiento jurídico.",
-          "C": "Las respuestas a) y b) son correctas.",
-          "D": "Las instrucciones que en el momento de ser aplicadas <span class=\"diff-highlight\">no</span> <span class=\"diff-highlight\">se</span> <span class=\"diff-highlight\">aprueben</span> <span class=\"diff-highlight\">por</span> <span class=\"diff-highlight\">el comité de ética del centro.</span>"
-        }
+        "metodo": "acierto"
       },
       {
         "num": 105,
@@ -2009,13 +1541,7 @@ const QUIZZES = {
           "D": "Informada."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Libre.",
-          "B": "Verbal.",
-          "C": "Específica.",
-          "D": "Informada."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 107,
@@ -2028,13 +1554,7 @@ const QUIZZES = {
           "D": "El tratamiento de los datos de las personas menores de dieciséis años, fundado en el consentimiento, solo será lícito si consta el consentimiento de quienes ejercen la patria potestad o tutela, con el alcance que dichas personas determinen."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Únicamente podrá fundarse en su consentimiento cuando sea mayor de <span class=\"diff-highlight\">dieciséis</span> años.",
-          "B": "<span class=\"diff-highlight\">La</span> <span class=\"diff-highlight\">Ley</span> <span class=\"diff-highlight\">Orgánica</span> <span class=\"diff-highlight\">3/2018,</span> de <span class=\"diff-highlight\">5</span> de <span class=\"diff-highlight\">diciembre,</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">Protección</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">Datos</span> <span class=\"diff-highlight\">Personales</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">garantía</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">derechos</span> <span class=\"diff-highlight\">digitales</span> <span class=\"diff-highlight\">no</span> <span class=\"diff-highlight\">prevé</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">personas</span> <span class=\"diff-highlight\">menores</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">edad</span> <span class=\"diff-highlight\">puedan</span> <span class=\"diff-highlight\">dar</span> <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">consentimiento</span> <span class=\"diff-highlight\">válidamente</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">estos</span> <span class=\"diff-highlight\">efectos.</span>",
-          "C": "Únicamente podrá fundarse en su consentimiento cuando sea mayor de <span class=\"diff-highlight\">catorce</span> años.",
-          "D": "<span class=\"diff-highlight\">El</span> <span class=\"diff-highlight\">tratamiento</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">los datos</span> de <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">personas</span> <span class=\"diff-highlight\">menores</span> de <span class=\"diff-highlight\">dieciséis</span> <span class=\"diff-highlight\">años,</span> <span class=\"diff-highlight\">fundado</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">consentimiento,</span> <span class=\"diff-highlight\">solo</span> <span class=\"diff-highlight\">será</span> <span class=\"diff-highlight\">lícito</span> <span class=\"diff-highlight\">si</span> <span class=\"diff-highlight\">consta</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">consentimiento</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">quienes</span> <span class=\"diff-highlight\">ejercen</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">patria</span> <span class=\"diff-highlight\">potestad</span> <span class=\"diff-highlight\">o</span> <span class=\"diff-highlight\">tutela,</span> <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">alcance</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">dichas personas determinen.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 108,
@@ -2047,13 +1567,7 @@ const QUIZZES = {
           "D": "Todas las respuestas son correctas."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Su ideología y afiliación sindical.",
-          "B": "Su religión y orientación sexual .",
-          "C": "Sus creencias u origen racial o étnico.",
-          "D": "Todas las respuestas son correctas."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 109,
@@ -2142,13 +1656,7 @@ const QUIZZES = {
           "D": "La eliminación de roles tradicionales."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La igualdad de oportunidades.",
-          "B": "El empoderamiento de las mujeres.",
-          "C": "Lograr una sociedad libre de violencia machista.",
-          "D": "La eliminación de roles tradicionales."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 114,
@@ -2161,13 +1669,7 @@ const QUIZZES = {
           "D": "Ninguna entidad privada está sujeta a los principios de la ley."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Solo a las que tengan una plantilla superior a 250 personas.",
-          "B": "A todas las empresas con sede en Euskadi.",
-          "C": "A las que suscriban contratos o convenios, estén participadas por poderes públicos o sean beneficiarias de ayudas.",
-          "D": "Ninguna entidad privada está sujeta a los principios de la ley."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 115,
@@ -2180,13 +1682,7 @@ const QUIZZES = {
           "D": "La centralización de recursos de acogida."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "El principio de jerarquía administrativa.",
-          "B": "La integración de la perspectiva interseccional.",
-          "C": "El principio de celeridad procesal.",
-          "D": "La centralización de recursos de acogida."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 116,
@@ -2199,13 +1695,7 @@ const QUIZZES = {
           "D": "Si el órgano tiene menos de cuatro integrantes."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "En ningún caso.",
-          "B": "Solo si no hay hombres capacitados en el sector.",
-          "C": "Cuando sea acorde al objetivo de corregir la histórica situación de infrarrepresentación de las mujeres.",
-          "D": "Si el órgano tiene menos de cuatro integrantes."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 117,
@@ -2218,13 +1708,7 @@ const QUIZZES = {
           "D": "Ningún plan, solo los proyectos de ley."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Solo los planes de formación interna.",
-          "B": "Los planes territoriales y urbanísticos.",
-          "C": "Los planes de marketing de empresas públicas.",
-          "D": "Ningún plan, solo los proyectos de ley."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 118,
@@ -2237,13 +1721,7 @@ const QUIZZES = {
           "D": "Estar inscritas en un registro internacional de igualdad."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Tener paridad total en su directiva.",
-          "B": "Acreditar haber establecido medidas para prevenir y combatir el acoso sexual y las violencias sexuales.",
-          "C": "Tener un departamento exclusivo de igualdad.",
-          "D": "Estar inscritas en un registro internacional de igualdad."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 119,
@@ -2256,13 +1734,7 @@ const QUIZZES = {
           "D": "Un conflicto de convivencia familiar."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Solo la violencia física en el hogar.",
-          "B": "Una violación de los derechos humanos y un problema de salud pública de primer orden.",
-          "C": "Únicamente los delitos contra la libertad sexual.",
-          "D": "Un conflicto de convivencia familiar."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 120,
@@ -2275,13 +1747,7 @@ const QUIZZES = {
           "D": "No se detallan formas, se remite al Código Penal."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Solo la violencia física y psicológica.",
-          "B": "La violencia obstétrica, la política de género y la violencia digital.",
-          "C": "Únicamente el acoso laboral.",
-          "D": "No se detallan formas, se remite al Código Penal."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 121,
@@ -2294,13 +1760,7 @@ const QUIZZES = {
           "D": "Ocho Objetivos Generales."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Cinco Objetivos Generales.",
-          "B": "Seis Objetivos Generales.",
-          "C": "Siete Objetivos Generales.",
-          "D": "Ocho Objetivos Generales."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 122,
@@ -2313,13 +1773,7 @@ const QUIZZES = {
           "D": "Lograr la sostenibilidad y excelencia en los sistemas asistenciales sanitarios y sociosanitarios."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Convertirnos en el sistema de salud pública más sólido y resiliente de Europa.",
-          "B": "Liderar una Euskadi más saludable.",
-          "C": "Reducir la morbimortalidad evitable y disminuir las desigualdades en salud antes de 2030.",
-          "D": "Lograr la sostenibilidad y excelencia en los sistemas asistenciales sanitarios y sociosanitarios."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 123,
@@ -2332,13 +1786,7 @@ const QUIZZES = {
           "D": "Contribución al Desarrollo Sostenible."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La necesaria coordinación y colaboración interinstitucional, entre agentes y en todos los niveles.",
-          "B": "Enfoque de Salud en Todas las Políticas y 'Una Sola Salud' ('One Health').",
-          "C": "La autosuficiencia presupuestaria del Sistema Sanitario Público.",
-          "D": "Contribución al Desarrollo Sostenible."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 124,
@@ -2351,13 +1799,7 @@ const QUIZZES = {
           "D": "La prevención y el control de las enfermedades no transmisibles (ENT)."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Promover la salud de las mujeres y la salud reproductiva en la edad adulta.",
-          "B": "Lograr que niñas, niños y adolescentes nazcan, crezcan y se desarrollen con todo su potencial de salud.",
-          "C": "Mejorar la salud mental y reducir la morbimortalidad asociada a trastornos mentales.",
-          "D": "La prevención y el control de las enfermedades no transmisibles (ENT)."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 125,
@@ -2370,13 +1812,7 @@ const QUIZZES = {
           "D": "Investigación, formación y evaluación."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Eficiencia, accesibilidad e innovación.",
-          "B": "Calidad, humanización y seguridad.",
-          "C": "Equidad, intersectorialidad y coordinación.",
-          "D": "Investigación, formación y evaluación."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 126,
@@ -2389,13 +1825,7 @@ const QUIZZES = {
           "D": "Años de Vida sana perdidos Ajustados por Discapacidad."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Áreas de Valoración de la Atención al Dependiente.",
-          "B": "Años de Vida Activa Desaprovechados.",
-          "C": "Atención Vasca a la Adicción a Drogas.",
-          "D": "Años de Vida sana perdidos Ajustados por Discapacidad."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 127,
@@ -2408,13 +1838,7 @@ const QUIZZES = {
           "D": "Implementar un programa de cribado universal para todos los tipos de cáncer."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Garantizar la participación de la empresa privada en la gestión de servicios hospitalarios.",
-          "B": "Aumentar la esperanza de vida en 5 años en todos los colectivos sociales.",
-          "C": "Reducir la morbimortalidad evitable y disminuir las desigualdades en salud.",
-          "D": "Implementar un programa de cribado universal para todos los tipos de cáncer."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 128,
@@ -2427,13 +1851,7 @@ const QUIZZES = {
           "D": "Enfoque de investigación competitiva internacional."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Enfoque de investigación básica y fundamental.",
-          "B": "Enfoque de investigación traslacional.",
-          "C": "Enfoque de investigación puramente epidemiológica.",
-          "D": "Enfoque de investigación competitiva internacional."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 129,
@@ -2446,13 +1864,7 @@ const QUIZZES = {
           "D": "Calidad, calidez, rapidez y ahorro presupuestario."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Impacto, cobertura, equidad y transparencia.",
-          "B": "Relevancia, efectividad, eficiencia y sostenibilidad.",
-          "C": "Rentabilidad, participación, innovación y prestigio.",
-          "D": "Calidad, calidez, rapidez y ahorro presupuestario."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 130,
@@ -2465,13 +1877,7 @@ const QUIZZES = {
           "D": "Fomento de grandes centros residenciales para todas las personas con enfermedades crónicas."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Construcción de viviendas de protección oficial exclusivamente rurales.",
-          "B": "Soluciones habitacionales asequibles, accesibles y adaptadas al ciclo vital.",
-          "C": "Ayudas directas al alquiler únicamente para personas menores de 30 años",
-          "D": "Fomento de grandes centros residenciales para todas las personas con enfermedades crónicas."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 131,
@@ -2484,13 +1890,7 @@ const QUIZZES = {
           "D": "Programa de Investigación y Planificación."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Programa de Salud Pública.",
-          "B": "Programa de Farmacia.",
-          "C": "Programa de Adicciones.",
-          "D": "Programa de Investigación y Planificación."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 132,
@@ -2503,13 +1903,7 @@ const QUIZZES = {
           "D": "Limitar el acceso de vehículos a las zonas cercanas a los centros de salud."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Segregar los espacios públicos por franjas de edad.",
-          "B": "Adaptar el entorno físico y social para fomentar un envejecimiento activo y con sentido.",
-          "C": "Aumentar el número de plazas en residencias geriátricas de alta especialización.",
-          "D": "Limitar el acceso de vehículos a las zonas cercanas a los centros de salud."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 133,
@@ -2522,13 +1916,7 @@ const QUIZZES = {
           "D": "La creación de una red social exclusiva para pacientes crónicos/as."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La teleasistencia robótica obligatoria en todos los domicilios.",
-          "B": "La medicina de precisión y la integración de datos genómicos.",
-          "C": "La eliminación definitiva de la historia clínica en papel en favor del PDF.",
-          "D": "La creación de una red social exclusiva para pacientes crónicos/as."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 134,
@@ -2541,13 +1929,7 @@ const QUIZZES = {
           "D": "La creación de un único departamento que gestione salud, educación y vivienda."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La competencia entre diferentes sectores para obtener fondos públicos.",
-          "B": "La colaboración entre departamentos del Gobierno para que la salud esté en todas las políticas.",
-          "C": "La privatización de sectores sanitarios no críticos.",
-          "D": "La creación de un único departamento que gestione salud, educación y vivienda."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 135,
@@ -2560,13 +1942,7 @@ const QUIZZES = {
           "D": "Se reserva exclusivamente para el ámbito académico, no para el legislativo."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Es un elemento opcional supeditado a la oportunidad política.",
-          "B": "Es la base fundamental para el diseño, implementación y evaluación de las políticas de salud.",
-          "C": "Solo se debe aplicar en casos de alertas sanitarias internacionales.",
-          "D": "Se reserva exclusivamente para el ámbito académico, no para el legislativo."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 136,
@@ -2579,13 +1955,7 @@ const QUIZZES = {
           "D": "La implementación de la receta electrónica en todas las farmacias."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "El incremento exclusivo de la esperanza de vida al nacer.",
-          "B": "El acceso generalizado a la información y un mayor nivel educativo en la CAPV.",
-          "C": "La reducción drástica de las listas de espera en consultas externas.",
-          "D": "La implementación de la receta electrónica en todas las farmacias."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 137,
@@ -2598,13 +1968,7 @@ const QUIZZES = {
           "D": "Han provocado la saturación irreversible de los servicios de urgencias hospitalarias."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "No tienen impacto relevante en el perfil epidemiológico de la comunidad.",
-          "B": "Revelan patologías anteriormente poco conocidas en nuestro entorno, pero prevalentes en otras latitudes.",
-          "C": "Se limitan exclusivamente a personas en edad laboral con excelente estado de salud inicial.",
-          "D": "Han provocado la saturación irreversible de los servicios de urgencias hospitalarias."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 138,
@@ -2617,13 +1981,7 @@ const QUIZZES = {
           "D": "La prohibición de la formación continua dentro del horario laboral."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La excesiva oferta de plazas MIR en todas las especialidades médicas.",
-          "B": "La falta de interés de las nuevas generaciones por las profesiones biosanitarias.",
-          "C": "La necesidad de planificar el relevo ante la jubilación de cohortes numerosas de profesionales.",
-          "D": "La prohibición de la formación continua dentro del horario laboral."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 139,
@@ -2636,13 +1994,7 @@ const QUIZZES = {
           "D": "La erradicación total de las enfermedades infecciosas estacionales."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Patologías ligadas exclusivamente al consumo de alimentos ultraprocesados.",
-          "B": "Nuevos vectores y virus anteriormente inexistentes en nuestro entorno, como el virus del Nilo.",
-          "C": "Una disminución natural de las enfermedades respiratorias debido al aumento de temperaturas.",
-          "D": "La erradicación total de las enfermedades infecciosas estacionales."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 140,
@@ -2655,13 +2007,7 @@ const QUIZZES = {
           "D": "Reflejar resultados en salud y sostenibilidad, y no solo volumen de actividad."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Basarse exclusivamente en mediciones de actividad (número de consultas y cirugías).",
-          "B": "Ser confidenciales y accesibles únicamente para la alta dirección del Departamento de Salud.",
-          "C": "Ignorar la perspectiva de género para simplificar la toma de datos estadísticos.",
-          "D": "Reflejar resultados en salud y sostenibilidad, y no solo volumen de actividad."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 141,
@@ -2674,13 +2020,7 @@ const QUIZZES = {
           "D": "Garantizar la cobertura universal únicamente a la ciudadanía vasca empadronada."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Ser la base para la elaboración del futuro Plan Estratégico de Osakidetza.",
-          "B": "<span class=\"diff-highlight\">Establecer</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">estructura</span> <span class=\"diff-highlight\">financiera</span> y la <span class=\"diff-highlight\">autonomía</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">gestión</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">sistema</span> de <span class=\"diff-highlight\">salud.</span>",
-          "C": "<span class=\"diff-highlight\">Ser</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">fundamento</span> <span class=\"diff-highlight\">ético</span> y <span class=\"diff-highlight\">social</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">soporta</span> <span class=\"diff-highlight\">la actividad</span> del <span class=\"diff-highlight\">Sistema Público</span> de <span class=\"diff-highlight\">Salud de Euskadi.</span>",
-          "D": "Garantizar la cobertura universal únicamente a la ciudadanía vasca empadronada."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 142,
@@ -2693,13 +2033,7 @@ const QUIZZES = {
           "D": "El Plurilingüismo como eje central de la atención."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La Sostenibilidad del sistema.",
-          "B": "La Eficiencia en el gasto.",
-          "C": "La Corresponsabilidad.",
-          "D": "El Plurilingüismo como eje central de la atención."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 143,
@@ -2712,13 +2046,7 @@ const QUIZZES = {
           "D": "La digitalización de la historia clínica en Osakidetza."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Exclusivamente a la aplicación de nuevas tecnologías de imagen médica.",
-          "B": "La I+D+i en todas las fases y dimensiones de la salud, incluyendo la organizativa y la asistencial.",
-          "C": "La importación de modelos de éxito de otros sistemas sanitarios europeos.",
-          "D": "La digitalización de la historia clínica en Osakidetza."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 144,
@@ -2731,13 +2059,7 @@ const QUIZZES = {
           "D": "La compra masiva de medicamentos de marca sobre los genéricos."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "Las intervenciones que generen los mejores resultados relevantes para la persona al menor coste posible.",
-          "B": "El valor de mercado de las acciones de las empresas proveedoras de tecnología.",
-          "C": "El incremento constante de las infraestructuras físicas sobre la inversión en personal.",
-          "D": "La compra masiva de medicamentos de marca sobre los genéricos."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 145,
@@ -2769,13 +2091,7 @@ const QUIZZES = {
           "D": "Ser la base estratégica que cohesione y sustente todo el sistema de salud vasco."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Actuar como un servicio de triaje rápido para derivar todos los casos al hospital.",
-          "B": "Ser un servicio opcional para quienes no dispongan de seguro privado.",
-          "C": "Limitarse a la atención administrativa y la gestión de bajas laborales.",
-          "D": "Ser la base estratégica que cohesione y sustente todo el sistema de salud vasco."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 147,
@@ -2788,13 +2104,7 @@ const QUIZZES = {
           "D": "Reducir la cobertura de medicamentos para patologías de larga duración."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">Institucionalizar</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">todas</span> las personas con enfermedades <span class=\"diff-highlight\">crónicas en centros especializados.</span>",
-          "B": "<span class=\"diff-highlight\">Reforzar</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">autonomía y corresponsabilidad de</span> las personas con enfermedades <span class=\"diff-highlight\">crónicas.</span>",
-          "C": "Sustituir las consultas médicas presenciales por seguimiento telefónico automático.",
-          "D": "Reducir la cobertura de medicamentos para patologías de larga duración."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 148,
@@ -2807,13 +2117,7 @@ const QUIZZES = {
           "D": "Obligar a las personas pacientes a elegir entre atención médica o apoyo social."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Separar definitivamente las competencias de Salud de las de Servicios Sociales.",
-          "B": "<span class=\"diff-highlight\">Mejorar</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">coordinación</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">tránsito</span> <span class=\"diff-highlight\">de las personas</span> entre <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">sistema</span> <span class=\"diff-highlight\">sanitario</span> <span class=\"diff-highlight\">y el</span> social.",
-          "C": "Eliminar las ayudas a la dependencia para fomentar el ahorro público.",
-          "D": "<span class=\"diff-highlight\">Obligar</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">personas</span> <span class=\"diff-highlight\">pacientes</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">elegir</span> entre <span class=\"diff-highlight\">atención</span> <span class=\"diff-highlight\">médica</span> <span class=\"diff-highlight\">o</span> <span class=\"diff-highlight\">apoyo</span> social."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 149,
@@ -2826,13 +2130,7 @@ const QUIZZES = {
           "D": "La reducción de la plantilla de psicología en los centros de salud primaria."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "La promoción del bienestar emocional y la detección precoz, especialmente en jóvenes.",
-          "B": "El aislamiento preventivo de las personas con trastornos mentales graves.",
-          "C": "La medicalización sistemática de cualquier malestar emocional de la ciudadanía.",
-          "D": "La reducción de la plantilla de psicología en los centros de salud primaria."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 150,
@@ -2845,13 +2143,7 @@ const QUIZZES = {
           "D": "Crear una base de datos pública con el historial clínico de toda la ciudadanía."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Reemplazar al personal sanitario por sistemas de inteligencia artificial autónomos.",
-          "B": "Eliminar el papel de todos los archivos históricos sin digitalizar previamente.",
-          "C": "Facilitar la accesibilidad, la personalización de la atención y la eficiencia organizativa.",
-          "D": "Crear una base de datos pública con el historial clínico de toda la ciudadanía."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 151,
@@ -2864,13 +2156,7 @@ const QUIZZES = {
           "D": "Centralizar la gestión de riesgos en un único organismo fuera de Osakidetza."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Reducir a cero los eventos adversos mediante la incorporación de tecnología robótica.",
-          "B": "Mejorar la calidad asistencial del sistema sanitario vasco.",
-          "C": "Promover el máximo nivel de seguridad posible, minimizando la probabilidad de ocurrencia de incidentes de seguridad en el transcurso de la asistencia sanitaria.",
-          "D": "Centralizar la gestión de riesgos en un único organismo fuera de Osakidetza."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 152,
@@ -2883,13 +2169,7 @@ const QUIZZES = {
           "D": "Primum non nocere (primero no hacer daño)."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">Salus</span> <span class=\"diff-highlight\">populi</span> <span class=\"diff-highlight\">suprema</span> <span class=\"diff-highlight\">lex</span> <span class=\"diff-highlight\">esto (la salud</span> del <span class=\"diff-highlight\">pueblo</span> <span class=\"diff-highlight\">es</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">ley suprema).</span>",
-          "B": "Corpus sanum in mente sana (mente sana en cuerpo sano).",
-          "C": "<span class=\"diff-highlight\">Lex</span> <span class=\"diff-highlight\">artis</span> <span class=\"diff-highlight\">ad</span> <span class=\"diff-highlight\">hoc</span> <span class=\"diff-highlight\">(ley</span> del <span class=\"diff-highlight\">arte</span> <span class=\"diff-highlight\">para</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">caso).</span>",
-          "D": "Primum non nocere (primero no hacer daño)."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 153,
@@ -2902,13 +2182,7 @@ const QUIZZES = {
           "D": "Seguridad en Salud Mental y Prevención de las Úlceras por Presión."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Seguridad en Pediatría y Buenas Prácticas en el Uso de Biológicos.",
-          "B": "Atención en Cuidados Paliativos y Seguridad Domiciliaria.",
-          "C": "La Seguridad de Paciente en Emergencias y la Prevención del Suicidio.",
-          "D": "Seguridad en Salud Mental y Prevención de las Úlceras por Presión."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 154,
@@ -2921,13 +2195,7 @@ const QUIZZES = {
           "D": "Evento Adverso."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Error no evitable.",
-          "B": "Circunstancia notificable.",
-          "C": "Fallo latente.",
-          "D": "Evento Adverso."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 155,
@@ -2940,13 +2208,7 @@ const QUIZZES = {
           "D": "Gestión de los incidentes de seguridad."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Implicación de pacientes en su seguridad.",
-          "B": "Conciliación de la medicación.",
-          "C": "Atención a las segundas y terceras víctimas.",
-          "D": "Gestión de los incidentes de seguridad."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 156,
@@ -2959,13 +2221,7 @@ const QUIZZES = {
           "D": "Implantar un sistema de identificación inequívoca de pacientes en todas las fases del proceso asistencial."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Garantizar la continuidad de las líneas de acción y proyectos previamente implantados.",
-          "B": "Impulsar la cultura de seguridad de paciente en las organizaciones de servicios de Osakidetza, promoviendo la formación y sensibilización como aspectos clave.",
-          "C": "Optimizar la prescripción de pruebas diagnósticas que utilizan radiación ionizante.",
-          "D": "Implantar un sistema de identificación inequívoca de pacientes en todas las fases del proceso asistencial."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 157,
@@ -2978,13 +2234,7 @@ const QUIZZES = {
           "D": "Seguridad transfusional."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Conciliación de la medicación.",
-          "B": "Prevención y control de las infecciones relacionadas con la asistencia sanitaria.",
-          "C": "Seguridad en el proceso asistencial gestación-parto-puerperio.",
-          "D": "Seguridad transfusional."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 158,
@@ -2997,13 +2247,7 @@ const QUIZZES = {
           "D": "Informe del Instituto de Medicina de los Estados Unidos (IOM)."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Estudio Nacional de Efectos Adversos en centros hospitalarios (ENEAS).",
-          "B": "Estudio APEAS.",
-          "C": "Estudio EVADUR.",
-          "D": "Informe del Instituto de Medicina de los Estados Unidos (IOM)."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 159,
@@ -3016,13 +2260,7 @@ const QUIZZES = {
           "D": "Factores organizativos de Osakidetza."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "Factores humanos o factores no técnicos.",
-          "B": "Factores biomédicos y patofisiológicos.",
-          "C": "Factores económicos y de sostenibilidad.",
-          "D": "Factores organizativos de Osakidetza."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 160,
@@ -3035,13 +2273,7 @@ const QUIZZES = {
           "D": "L7. Seguridad transfusional (Nota: la seguridad transfusional se considera una línea separada, aunque implica la administración de productos sanguíneos)."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "L5. Conciliación de la medicación.",
-          "B": "L14. Buenas prácticas asociadas a la utilización de medicación.",
-          "C": "L6. Optimización en la prescripción de pruebas diagnósticas que utilizan radiación ionizante.",
-          "D": "L7. Seguridad transfusional (Nota: la seguridad transfusional se considera una línea separada, aunque implica la administración de productos sanguíneos)."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 161,
@@ -3054,13 +2286,7 @@ const QUIZZES = {
           "D": "90% mujeres y 10% hombres"
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "60% mujeres y 40% hombres",
-          "B": "75% mujeres y 25% hombres",
-          "C": "80% mujeres y 20% hombres",
-          "D": "90% mujeres y 10% hombres"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 162,
@@ -3073,13 +2299,7 @@ const QUIZZES = {
           "D": "Garantizar la formación básica, progresiva, permanente y obligatoria de todo el personal de Osakidetza."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Reducir la brecha de género en investigación en un 4%.",
-          "B": "Conseguir que todas las personas trabajadoras de Osakidetza conozcan el Plan y el Protocolo de Acoso.",
-          "C": "Reducir a la mitad las categorías con brecha retributiva superior al 5%.",
-          "D": "Garantizar la formación básica, progresiva, permanente y obligatoria de todo el personal de Osakidetza."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 163,
@@ -3092,13 +2312,7 @@ const QUIZZES = {
           "D": "Dirección General de Osakidetza."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Mesa Sectorial de Sanidad.",
-          "B": "Emakunde.",
-          "C": "Consejo de Administración de Osakidetza.",
-          "D": "Dirección General de Osakidetza."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 164,
@@ -3111,13 +2325,7 @@ const QUIZZES = {
           "D": "Techo de cristal."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Segregación horizontal.",
-          "B": "Suelo pegajoso.",
-          "C": "Brecha salarial técnica",
-          "D": "Techo de cristal."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 165,
@@ -3130,13 +2338,7 @@ const QUIZZES = {
           "D": "Aumentar el número de investigaciones con perspectiva de género interseccional en un 4%."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Reducir el porcentaje de hombres en puestos de dirección.",
-          "B": "<span class=\"diff-highlight\">Reducir</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">mitad</span> la brecha de género en <span class=\"diff-highlight\">investigación.</span>",
-          "C": "<span class=\"diff-highlight\">Reducir,</span> <span class=\"diff-highlight\">al</span> <span class=\"diff-highlight\">menos,</span> <span class=\"diff-highlight\">en un 2%</span> la brecha de género<span class=\"diff-highlight\"> existente</span> en <span class=\"diff-highlight\">las medidas de conciliación para cuidados.</span>",
-          "D": "Aumentar el número de investigaciones con perspectiva de género interseccional en un 4%."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 166,
@@ -3149,13 +2351,7 @@ const QUIZZES = {
           "D": "Lograr la aprobación por parte del Consejo de Dirección de Osakidetza en julio de 2025."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Consolidar los avances logrados y profundizar el proceso transformador.",
-          "B": "Establecer unos cimientos sólidos para garantizar el cumplimiento de la legislación y la alineación a los marcos estratégicos.",
-          "C": "Reducir la brecha salarial a la mitad en todas las categorías profesionales.",
-          "D": "Lograr la aprobación por parte del Consejo de Dirección de Osakidetza en julio de 2025."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 167,
@@ -3168,13 +2364,7 @@ const QUIZZES = {
           "D": "Investigación, aumentando el número de investigaciones con perspectiva de género."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">Reducir</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">brecha</span> de <span class=\"diff-highlight\">género</span> <span class=\"diff-highlight\">existente</span> <span class=\"diff-highlight\">en</span> las <span class=\"diff-highlight\">medidas</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">conciliación</span> <span class=\"diff-highlight\">para</span> <span class=\"diff-highlight\">cuidados.</span>",
-          "B": "Capacitación en Igualdad, garantizando la formación progresiva del personal.",
-          "C": "<span class=\"diff-highlight\">Igualdad</span> <span class=\"diff-highlight\">Salarial,</span> <span class=\"diff-highlight\">con el objetivo</span> de <span class=\"diff-highlight\">reducir</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">la mitad</span> las <span class=\"diff-highlight\">categorías</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">tienen</span> <span class=\"diff-highlight\">una</span> <span class=\"diff-highlight\">brecha retributiva &gt; 5%.</span>",
-          "D": "Investigación, aumentando el número de investigaciones con perspectiva de género."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 168,
@@ -3187,13 +2377,7 @@ const QUIZZES = {
           "D": "La limitación de la atención asistencial únicamente a las consecuencias físicas derivadas de la violencia."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "El refuerzo de la prevención, la detección precoz y la mejora de la respuesta asistencial integrada desde el sistema de salud.",
-          "B": "La derivación inmediata de cualquier caso detectado a servicios jurídicos externos, sin intervención del personal sanitario.",
-          "C": "La creación de un registro anónimo donde las personas profesionales puedan denunciar conductas sin seguimiento posterior.",
-          "D": "La limitación de la atención asistencial únicamente a las consecuencias físicas derivadas de la violencia."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 169,
@@ -3206,13 +2390,7 @@ const QUIZZES = {
           "D": "Deben emitirse en una de las dos lenguas oficiales."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Deben emitirse en<span class=\"diff-highlight\"> la lengua que decidan</span> las <span class=\"diff-highlight\">personas</span> <span class=\"diff-highlight\">responsable</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">unidades</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">utilizan</span> <span class=\"diff-highlight\">estos</span> <span class=\"diff-highlight\">sistemas</span> <span class=\"diff-highlight\">audiovisuales.</span>",
-          "B": "Deben emitirse en las dos lenguas oficiales, primero en <span class=\"diff-highlight\">castellano</span> y luego en <span class=\"diff-highlight\">euskera.</span>",
-          "C": "Deben emitirse en las dos lenguas oficiales, primero en <span class=\"diff-highlight\">euskera</span> y luego en <span class=\"diff-highlight\">castellano.</span>",
-          "D": "Deben emitirse en<span class=\"diff-highlight\"> una de</span> las dos lenguas <span class=\"diff-highlight\">oficiales.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 170,
@@ -3225,13 +2403,7 @@ const QUIZZES = {
           "D": "A las personas que elijan el euskera como lengua prioritaria en sus comunicaciones con Osakidetza solo se les deberá ofrecer servicios en euskera."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">Por aplicación de la Ley Orgánica de Protección de Datos Personales y garantía de los derechos digitales no puede constar en</span> los datos personales de cada <span class=\"diff-highlight\">paciente</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">Osakidetza</span> su idioma de preferencia para las comunicaciones con <span class=\"diff-highlight\">Osakidetza.</span>",
-          "B": "<span class=\"diff-highlight\">El</span> <span class=\"diff-highlight\">signo</span> <span class=\"diff-highlight\">azul</span> <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">letra</span> <span class=\"diff-highlight\">e</span> <span class=\"diff-highlight\">indica</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">la persona paciente no tiene competencia para comunicarse en un</span> idioma <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">no sea el euskera</span> para las comunicaciones orales con <span class=\"diff-highlight\">Osakidetza.</span>",
-          "C": "<span class=\"diff-highlight\">En</span> los datos personales de cada <span class=\"diff-highlight\">paciente,</span> <span class=\"diff-highlight\">se</span> <span class=\"diff-highlight\">registrará</span> su idioma de preferencia para las comunicaciones<span class=\"diff-highlight\"> orales</span> con <span class=\"diff-highlight\">Osakidetza .</span>",
-          "D": "<span class=\"diff-highlight\">A</span> <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">personas</span> que <span class=\"diff-highlight\">elijan</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">euskera</span> <span class=\"diff-highlight\">como</span> <span class=\"diff-highlight\">lengua</span> <span class=\"diff-highlight\">prioritaria</span> en <span class=\"diff-highlight\">sus</span> <span class=\"diff-highlight\">comunicaciones</span> <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">Osakidetza</span> <span class=\"diff-highlight\">solo</span> <span class=\"diff-highlight\">se</span> <span class=\"diff-highlight\">les</span> <span class=\"diff-highlight\">deberá</span> <span class=\"diff-highlight\">ofrecer</span> <span class=\"diff-highlight\">servicios</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">euskera.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 171,
@@ -3263,13 +2435,7 @@ const QUIZZES = {
           "D": "La recepción en euskera solo por las y los empleados que sepan en euskera."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "La recepción en euskera.",
-          "B": "La recepción en euskera solo cuando la comunicación<span class=\"diff-highlight\"> oral</span> con pacientes y personas usuarias sea <span class=\"diff-highlight\">de modo presencial.</span>",
-          "C": "La recepción en euskera solo cuando la comunicación con pacientes y personas usuarias sea <span class=\"diff-highlight\">telefónicamente.</span>",
-          "D": "La recepción en euskera solo <span class=\"diff-highlight\">por</span> <span class=\"diff-highlight\">las</span> y <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">empleados</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">sepan</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">euskera.</span>"
-        }
+        "metodo": "acierto"
       },
       {
         "num": 173,
@@ -3282,13 +2448,7 @@ const QUIZZES = {
           "D": "Ambas lenguas oficiales, siendo los escritos contestados primero en euskera y luego en castellano."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">La</span> lengua utilizada por cada ciudadano o ciudadana.",
-          "B": "Siempre el euskera como lengua preferente.",
-          "C": "<span class=\"diff-highlight\">Siempre las dos lenguas oficiales independientemente de la</span> lengua utilizada por cada ciudadano o ciudadana.",
-          "D": "Ambas lenguas oficiales, siendo los escritos contestados primero en euskera y luego en castellano."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 174,
@@ -3301,13 +2461,7 @@ const QUIZZES = {
           "D": "Se estudiará introducir una variante del círculo azul con la letra e para el personal dispuesto a que le hablen en euskera pero que muestra dificultades para expresarse en ciertas situaciones."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Se <span class=\"diff-highlight\">pondrá</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">disposición</span> del <span class=\"diff-highlight\">personal</span> <span class=\"diff-highlight\">bilingüe</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">lo</span> <span class=\"diff-highlight\">desee</span> <span class=\"diff-highlight\">diferentes</span> <span class=\"diff-highlight\">elementos</span> <span class=\"diff-highlight\">identificativos</span> <span class=\"diff-highlight\">portadores</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">circulo</span> <span class=\"diff-highlight\">azul</span> <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">letra</span> <span class=\"diff-highlight\">e,</span> <span class=\"diff-highlight\">signo</span> que <span class=\"diff-highlight\">invita</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">relacionarse</span> en <span class=\"diff-highlight\">euskera.</span>",
-          "B": "<span class=\"diff-highlight\">El</span> <span class=\"diff-highlight\">signo</span> <span class=\"diff-highlight\">azul</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">letra</span> <span class=\"diff-highlight\">e</span> <span class=\"diff-highlight\">solo</span> <span class=\"diff-highlight\">se</span> <span class=\"diff-highlight\">utilizará</span> <span class=\"diff-highlight\">para</span> la <span class=\"diff-highlight\">identificación</span> <span class=\"diff-highlight\">individual</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">personal</span> <span class=\"diff-highlight\">bilingüe.</span>",
-          "C": "<span class=\"diff-highlight\">En</span> <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">centros</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">salud,</span> <span class=\"diff-highlight\">consultorios</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">unidades</span> <span class=\"diff-highlight\">hospitalarias,</span> <span class=\"diff-highlight\">deberá</span> <span class=\"diff-highlight\">estar</span> <span class=\"diff-highlight\">colocado,</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">modo</span> <span class=\"diff-highlight\">visible,</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">cartel</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">explica</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">personas</span> <span class=\"diff-highlight\">usuarias</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">significado</span> <span class=\"diff-highlight\">del</span> <span class=\"diff-highlight\">signo</span> <span class=\"diff-highlight\">identificativo con la letra e.</span>",
-          "D": "Se <span class=\"diff-highlight\">estudiará</span> <span class=\"diff-highlight\">introducir</span> <span class=\"diff-highlight\">una variante</span> del <span class=\"diff-highlight\">círculo</span> <span class=\"diff-highlight\">azul</span> <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">letra</span> <span class=\"diff-highlight\">e</span> <span class=\"diff-highlight\">para</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">personal</span> <span class=\"diff-highlight\">dispuesto</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">le</span> <span class=\"diff-highlight\">hablen</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">euskera</span> <span class=\"diff-highlight\">pero</span> que <span class=\"diff-highlight\">muestra</span> <span class=\"diff-highlight\">dificultades</span> <span class=\"diff-highlight\">para expresarse</span> en <span class=\"diff-highlight\">ciertas situaciones.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 175,
@@ -3320,13 +2474,7 @@ const QUIZZES = {
           "D": "Todas las anteriores respuestas son correctas."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">Medicina</span> <span class=\"diff-highlight\">familiar,</span> <span class=\"diff-highlight\">pediatría, enfermería</span> y salud mental.",
-          "B": "<span class=\"diff-highlight\">Pediatría,</span> <span class=\"diff-highlight\">medicina</span> <span class=\"diff-highlight\">familiar</span> y salud mental.",
-          "C": "Medicina familiar, pediatría, enfermería y <span class=\"diff-highlight\">matrona.</span>",
-          "D": "Todas las anteriores respuestas son correctas."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 176,
@@ -3339,13 +2487,7 @@ const QUIZZES = {
           "D": "Las informaciones y comunicaciones no personalizadas dirigidas al personal deberán redactarse en las dos lenguas oficiales y se dará prioridad al castellano."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "<span class=\"diff-highlight\">En</span> <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">casos</span> de <span class=\"diff-highlight\">los mensajes SMS que se envían</span> a <span class=\"diff-highlight\">los</span> <span class=\"diff-highlight\">teléfonos</span> <span class=\"diff-highlight\">móviles</span> de personas trabajadoras <span class=\"diff-highlight\">o</span> <span class=\"diff-highlight\">candidatas, estarán escritos</span> en las dos lenguas <span class=\"diff-highlight\">oficiales, primero en castellano y luego en euskera.</span>",
-          "B": "<span class=\"diff-highlight\">Los</span> <span class=\"diff-highlight\">escritos</span> <span class=\"diff-highlight\">individualizados</span> de <span class=\"diff-highlight\">respuesta</span> a <span class=\"diff-highlight\">solicitudes</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">reclamaciones</span> de<span class=\"diff-highlight\"> las</span> personas trabajadoras <span class=\"diff-highlight\">deberán</span> <span class=\"diff-highlight\">redactarse</span> en las dos lenguas <span class=\"diff-highlight\">oficiales.</span>",
-          "C": "<span class=\"diff-highlight\">Osakidetza</span> <span class=\"diff-highlight\">ha</span> de<span class=\"diff-highlight\"> garantizar que la información y</span> los <span class=\"diff-highlight\">servicios</span> <span class=\"diff-highlight\">ofrecidos</span> <span class=\"diff-highlight\">tanto</span> <span class=\"diff-highlight\">al</span> <span class=\"diff-highlight\">personal empleado como</span> a <span class=\"diff-highlight\">personas</span> <span class=\"diff-highlight\">candidatas</span> <span class=\"diff-highlight\">a través</span> de <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">tecnologías</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">comunicación</span> <span class=\"diff-highlight\">estén</span> en las dos lenguas oficiales, <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">fin</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">cada</span> <span class=\"diff-highlight\">persona haga uso de la lengua de su preferencia.</span>",
-          "D": "<span class=\"diff-highlight\">Las</span> <span class=\"diff-highlight\">informaciones</span> y <span class=\"diff-highlight\">comunicaciones</span> <span class=\"diff-highlight\">no</span> <span class=\"diff-highlight\">personalizadas</span> <span class=\"diff-highlight\">dirigidas</span> <span class=\"diff-highlight\">al personal</span> deberán redactarse en las dos lenguas <span class=\"diff-highlight\">oficiales y se dará prioridad al castellano.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 177,
@@ -3358,13 +2500,7 @@ const QUIZZES = {
           "D": "28%"
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "22,3%",
-          "B": "Menos del 15%",
-          "C": "33,8%",
-          "D": "28%"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 178,
@@ -3377,13 +2513,7 @@ const QUIZZES = {
           "D": "Leucemia y Linfoma de Hodgkin."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Cáncer colorrectal y cáncer de pulmón.",
-          "B": "Cáncer de mama en mujeres y cáncer de próstata en hombres.",
-          "C": "Cáncer de páncreas y cáncer de pulmón.",
-          "D": "Leucemia y Linfoma de Hodgkin."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 179,
@@ -3396,13 +2526,7 @@ const QUIZZES = {
           "D": "Establecer la telemedicina como la única forma de seguimiento oncológico."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "Mejorar la calidad de vida de las personas: de pacientes, supervivientes y de sus familiares y personas cuidadoras.",
-          "B": "Aumentar la cuota de mercado de Osakidetza en el sector oncológico privado.",
-          "C": "Garantizar la presencia equilibrada de ambos sexos en los órganos de gestión sanitaria.",
-          "D": "Establecer la telemedicina como la única forma de seguimiento oncológico."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 180,
@@ -3415,13 +2539,7 @@ const QUIZZES = {
           "D": "Una mayor supervivencia a los 10 años en todos los tumores."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Mayor financiación externa para I+D.",
-          "B": "Menores listas de espera y más personal asistencial.",
-          "C": "Mejores resultados en salud.",
-          "D": "Una mayor supervivencia a los 10 años en todos los tumores."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 181,
@@ -3434,13 +2552,7 @@ const QUIZZES = {
           "D": "Las redes sociales."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La telemonitorización avanzada.",
-          "B": "La diversidad.",
-          "C": "El personal profesional no implicado directamente.",
-          "D": "Las redes sociales."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 182,
@@ -3453,13 +2565,7 @@ const QUIZZES = {
           "D": "La ausencia total de un modelo asistencial común."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La excesiva visibilidad del plan entre profesionales sin implicación.",
-          "B": "La necesidad de aumentar el número de Comités de Tumores.",
-          "C": "La necesidad de reforzar la atención a colectivos específicos (infancia, mayores, personas largas supervivientes).",
-          "D": "La ausencia total de un modelo asistencial común."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 183,
@@ -3472,13 +2578,7 @@ const QUIZZES = {
           "D": "Medidas de Resultados Reportadas por los y las Pacientes."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Plan de Resultados Oncológicos y Metodología de Seguimiento.",
-          "B": "Plan de Riesgos Ocupacionales en Medicina Sanitaria.",
-          "C": "Programa de Rehabilitación Oncológica y Mejora de la Supervivencia.",
-          "D": "Medidas de Resultados Reportadas por los y las Pacientes."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 184,
@@ -3491,13 +2591,7 @@ const QUIZZES = {
           "D": "Eliminación total del cáncer infantil antes de 2030."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Creación de una red de servicios privados de salud.",
-          "B": "Aumentar la esperanza de vida a 90 años.",
-          "C": "Reducir la morbimortalidad evitable y disminuir las desigualdades en salud",
-          "D": "Eliminación total del cáncer infantil antes de 2030."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 185,
@@ -3510,13 +2604,7 @@ const QUIZZES = {
           "D": "Establecer el registro de las voluntades anticipadas y testamentos vitales."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Regular los cuidados paliativos avanzados en el Sistema Nacional de Salud.",
-          "B": "Modificar el Código Penal para despenalizar la asistencia al suicidio.",
-          "C": "Regular el derecho de toda persona a solicitar y recibir la prestación de ayuda para morir y la obligación de las Administraciones de garantizarla.",
-          "D": "Establecer el registro de las voluntades anticipadas y testamentos vitales."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 186,
@@ -3529,13 +2617,7 @@ const QUIZZES = {
           "D": "Tener la nacionalidad española y residencia en el mismo municipio durante los últimos 2 años."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Tener la <span class=\"diff-highlight\">ciudadanía</span> española <span class=\"diff-highlight\">con</span> residencia legal <span class=\"diff-highlight\">ininterrumpida</span> de al menos <span class=\"diff-highlight\">10</span> años.",
-          "B": "Tener la <span class=\"diff-highlight\">nacionalidad</span> española <span class=\"diff-highlight\">o tener</span> residencia legal <span class=\"diff-highlight\">en España</span> de al menos <span class=\"diff-highlight\">5</span> años.",
-          "C": "<span class=\"diff-highlight\">Ser</span> <span class=\"diff-highlight\">mayor</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">edad</span> <span class=\"diff-highlight\">y</span> tener<span class=\"diff-highlight\"> la nacionalidad española,</span> residencia legal <span class=\"diff-highlight\">o</span> <span class=\"diff-highlight\">certificado</span> de <span class=\"diff-highlight\">empadronamiento</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">acredite</span> <span class=\"diff-highlight\">un tiempo de permanencia superior a 12 meses en territorio español.</span>",
-          "D": "Tener la nacionalidad española <span class=\"diff-highlight\">y</span> residencia en <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">mismo</span> <span class=\"diff-highlight\">municipio</span> <span class=\"diff-highlight\">durante</span> <span class=\"diff-highlight\">los últimos 2</span> años."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 187,
@@ -3548,13 +2630,7 @@ const QUIZZES = {
           "D": "Asistencia para morir."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Suicidio médicamente asistido.",
-          "B": "Sedación paliativa profunda.",
-          "C": "Eutanasia.",
-          "D": "Asistencia para morir."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 188,
@@ -3567,13 +2643,7 @@ const QUIZZES = {
           "D": "Sufrir un dolor físico o psíquico que no puede ser tratado con paliativos."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Padecer una enfermedad incurable <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">fase</span> <span class=\"diff-highlight\">terminal</span> <span class=\"diff-highlight\">o</span> un <span class=\"diff-highlight\">deterioro</span> <span class=\"diff-highlight\">funcional grave.</span>",
-          "B": "Sufrir una enfermedad que limite gravemente su autonomía.",
-          "C": "Padecer una enfermedad <span class=\"diff-highlight\">grave</span> <span class=\"diff-highlight\">e</span> <span class=\"diff-highlight\">incurable</span> o un <span class=\"diff-highlight\">padecimiento</span> <span class=\"diff-highlight\">grave,</span> <span class=\"diff-highlight\">crónico e imposibilitante, causantes de un sufrimiento intolerable.</span>",
-          "D": "Sufrir un dolor físico o psíquico que no puede ser tratado con paliativos."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 189,
@@ -3586,13 +2656,7 @@ const QUIZZES = {
           "D": "Una única vez antes de la prestación."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Al menos cada <span class=\"diff-highlight\">7</span> <span class=\"diff-highlight\">días.</span>",
-          "B": "Al menos cada <span class=\"diff-highlight\">15</span> <span class=\"diff-highlight\">días, debiendo dejarse constancia en la historia clínica.</span>",
-          "C": "Al menos cada <span class=\"diff-highlight\">30</span> <span class=\"diff-highlight\">días, si el procedimiento se extiende.</span>",
-          "D": "Una única vez antes de la prestación."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 190,
@@ -3605,13 +2669,7 @@ const QUIZZES = {
           "D": "Derecho a recibir asistencia jurídica de oficio."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Derecho a la reubicación en un puesto de trabajo diferente.",
-          "B": "Derecho a un incremento salarial por la complejidad de la prestación.",
-          "C": "Derecho a la objeción de conciencia.",
-          "D": "Derecho a recibir asistencia jurídica de oficio."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 191,
@@ -3624,13 +2682,7 @@ const QUIZZES = {
           "D": "Una dolencia que ha sido declarada irreversible y con un pronóstico de vida inferior a seis meses."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Aquel que implica la existencia de sufrimiento físico o psíquico constante.",
-          "B": "Aquel que genera una limitación que incide directamente sobre la autonomía física y capacidad de expresar su voluntad de la persona paciente.",
-          "C": "La dependencia de otra persona para la realización de al menos dos actividades básicas de la vida diaria.",
-          "D": "Una dolencia que ha sido declarada irreversible y con un pronóstico de vida inferior a seis meses."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 192,
@@ -3643,13 +2695,7 @@ const QUIZZES = {
           "D": "No existe un plazo establecido para esta comunicación."
         },
         "correcta": "D",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Dentro de las 24 horas siguientes a la resolución.",
-          "B": "Dentro del día siguiente natural a la resolución.",
-          "C": "7 días desde la resolución favorable.",
-          "D": "No existe un plazo establecido para esta comunicación."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 193,
@@ -3662,13 +2708,7 @@ const QUIZZES = {
           "D": "La compatibilidad solo en el ámbito sanitario."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "La libre acumulación de empleos públicos.",
-          "B": "La incompatibilidad para desempeñar más de un puesto en el sector público, salvo excepciones.",
-          "C": "La compatibilidad automática entre empleo público y privado.",
-          "D": "La compatibilidad solo en el ámbito sanitario."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 194,
@@ -3681,13 +2721,7 @@ const QUIZZES = {
           "D": "Dos puestos públicos si pertenecen a distinta Administración."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Dos puestos públicos si <span class=\"diff-highlight\">uno es</span> a <span class=\"diff-highlight\">tiempo</span> <span class=\"diff-highlight\">parcial.</span>",
-          "B": "Un segundo puesto público únicamente con autorización previa y en los supuestos previstos por la Ley.",
-          "C": "Cualquier actividad privada sin limitación.",
-          "D": "Dos puestos públicos si <span class=\"diff-highlight\">pertenecen</span> a <span class=\"diff-highlight\">distinta</span> <span class=\"diff-highlight\">Administración.</span>"
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 195,
@@ -3700,13 +2734,7 @@ const QUIZZES = {
           "D": "Que lo autorice la jefatura inmediata sin más trámites."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Que la actividad sea sanitaria.",
-          "B": "Que no se supere la jornada ordinaria establecida.",
-          "C": "Que no se comprometa la imparcialidad o independencia del personal público.",
-          "D": "Que lo autorice la jefatura inmediata sin más trámites."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 196,
@@ -3719,13 +2747,7 @@ const QUIZZES = {
           "D": "Solo si se trata de diferentes Administraciones autonómicas."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Sí, siempre que no superen el salario mínimo.",
-          "B": "No, salvo en los casos expresamente previstos en la Ley.",
-          "C": "Sí, sin limitación alguna.",
-          "D": "Solo si se trata de diferentes Administraciones autonómicas."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 197,
@@ -3738,13 +2760,7 @@ const QUIZZES = {
           "D": "Solo se devuelve la remuneración percibida."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "No ocurre nada si es fuera del horario laboral.",
-          "B": "Se considera falta leve.",
-          "C": "Puede dar lugar a responsabilidad disciplinaria.",
-          "D": "Solo se devuelve la remuneración percibida."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 198,
@@ -3757,13 +2773,7 @@ const QUIZZES = {
           "D": "Actividades comerciales propias sin límite."
         },
         "correcta": "A",
-        "metodo": "acierto",
-        "diffs": {
-          "A": "Las actividades docentes o de investigación en determinados supuestos.",
-          "B": "Cualquier actividad privada.",
-          "C": "Solo actividades artísticas.",
-          "D": "Actividades comerciales propias sin límite."
-        }
+        "metodo": "acierto"
       },
       {
         "num": 199,
@@ -3776,13 +2786,7 @@ const QUIZZES = {
           "D": "Lo apruebe el personal trabajador del servicio."
         },
         "correcta": "C",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Sea en el mismo centro de trabajo.",
-          "B": "Sea la jornada completa.",
-          "C": "Sea en los supuestos tasados y no se modifique la jornada y horario del puesto principal.",
-          "D": "Lo apruebe el personal trabajador del servicio."
-        }
+        "metodo": "fallo->azul"
       },
       {
         "num": 200,
@@ -3795,13 +2799,7 @@ const QUIZZES = {
           "D": "Reducir el número de personal público."
         },
         "correcta": "B",
-        "metodo": "fallo->azul",
-        "diffs": {
-          "A": "Incrementar los ingresos del personal público.",
-          "B": "Garantizar la dedicación y la imparcialidad en el servicio público.",
-          "C": "Permitir la pluriactividad generalizada.",
-          "D": "Reducir el número de personal público."
-        }
+        "metodo": "fallo->azul"
       }
     ]
   }
