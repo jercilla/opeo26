@@ -36,10 +36,10 @@ TESTS = {
         'num':    200,
         'label':  'Temario comun. Categorias A, B y C1. 200 preguntas',
     },
-    'general_A_B_C1_300': {
+    'general_C2_C3_D_E': {
         'aukera': 'ope26osakicomun300',
         'num':    300,
-        'label':  'Temario comun. Categorias A, B y C1. 300 preguntas',
+        'label':  'Temario comun. Categorias C2, C3, D y E. 300 preguntas',
     },
 }
 

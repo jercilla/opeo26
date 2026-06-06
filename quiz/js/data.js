@@ -2803,8 +2803,8 @@ const QUIZZES = {
       }
     ]
   },
-  "general_A_B_C1_300": {
-    "label": "General A, B y C1",
+  "general_C2_C3_D_E": {
+    "label": "General C2, C3, D y E",
     "meta": "300 preguntas - Temario comun",
     "questions": [
       {
