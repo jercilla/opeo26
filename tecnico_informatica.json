@@ -420,12 +420,12 @@
     "idpregunta": 33,
     "pregunta": "33.- ¿Qué estándar IEEE 802 define específicamente la tecnología Ethernet para redes cableadas?",
     "opciones": {
-      "A": "IEEE 802.",
-      "B": "IEEE 802.",
-      "C": "IEEE 802.",
-      "D": "IEEE 802."
+      "A": "IEEE 802.11",
+      "B": "IEEE 802.5",
+      "C": "IEEE 802.3",
+      "D": "IEEE 802.4"
     },
-    "correcta": "D",
+    "correcta": "C",
     "metodo": "estimado_manual"
   },
   {
@@ -869,8 +869,13 @@
   {
     "num": 68,
     "idpregunta": 68,
-    "pregunta": "68.- Según las Leyes de Lehman sobre el mantenimiento del software, la Ley de Continuidad",
-    "opciones": {},
+    "pregunta": "68.- Segun las Leyes de Lehman sobre el mantenimiento del software, la Ley de Continuidad del Cambio establece que:",
+    "opciones": {
+      "A": "Que tan pronto como un programa ha sido escrito, esta ya desfasado.",
+      "B": "Que cuando hay cambios en un programa la estructura se hace mas compleja.",
+      "C": "Que la evolucion de un programa es un proceso autorregulado.",
+      "D": "Que a lo largo del tiempo de vida de un programa, la carga que supone el desarrollo del programa es constante."
+    },
     "correcta": "C",
     "metodo": "estimado_manual"
   },

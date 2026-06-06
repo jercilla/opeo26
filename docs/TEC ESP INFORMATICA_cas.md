@@ -297,10 +297,10 @@ d) Topología en malla.
     cableadas?
 
 ```
-a) IEEE 802.
-b) IEEE 802.
-c) IEEE 802.
-d) IEEE 802.
+a) IEEE 802.11
+b) IEEE 802.5
+c) IEEE 802.3
+d) IEEE 802.4
 ```
 34. En transmisión de datos, ¿qué relación existe entre ancho de banda y velocidad de
     transmisión?
