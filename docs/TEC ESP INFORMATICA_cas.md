@@ -841,9 +841,6 @@ d) ServerScope.
 ```
 a) Windows Defender SmartScreen.
 b) AppLocker.
-```
-
-```
 c) Device Guard.
 d) Credential Guard.
 ```

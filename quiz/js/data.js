@@ -16126,7 +16126,9 @@ const QUIZZES = {
         "pregunta": "88.- En Windows 11, ¿qué herramienta controla la ejecución de aplicaciones basándose en reglas?",
         "opciones": {
           "A": "Windows Defender SmartScreen.",
-          "B": "AppLocker."
+          "B": "AppLocker.",
+          "C": "Device Guard.",
+          "D": "Credential Guard."
         },
         "correcta": "B",
         "metodo": "estimado_manual"
