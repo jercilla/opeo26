@@ -36,19 +36,41 @@
 
         <h1>OPE Osakidetza 2026</h1>
 
+        <div id="quizzes-list"></div>
+      </div>
+    </section>
+
+    <!-- Pantalla: configuracion de sesion -->
+    <section id="screen-session" class="screen hidden">
+      <div class="container">
+        <header class="menu-header">
+          <button class="btn-icon" id="btn-back-from-session" title="Volver">&#8592;</button>
+        </header>
+        <h1 id="session-quiz-title">Quiz</h1>
+
+        <div class="session-resume hidden" id="session-resume-box">
+          <p>Tienes una sesion en curso: <strong id="session-resume-text"></strong></p>
+          <button class="btn btn-primary btn-block" id="btn-continue-session">Continuar sesion</button>
+        </div>
+
         <div class="mode-selector">
-          <h3>Modo de juego</h3>
+          <h3>Nueva sesion</h3>
           <label class="mode-option">
-            <input type="radio" name="mode" value="sequential" checked>
+            <input type="radio" name="session-mode" value="sequential" checked id="radio-sequential">
             <span class="mode-label">Secuencial</span>
           </label>
           <label class="mode-option">
-            <input type="radio" name="mode" value="random">
+            <input type="radio" name="session-mode" value="random" id="radio-random">
             <span class="mode-label">Aleatorio</span>
           </label>
         </div>
 
-        <div id="quizzes-list"></div>
+        <div class="start-num-box" id="start-num-box">
+          <label for="start-num">Empezar en pregunta</label>
+          <input type="number" id="start-num" min="1" value="1">
+        </div>
+
+        <button class="btn btn-primary btn-block" id="btn-start-session">Empezar</button>
       </div>
     </section>
 

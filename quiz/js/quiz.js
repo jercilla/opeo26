@@ -28,18 +28,47 @@ const Quiz = (() => {
     return a;
   }
 
-  function start(u, slug, mode) {
-    user = u;
-    quizSlug = slug;
-    questions = QUIZZES[slug].questions;
-    if (mode === 'random') {
-      order = shuffle(questions.map((_, i) => i));
-    } else {
-      order = questions.map((_, i) => i);
+  function start(config) {
+    user = config.user;
+    quizSlug = config.slug;
+    questions = QUIZZES[quizSlug].questions;
+
+    if (config.resume) {
+      const saved = State.getSession(user, quizSlug);
+      if (saved) {
+        order = saved.order;
+        idx = saved.idx;
+        session = saved.session || { aciertos: 0, fallos: 0 };
+        renderQuestion();
+        return;
+      }
     }
-    idx = 0;
+
+    State.clearSession(user, quizSlug);
     session = { aciertos: 0, fallos: 0 };
+
+    if (config.mode === 'random') {
+      // Descartar preguntas ya respondidas en este quiz por este usuario
+      const pp = State.getPorPregunta(user, quizSlug);
+      const answeredIds = new Set(Object.keys(pp).map(Number));
+      let pool = questions.map((_, i) => i).filter(i => !answeredIds.has(questions[i].idpregunta));
+      if (pool.length === 0) {
+        pool = questions.map((_, i) => i);
+      }
+      order = shuffle(pool);
+    } else {
+      const startNum = Math.max(1, Math.min(questions.length, config.startNum || 1));
+      order = [];
+      for (let i = startNum - 1; i < questions.length; i++) order.push(i);
+    }
+
+    idx = 0;
+    saveProgress();
     renderQuestion();
+  }
+
+  function saveProgress() {
+    State.setSession(user, quizSlug, { order, idx, session });
   }
 
   function renderQuestion() {
@@ -85,6 +114,7 @@ const Quiz = (() => {
     if (acierto) session.aciertos++; else session.fallos++;
 
     Stats.record(user, quizSlug, current.idpregunta, correct, selectedLetter);
+    saveProgress();
 
     Array.from(els.options.children).forEach(btn => {
       const l = btn.dataset.letter;
@@ -104,7 +134,9 @@ const Quiz = (() => {
   function next() {
     idx++;
     selectedLetter = null;
+    saveProgress();
     if (idx >= order.length) {
+      State.clearSession(user, quizSlug);
       showResults();
       return;
     }

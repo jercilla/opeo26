@@ -1,9 +1,11 @@
 const App = (() => {
   let currentUser = null;
+  let selectedQuizSlug = null;
 
   const screens = {
     users: document.getElementById('screen-users'),
     menu: document.getElementById('screen-menu'),
+    session: document.getElementById('screen-session'),
     quiz: document.getElementById('screen-quiz'),
     results: document.getElementById('screen-results'),
   };
@@ -49,19 +51,52 @@ const App = (() => {
           <div class="stat"><span class="stat-value">${g.total_aciertos}</span><span class="stat-label">Aciertos</span></div>
           <div class="stat"><span class="stat-value">${g.total_fallos}</span><span class="stat-label">Fallos</span></div>
         </div>
-        <button class="btn btn-primary btn-block btn-start-quiz" data-slug="${escapeHtml(slug)}">Empezar</button>
+        <button class="btn btn-primary btn-block btn-open-session" data-slug="${escapeHtml(slug)}">Empezar</button>
       `;
       container.appendChild(card);
     });
 
-    container.querySelectorAll('.btn-start-quiz').forEach(btn => {
+    container.querySelectorAll('.btn-open-session').forEach(btn => {
       btn.addEventListener('click', () => {
-        const slug = btn.dataset.slug;
-        const mode = document.querySelector('input[name="mode"]:checked').value;
-        Quiz.start(currentUser, slug, mode);
-        show('quiz');
+        selectedQuizSlug = btn.dataset.slug;
+        goSession(selectedQuizSlug);
       });
     });
+  }
+
+  function goSession(slug) {
+    const quiz = QUIZZES[slug];
+    document.getElementById('session-quiz-title').textContent = quiz.label;
+
+    // Check saved session
+    const saved = State.getSession(currentUser, slug);
+    const resumeBox = document.getElementById('session-resume-box');
+    if (saved && saved.order && saved.idx < saved.order.length) {
+      document.getElementById('session-resume-text').textContent =
+        `pregunta ${saved.idx + 1} de ${saved.order.length}`;
+      resumeBox.classList.remove('hidden');
+    } else {
+      resumeBox.classList.add('hidden');
+    }
+
+    // Reset start num
+    document.getElementById('start-num').value = 1;
+    document.getElementById('start-num').max = quiz.questions.length;
+    toggleStartNumBox();
+
+    show('session');
+  }
+
+  function toggleStartNumBox() {
+    const isSequential = document.getElementById('radio-sequential').checked;
+    document.getElementById('start-num-box').classList.toggle('hidden', !isSequential);
+  }
+
+  function startSession(resume) {
+    const mode = document.querySelector('input[name="session-mode"]:checked').value;
+    const startNum = parseInt(document.getElementById('start-num').value, 10) || 1;
+    Quiz.start({ user: currentUser, slug: selectedQuizSlug, mode, startNum, resume });
+    show('quiz');
   }
 
   function goUsers() {
@@ -96,10 +131,17 @@ const App = (() => {
       }
     });
 
+    document.getElementById('radio-sequential').addEventListener('change', toggleStartNumBox);
+    document.getElementById('radio-random').addEventListener('change', toggleStartNumBox);
+
+    document.getElementById('btn-back-from-session').addEventListener('click', goMenu);
+    document.getElementById('btn-start-session').addEventListener('click', () => startSession(false));
+    document.getElementById('btn-continue-session').addEventListener('click', () => startSession(true));
+
     document.getElementById('btn-validate').addEventListener('click', () => Quiz.validate());
     document.getElementById('btn-next').addEventListener('click', () => Quiz.next());
     document.getElementById('btn-quit-quiz').addEventListener('click', () => {
-      if (confirm('Salir del quiz? El progreso de esta sesion no se guardara.')) {
+      if (confirm('Salir del quiz? El progreso se guarda automaticamente.')) {
         goMenu();
       }
     });

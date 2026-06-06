@@ -32,5 +32,20 @@ const State = (() => {
     set(user, 'por_pregunta', all);
   }
 
-  return { get, set, getGlobal, setGlobal, getPorPregunta, setPorPregunta };
+  function getSession(user, quizSlug) {
+    const all = get(user, 'session', {});
+    return all[quizSlug] || null;
+  }
+  function setSession(user, quizSlug, data) {
+    const all = get(user, 'session', {});
+    all[quizSlug] = data;
+    set(user, 'session', all);
+  }
+  function clearSession(user, quizSlug) {
+    const all = get(user, 'session', {});
+    delete all[quizSlug];
+    set(user, 'session', all);
+  }
+
+  return { get, set, getGlobal, setGlobal, getPorPregunta, setPorPregunta, getSession, setSession, clearSession };
 })();
