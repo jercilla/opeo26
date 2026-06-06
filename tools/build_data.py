@@ -108,30 +108,49 @@ def process_question(q, threshold=15):
     q['diffs'] = diffs
     return q
 
+QUIZ_SOURCES = [
+    {
+        'slug': 'general_A_B_C1',
+        'file': 'general_A_B_C1.last.json',
+        'label': 'General A, B y C1',
+        'meta': '200 preguntas - Temario comun',
+    },
+    {
+        'slug': 'general_A_B_C1_300',
+        'file': 'general_A_B_C1_300.last.json',
+        'label': 'General A, B y C1',
+        'meta': '300 preguntas - Temario comun',
+    },
+]
+
 def main():
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    src = os.path.join(root, 'general_A_B_C1.last.json')
     dst = os.path.join(root, 'quiz', 'js', 'data.js')
 
-    with open(src, encoding='utf-8') as f:
-        questions = json.load(f)
-
-    processed = [process_question(q) for q in questions]
-
-    quizzes = {
-        'general_A_B_C1': {
-            'label': 'General A, B y C1',
-            'meta': '200 preguntas - Temario comun',
-            'questions': processed
+    quizzes = {}
+    total = 0
+    for src_cfg in QUIZ_SOURCES:
+        src = os.path.join(root, src_cfg['file'])
+        if not os.path.exists(src):
+            print(f'[SKIP] {src} no encontrado')
+            continue
+        with open(src, encoding='utf-8') as f:
+            questions = json.load(f)
+        processed = [process_question(q) for q in questions]
+        quizzes[src_cfg['slug']] = {
+            'label': src_cfg['label'],
+            'meta': src_cfg['meta'],
+            'questions': processed,
         }
-    }
+        total += len(processed)
+        print(f'[OK] {src_cfg["slug"]}: {len(processed)} preguntas')
 
     with open(dst, 'w', encoding='utf-8') as f:
         f.write('const QUIZZES = ')
         json.dump(quizzes, f, ensure_ascii=False, indent=2)
         f.write(';\n')
 
-    print(f'Generado {dst} con {len(processed)} preguntas y diffs precalculados.')
+    print(f'Generado {dst} con {total} preguntas totales y diffs precalculados.')
 
 if __name__ == '__main__':
     main()

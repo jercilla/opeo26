@@ -36,8 +36,11 @@ TESTS = {
         'num':    200,
         'label':  'Temario comun. Categorias A, B y C1. 200 preguntas',
     },
-    # Ejemplo para el siguiente (rellenar 'aukera' y 'num' cuando lo tengas):
-    # 'especifico_X': {'aukera': 'ope26osaki....', 'num': 100, 'label': '...'},
+    'general_A_B_C1_300': {
+        'aukera': 'ope26osakicomun300',
+        'num':    300,
+        'label':  'Temario comun. Categorias A, B y C1. 300 preguntas',
+    },
 }
 
 def paths(slug):
