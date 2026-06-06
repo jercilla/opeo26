@@ -51,6 +51,11 @@ TESTS = {
         'num':    200,
         'label':  'Operario',
     },
+    'auxiliar_administrativo': {
+        'aukera': 'ope26osakiaux',
+        'num':    200,
+        'label':  'Auxiliar Administrativo',
+    },
 }
 
 def paths(slug):

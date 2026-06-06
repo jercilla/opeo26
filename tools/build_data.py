@@ -133,6 +133,12 @@ QUIZ_SOURCES = [
         'label': 'Operario',
         'meta': '200 preguntas',
     },
+    {
+        'slug': 'auxiliar_administrativo',
+        'file': 'auxiliar_administrativo.last.json',
+        'label': 'Auxiliar Administrativo',
+        'meta': '200 preguntas',
+    },
 ]
 
 def main():
