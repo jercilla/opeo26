@@ -10,7 +10,7 @@ body {
 .screen:not(.hidden) { display: block; }
 .hidden { display: none !important; }
 
-h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem; text-align: center; color: #0f172a; }
+h1 { font-size: 1.75rem; font-weight: 800; margin-bottom: 0.75rem; text-align: center; color: #0f172a; }
 h2 { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.25rem; }
 h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; }
 .subtitle { text-align: center; color: #94a3b8; margin-bottom: 1.5rem; font-size: 0.95rem; }
@@ -52,12 +52,12 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 /* Menu */
 .menu-header {
   display: flex; align-items: center; justify-content: space-between;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem; font-size: 1.1rem;
 }
 .user-badge {
-  display: flex; align-items: center; gap: 0.4rem; color: #64748b; font-size: 0.95rem;
+  display: flex; align-items: center; gap: 0.4rem; color: #64748b;
 }
-.user-name { font-weight: 600; color: #0f172a; }
+.user-name { font-weight: 700; color: #0f172a; }
 
 .quiz-card {
   background: #fff; border: 1px solid #cbd5e1; border-radius: 1rem;
@@ -95,9 +95,10 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 /* Quiz */
 .quiz-header {
   display: flex; align-items: center; justify-content: space-between;
-  margin-bottom: 1rem; font-size: 0.85rem; color: #64748b;
+  margin-bottom: 1rem; font-size: 1rem; color: #0f172a;
 }
-.quiz-score { font-weight: 600; }
+.quiz-progress { font-weight: 700; }
+.quiz-score { font-weight: 700; }
 
 .question-card {
   background: #fff; border: 1px solid #cbd5e1; border-radius: 1rem;
