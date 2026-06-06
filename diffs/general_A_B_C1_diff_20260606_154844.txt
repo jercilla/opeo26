@@ -1,0 +1,12 @@
+======================================================================
+DIFF respuestas OPE Osakidetza
+  prev: osakidetza_respuestas.prev.json
+  last: osakidetza_respuestas.last.json @ 20260606_154844
+======================================================================
+Cambios de respuesta correcta: 0
+Otros cambios (texto/opciones):  0
+Preguntas nuevas: []
+Preguntas eliminadas: []
+Sin respuesta detectada: []
+
+(sin cambios)

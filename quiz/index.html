@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#1e3a5f">
+  <title>Quiz OPE Osakidetza</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Pantalla: gestion de usuarios -->
+    <section id="screen-users" class="screen hidden">
+      <div class="container">
+        <h1>Perfiles</h1>
+        <p class="subtitle">Elige un perfil o crea uno nuevo</p>
+        <div id="users-list" class="users-list"></div>
+        <form id="new-user-form" class="new-user-form">
+          <input type="text" id="new-user-name" placeholder="Nombre del perfil" maxlength="20" autocomplete="off">
+          <button type="submit" class="btn btn-primary">Crear perfil</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Pantalla: menu principal -->
+    <section id="screen-menu" class="screen hidden">
+      <div class="container">
+        <header class="menu-header">
+          <div class="user-badge" id="menu-user-badge">
+            <span class="user-icon">&#128100;</span>
+            <span class="user-name" id="current-user-name">-</span>
+          </div>
+          <button class="btn-icon" id="btn-switch-user" title="Cambiar perfil">&#9881;</button>
+        </header>
+
+        <h1>OPE Osakidetza 2026</h1>
+
+        <div class="quiz-card">
+          <h2>General A, B y C1</h2>
+          <p class="quiz-meta">200 preguntas - Temario comun</p>
+          <button class="btn btn-primary btn-block" id="btn-start">Empezar</button>
+        </div>
+
+        <div class="mode-selector">
+          <h3>Modo de juego</h3>
+          <label class="mode-option">
+            <input type="radio" name="mode" value="sequential" checked>
+            <span class="mode-label">Secuencial</span>
+          </label>
+          <label class="mode-option">
+            <input type="radio" name="mode" value="random">
+            <span class="mode-label">Aleatorio</span>
+          </label>
+        </div>
+
+        <div class="stats-preview" id="global-stats">
+          <div class="stat"><span class="stat-value" id="stat-total">0</span><span class="stat-label">Respondidas</span></div>
+          <div class="stat"><span class="stat-value" id="stat-aciertos">0</span><span class="stat-label">Aciertos</span></div>
+          <div class="stat"><span class="stat-value" id="stat-fallos">0</span><span class="stat-label">Fallos</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pantalla: quiz -->
+    <section id="screen-quiz" class="screen hidden">
+      <div class="container">
+        <header class="quiz-header">
+          <button class="btn-icon" id="btn-quit-quiz" title="Volver al menu">&#8592;</button>
+          <span class="quiz-progress" id="quiz-progress">1 / 200</span>
+          <span class="quiz-score" id="quiz-score">&#9989; 0 - &#10060; 0</span>
+        </header>
+
+        <div class="question-card">
+          <p class="question-text" id="question-text">Cargando...</p>
+          <div class="options-list" id="options-list"></div>
+        </div>
+
+        <div class="quiz-actions">
+          <button class="btn btn-primary btn-block" id="btn-validate">Validar</button>
+          <button class="btn btn-secondary btn-block hidden" id="btn-next">Siguiente</button>
+        </div>
+
+        <div class="feedback hidden" id="feedback">
+          <p class="feedback-text" id="feedback-text"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pantalla: resultados de sesion -->
+    <section id="screen-results" class="screen hidden">
+      <div class="container">
+        <h1>Resultados</h1>
+        <div class="result-summary">
+          <div class="result-circle">
+            <span class="result-value" id="result-aciertos">0</span>
+            <span class="result-label">aciertos</span>
+          </div>
+          <div class="result-circle result-wrong">
+            <span class="result-value" id="result-fallos">0</span>
+            <span class="result-label">fallos</span>
+          </div>
+        </div>
+        <p class="result-detail" id="result-detail">0 de 0 preguntas</p>
+        <button class="btn btn-primary btn-block" id="btn-back-menu">Volver al menu</button>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/users.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/stats.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
