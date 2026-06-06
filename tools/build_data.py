@@ -121,6 +121,18 @@ QUIZ_SOURCES = [
         'label': 'General C2, C3, D y E',
         'meta': '300 preguntas - Temario comun',
     },
+    {
+        'slug': 'celador',
+        'file': 'celador.last.json',
+        'label': 'Celador',
+        'meta': '200 preguntas',
+    },
+    {
+        'slug': 'operario',
+        'file': 'operario.last.json',
+        'label': 'Operario',
+        'meta': '200 preguntas',
+    },
 ]
 
 def main():

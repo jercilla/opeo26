@@ -7044,5 +7044,5247 @@ const QUIZZES = {
         "metodo": "fallo->azul"
       }
     ]
+  },
+  "celador": {
+    "label": "Celador",
+    "meta": "200 preguntas",
+    "questions": [
+      {
+        "num": 1,
+        "idpregunta": 1,
+        "pregunta": "1.- En Osakidetza, para todos los tipos de jornada, excepto la nocturna, el trabajo efectivo anual a realizar en concepto de jornada ordinaria será de:",
+        "opciones": {
+          "A": "1592 horas.",
+          "B": "1433 horas.",
+          "C": "1447 horas.",
+          "D": "1492 horas."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 2,
+        "idpregunta": 2,
+        "pregunta": "2.- Podrá acogerse a la exención de trabajo nocturno el personal mayor de:",
+        "opciones": {
+          "A": "60 años.",
+          "B": "55 años.",
+          "C": "50 años.",
+          "D": "62 años."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 3,
+        "idpregunta": 3,
+        "pregunta": "3.- Al personal mayor de 60 años que preste sus servicios en régimen de turnos rotatorios se le aplicará a la hora nocturna el factor multiplicador que se señala a continuación:",
+        "opciones": {
+          "A": "1,15.",
+          "B": "1,25.",
+          "C": "1,20.",
+          "D": "1,10."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 4,
+        "idpregunta": 4,
+        "pregunta": "4.- Con carácter general, la jornada normalizada diaria será de:",
+        "opciones": {
+          "A": "6 horas.",
+          "B": "6 horas y 30 minutos.",
+          "C": "7 horas.",
+          "D": "7 horas y 30 minutos."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 5,
+        "idpregunta": 5,
+        "pregunta": "5.- En el ámbito de osakidetza, durante el disfrute por el personal de las vacaciones reglamentarias:",
+        "opciones": {
+          "A": "No se podrá hacer uso de las licencias, pero sí de los permisos.",
+          "B": "Se podrá hacer uso de las licencias, en los casos establecidos.",
+          "C": "No se podrá hacer uso de las licencias o permisos retribuidos.",
+          "D": "Se podrá hacer uso de las licencias o permisos, sin retribución."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 6,
+        "idpregunta": 6,
+        "pregunta": "6.- Mantener al paciente en bipedestación está indicado para:",
+        "opciones": {
+          "A": "La realización de una punción lumbar.",
+          "B": "La realización de pruebas ginecológica.",
+          "C": "La realización de pruebas radiológicas.",
+          "D": "Cambios posturales."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 7,
+        "idpregunta": 7,
+        "pregunta": "7.- Describa la posición genupectoral:",
+        "opciones": {
+          "A": "De rodillas e inclinado hacia delante.",
+          "B": "Boca abajo.",
+          "C": "Tumbado de lado en posición fetal.",
+          "D": "Boca arriba con manos en el pecho."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 8,
+        "idpregunta": 8,
+        "pregunta": "8.- Los arneses de uso en pacientes:",
+        "opciones": {
+          "A": "Son desechados tras su uso.",
+          "B": "Se utilizan para inmovilizar al paciente.",
+          "C": "Tras su uso por el paciente se envían a la lavandería.",
+          "D": "Son de talla única."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 9,
+        "idpregunta": 9,
+        "pregunta": "9.- El ecógrafo realiza exploraciones utilizando:",
+        "opciones": {
+          "A": "Ondas electromagnéticas.",
+          "B": "Ultrasonidos.",
+          "C": "Rayos X.",
+          "D": "Ninguna de las respuestas anteriores es correcta."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 10,
+        "idpregunta": 10,
+        "pregunta": "10.- Defina temperatura de ignición:",
+        "opciones": {
+          "A": "Temperatura a la cual una sustancia comienza a desprender vapores en cantidad suficiente para mantener la combustión.",
+          "B": "Temperatura a la cual una sustancia puede llegar a arder en determinadas condiciones ambientales.",
+          "C": "Temperatura a la cual una sustancia empieza a arder espontáneamente.",
+          "D": "Ninguna de las anteriores afirmaciones es correcta."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 11,
+        "idpregunta": 11,
+        "pregunta": "11.- El agua es el agente extintor por excelencia pero uno de sus inconvenientes es:",
+        "opciones": {
+          "A": "Provoca daños excesivos en la estructura y mobiliario de los edificios.",
+          "B": "Requiere equipos de bombeo.",
+          "C": "Es inadecuado para fuegos de materiales sólidos.",
+          "D": "Conduce la electricidad."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 12,
+        "idpregunta": 12,
+        "pregunta": "12.- En caso de accidente biológico, ¿cuánto tiempo se recomienda limpiar la herida bajo el agua?",
+        "opciones": {
+          "A": "2 o 3 minutos induciendo el sangrado.",
+          "B": "Hasta que deje de sangrar la herida.",
+          "C": "2 o tres minutos restregando suavemente la herida.",
+          "D": "No está recomendado limpiar con agua."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 13,
+        "idpregunta": 13,
+        "pregunta": "13.- Durante el transcurso de la licencia por enfermedad:",
+        "opciones": {
+          "A": "El trabajador podrá realizar actividades lucrativas.",
+          "B": "El trabajador percibirá las retribuciones en los porcentajes establecidos legalmente.",
+          "C": "El trabajador podrá superar el periodo de contratación estipulado.",
+          "D": "El trabajador podrá ser despedido."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 14,
+        "idpregunta": 14,
+        "pregunta": "14.- El prefijo EPI indica la posición:",
+        "opciones": {
+          "A": "Encima.",
+          "B": "Debajo.",
+          "C": "Lateral.",
+          "D": "Inferior."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 15,
+        "idpregunta": 15,
+        "pregunta": "15.- Para que una combustión sea posible es necesaria la presencia de:",
+        "opciones": {
+          "A": "Humedad relativa baja.",
+          "B": "Ozono.",
+          "C": "Comburente.",
+          "D": "Humedad relativa alta."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 16,
+        "idpregunta": 16,
+        "pregunta": "16.- En caso de sufrir una agresión en el trabajo, ¿qué es lo que NO debe hacer?",
+        "opciones": {
+          "A": "Identificar al agresor y retenerlo hasta la llegada de la policía.",
+          "B": "Comunicar la agresión a su responsable inmediato.",
+          "C": "Si requiere asistencia sanitaria acudir a la Unidad Básica de Prevención.",
+          "D": "Cumplimentar el formulario correspondiente."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 17,
+        "idpregunta": 17,
+        "pregunta": "17.- Indique la respuesta correcta sobre la posición de Roser:",
+        "opciones": {
+          "A": "Persona tumbada boca arriba.",
+          "B": "Paciente tumbado boca abajo, con la cabeza ladeada.",
+          "C": "Paciente boca arriba, con la cabeza colgando por la parte superior de la cama.",
+          "D": "Paciente tumbado boca arriba, en un plano oblicuo de 45o, con la cabeza más baja que los pies."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 18,
+        "idpregunta": 18,
+        "pregunta": "18.- ¿Cuál es la indicación de posición en un paciente con problemas cardiacos y respiratorios?",
+        "opciones": {
+          "A": "Tremdelemburg.",
+          "B": "Fowler.",
+          "C": "Decúbito supino.",
+          "D": "Decúbito lateral."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 19,
+        "idpregunta": 19,
+        "pregunta": "19.- ¿Cómo se denomina a la posición en la que el paciente se encuentra vertical sobre los pies?",
+        "opciones": {
+          "A": "Decúbito supino.",
+          "B": "Decúbito frontal.",
+          "C": "Tremdelemburg",
+          "D": "Bipedestación."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 20,
+        "idpregunta": 20,
+        "pregunta": "20.- ¿En qué posición se colocará a un paciente inconsciente?",
+        "opciones": {
+          "A": "Sims.",
+          "B": "Genupectoral.",
+          "C": "Decúbito supino.",
+          "D": "Decúbito lateral."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 21,
+        "idpregunta": 21,
+        "pregunta": "21.- En la posición decúbito lateral, ¿cómo se encontrará el paciente?",
+        "opciones": {
+          "A": "Inconsciente.",
+          "B": "Tumbado y en posición fetal.",
+          "C": "De rodillas e inclinado hacia delante.",
+          "D": "Tumbado de lado y con la pierna superior flexionada en ángulo recto."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 22,
+        "idpregunta": 22,
+        "pregunta": "22.- Como norma general, ¿en qué posición encontraremos a un paciente consciente que está recibiendo oxigenoterapia en la cama?",
+        "opciones": {
+          "A": "Decúbito supino.",
+          "B": "Decúbito prono.",
+          "C": "Sentado.",
+          "D": "Bipedestación."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 23,
+        "idpregunta": 23,
+        "pregunta": "23.- Indique la respuesta correcta sobre la posición de Morestin:",
+        "opciones": {
+          "A": "Paciente en decúbito supino con la cabeza más baja que los pies.",
+          "B": "Paciente en decúbito supino con la cabeza más alta que los pies.",
+          "C": "Paciente en decúbito prono.",
+          "D": "Paciente decúbito supino con las piernas elevadas y flexionadas."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 24,
+        "idpregunta": 24,
+        "pregunta": "24.- Entre los pasos posteriores a la movilización de un paciente:",
+        "opciones": {
+          "A": "Dejarlo acomodado, volver a colocar sueros en su lugar y verificar su seguridad.",
+          "B": "Adoptar mecánica postural y retirar los objetos que le puedan molestar.",
+          "C": "Frenar la cama e informar al paciente.",
+          "D": "Todas son correctas."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 25,
+        "idpregunta": 25,
+        "pregunta": "25.- En caso de movilizar a una persona con múltiples traumatismos, indique la respuesta correcta:",
+        "opciones": {
+          "A": "Dependerá si el paciente puede colaborar.",
+          "B": "Se le desplazará agarrándole por las axilas.",
+          "C": "Se le desplazará con una transfer entre dos o más personas.",
+          "D": "Se le desplazará en bloque."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 26,
+        "idpregunta": 26,
+        "pregunta": "26.- En el movimiento hacia un lateral de la cama, estando la persona inconsciente, en decúbito supino, realizando el movimiento entre dos personas:",
+        "opciones": {
+          "A": "Una persona pasará los brazos por debajo de las axilas y la otra persona cogerá al paciente por rodillas y muslos.",
+          "B": "Doblaremos la rodilla del paciente contraria al sentido del giro.",
+          "C": "Doblaremos la rodilla del paciente del lado del sentido del giro.",
+          "D": "Todas son correctas."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 27,
+        "idpregunta": 27,
+        "pregunta": "27.- En el movimiento del paciente de plano a plano en el procedimiento con dos personas, indique la respuesta INCORRECTA:",
+        "opciones": {
+          "A": "Se coloca una persona a cada lado, cada una coge la sábana lo más próximo posible al paciente.",
+          "B": "El cabecero de uno de los planos se coloca en el piecero del otro, o viceversa, para quedar los dos en ángulo recto y perpendiculares.",
+          "C": "La persona más alejada del paciente apoyará su rodilla en el plano vacío para ayudarse en la movilización.",
+          "D": "Colocar los dos planos a la misma altura, si es posible. Inmovilizar ambos y cubrir el hueco entre ambos."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 28,
+        "idpregunta": 28,
+        "pregunta": "28.- Cuando realizamos el movimiento del paciente hacia la cabecera de la cama sin ayuda del paciente, éste lo deberá realizar, como mínimo:",
+        "opciones": {
+          "A": "Una sola persona.",
+          "B": "Dos personas.",
+          "C": "Tres personas.",
+          "D": "Cuatro personas."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 29,
+        "idpregunta": 29,
+        "pregunta": "29.- El movimiento del paciente de la cama al sillón, cuando realizamos el procedimiento entre dos personas, sin colaboración del paciente, entre los pasos a realizar encontramos:",
+        "opciones": {
+          "A": "Sujetamos al paciente por los hombros y las rodillas, le giramos hasta sentarlo al borde de la cama.",
+          "B": "Flexionamos las rodillas para abrazar ligeramente al paciente por la cintura para ayudarle a incorporarse de pie y a continuación en un cuarto de giro le sentamos en la silla o sillón.",
+          "C": "a) y b) son correctas.",
+          "D": "Una persona se pondrá al lado de la cabecera de la cama, en un costado. El otro se pone en el costado a la altura de la zona lumbar del paciente. Entre los dos, queda la silla en la que lo vamos a sentar."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 30,
+        "idpregunta": 30,
+        "pregunta": "30.- Entre los dispositivos y materiales para ayudar en la movilización se encuentran, indique la respuesta correcta:",
+        "opciones": {
+          "A": "Discos giratorios.",
+          "B": "Bastón.",
+          "C": "Silla de ruedas.",
+          "D": "Cama o camilla."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 31,
+        "idpregunta": 31,
+        "pregunta": "31.- En cuanto a las grúas, ¿qué tipos de grúas podemos encontrar?",
+        "opciones": {
+          "A": "Eléctrica, mecánica e hidráulica.",
+          "B": "Eléctrica enchufable y eléctrica con batería.",
+          "C": "Hidráulica y manual.",
+          "D": "Mecánica y manual."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 32,
+        "idpregunta": 32,
+        "pregunta": "32.- Para colocar al paciente el arnés de una grúa desde una posición de decúbito lateral:",
+        "opciones": {
+          "A": "Colocar al enfermo en decúbito lateral y pasar el arnés por debajo de la entremetida.",
+          "B": "Colocar al enfermo en decúbito supino y pasar el arnés de arriba-abajo por detrás y por debajo de una sábana entremetida.",
+          "C": "Colocar al enfermo en decúbito prono y pasar el arnés de abajo-arriba por detrás y por encima de una sábana entremetida.",
+          "D": "Todas son correctas."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 33,
+        "idpregunta": 33,
+        "pregunta": "33.- ¿Cuál es la finalidad principal de un purifica de ambiente?",
+        "opciones": {
+          "A": "Se utiliza para vaporizar o dispersar un líquido en partículas muy finas para su inhalación.",
+          "B": "Dispositivo utilizado para eliminar del aire sustancias contaminantes.",
+          "C": "Aparato destinado a calentar las camas de los pacientes antes de su ingreso.",
+          "D": "Equipo diseñado exclusivamente para la esterilización por calor seco del material quirúrgico."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 34,
+        "idpregunta": 34,
+        "pregunta": "34.- Respecto a las grúas: (Indique la respuesta INCORRECTA):",
+        "opciones": {
+          "A": "Están equipadas con arnés.",
+          "B": "Se emplean para la movilización de pacientes.",
+          "C": "Permite al paciente caminar con mayor seguridad.",
+          "D": "Algunos modelos incorporan un sistema de camillas de cintas para levantar horizontalmente al paciente."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 35,
+        "idpregunta": 35,
+        "pregunta": "35.- Para colocar adecuadamente el arnés en la grúa, para enganchar las bandas:",
+        "opciones": {
+          "A": "Se debe enganchar en primer lugar la zona del cuerpo y posteriormente las piernas.",
+          "B": "Se debe enganchar en primer lugar las piernas y posteriormente el cuerpo.",
+          "C": "Se debe enganchar en primer lugar el lateral no dominante y posteriormente el dominante.",
+          "D": "Se debe enganchar en primer lugar el lateral dominante y posteriormente el no dominante."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 36,
+        "idpregunta": 36,
+        "pregunta": "36.- Una vez elevado el paciente con suavidad en la grúa, debemos abrir las patas de la grúa para:.",
+        "opciones": {
+          "A": "Aumentar la estabilidad.",
+          "B": "No debemos abrir las patas de la grúa sino cerrarlas para que ocupe menos y sea más fácil manejarla.",
+          "C": "Procurar mayor seguridad en el traslado.",
+          "D": "a) y c) son correctas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 37,
+        "idpregunta": 37,
+        "pregunta": "37.- Son normas generales del arnés. (Indique la respuesta la INCORRECTA):",
+        "opciones": {
+          "A": "Revisar antes de cada uso.",
+          "B": "No utilizar si está deshilachado.",
+          "C": "Tras el alta del paciente enviar a lavandería.",
+          "D": "El paciente debe tener contacto directamente con el arnés, aunque veamos que lo puede manchar."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 38,
+        "idpregunta": 38,
+        "pregunta": "38.- La ubicación del arnés es: (Indique la respuesta INCORRECTA):",
+        "opciones": {
+          "A": "Planta de hospitalización.",
+          "B": "Uno en cada habitación.",
+          "C": "Almacén.",
+          "D": "Dependencias que cada Organización determine."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 39,
+        "idpregunta": 39,
+        "pregunta": "39.- Sirve para deslizar de un plano a otro al paciente, suele utilizarse para transportar al paciente desde la cama al tablero quirúrgico o viceversa:",
+        "opciones": {
+          "A": "Camilla tijera.",
+          "B": "Arnés.",
+          "C": "Transfer.",
+          "D": "Correa de sujeción."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 40,
+        "idpregunta": 40,
+        "pregunta": "40.- Son tipos de transfer:",
+        "opciones": {
+          "A": "Transfer fijo.",
+          "B": "Rampa o chapa.",
+          "C": "Rolón o rollbord.",
+          "D": "Todas son ciertas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 41,
+        "idpregunta": 41,
+        "pregunta": "41.- ¿Cuál es el primer paso en la utilización de transfer para transportar entre dos planos?",
+        "opciones": {
+          "A": "Se mete el transfer entre la sábana y el paciente.",
+          "B": "Se mete el transfer debajo de la sábana y el paciente.",
+          "C": "Se centra al paciente en el transfer.",
+          "D": "Se pasa al paciente con el transfer."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 42,
+        "idpregunta": 42,
+        "pregunta": "42.- Los transfers fijos, se manejan con:",
+        "opciones": {
+          "A": "Pedal.",
+          "B": "Manivela.",
+          "C": "Mando.",
+          "D": "Todas son correctas."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 43,
+        "idpregunta": 43,
+        "pregunta": "43.- Es un elemento que consiste en una chapa, recubierta de una tela, que hace las veces de cinta sin fin:",
+        "opciones": {
+          "A": "Rolón/Rollbord.",
+          "B": "Arnés.",
+          "C": "Transfer fijo.",
+          "D": "Rampa o chapa."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 44,
+        "idpregunta": 44,
+        "pregunta": "44.- Cuando nos referimos a las partes de la cama, el dispositivo a través del cual el paciente se ayuda para moverse en la cama, se denomina:",
+        "opciones": {
+          "A": "Vallas laterales.",
+          "B": "Trapecio o potencia.",
+          "C": "Vallas escamoteables.",
+          "D": "Cabecero."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 45,
+        "idpregunta": 45,
+        "pregunta": "45.- Con respecto a los frenos de la cama:",
+        "opciones": {
+          "A": "Se pueden encontrar en la parte baja, lateral y media de una cama.",
+          "B": "La palanca de frenos no permite fijar la dirección de las ruedas.",
+          "C": "Nunca debemos circular con una rueda en sentido contrario, pues la cama se bambolea.",
+          "D": "Se puede circular con las ruedas en sentido contrario."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 46,
+        "idpregunta": 46,
+        "pregunta": "46.- ¿Qué pieza de la cama se puede retirar si el médico necesita intubar al paciente?",
+        "opciones": {
+          "A": "El cabezal escamoteable.",
+          "B": "Las vallas escamoteables.",
+          "C": "El trapecio.",
+          "D": "El portasuero del cabezal."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 47,
+        "idpregunta": 47,
+        "pregunta": "47.- ¿Qué función tiene la 5a rueda de la camilla?",
+        "opciones": {
+          "A": "Facilita la movilización del paciente.",
+          "B": "Facilita la dirección y el giro.",
+          "C": "Nos permite movilizar la cama cuando alargamos su longitud.",
+          "D": "Nos permite tener mayor estabilidad."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 48,
+        "idpregunta": 48,
+        "pregunta": "48.- ¿En qué caso NO se realizará el traslado del paciente en la cama desde el piecero?",
+        "opciones": {
+          "A": "Para entrar en los ascensores.",
+          "B": "Con pacientes con oxigenoterapia.",
+          "C": "Cuando traslademos al paciente a realizar una ecografía.",
+          "D": "Con pacientes monitorizados y el monitor colocado en la parte del piecero."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 49,
+        "idpregunta": 49,
+        "pregunta": "49.- ¿Dónde se ubican las camillas en el hospital?",
+        "opciones": {
+          "A": "En la entrada principal exclusivamente.",
+          "B": "En las urgencias pediátricas y de adultos exclusivamente.",
+          "C": "En los servicios especiales como los quirófanos, urgencias, exploraciones en consultas, etc.",
+          "D": "En las consultas exclusivamente."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 50,
+        "idpregunta": 50,
+        "pregunta": "50.- La camilla de exploración tiene un cabecero que es elevable, ¿en cuántas posiciones?",
+        "opciones": {
+          "A": "El cabecero es fijo.",
+          "B": "En dos posiciones.",
+          "C": "En tres posiciones.",
+          "D": "En cuatro posiciones."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 51,
+        "idpregunta": 51,
+        "pregunta": "51.- La camilla de traslado tiene una serie de características: Indique la respuesta INCORRECTA:",
+        "opciones": {
+          "A": "Pueden incorporar chasis para la realización de radiografías.",
+          "B": "No permite instalar portasueros.",
+          "C": "Lleva vallas laterales escamoteables.",
+          "D": "Lleva portabalas de oxígeno."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 52,
+        "idpregunta": 52,
+        "pregunta": "52.- Cuando utilizamos una camilla tijera tenemos que tener en cuenta que:",
+        "opciones": {
+          "A": "Se debe colocar entre cuatro personas mínimo, ya que sirve para inmovilizar.",
+          "B": "El plano donde se encuentra el paciente tiene que estar horizontal.",
+          "C": "El plano donde se encuentra el paciente tiene que estar semi sentado.",
+          "D": "Se debe utilizar inseparablemente junto a las correas de sujeción."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 53,
+        "idpregunta": 53,
+        "pregunta": "53.- Cuando utilizamos las correas de sujeción, en una sujeción lateral:",
+        "opciones": {
+          "A": "Solo permite fijar el cuerpo del paciente en decúbito supino.",
+          "B": "No impide que el cuerpo del paciente ruede de manera lateral.",
+          "C": "Permite fijar el cuerpo del paciente en decúbito supino y lateral, pero no permite en decúbito prono.",
+          "D": "Todas son incorrectas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 54,
+        "idpregunta": 54,
+        "pregunta": "54.- Con respecto a la silla de ruedas: Indique la respuesta INCORRECTA:",
+        "opciones": {
+          "A": "Cubrir al paciente por delante cuando vaya sentado y con camisón.",
+          "B": "Poner al paciente en contacto directo con el cuero de la silla, para evitar que se resbale.",
+          "C": "Evitar que el paciente se desplace por encima de los reposapiés al incorporarse.",
+          "D": "Tener precaución con las sondas ya que se podrían enganchar en las ruedas."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 55,
+        "idpregunta": 55,
+        "pregunta": "55.- Señala la correcta con respecto al manejo de la silla de ruedas en la entrada y la salida del ascensor:",
+        "opciones": {
+          "A": "Para entrar se hará de frente al ascensor y para salir saldremos de frente a la puerta.",
+          "B": "Para entrar se hará de espaldas al ascensor y para salir saldremos de espaldas a la puerta.",
+          "C": "Para entrar se hará de frente al ascensor y para salir lo haremos de espaldas.",
+          "D": "Para entrar se hará de espaldas al ascensor y para salir saldremos de frente a la puerta."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 56,
+        "idpregunta": 56,
+        "pregunta": "56.- ¿Dónde se sitúan las sillas de ruedas dentro del hospital?",
+        "opciones": {
+          "A": "En la entrada principal exclusivamente.",
+          "B": "Se ubicarán en las entradas al hospital y en las unidades de hospitalización.",
+          "C": "En las entradas de urgencias pediátricas y de adultos exclusivamente.",
+          "D": "En la zona de quirófanos, la UCI y las urgencias exclusivamente."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 57,
+        "idpregunta": 57,
+        "pregunta": "57.- ¿Qué elemento NO se encuentra dentro de los accesorios que puede llevar una silla de ruedas?",
+        "opciones": {
+          "A": "Tabla que sirve para que los pacientes no puedan doblar el brazo.",
+          "B": "Portabalas.",
+          "C": "Portasueros.",
+          "D": "Bolsa portadocumentos."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 58,
+        "idpregunta": 58,
+        "pregunta": "58.- ¿Qué particularidad presenta la mesa de quirófano?",
+        "opciones": {
+          "A": "Puede ser articulada y el cabecero es escamoteable para que el médico pueda intubar.",
+          "B": "Es desmontable para que se pueda limpiar y desinfectar con tranquilidad.",
+          "C": "Permite la movilización total de las extremidades del paciente en función de la intervención de que se trate.",
+          "D": "Todas son correctas."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 59,
+        "idpregunta": 59,
+        "pregunta": "59.- En una bombona o bala de oxígeno portátil, ¿dónde se conecta el tubo de las gafas nasales?",
+        "opciones": {
+          "A": "En la parte frontal hay una toma de salida de oxígeno.",
+          "B": "En la parte posterior hay una toma de salida.",
+          "C": "En la conexión de pared, en el humidificador.",
+          "D": "En la parte superior, junto al regulador de caudal."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 60,
+        "idpregunta": 60,
+        "pregunta": "60.- ¿Para qué sirve un balón de insuflación (AMBU)?",
+        "opciones": {
+          "A": "Para la ventilación de personas con problemas respiratorios graves.",
+          "B": "Para la ventilación de personas con problemas respiratorios leves.",
+          "C": "Para la ventilación manual de paciente que precise reanimación.",
+          "D": "Para la ventilación manual de pacientes que se encuentran con un ataque de ansiedad."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 61,
+        "idpregunta": 61,
+        "pregunta": "61.- ¿Para qué sirve una bomba de perfusión?",
+        "opciones": {
+          "A": "Para introducir alimentos por vía nasogástrica.",
+          "B": "Para introducir de forma lenta y continua una sustancia medicamentosa por vía intravenosa.",
+          "C": "Para introducir alimentos por vía intravenosa.",
+          "D": "Para introducir de forma lenta y continua una sustancia medicamentosa por vía nasogástrica."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 62,
+        "idpregunta": 62,
+        "pregunta": "62.- ¿Cómo se denomina al colchón que evita la aparición en el paciente de úlceras por presión?",
+        "opciones": {
+          "A": "Colchón para estancias prolongadas.",
+          "B": "Colchón de aire.",
+          "C": "Colchón anti-presión.",
+          "D": "Colchón anti-escaras."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 63,
+        "idpregunta": 63,
+        "pregunta": "63.- A el armazón metálico utilizado en camas traumatológicas se le denomina:",
+        "opciones": {
+          "A": "Arco de protección.",
+          "B": "Bastidor de Stryker.",
+          "C": "Cuadro balcánico.",
+          "D": "Arco salvasábanas."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 64,
+        "idpregunta": 64,
+        "pregunta": "64.- ¿Qué tipo de férulas se utiliza para realizar, junto con las pesas, tracción en los miembros inferiores?",
+        "opciones": {
+          "A": "Férula de Tracción bimodal.",
+          "B": "Férula de Matrix.",
+          "C": "Férula de Brown.",
+          "D": "Férula Rígida."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 65,
+        "idpregunta": 65,
+        "pregunta": "65.- ¿Para qué sirve la tabla de paradas?",
+        "opciones": {
+          "A": "Es una superficie dura para acostar al paciente sobre una camilla.",
+          "B": "Es una superficie dura para acostar al paciente sobre una silla.",
+          "C": "Es una superficie dura para personas con múltiples traumatismos.",
+          "D": "Es una superficie dura para acostar al paciente sobre el suelo."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 66,
+        "idpregunta": 66,
+        "pregunta": "66.- ¿Cómo se denomina el aparato que se utiliza para ver, diagnosticar y tratar problemas en la cavidad pélvico-abdominal?",
+        "opciones": {
+          "A": "Aparato de escopia.",
+          "B": "Electrocardiógrafo.",
+          "C": "Torre de laparoscopia.",
+          "D": "Ecógrafo."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 67,
+        "idpregunta": 67,
+        "pregunta": "67.- El término hiperglucemia hace referencia a:",
+        "opciones": {
+          "A": "Defecto de la glucosa en sangre.",
+          "B": "Exceso de glucosa en sangre.",
+          "C": "Nivel normal de glucosa en sangre.",
+          "D": "Todas son correctas."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 68,
+        "idpregunta": 68,
+        "pregunta": "68.- El término hemiplejia hacer referencia a:",
+        "opciones": {
+          "A": "Parálisis de un lado del cuerpo.",
+          "B": "Parálisis de todo el cuerpo.",
+          "C": "Parálisis de una extremidad superior.",
+          "D": "Parálisis de una extremidad inferior."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 69,
+        "idpregunta": 69,
+        "pregunta": "69.- A la definición referente al hígado le corresponde el prefijo:",
+        "opciones": {
+          "A": "Bio-.",
+          "B": "Bradi-.",
+          "C": "Endo–.",
+          "D": "Hepat-."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 70,
+        "idpregunta": 70,
+        "pregunta": "70.- A la definición referente a los huesos le corresponde el prefijo:",
+        "opciones": {
+          "A": "Intra-.",
+          "B": "Necro-.",
+          "C": "Osteo-.",
+          "D": "Poli-."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 71,
+        "idpregunta": 71,
+        "pregunta": "71.- El sufijo ITIS se corresponde con la definición:",
+        "opciones": {
+          "A": "Medicamento.",
+          "B": "Inflamación.",
+          "C": "Dolor.",
+          "D": "Célula."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 72,
+        "idpregunta": 72,
+        "pregunta": "72.- El sufijo que indica que el término es referente a la mama, es:",
+        "opciones": {
+          "A": "Grafía.",
+          "B": "Mastia.",
+          "C": "Algia.",
+          "D": "Megalia."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 73,
+        "idpregunta": 73,
+        "pregunta": "73.- ¿Qué siglas se corresponden a la prueba de Electrocardiograma?",
+        "opciones": {
+          "A": "A.F.G.",
+          "B": "T.A.C.",
+          "C": "E.C.G.",
+          "D": "E.M.G."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 74,
+        "idpregunta": 74,
+        "pregunta": "74.- ¿Qué siglas corresponden a la Unidad de Reanimación Post Anestésica?",
+        "opciones": {
+          "A": "S.R.P.A.",
+          "B": "R.P.A.",
+          "C": "U.R.P.A.",
+          "D": "R.P.A.N."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 75,
+        "idpregunta": 75,
+        "pregunta": "75.- ¿Qué siglas corresponden a la Enfermedad Pulmonar Obstructiva Crónica?",
+        "opciones": {
+          "A": "E.P.O.T.",
+          "B": "E.P .O.D.",
+          "C": "P.O.C.D.",
+          "D": "E.P .O.C."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 76,
+        "idpregunta": 76,
+        "pregunta": "76.- La especialidad médica que se ocupa de las afecciones del corazón y aparato circulatorio:",
+        "opciones": {
+          "A": "Cardiología.",
+          "B": "Neurología.",
+          "C": "Nefrología.",
+          "D": "Endocrinología."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 77,
+        "idpregunta": 77,
+        "pregunta": "77.- La especialidad médica que tiene como función llevar a la normalidad funcional y anatómica la cobertura corporal, es decir la forma del cuerpo:",
+        "opciones": {
+          "A": "Cirugía plástica.",
+          "B": "Cirugía vascular.",
+          "C": "Cirugía cardiovascular.",
+          "D": "Cirugía general."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 78,
+        "idpregunta": 78,
+        "pregunta": "78.- Hace referencia al estudio y tratamiento de enfermedades de la sangre:",
+        "opciones": {
+          "A": "Nefrología.",
+          "B": "Dermatología.",
+          "C": "Obstetricia.",
+          "D": "Hematología."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 79,
+        "idpregunta": 79,
+        "pregunta": "79.- La formación quirúrgica de un ano artificial, o estoma, a través del abdomen con el fin de evacuar el contenido intestinal, se denomina:",
+        "opciones": {
+          "A": "Edema",
+          "B": "Úlcera.",
+          "C": "Melena.",
+          "D": "Colostomía."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 80,
+        "idpregunta": 80,
+        "pregunta": "80.- ¿Cómo se denomina al recipiente de borde plano y ancho utilizado por el paciente para excretar en posición de decúbito supino?",
+        "opciones": {
+          "A": "Cuña.",
+          "B": "Batea.",
+          "C": "Botella.",
+          "D": "Orinal."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 81,
+        "idpregunta": 81,
+        "pregunta": "81.- ¿Qué prueba estudia la función respiratoria?",
+        "opciones": {
+          "A": "Electrocardiograma.",
+          "B": "Espirometría.",
+          "C": "Endoscopia.",
+          "D": "Ecografía."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 82,
+        "idpregunta": 82,
+        "pregunta": "82.- El término paraplejia, se corresponde con la siguiente definición:",
+        "opciones": {
+          "A": "Parálisis de los miembros o extremidades inferiores (de la cintura hacia abajo).",
+          "B": "Parálisis de las cuatro extremidades.",
+          "C": "Parálisis del hemicuerpo derecho.",
+          "D": "Parálisis del hemicuerpo izquierdo."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 83,
+        "idpregunta": 83,
+        "pregunta": "83.- El tubo que, introducido por el meato, llega hasta la vejiga, se denomina:",
+        "opciones": {
+          "A": "Sonda nasogástrica.",
+          "B": "Sonda vesical.",
+          "C": "a) y b) son incorrectas.",
+          "D": "a) y b) son correctas."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 84,
+        "idpregunta": 84,
+        "pregunta": "84.- La lesión secundaria de la piel, con pérdida de sustancia, muy profunda, que ocupa la dermis, epidermis e hipodermis, se denomina:",
+        "opciones": {
+          "A": "Herida.",
+          "B": "Úlcera.",
+          "C": "Mácula.",
+          "D": "Pústula."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 85,
+        "idpregunta": 85,
+        "pregunta": "85.- Cualquier suceso no esperado ni deseado que da lugar a la pérdida de la salud o lesiones a los trabajadores, se denomina:",
+        "opciones": {
+          "A": "Accidente de trabajo.",
+          "B": "Incidente.",
+          "C": "a) y b) son correctas.",
+          "D": "a) y b) son incorrectas."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 86,
+        "idpregunta": 86,
+        "pregunta": "86.- Para colocar al paciente el arnés de una grúa desde la posición sentado en una silla:",
+        "opciones": {
+          "A": "Colocar el arnés de abajo-arriba, por detrás y por debajo de una sábana entremetida, hasta la altura de la cintura.",
+          "B": "Colocar el arnés de arriba-abajo, por detrás y por debajo de una sábana entremetida, hasta la altura de la cintura.",
+          "C": "Colocar el arnés de arriba-abajo, por delante y por encima de una sábana entremetida, hasta la altura de la cintura.",
+          "D": "Colocar el arnés de abajo-arriba, por delante y por encima de una sábana entremetida, hasta la altura de la cintura."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 87,
+        "idpregunta": 87,
+        "pregunta": "87.- El término taquicardia hace referencia a:",
+        "opciones": {
+          "A": "Aceleración del ritmo cardíaco.",
+          "B": "Disminución del ritmo cardíaco.",
+          "C": "Aceleración de la frecuencia respiratoria.",
+          "D": "Disminución de la frecuencia respiratoria."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 88,
+        "idpregunta": 88,
+        "pregunta": "88.- El término disnea, se corresponde con la siguiente definición:",
+        "opciones": {
+          "A": "Dificultad para deglutir.",
+          "B": "Dificultad para hablar.",
+          "C": "Dificultad para respirar.",
+          "D": "Dificultad para articular palabras."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 89,
+        "idpregunta": 89,
+        "pregunta": "89.- ¿Cómo se denomina el carro que sirve para el depósito del material sanitario necesario para realizar las curas a los pacientes?",
+        "opciones": {
+          "A": "Carro de curas.",
+          "B": "Carro de material.",
+          "C": "Carro sanitario.",
+          "D": "Carro de farmacia."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 90,
+        "idpregunta": 90,
+        "pregunta": "90.- La sujeción abdominal de las correas de sujeción:",
+        "opciones": {
+          "A": "Se puede instalar antes o después de que el paciente se haya acostado.",
+          "B": "Se debe instalar siempre antes de que el paciente se acueste.",
+          "C": "Se debe instalar siempre después de que el paciente se acueste.",
+          "D": "Se debe instalar con la cama vacía."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 91,
+        "idpregunta": 91,
+        "pregunta": "91.- En cuanto a la utilización de rolón o rollbord:",
+        "opciones": {
+          "A": "En el desplazamiento no deberemos mantener el eje cabeza-pies recto.",
+          "B": "En el desplazamiento deberemos mantener el eje cabeza-pies recto.",
+          "C": "Se ladea totalmente al paciente para apoyarlo en el centro del rolón.",
+          "D": "b) y c) son incorrectas."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 92,
+        "idpregunta": 92,
+        "pregunta": "92.- La bombona de oxígeno consta de varias partes, entre las que se encuentran:",
+        "opciones": {
+          "A": "Un manómetro, que mide la presión que hay en la botella.",
+          "B": "Un tirador de apertura.",
+          "C": "En un lateral, hay una leyenda sobre las instrucciones de uso y seguridad.",
+          "D": "Todas las respuestas son correctas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 93,
+        "idpregunta": 93,
+        "pregunta": "93.- Según las normas generales de movilización de pacientes, ¿cuál de las siguientes actuaciones se considera obligatoria?",
+        "opciones": {
+          "A": "Priorizar la rapidez del traslado del paciente.",
+          "B": "Guardar en todo momento la intimidad del paciente.",
+          "C": "Informar al paciente solo si colabora activamente.",
+          "D": "Evitar cualquier movilización siempre si el paciente presenta dolor."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 94,
+        "idpregunta": 94,
+        "pregunta": "94.- En cuanto a los pasos previos a la movilización del paciente, ¿qué acción debe realizarse antes de dicha movilización?",
+        "opciones": {
+          "A": "Colocar al paciente en posición Fowler siempre que sea posible.",
+          "B": "Frenar la cama.",
+          "C": "Solicitar autorización médica por escrito.",
+          "D": "Comprobar las constantes vitales del paciente."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 95,
+        "idpregunta": 95,
+        "pregunta": "95.- Al realizar el traslado del paciente en silla de ruedas, señale la afirmación INCORRECTA:",
+        "opciones": {
+          "A": "Comprobar el correcto funcionamiento de la silla antes de usarla.",
+          "B": "Informar al paciente del procedimiento que se va a realizar.",
+          "C": "Colocar los reposapiés antes de sentar al paciente.",
+          "D": "Asegurar que los frenos estén puestos durante las transferencias."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 96,
+        "idpregunta": 96,
+        "pregunta": "96.- El parte interno de notificación de accidente/incidente es:",
+        "opciones": {
+          "A": "El documento opcional para comunicar verbalmente un suceso.",
+          "B": "El registro necesario para declarar un accidente de trabajo, un incidente o una agresión, y que sea reconocido legalmente.",
+          "C": "Un informe médico emitido por la Mutua.",
+          "D": "Un documento exclusivo para accidentes con baja laboral."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 97,
+        "idpregunta": 97,
+        "pregunta": "97.- Según el manual de prevención de incendios, el polvo polivalente es:",
+        "opciones": {
+          "A": "El agente extintor más seguro para su uso.",
+          "B": "Adecuado únicamente para fuegos de materiales sólidos (A).",
+          "C": "El agente extintor por excelencia por su eficacia y abundancia para fuegos de materiales sólidos (A).",
+          "D": "Ineficaz contra brasas."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 98,
+        "idpregunta": 98,
+        "pregunta": "98.- Ante una situación de emergencia relacionada con un incendio, el trabajador debe:",
+        "opciones": {
+          "A": "Abandonar el centro inmediatamente sin avisar.",
+          "B": "Confirmar la emergencia, informar a su responsable e intentar sofocar el conato de incendio con ayuda del extintor.",
+          "C": "Esperar instrucciones sin intervenir.",
+          "D": "Utilizar agua siempre como primera opción."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 99,
+        "idpregunta": 99,
+        "pregunta": "99.- El importe máximo de los adelantos de nómina a conceder será de:",
+        "opciones": {
+          "A": "3.000 euros.",
+          "B": "6.000 euros.",
+          "C": "3.500 euros.",
+          "D": "4.500 euros."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 100,
+        "idpregunta": 100,
+        "pregunta": "100.- Cuando la duración de una jornada exceda de seis horas continuadas existirá un período de descanso de:",
+        "opciones": {
+          "A": "Diez minutos.",
+          "B": "Treinta minutos.",
+          "C": "Quince minutos.",
+          "D": "Veinte minutos."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 101,
+        "idpregunta": 101,
+        "pregunta": "101.- El personal liberado para el estudio del euskera podrá percibir:",
+        "opciones": {
+          "A": "El 50% de las retribuciones fijas.",
+          "B": "El 75% de las retribuciones totales, tanto fijas como variables, que por cartelera tenga asignadas.",
+          "C": "El 100% de las retribuciones fijas.",
+          "D": "El 100% de las retribuciones, tanto fijas como variables, que por cartelera tenga asignadas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 102,
+        "idpregunta": 102,
+        "pregunta": "102.- En caso de agresión, el trabajador o trabajadora deberá:",
+        "opciones": {
+          "A": "Comunicarlo exclusivamente a la Mutua.",
+          "B": "Ponerlo en conocimiento de en el menor plazo de tiempo posible a su responsable inmediato.",
+          "C": "Esperar a que la Dirección abra expediente.",
+          "D": "Comunicarlo únicamente a los Delegados de Prevención."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 103,
+        "idpregunta": 103,
+        "pregunta": "103.- Los fuegos de clase C son aquellos que se producen en:",
+        "opciones": {
+          "A": "Materiales sólidos que dejan brasas.",
+          "B": "Líquidos inflamables.",
+          "C": "Gases inflamables.",
+          "D": "Metales combustibles."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 104,
+        "idpregunta": 104,
+        "pregunta": "104.- Según el Decreto 255/1997 ¿qué es el Ente Público Osakidetza-Servicio vasco de salud?",
+        "opciones": {
+          "A": "Una sociedad anónima de capital mixto.",
+          "B": "Un organismo autónomo estatal.",
+          "C": "El Ente Institucional de la Comunidad Autónoma, de naturaleza pública y bajo la calificación de Ente Público de Derecho Privado.",
+          "D": "Una fundación sanitaria privada."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 105,
+        "idpregunta": 105,
+        "pregunta": "105.- ¿Qué posición se utiliza específicamente para el lavado de pelo y la RCP?",
+        "opciones": {
+          "A": "Fowler.",
+          "B": "Roser.",
+          "C": "Sims.",
+          "D": "Antitrendelemburg."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 106,
+        "idpregunta": 106,
+        "pregunta": "106.- En el movimiento de cama a sillón con paciente colaborador, ¿qué debe hacerse antes de sentarlo al borde de la cama?",
+        "opciones": {
+          "A": "Colocar la silla a 90o.",
+          "B": "Incorporar el cabezal en Fowler.",
+          "C": "Retirar la entremetida.",
+          "D": "Ajustar el trapecio."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 107,
+        "idpregunta": 107,
+        "pregunta": "107.- Corresponde a cada organización de servicios del Ente Público Osakidetza- Servicio vasco de salud:",
+        "opciones": {
+          "A": "Únicamente funciones asistenciales clínicas.",
+          "B": "El ejercicio de todas las facultades de gestión y administración necesarias para la provisión de servicios sanitarios encomendados.",
+          "C": "Aprobar el Plan Estratégico del Ente .",
+          "D": "Elaborar los Presupuestos Generales de la Comunidad Autónoma."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 108,
+        "idpregunta": 108,
+        "pregunta": "108.- ¿Qué acción ayuda a prevenir accidentes por orden y limpieza?",
+        "opciones": {
+          "A": "Dejar material en zonas de paso.",
+          "B": "Mantener objetos cerca para tenerlos a mano.",
+          "C": "No dejar objetos en zonas de paso.",
+          "D": "Guardar solo el material pesado."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 109,
+        "idpregunta": 109,
+        "pregunta": "109.- ¿Qué requisito es imprescindible antes de entrar en áreas con radiación ionizante?",
+        "opciones": {
+          "A": "Llevar ropa blanca.",
+          "B": "Usar dosímetro personal.",
+          "C": "No llevar objetos metálicos.",
+          "D": "Haber comido previamente."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 110,
+        "idpregunta": 110,
+        "pregunta": "110.- ¿Qué acción debe evitarse al manejar agujas?",
+        "opciones": {
+          "A": "Desecharlas en contenedores.",
+          "B": "Reencapucharlas para tirarlas con mayor seguridad.",
+          "C": "Usar guantes.",
+          "D": "Todas son correctas."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 111,
+        "idpregunta": 111,
+        "pregunta": "111.- El arnés se utiliza junto con:",
+        "opciones": {
+          "A": "Silla convencional.",
+          "B": "Bastón.",
+          "C": "Grúa.",
+          "D": "Camilla simple."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 112,
+        "idpregunta": 112,
+        "pregunta": "112.- Según el Decreto 255/1997, Osakidetza es el Ente Institucional de la Comunidad Autónoma, bajo la calificación de:",
+        "opciones": {
+          "A": "Ente privado de Derecho Privado.",
+          "B": "Ente privado de Derecho Público.",
+          "C": "Ente público de Derecho Público.",
+          "D": "Ente público de Derecho Privado."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 113,
+        "idpregunta": 113,
+        "pregunta": "113.- ¿Cuál NO es uno de los fines de interés general del Ente Público Osakidetza- Servicio vasco de salud?",
+        "opciones": {
+          "A": "Ejecutar la provisión del servicio público sanitario mediante las prestaciones de asistencia primaria y especializada que sean objeto de aseguramiento y contratación pública.",
+          "B": "Garantizar el trato equitativo de las personas residentes en la Comunidad Autónoma del País Vasco mediante solo la emisión de tarjetas sanitarias.",
+          "C": "Proporcionar a las personas que accedan a sus servicios las condiciones necesarias para el pleno ejercicio de sus derechos y deberes de carácter instrumental o complementario.",
+          "D": "Promover la docencia en ciencias de la salud."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 114,
+        "idpregunta": 114,
+        "pregunta": "114.- La organización rectora de Osakidetza está comprendida por:",
+        "opciones": {
+          "A": "Presidente y Consejo Administración.",
+          "B": "Presidente, secretario y Consejo de Administración.",
+          "C": "Viceconsejero, gerente y Consejo de Administración.",
+          "D": "Director ejecutivo, secretario y Consejo de Administración."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 115,
+        "idpregunta": 115,
+        "pregunta": "115.- Dentro del organigrama de Osakidetza, ¿qué función le corresponde al Consejero de Sanidad?",
+        "opciones": {
+          "A": "Gerencia.",
+          "B": "Presidencia.",
+          "C": "Director ejecutivo.",
+          "D": "Secretario."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 116,
+        "idpregunta": 116,
+        "pregunta": "116.- ¿Quiénes forman parte del Consejo de Administración de Osakidetza?",
+        "opciones": {
+          "A": "El Viceconsejero y tres miembros nombrados por el Consejero de Hacienda.",
+          "B": "El gerente y cuatro miembros en representación de la Administración del Estado.",
+          "C": "El consejero de Hacienda y tres miembros a propuesta del Consejero de Sanidad.",
+          "D": "El presidente y cinco miembros en representación de la administración de la Comunidad Autónoma."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 117,
+        "idpregunta": 117,
+        "pregunta": "117.- Según el Decreto 255/1997, las organizaciones de servicios sanitarios dependientes del Ente Público Osakidetza-Servicio vasco de salud realizarán la actividad de provisión de servicios sanitarios, actuando a tal efecto, ¿bajo qué principio?",
+        "opciones": {
+          "A": "Principio de equidad.",
+          "B": "Principio de reciprocidad.",
+          "C": "Principio de autonomía económico-financiera y de gestión.",
+          "D": "Principio de igualdad."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 118,
+        "idpregunta": 118,
+        "pregunta": "118.- El Consejo de Administración del Ente Público, al objeto de preservar los criterios de eficacia y eficiencia en la gestión, adoptará las medidas de intervención que considere necesarias sobre las organizaciones de servicios. Estas pueden ser:",
+        "opciones": {
+          "A": "Suspender temporalmente, y con carácter total o parcial, las facultades de gestión que tienen atribuidas las organizaciones de servicios del Ente Público.",
+          "B": "No podrá suspender en ningún caso las facultades de gestión.",
+          "C": "Suspender temporalmente, y de manera exclusivamente parcial, las facultades de gestión que tienen atribuidas las organizaciones de servicios del Ente Público.",
+          "D": "Suspender temporalmente, y de manera exclusivamente total, las facultades de gestión que tienen atribuidas las organizaciones de servicios del Ente Público."
+        },
+        "correcta": "A",
+        "metodo": "acierto",
+        "diffs": {
+          "A": "Suspender temporalmente, y <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">carácter</span> <span class=\"diff-highlight\">total</span> <span class=\"diff-highlight\">o</span> parcial, las facultades de gestión que tienen atribuidas las organizaciones de servicios del Ente Público.",
+          "B": "<span class=\"diff-highlight\">No</span> <span class=\"diff-highlight\">podrá</span> <span class=\"diff-highlight\">suspender</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">ningún</span> <span class=\"diff-highlight\">caso</span> las facultades de gestión.",
+          "C": "Suspender temporalmente, y de manera exclusivamente <span class=\"diff-highlight\">parcial</span>, las facultades de gestión que tienen atribuidas las organizaciones de servicios del Ente Público.",
+          "D": "Suspender temporalmente, y de manera exclusivamente <span class=\"diff-highlight\">total</span>, las facultades de gestión que tienen atribuidas las organizaciones de servicios del Ente Público."
+        }
+      },
+      {
+        "num": 119,
+        "idpregunta": 119,
+        "pregunta": "119.- ¿Cuál de las siguientes afirmaciones NO son funciones del Consejo Técnico que va a desarrollar dentro de las previsiones del Plan Estratégico de la Organización?",
+        "opciones": {
+          "A": "Propuesta de líneas de actuación en materia de investigación, docencia y formación.",
+          "B": "Valoración de nuevas estrategias asistenciales, diagnósticas y terapéuticas.",
+          "C": "Formulación de políticas, propuestas y recomendaciones referidas a la calidad asistencial.",
+          "D": "Conocer y participar en el plan de salud de la zona."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 120,
+        "idpregunta": 120,
+        "pregunta": "120.- ¿Cómo está establecido el periodo de descanso?",
+        "opciones": {
+          "A": "En descanso diario, con un periodo mínimo ininterrumpido de 12 horas y descanso semanal, con periodo mínimo ininterrumpido de 24 horas semanales.",
+          "B": "En descanso diario, con un periodo mínimo ininterrumpido de 8 horas y descanso semanal, con periodo mínimo ininterrumpido de 36 horas semanales.",
+          "C": "En descanso diario, con un periodo mínimo ininterrumpido de 8 horas y descanso semanal, con periodo mínimo ininterrumpido de 24 horas semanales.",
+          "D": "En descanso diario, con un periodo mínimo ininterrumpido de 12 horas y descanso semanal, con periodo mínimo ininterrumpido de 32 horas semanales."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 121,
+        "idpregunta": 121,
+        "pregunta": "121.- Con respecto a las vacaciones, el personal tendrá derecho a disfrutar durante cada año completo de servicio de una vacación retribuida de:",
+        "opciones": {
+          "A": "30 días laborales sin computarse los sábados como laborales.",
+          "B": "30 días laborales computándose los sábados como laborales.",
+          "C": "28 días laborales sin computarse los sábados como laborales.",
+          "D": "28 días laborales computándose los sábados como laborales."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 122,
+        "idpregunta": 122,
+        "pregunta": "122.- En el supuesto de que estando disfrutando las vacaciones el personal iniciara una situación de IT (incapacidad temporal), ¿qué sucede con el periodo vacacional?",
+        "opciones": {
+          "A": "El periodo vacacional quedará interrumpido.",
+          "B": "Con contratos de sustitución, se pierde el periodo vacacional.",
+          "C": "Solo al personal estatutario se le interrumpe el periodo vacacional.",
+          "D": "El periodo vacacional no quedará interrumpido."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 123,
+        "idpregunta": 123,
+        "pregunta": "123.- En todas las Organizaciones de servicios se establecerán anualmente, previa negociación, los calendarios de días laborables anuales y los horarios de trabajo. ¿Quiénes realizan dicha negociación?",
+        "opciones": {
+          "A": "El personal estatutario y los representantes del personal.",
+          "B": "La Dirección y la Viceconsejería de Sanidad.",
+          "C": "El personal estatutario y el personal interino.",
+          "D": "La Dirección y los representantes del personal."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 124,
+        "idpregunta": 124,
+        "pregunta": "124.- Las carteleras de trabajo específicas negociadas en cada unidad tendrán carácter obligatorio bimestral. ¿En qué casos se pueden modificar?",
+        "opciones": {
+          "A": "Cuando el jefe del servicio, previa petición de los trabajadores, así lo decida.",
+          "B": "Cuando el jefe del servicio lo decida, sin necesidad de petición de los trabajadores de su unidad.",
+          "C": "Por necesidades exclusivamente graves, urgentes o imprevisibles.",
+          "D": "Tras el aumento de la demanda de trabajo, ya sea por bajas o vacaciones."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 125,
+        "idpregunta": 125,
+        "pregunta": "125.- Si quisieras solicitar una licencia, ¿ante quien se tiene que solicitar?",
+        "opciones": {
+          "A": "La Dirección de Recursos Humanos de la organización de servicios correspondiente.",
+          "B": "La Dirección de la Organización de Servicios correspondiente.",
+          "C": "La secretaria de la Organización.",
+          "D": "Primero ante la jefatura del servicio, posteriormente ante la Dirección de la Organización del servicio correspondiente."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 126,
+        "idpregunta": 126,
+        "pregunta": "126.- En caso de realizar un acogimiento simple de un menor, ¿a qué tengo derecho?",
+        "opciones": {
+          "A": "A un permiso por asuntos propios.",
+          "B": "A una licencia retribuida.",
+          "C": "En caso de acogimiento no se tiene los mismos derechos que si fuera un alumbramiento.",
+          "D": "Todas son correctas."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 127,
+        "idpregunta": 127,
+        "pregunta": "127.- La especialidad médica que se ocupa del estudio de la estructura y la función renal se denomina:",
+        "opciones": {
+          "A": "Cardiología.",
+          "B": "Neurología.",
+          "C": "Nefrología",
+          "D": "Endocrinología."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 128,
+        "idpregunta": 128,
+        "pregunta": "128.- En caso de tener que asistir a exámenes académicos en un centro oficial en horario laboral, tendremos derecho a un permiso. ¿Dicho permiso de cuántos días será?",
+        "opciones": {
+          "A": "Un día natural por cada prueba de examen.",
+          "B": "Un día laboral por cada prueba de examen.",
+          "C": "Un día laboral independientemente de las pruebas de examen que tenga.",
+          "D": "No se tiene derecho a ningún día."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 129,
+        "idpregunta": 129,
+        "pregunta": "129.- En caso de tener que acudir a una consulta médica durante la jornada laboral, tendremos derecho a:",
+        "opciones": {
+          "A": "Una licencia.",
+          "B": "Un permiso no retribuido y con un máximo de 4 horas, que podrá modificarse de manera excepcional.",
+          "C": "Un permiso retribuido y con un máximo de 4 horas, que podrá modificarse de manera excepcional.",
+          "D": "Un permiso no retribuido y con un máximo de 2 horas, que podrá modificarse de manera excepcional."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 130,
+        "idpregunta": 130,
+        "pregunta": "130.- La descripción “paciente tumbado boca arriba, en un plano oblicuo de 45o, con la cabeza más baja que los pies” hace referencia a la posición:",
+        "opciones": {
+          "A": "Sims.",
+          "B": "Litotomía.",
+          "C": "Anti-trendelemburg.",
+          "D": "Trendelemburg."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 131,
+        "idpregunta": 131,
+        "pregunta": "131.- Señala la INCORRECTA. Entre las competencias necesarias para el desempeño del puesto de celador/celadora se encuentran:",
+        "opciones": {
+          "A": "Orientación al paciente.",
+          "B": "Resolución de problemas.",
+          "C": "Competencias necesarias para proporcionar cuidados de calidad.",
+          "D": "Adaptación al cambio y contribución a la mejora."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 132,
+        "idpregunta": 132,
+        "pregunta": "132.- ¿Cuál es la posición indicada en un parto?",
+        "opciones": {
+          "A": "Roser.",
+          "B": "Fowler.",
+          "C": "Sims o semiprona.",
+          "D": "Litotomía."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 133,
+        "idpregunta": 133,
+        "pregunta": "133.- Son normas generales para la movilización de pacientes:",
+        "opciones": {
+          "A": "Retirar los objetos que nos molesten.",
+          "B": "Dejar acomodado al paciente.",
+          "C": "Evitar movimientos bruscos en la movilización del paciente.",
+          "D": "b) y c) son correctas."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 134,
+        "idpregunta": 134,
+        "pregunta": "134.- Señala la respuesta INCORRECTA. Son pasos previos a toda movilización:",
+        "opciones": {
+          "A": "Verificar la seguridad del paciente.",
+          "B": "Colocar la cama en la posición que más nos ayude en la movilización del paciente.",
+          "C": "Retirar los objetos que nos molesten.",
+          "D": "Adoptar mecánica postural."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 135,
+        "idpregunta": 135,
+        "pregunta": "135.- Señala la respuesta INCORRECTA. Son dispositivos y materiales para ayudar en la movilización:",
+        "opciones": {
+          "A": "Escabel.",
+          "B": "Rolón.",
+          "C": "Potencia.",
+          "D": "Férula de Brown."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 136,
+        "idpregunta": 136,
+        "pregunta": "136.- A la hora de movilizar un paciente que no colabora hacia un lateral de la cama y posicionarlo en decúbito lateral izquierdo:",
+        "opciones": {
+          "A": "Comprobaremos que el brazo derecho no quede presionado debajo de su cuerpo.",
+          "B": "Comprobaremos que el brazo izquierdo no quede presionado debajo de su cuerpo.",
+          "C": "Comprobaremos que la pierna derecha no quede presionada debajo de su cuerpo.",
+          "D": "Comprobaremos que la pierna izquierda no quede presionada debajo de su cuerpo."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 137,
+        "idpregunta": 137,
+        "pregunta": "137.- Cuando realizamos el movimiento del paciente de plano a plano, en un procedimiento con dos o más personas:",
+        "opciones": {
+          "A": "Las personas se sitúan en el lado contrario del plano por donde vamos a hacer el movimiento.",
+          "B": "El cabecero de uno de los planos se coloca en el piecero del otro, o viceversa, para quedar los dos en ángulo recto y perpendiculares.",
+          "C": "Los cabeceros de ambos planos se colocan paralelamente.",
+          "D": "Las respuestas a) y b) son correctas."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 138,
+        "idpregunta": 138,
+        "pregunta": "138.- Señale la respuesta que NO es correcta, en relación a las grúas:",
+        "opciones": {
+          "A": "Hay algunos modelos de grúas que incorporan un sistema de camillas de cintas para levantar horizontalmente al paciente y realizar el aseo y/o curas.",
+          "B": "Las grúas están equipadas con un arnés que nos ayuda en el movimiento del paciente.",
+          "C": "Se emplea en las unidades de hospitalización para la movilización de pacientes impedidos o demasiado pesados, garantizando así mayor seguridad y menor riesgo de lesiones para el paciente y para el personal de enfermería y celador.",
+          "D": "Podemos encontrar tres tipos de grúas: hidráulica, eléctrica y electrohidráulica."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 139,
+        "idpregunta": 139,
+        "pregunta": "139.- En la utilización de transfer como puente entre plano y plano:",
+        "opciones": {
+          "A": "Se introduce por debajo de la sábana del paciente dejando la mitad del transfer debajo de éste y la otra mitad fuera de la camilla.",
+          "B": "Se introduce por debajo de la sábana del paciente dejando todo el transfer debajo de la sábana del paciente.",
+          "C": "Se introduce por debajo de la sábana del paciente dejando dos tercios del transfer debajo de éste y el otro tercio fuera de la camilla.",
+          "D": "Ninguna de las respuestas anteriores es correcta."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 140,
+        "idpregunta": 140,
+        "pregunta": "140.- ¿Qué significa la sigla “TAC”?",
+        "opciones": {
+          "A": "Tomografía Axial Computarizada.",
+          "B": "Tratamiento Asistido Clínico.",
+          "C": "Técnica de Análisis Corporal.",
+          "D": "Tomografía Avanzada de Contraste."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 141,
+        "idpregunta": 141,
+        "pregunta": "141.- Señala la respuesta correcta en relación al transfer fijo:",
+        "opciones": {
+          "A": "El transfer fijo, es en realidad un rolón eléctrico, con desplazamientos verticales.",
+          "B": "El transfer fijo, es en realidad un rolón eléctrico, con desplazamientos horizontales.",
+          "C": "a) y b) son correctas.",
+          "D": "a) y b) son incorrectas."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 142,
+        "idpregunta": 142,
+        "pregunta": "142.- Señale la respuesta que NO es correcta en el manejo de la silla de ruedas:",
+        "opciones": {
+          "A": "En las rampas, para subir lo haremos de frente.",
+          "B": "Para salir del ascensor, lo haremos de frente a la puerta.",
+          "C": "Para entrar en el ascensor se hará de espaldas al mismo.",
+          "D": "En las rampas para bajar lo haremos de frente."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 143,
+        "idpregunta": 143,
+        "pregunta": "143.- Señale la respuesta INCORRECTA respecto al oxígeno:",
+        "opciones": {
+          "A": "Es un gas poco reactivo.",
+          "B": "Su manipulación precisa de adopción de precauciones.",
+          "C": "Es un gas incoloro e insípido.",
+          "D": "Es un gas inodoro."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 144,
+        "idpregunta": 144,
+        "pregunta": "144.- Señale la respuesta que NO es correcta en el manejo de un paciente con bala de oxígeno:",
+        "opciones": {
+          "A": "Debemos colgar la bala de oxígeno en la cama del paciente.",
+          "B": "Si el traslado se realiza con el humidificador no se debe colocar la bala tumbada.",
+          "C": "Cerraremos el caudalímetro para prevenir fugas durante el traslado.",
+          "D": "a) y b) son correctas."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 145,
+        "idpregunta": 145,
+        "pregunta": "145.- El aparato que regula la nutrición vía sanguínea se denomina:",
+        "opciones": {
+          "A": "Bomba de nutrición enteral.",
+          "B": "Bomba de nutrición parenteral.",
+          "C": "Bomba de perfusión.",
+          "D": "Bomba de nutrición contínua."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 146,
+        "idpregunta": 146,
+        "pregunta": "146.- Señale la respuesta que NO es correcta en relación con el microdifusor electrotérmico:",
+        "opciones": {
+          "A": "Los tratamientos DVA proporcionan reducciones importantes en los niveles de contaminación microbiológica de todos los puntos, excepto en los más alejados o de difícil acceso.",
+          "B": "Es el sistema que permite la desinfección total de superficies a través del aire.",
+          "C": "Es un proceso en el que el aire sirve de vector de transmisión del aerosol biocida.",
+          "D": "b) y c) son verdaderas."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 147,
+        "idpregunta": 147,
+        "pregunta": "147.- El aparato cuya finalidad es registrar corrientes eléctricas del corazón se denomina:",
+        "opciones": {
+          "A": "Electrocardiógrafo.",
+          "B": "Ecocardiógrafo.",
+          "C": "Ecógrafo.",
+          "D": "a) y b) son correctas."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 148,
+        "idpregunta": 148,
+        "pregunta": "148.- Señale la respuesta correcta respecto al Escabel:",
+        "opciones": {
+          "A": "Puede utilizarse como ayuda para subir a la cama.",
+          "B": "Se utiliza para el descanso de los pies en pacientes que están sentados.",
+          "C": "Se utiliza para evitar el roce de las sábanas.",
+          "D": "a) y b) son correctas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 149,
+        "idpregunta": 149,
+        "pregunta": "149.- Señala, de los siguientes sufijos, cuál significa “aumento de volumen”:",
+        "opciones": {
+          "A": "-logía.",
+          "B": "-tomía.",
+          "C": "-osis.",
+          "D": "-megalia."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 150,
+        "idpregunta": 150,
+        "pregunta": "150.- El trapecio o potencia:",
+        "opciones": {
+          "A": "Es un armazón metálico utilizado en camas traumatológicas.",
+          "B": "Es un dispositivo que permite limitar los movimientos de la cabeza y cuello.",
+          "C": "Es un recipiente para transportar muestras, recoger residuos orgánicos y de curas.",
+          "D": "Es un dispositivo a través del cual se ayuda el paciente para moverse en la cama."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 151,
+        "idpregunta": 151,
+        "pregunta": "151.- La especialidad que se encarga del cuidado total de los pacientes cuya enfermedad no responde al tratamiento activo con intención curativa es:",
+        "opciones": {
+          "A": "Cuidados contínuos.",
+          "B": "Cuidados paliativos.",
+          "C": "Cuidados terminales.",
+          "D": "Cuidados intensivos."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 152,
+        "idpregunta": 152,
+        "pregunta": "152.- La técnica mediante la cual se separan los componentes de la sangre siendo seleccionados los necesarios, para su aplicación en medicina, y devueltos al torrente sanguíneo el resto de sus componentes, se denomina:",
+        "opciones": {
+          "A": "Frotis.",
+          "B": "Amniocentesis.",
+          "C": "Aféresis.",
+          "D": "Desbridación."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 153,
+        "idpregunta": 153,
+        "pregunta": "153.- La cirugía reparadora de los vasos sanguíneos se denomina:",
+        "opciones": {
+          "A": "Angioplastia.",
+          "B": "Broncoscopia.",
+          "C": "Colangiografía.",
+          "D": "Profilaxis."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 154,
+        "idpregunta": 154,
+        "pregunta": "154.- Para colocar el arnés al paciente desde la posición de decúbito lateral:",
+        "opciones": {
+          "A": "Debemos pasar el arnés por encima de la entremetida, moverlo hacia decúbito lateral contrario, estirar el arnés y la entremetida.",
+          "B": "Debemos pasar el arnés por encima de la entremetida, moverlo hacia decúbito lateral contrario, estirar el arnés y la entremetida para finalizar en decúbito supino.",
+          "C": "Debemos pasar el arnés por debajo de la entremetida, moverlo hacia decúbito supino, estirar el arnés y la entremetida para finalizar en decúbito lateral.",
+          "D": "Debemos pasar el arnés por debajo de la entremetida, moverlo hacia decúbito lateral contrario, estirar el arnés y la entremetida para finalizar en decúbito supino."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 155,
+        "idpregunta": 155,
+        "pregunta": "155.- La quinta rueda de las camillas sirve para:",
+        "opciones": {
+          "A": "Facilitar los giros.",
+          "B": "Fijar la dirección de las ruedas delanteras en sentido de la marcha.",
+          "C": "Facilitar los desplazamientos laterales.",
+          "D": "a) y c) son correctas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 156,
+        "idpregunta": 156,
+        "pregunta": "156.- La actuación inmediata a realizar ante una agresión será:",
+        "opciones": {
+          "A": "Aunque se necesite asistencia médica, lo primero sería la interposición de la correspondiente denuncia ante la autoridad policial.",
+          "B": "Si requiere asistencia médica, acuda a la Unidad Básica de Prevención (UBP) correspondiente. Si la asistencia se aporta fuera de la UBP, en el propio centro o en cualquier otro centro de Osakidetza, solicite la emisión de un informe médico donde consten las causas de la asistencia y las lesiones objetivadas.",
+          "C": "Aunque se necesite asistencia médica, lo primero es elaborar junto con el responsable inmediato, un informe lo más exhaustivo posible, incluyendo datos de la situación, hechos observados o declaraciones de testigos.",
+          "D": "Cumplimente el Registro para la Notificación de Accidente “Formato I” firmado por el responsable inmediato, antes de acudir al servicio de urgencias."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 157,
+        "idpregunta": 157,
+        "pregunta": "157.- El fuego se clasifica en diferentes clases, y no todas se apagan con el mismo agente extintor. Por eso, para cada clase de fuego encontramos diferentes tipos de extintores:",
+        "opciones": {
+          "A": "Para fuegos de clase B se puede utilizar agua.",
+          "B": "Para fuegos de clase ABC se puede utilizar extintores de Polvo Polivalente.",
+          "C": "Para fuegos de clase ABC se puede utilizar agua pulverizada o dióxido de carbono (CO2).",
+          "D": "Para fuegos de clase C se puede utilizar extintores de dióxido de carbono (CO2)."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 158,
+        "idpregunta": 158,
+        "pregunta": "158.- ¿Qué precaución se tiene que tener en cuenta cuando se utiliza un extintor de dióxido de carbono?",
+        "opciones": {
+          "A": "Solo es adecuado para fuegos de tipo C y el contacto de CO2 con partes del cuerpo al salir al exterior puede producir quemaduras por calor.",
+          "B": "Solo es adecuado para fuegos de tipo A y B y el contacto de CO2 con partes del cuerpo al salir al exterior puede producir quemaduras por calor.",
+          "C": "Solo es adecuado para fuegos de tipo C y el contacto de CO2 con partes del cuerpo al salir al exterior puede producir quemaduras por frío.",
+          "D": "Solo es adecuado para fuegos de tipo A y B y el contacto de CO2 con partes del cuerpo al salir al exterior puede producir quemaduras por frío."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul",
+        "diffs": {
+          "A": "Solo es adecuado para fuegos de tipo <span class=\"diff-highlight\">C</span> y el contacto de CO2 con partes del cuerpo al salir al exterior puede producir quemaduras por calor.",
+          "B": "Solo es adecuado para fuegos de tipo <span class=\"diff-highlight\">A</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">B</span> y el contacto de CO2 con partes del cuerpo al salir al exterior puede producir quemaduras por calor.",
+          "C": "Solo es adecuado para fuegos de tipo <span class=\"diff-highlight\">C</span> y el contacto de CO2 con partes del cuerpo al salir al exterior puede producir quemaduras por frío.",
+          "D": "Solo es adecuado para fuegos de tipo <span class=\"diff-highlight\">A</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">B</span> y el contacto de CO2 con partes del cuerpo al salir al exterior puede producir quemaduras por frío."
+        }
+      },
+      {
+        "num": 159,
+        "idpregunta": 159,
+        "pregunta": "159.- Un accidente biológico se produce por la exposición accidental a agentes biológicos, y esto puede ocurrir por:",
+        "opciones": {
+          "A": "Contacto con piel no intacta.",
+          "B": "Contacto con piel intacta.",
+          "C": "Contacto con sangre u otros fluidos biológicos a través de cortes o pinchazos.",
+          "D": "a) y c) son correctas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 160,
+        "idpregunta": 160,
+        "pregunta": "160.- ¿Cómo se denomina al suceso no esperado ni deseado que no dando lugar a pérdidas de salud o lesiones a las personas, pueda ocasionar daños en el equipo que estamos manejando?",
+        "opciones": {
+          "A": "Accidente de trabajo.",
+          "B": "Accidente sin baja.",
+          "C": "Accidente in-itinere.",
+          "D": "Incidente."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 161,
+        "idpregunta": 161,
+        "pregunta": "161.- Con respecto a las vacaciones:",
+        "opciones": {
+          "A": "Las vacaciones pueden ser compensadas con dinero si así lo solicita mediante un escrito notarial 15 días antes de cada periodo vacacional.",
+          "B": "Como norma general, las vacaciones no podrán ser compensadas, ni en todo ni en parte, en metálico.",
+          "C": "El trabajador solicita al inicio de su prestación laboral si quiere ser compensado en parte en metálico cuando finalice su periodo de contratación.",
+          "D": "En ningún caso se podrá solicitar que se compense las vacaciones."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 162,
+        "idpregunta": 162,
+        "pregunta": "162.- Elige la respuesta correcta en relación al equipo de protección individual:",
+        "opciones": {
+          "A": "Cualquier máquina , aparato, instrumento o instalación utilizada en el trabajo.",
+          "B": "Toda herramienta o dispositivo que el responsable inmediato entrega al trabajador para realizar su tarea de forma rápida.",
+          "C": "Un conjunto de medidas colectivas diseñadas para eliminar los riesgos ambientales en el entorno sanitario.",
+          "D": "Cualquier equipo destinado a ser llevado o sujetado por el trabajador para que le proteja de uno o varios riesgos que puedan amenazar su seguridad o salud en el trabajo."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 163,
+        "idpregunta": 163,
+        "pregunta": "163.- En una sujeción abdominal, las correas de sujeción:",
+        "opciones": {
+          "A": "La parte inferior se sujeta a la cama y la superior se coloca alrededor de la cintura del paciente.",
+          "B": "La parte abdominal se sujeta a la cama y la inferior se coloca alrededor de los miembros inferiores del paciente.",
+          "C": "Facilita la inmovilización total del paciente encamado.",
+          "D": "a) y c) son correctas."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 164,
+        "idpregunta": 164,
+        "pregunta": "164.- En las correas de peto, el kit número 1, para el corsé abdominal, contaremos con:",
+        "opciones": {
+          "A": "4 botones de cierre magnético.",
+          "B": "5 botones de cierre magnético.",
+          "C": "3 botones de cierre magnético.",
+          "D": "6 botones de cierre magnético."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 165,
+        "idpregunta": 165,
+        "pregunta": "165.- ¿Qué se debe comprobar siempre después de movilizar a un paciente?",
+        "opciones": {
+          "A": "Que la cama esté en posición Trendelemburg.",
+          "B": "Que el paciente tenga el suero lleno.",
+          "C": "La seguridad del paciente.",
+          "D": "Que el paciente esté en decúbito supino."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 166,
+        "idpregunta": 166,
+        "pregunta": "166.- ¿Qué aparato se utiliza para realizar exploraciones mediante ondas de ultrasonido?",
+        "opciones": {
+          "A": "Ecocardiógrafo.",
+          "B": "Ecógrafo.",
+          "C": "Endoscopio.",
+          "D": "Monitor."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 167,
+        "idpregunta": 167,
+        "pregunta": "167.- ¿Qué material se utiliza para inmovilizar completamente la columna en pacientes politraumatizados?",
+        "opciones": {
+          "A": "Tabla para paradas.",
+          "B": "Férula de Brown.",
+          "C": "Tablero de inmovilización espinal.",
+          "D": "Escopia."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 168,
+        "idpregunta": 168,
+        "pregunta": "168.- Según en la Carpeta Roja, ¿Cuál de las siguientes afirmaciones sobre la Hoja de Consulta en Prevención es INCORRECTA?",
+        "opciones": {
+          "A": "El trabajador la entrega a su responsable inmediato.",
+          "B": "Sirve para sugerencias de mejora.",
+          "C": "Solo puede usarse para quejas formales.",
+          "D": "Puede emplearse para consultar sobre vigilancia de la salud."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 169,
+        "idpregunta": 169,
+        "pregunta": "169.- ¿Cuál de las siguientes afirmaciones sobre riesgos ergonómicos es INCORRECTA?",
+        "opciones": {
+          "A": "Mantener la misma postura durante un tiempo ayuda a evitar fatiga.",
+          "B": "Acompañar el movimiento del tronco con los pies.",
+          "C": "Flexionar las piernas y mantener la espalda recta al movilizar pacientes.",
+          "D": "Realizar cambios frecuentes de postura."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 170,
+        "idpregunta": 170,
+        "pregunta": "170.- ¿Qué acción forma parte del procedimiento correcto al usar un extintor según el manual?",
+        "opciones": {
+          "A": "Apuntar directamente al centro de las llamas.",
+          "B": "Realizar movimientos en abanico cubriendo la base del fuego.",
+          "C": "Mantener el extintor inclinado para aumentar el alcance.",
+          "D": "Probar el extintor apuntando hacia arriba antes de usarlo."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 171,
+        "idpregunta": 171,
+        "pregunta": "171.- Según el manual de Riesgos Generales de Osakidetza, ¿cuál de las siguientes es una norma general en el manejo de productos químicos en un centro sanitario?",
+        "opciones": {
+          "A": "Se permite el consumo de bebidas en las áreas de manipulación siempre que los envases estén cerrados.",
+          "B": "Se pueden oler los productos químicos para identificarlos en caso de que la etiqueta no sea legible.",
+          "C": "En caso de trasvase a otro recipiente, identifique el contenido y etiquete el nuevo envase.",
+          "D": "Mantenga abiertos los recipientes con productos químicos, en especial los que contengan productos volátiles (glutaraldehído) para evitar la acumulación de gases."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 172,
+        "idpregunta": 172,
+        "pregunta": "172.- Indica la respuesta INCORRECTA en relación al uso del extintor:",
+        "opciones": {
+          "A": "Apunte hacia la base del fuego.",
+          "B": "Coloque el extintor en posición vertical.",
+          "C": "Coloque el extintor en posición horizontal.",
+          "D": "Rompa el precinto y retire el seguro."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 173,
+        "idpregunta": 173,
+        "pregunta": "173.- La temperatura a la cual una sustancia comienza a desprender vapores en cantidad suficiente para mantener la combustión, se denomina:",
+        "opciones": {
+          "A": "Proceso de combustión.",
+          "B": "Temperatura de autoinflamación.",
+          "C": "Punto de inflamación.",
+          "D": "Calor."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 174,
+        "idpregunta": 174,
+        "pregunta": "174.- ¿Qué medida se establece para asegurar el seguimiento de la jornada en los centros de Osakidetza?",
+        "opciones": {
+          "A": "Existirá un sistema de control horario, de obligado cumplimiento en todas las organizaciones de servicios dependiente del Ente público.",
+          "B": "Los Jefes de Unidad supervisarán a diario quién entra y quién sale.",
+          "C": "Se implementará un registro de firmas manual únicamente en aquellos centros que no dispongan de sistemas informáticos de fichaje.",
+          "D": "Todas las respuestas son correctas."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 175,
+        "idpregunta": 175,
+        "pregunta": "175.- A la hemorragia procedente del útero, que no está relacionada con la regla se le denomina:",
+        "opciones": {
+          "A": "Metrorragia.",
+          "B": "Melena.",
+          "C": "Aftas.",
+          "D": "Amniocentesis."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 176,
+        "idpregunta": 176,
+        "pregunta": "176.- ¿Cómo se denomina el aparato que se utiliza para realizar ecografías cardíacas?",
+        "opciones": {
+          "A": "Ecocardiógrafo.",
+          "B": "Escopia.",
+          "C": "Electrocardiógrafo.",
+          "D": "Hemofiltro."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 177,
+        "idpregunta": 177,
+        "pregunta": "177.- El término esplenomegalia hace referencia a:",
+        "opciones": {
+          "A": "Estrechamiento de un orificio.",
+          "B": "Hinchazón por acúmulo anormal de líquido.",
+          "C": "Inflamación del bazo.",
+          "D": "Enfermedad de carácter agudo consistente en una inflamación del hígado."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 178,
+        "idpregunta": 178,
+        "pregunta": "178.- A la inflamación de un ganglio linfático se le denomina:",
+        "opciones": {
+          "A": "Adenoma.",
+          "B": "Aféresis.",
+          "C": "Adenitis.",
+          "D": "Absceso."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 179,
+        "idpregunta": 179,
+        "pregunta": "179.- A la membrana interna que contiene el líquido amniótico, se le denomina:",
+        "opciones": {
+          "A": "Amniocentesis.",
+          "B": "Amnios.",
+          "C": "Anamnesis.",
+          "D": "Anemia."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 180,
+        "idpregunta": 180,
+        "pregunta": "180.- A la definición referente a las vida le corresponde el prefijo:",
+        "opciones": {
+          "A": "Bio- .",
+          "B": "Hidro-.",
+          "C": "Inter-.",
+          "D": "Logía-."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 181,
+        "idpregunta": 181,
+        "pregunta": "181.- En el decreto 255/1998, ¿quién es competente para fijar o trasladar el domicilio del Ente Público Osakidetza-Servicio vasco de salud?",
+        "opciones": {
+          "A": "El Gobierno Vasco mediante Decreto.",
+          "B": "El Departamento de Sanidad de la Comunidad Autónoma.",
+          "C": "El Consejo de Administración del Ente Público.",
+          "D": "El Director de Régimen Económico y Financiero del Ente Público."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 182,
+        "idpregunta": 182,
+        "pregunta": "182.- De acuerdo con la clasificación de los fuegos, ¿cómo se catalogaría un incendio que involucra exclusivamente a líquidos?",
+        "opciones": {
+          "A": "Fuegos clase A.",
+          "B": "Fuegos clase B.",
+          "C": "Fuegos clase C.",
+          "D": "Fuegos clase D."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 183,
+        "idpregunta": 183,
+        "pregunta": "183.- Si se produce un fuego en una zona con brasas, ¿cuál de los siguientes agentes extintores NO debe utilizarse según las propiedades descritas en el manual?",
+        "opciones": {
+          "A": "Polvo polivalente.",
+          "B": "Agua.",
+          "C": "Dióxido de carbono.",
+          "D": "Todas las respuestas son correctas."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 184,
+        "idpregunta": 184,
+        "pregunta": "184.- Indica la respuesta correcta en relación a la radiación ionizante:",
+        "opciones": {
+          "A": "El acceso a las áreas en las cuales se utiliza radiación ionizante está restringido a personas autorizadas.",
+          "B": "La radiación ionizante pueden ser diversas: infrarroja y láser, Electromagnética...",
+          "C": "Los efectos para la salud evidenciados son escasos (calor local, enrojecimiento de piel).",
+          "D": "Todas las respuestas son correctas."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 185,
+        "idpregunta": 185,
+        "pregunta": "185.- En el uso de pantallas de Visualización de datos (PVD’s), ¿cómo se debe colocar la pantalla respecto a los ojos?",
+        "opciones": {
+          "A": "De manera que los ojos se sitúen a la altura de los bordes superiores de esta.",
+          "B": "De manera que los ojos se sitúen a la altura de los bordes inferiores de esta.",
+          "C": "Lo más alta posible para estirar el cuello.",
+          "D": "Por debajo del nivel de la mesa."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 186,
+        "idpregunta": 186,
+        "pregunta": "186.- En caso de sufrir un accidente laboral que precise asistencia médica inmediata en horario de mañana (8:00 a 15:00), ¿a dónde debe acudir el trabajador prioritariamente?",
+        "opciones": {
+          "A": "A su médico de cabecera en el centro de salud.",
+          "B": "A la Unidad Básica de Prevención (UPB) de su organización.",
+          "C": "Directamente a las oficinas de Mutualia.",
+          "D": "Todas las respuestas son incorrectas."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 187,
+        "idpregunta": 187,
+        "pregunta": "187.- Para que un accidente de trabajo sea considerado in itinere, es necesario que:",
+        "opciones": {
+          "A": "El medio de locomoción sea el habitual.",
+          "B": "El trayecto no se haya modificado o interrumpido voluntariamente.",
+          "C": "El margen de tiempo está dentro de los límites normales.",
+          "D": "Todas las respuestas son correctas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 188,
+        "idpregunta": 188,
+        "pregunta": "188.- Indica la respuesta correcta en relación al tubo tubo de Guedel:",
+        "opciones": {
+          "A": "Cánula que se utiliza para impedir que la lengua caiga hacia atrás, bloqueando la vía respiratoria",
+          "B": "Tubo flexible, que puede introducirse en un vaso o una cavidad del cuerpo, para introducir o extraer líquidos.",
+          "C": "Se le denomina también cánula de Mayo.",
+          "D": "Las respuestas a y c son correctas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 189,
+        "idpregunta": 189,
+        "pregunta": "189.- El término hematuria hace referencia a:",
+        "opciones": {
+          "A": "Vómito en sangre procedente de estómago-intestino.",
+          "B": "Coloración amarillenta de la piel.",
+          "C": "Presencia de sangre en orina.",
+          "D": "Expulsión de sangre procedente de vías respiratorias."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 190,
+        "idpregunta": 190,
+        "pregunta": "190.- El término colelitiasis se define como:",
+        "opciones": {
+          "A": "Inflamación de la vejiga de la orina causada por infección bacteriana.",
+          "B": "Estudio y visualización de las vías biliares, a través de Rx, y la inyección de un preparado radiopaco.",
+          "C": "Presencia de piedras en vesícula biliar.",
+          "D": "Todas las respuestas son incorrectas."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 191,
+        "idpregunta": 191,
+        "pregunta": "191.- El término aneurisma hace referencia a:",
+        "opciones": {
+          "A": "Dilatación de la pared debilitada de un vaso sanguíneo.",
+          "B": "Estudio con técnicas radiológicas de las estructuras vasculares. Se utiliza con fines diagnósticos y terapéuticos.",
+          "C": "Coloración azul violeta de la piel y mucosas debida a la falta de oxígeno en la sangre.",
+          "D": "Todas las respuestas son incorrectas."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 192,
+        "idpregunta": 192,
+        "pregunta": "192.- La especialidad médica encargada del estudio de la función normal, la anatomía y los desórdenes producidos por alteraciones de las glándulas endocrinas es:",
+        "opciones": {
+          "A": "Dermatología.",
+          "B": "Hematología.",
+          "C": "Endocrinología.",
+          "D": "Nefrología."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 193,
+        "idpregunta": 193,
+        "pregunta": "193.- A la definición referente al dolor, le corresponde el sufijo:",
+        "opciones": {
+          "A": "-grafía.",
+          "B": "-algia.",
+          "C": "-itis.",
+          "D": "-citosis."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 194,
+        "idpregunta": 194,
+        "pregunta": "194.- A la definición referente a las venas le corresponde el prefijo:",
+        "opciones": {
+          "A": "Hemi-.",
+          "B": "Endo-.",
+          "C": "Hidro-.",
+          "D": "Flebo-."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 195,
+        "idpregunta": 195,
+        "pregunta": "195.- El término histerectomía hace referencia a:",
+        "opciones": {
+          "A": "Extirpación del útero.",
+          "B": "Hemorragia del útero.",
+          "C": "Caída del útero.",
+          "D": "Todas las respuestas son correctas."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 196,
+        "idpregunta": 196,
+        "pregunta": "196.- Indica la respuesta correcta en relación a la licencia por traslado o mudanza del domicilio habitual:",
+        "opciones": {
+          "A": "Tendrá derecho a una licencia de un día de duración dentro del plazo de un mes natural a contar desde la fecha de empadronamiento en el nuevo domicilio.",
+          "B": "Tendrá derecho a una licencia de un día de duración dentro del plazo de un año natural a contar desde la fecha de empadronamiento en el nuevo domicilio.",
+          "C": "Tendrá derecho a una licencia de dos días naturales de duración dentro del plazo de un mes natural a contar desde la fecha de empadronamiento en el nuevo domicilio.",
+          "D": "Tendrá derecho a una licencia de dos días naturales de duración dentro del plazo de un año natural a contar desde la fecha de empadronamiento en el nuevo domicilio."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul",
+        "diffs": {
+          "A": "Tendrá derecho a una licencia de un día de duración dentro del plazo de un <span class=\"diff-highlight\">mes</span> natural a contar desde la fecha de empadronamiento en el nuevo domicilio.",
+          "B": "Tendrá derecho a una licencia de un día de duración dentro del plazo de un <span class=\"diff-highlight\">año</span> natural a contar desde la fecha de empadronamiento en el nuevo domicilio.",
+          "C": "Tendrá derecho a una licencia de dos días naturales de duración dentro del plazo de un <span class=\"diff-highlight\">mes</span> natural a contar desde la fecha de empadronamiento en el nuevo domicilio.",
+          "D": "Tendrá derecho a una licencia de dos días naturales de duración dentro del plazo de un <span class=\"diff-highlight\">año</span> natural a contar desde la fecha de empadronamiento en el nuevo domicilio."
+        }
+      },
+      {
+        "num": 197,
+        "idpregunta": 197,
+        "pregunta": "197.- Indica la respuesta correcta en relación a la licencia para atender el cuidado de un familiar de primer grado por razones de enfermedad muy grave:",
+        "opciones": {
+          "A": "El trabajador tendrá derecho a solicitar una reducción de hasta el cincuenta por ciento de la jornada laboral con carácter retribuido y por el plazo máximo de 2 meses.",
+          "B": "El trabajador tendrá derecho a solicitar una reducción de hasta el cincuenta por ciento de la jornada laboral con carácter retribuido y por el plazo máximo de 1 mes.",
+          "C": "El trabajador tendrá derecho a solicitar una reducción de hasta el cien por ciento de la jornada laboral con carácter retribuido y por el plazo máximo de 1 mes.",
+          "D": "Todas las respuestas son incorrectas."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul",
+        "diffs": {
+          "A": "El trabajador tendrá derecho a solicitar una reducción de hasta el cincuenta por ciento de la jornada laboral con carácter retribuido y por el plazo máximo de <span class=\"diff-highlight\">2</span> <span class=\"diff-highlight\">meses</span>.",
+          "B": "El trabajador tendrá derecho a solicitar una reducción de hasta el cincuenta por ciento de la jornada laboral con carácter retribuido y por el plazo máximo de <span class=\"diff-highlight\">1</span> <span class=\"diff-highlight\">mes</span>.",
+          "C": "El trabajador tendrá derecho a solicitar una reducción de hasta el <span class=\"diff-highlight\">cien</span> por ciento de la jornada laboral con carácter retribuido y por el plazo máximo de 1 mes.",
+          "D": "Todas las respuestas son incorrectas."
+        }
+      },
+      {
+        "num": 198,
+        "idpregunta": 198,
+        "pregunta": "198.- Según el Acuerdo Regulador de Osakidetza, ¿cuál es la duración de la licencia retribuida por matrimonio propio?",
+        "opciones": {
+          "A": "El personal tiene derecho a una licencia de 20 días naturales de duración que podrá disfrutar con anterioridad o posterioridad a su celebración, incluyendo dicha fecha en ese periodo.",
+          "B": "El personal tiene derecho a una licencia de 25 días naturales de duración que podrá disfrutar con anterioridad o posterioridad a su celebración, incluyendo dicha fecha en ese periodo.",
+          "C": "El personal tiene derecho a una licencia de 20 días naturales de duración que podrá disfrutar únicamente con posterioridad a su celebración.",
+          "D": "El personal tiene derecho a una licencia de 25 días naturales de duración que podrá disfrutar únicamente con posterioridad a su celebración."
+        },
+        "correcta": "A",
+        "metodo": "acierto",
+        "diffs": {
+          "A": "El personal tiene derecho a una licencia de <span class=\"diff-highlight\">20</span> días naturales de duración que podrá disfrutar con anterioridad o posterioridad a su celebración, incluyendo dicha fecha en ese periodo.",
+          "B": "El personal tiene derecho a una licencia de <span class=\"diff-highlight\">25</span> días naturales de duración que podrá disfrutar con anterioridad o posterioridad a su celebración, incluyendo dicha fecha en ese periodo.",
+          "C": "El personal tiene derecho a una licencia de <span class=\"diff-highlight\">20</span> días naturales de duración que podrá disfrutar únicamente con posterioridad a su celebración.",
+          "D": "El personal tiene derecho a una licencia de <span class=\"diff-highlight\">25</span> días naturales de duración que podrá disfrutar únicamente con posterioridad a su celebración."
+        }
+      },
+      {
+        "num": 199,
+        "idpregunta": 199,
+        "pregunta": "199.- A el tablero destinado a pacientes que precisen de una inmovilización de urgencia, se le denomina:",
+        "opciones": {
+          "A": "Tablero de inmovilización espinal.",
+          "B": "Tablero de paradas.",
+          "C": "Transpaleta eléctrica.",
+          "D": "Camilla de exploración."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 200,
+        "idpregunta": 200,
+        "pregunta": "200.- El decreto 255/1997 en su artículo 4 (personalidad jurídica y capacidad de obrar) indica que el Ente Público Osakidetza-Servicio Vasco de Salud:.",
+        "opciones": {
+          "A": "Actúa con personalidad jurídica privada y capacidad limitada al ámbito sanitario.",
+          "B": "Dispone de personalidad jurídica pública diferenciada y plena capacidad de obrar para el cumplimiento de su objeto y fines.",
+          "C": "Carece de personalidad jurídica propia y depende orgánicamente del Departamento de Sanidad.",
+          "D": "Todas son incorrectas."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      }
+    ]
+  },
+  "operario": {
+    "label": "Operario",
+    "meta": "200 preguntas",
+    "questions": [
+      {
+        "num": 1,
+        "idpregunta": 1,
+        "pregunta": "1.- La cocina caliente es:",
+        "opciones": {
+          "A": "Es la encargada de conservar en buenas condiciones higiénicas los géneros de uso no inmediato.",
+          "B": "Es el lugar donde se limpia y conserva la batería de cocina.",
+          "C": "Es el lugar donde racionar ciertos platos, terminar algunos platos cocinados, confeccionar totalmente platos y guarniciones y salsas frías.",
+          "D": "Es la encargada de transformar, por medio de calor, los alimentos crudos."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 2,
+        "idpregunta": 2,
+        "pregunta": "2.- En cocina, tendrá suelo inclinado con vertiente central a un sumidero:",
+        "opciones": {
+          "A": "El economato.",
+          "B": "La antecámara.",
+          "C": "La cámara de refrigeración.",
+          "D": "El fregadero."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 3,
+        "idpregunta": 3,
+        "pregunta": "3.- Lugar donde se almacenan los alimentos no perecederos:",
+        "opciones": {
+          "A": "Almacén.",
+          "B": "Cuarto de verduras y frutas.",
+          "C": "Economato.",
+          "D": "Ninguna de las anteriores."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 4,
+        "idpregunta": 4,
+        "pregunta": "4.- La temperatura de la cámara de congelación será del orden de:",
+        "opciones": {
+          "A": "0 grados centígrados.",
+          "B": "18 grados centígrados bajo cero.",
+          "C": "20 grados centígrados bajo cero.",
+          "D": "12 grados centígrados bajo cero."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 5,
+        "idpregunta": 5,
+        "pregunta": "5.- La temperatura de la antecámara será del orden de:",
+        "opciones": {
+          "A": "8 a 12 grados centígrados.",
+          "B": "10 a 12 grados centígrados.",
+          "C": "3 a 4 grados centígrados.",
+          "D": "8 a 10 grados centígrados."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 6,
+        "idpregunta": 6,
+        "pregunta": "6.- El lugar donde se limpia y conserva la batería de cocina, que posee tres pilas, grandes, profundas y fuertes, es:",
+        "opciones": {
+          "A": "El cuarto de verduras y frutas.",
+          "B": "El economato.",
+          "C": "La plonge.",
+          "D": "La lavandería."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 7,
+        "idpregunta": 7,
+        "pregunta": "7.- Recibe el nombre de 'placares”:",
+        "opciones": {
+          "A": "El lugar acondicionado para que la brigada de cocina se cambie y deposite sus ropas.",
+          "B": "El lugar donde se limpia la loza, el cristal y la plata del establecimiento.",
+          "C": "El espacio donde se limpian las planchas y rustideras de la batería de cocina.",
+          "D": "El lugar donde se instala el friegaplatos y el lavavajillas mecánico."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 8,
+        "idpregunta": 8,
+        "pregunta": "8.- El departamento que debe estar dotado de cafetera, baño maría de leche, tostadores de pan, frigorífico para zumos, mantequilla, leche, etc., pequeño fogón con plancha, pila y armario, se conoce como:",
+        "opciones": {
+          "A": "Cocina de familia.",
+          "B": "Cocina de meriendas.",
+          "C": "Cafetería del hotel.",
+          "D": "Ambigú."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 9,
+        "idpregunta": 9,
+        "pregunta": "9.- Se emplea para la conservación de alimentos crudos, y también de géneros cocinados. Su temperatura será de 1 a 2 grados centígrados aproximadamente.",
+        "opciones": {
+          "A": "Antecámara.",
+          "B": "Cámara de congelación.",
+          "C": "Abatidor de temperatura.",
+          "D": "Cámara de refrigeración."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 10,
+        "idpregunta": 10,
+        "pregunta": "10.- Las grandes cámaras frigoríficas más completas, comprenden:",
+        "opciones": {
+          "A": "Antecámara, cámara de refrigeración y cámara de congelación.",
+          "B": "Antecámara, cámara de refrigeración y abatidor de temperatura.",
+          "C": "Sorbetera, cámara de refrigeración y cámara de congelación.",
+          "D": "Ninguna de las anteriores."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 11,
+        "idpregunta": 11,
+        "pregunta": "11.- Los fogones según sus características de acoplamiento podrán ser:",
+        "opciones": {
+          "A": "Murales, centrales, transportables, integrales o acoplables.",
+          "B": "Murales, centrales, plegables, integrales o por elementos.",
+          "C": "Transportables, centrales, plegables, integrales o acoplables.",
+          "D": "Murales, centrales, transportables, integrales o plegables."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 12,
+        "idpregunta": 12,
+        "pregunta": "12.- Señala la respuesta INCORRECTA, la cocina de familia.",
+        "opciones": {
+          "A": "Estará dedicada exclusivamente a confeccionar la comida del personal.",
+          "B": "Tiene como objetivo evitar la interferencia con la cocina de clientes.",
+          "C": "Deberá estar situada en un lugar que domine la totalidad de la cocina y para una mejor visión formada por cristaleras.",
+          "D": "Será, en sí, una cocina completa."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 13,
+        "idpregunta": 13,
+        "pregunta": "13.- Señala la respuesta CORRECTA:",
+        "opciones": {
+          "A": "El gas butano es más puro y gasifica mejor que el gas propano.",
+          "B": "El gas propano es más puro y gasifica mejor que el gas butano.",
+          "C": "El gas butano y propano son igual de puros.",
+          "D": "El gas propano y butano gasifican igual."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 14,
+        "idpregunta": 14,
+        "pregunta": "14.- En el gas propano, la mala combustión se identifica:",
+        "opciones": {
+          "A": "Por convertir la llama en amarillenta, en vez de rojiza.",
+          "B": "Por convertir la llama en rojiza, en vez de azulada.",
+          "C": "Por convertir la llama en azulada, en vez de rojiza.",
+          "D": "Por convertir la llama en rojiza, en vez de amarillenta."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 15,
+        "idpregunta": 15,
+        "pregunta": "15.- ¿Cuál es la situación en el local de cocina de la salamandra?",
+        "opciones": {
+          "A": "Partida del asador.",
+          "B": "Cuarto frío.",
+          "C": "Partida de carnes.",
+          "D": "Partida del entradero o pescadero."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 16,
+        "idpregunta": 16,
+        "pregunta": "16.- El tamaño de la cubeta de las freidoras:",
+        "opciones": {
+          "A": "Es de 4 hasta 10 litros.",
+          "B": "Es de 4 hasta 50 litros.",
+          "C": "Es de 4 hasta 100 litros.",
+          "D": "Es de 4 hasta 200 litros."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 17,
+        "idpregunta": 17,
+        "pregunta": "17.- El tipo de horno más usado es:",
+        "opciones": {
+          "A": "El eléctrico.",
+          "B": "El de gas propano.",
+          "C": "El de leña.",
+          "D": "El de gas-oil."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 18,
+        "idpregunta": 18,
+        "pregunta": "18.- ¿Cuál de los siguientes debe situarse como medianera entre la cocina y el paso al comedor?",
+        "opciones": {
+          "A": "Placar.",
+          "B": "Prusiana.",
+          "C": "Mesa caliente.",
+          "D": "Plonge."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 19,
+        "idpregunta": 19,
+        "pregunta": "19.- ¿Cuál es el generador de calor que se emplea para freír a la llamada 'gran fritura” alimentos de distinta cualidad de sabor y clase, en gran cantidad, con poco ennegrecimiento de la grasa y perfecta regulación de calor?",
+        "opciones": {
+          "A": "Parrilla.",
+          "B": "Plancha parrilla.",
+          "C": "Freidora.",
+          "D": "Sartén abatible."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 20,
+        "idpregunta": 20,
+        "pregunta": "20.- Los tipos de marmitas y olla a presión según el elemento de calentamiento empleado son:",
+        "opciones": {
+          "A": "Vapor, gas propano y electricidad.",
+          "B": "Electricidad únicamente.",
+          "C": "Vapor, gas y vapor, gas directo y electricidad.",
+          "D": "Vapor con gas, gas azul y electricidad."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 21,
+        "idpregunta": 21,
+        "pregunta": "21.- Los recipientes generadores de calor, con posibilidad de vaciado rápido por basculación, adecuados para elaborar salteados, estofados, arroces, fritos con poco aceite, etc., con placa cerrada o cubierta, son:",
+        "opciones": {
+          "A": "Baño María.",
+          "B": "Freidora a presión.",
+          "C": "Sartén abatible.",
+          "D": "Sartén volteable."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 22,
+        "idpregunta": 22,
+        "pregunta": "22.- Utensilio contenedor de agua caliente dentro del cual se sitúan los recipientes contenedores de alimentos para conservarlos calientes por un espacio de tiempo determinado.",
+        "opciones": {
+          "A": "Baño caliente.",
+          "B": "Roner.",
+          "C": "Sous vide.",
+          "D": "Ninguna de las anteriores."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 23,
+        "idpregunta": 23,
+        "pregunta": "23.- La misión de la cámara de congelación es conservar géneros:",
+        "opciones": {
+          "A": "Hasta 3 meses.",
+          "B": "Más de 6 meses.",
+          "C": "Hasta 6 meses.",
+          "D": "Hasta 12 meses."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 24,
+        "idpregunta": 24,
+        "pregunta": "24.- Los fogones centrales (señala la opción INCORRECTA):",
+        "opciones": {
+          "A": "Están construidos para instalar retirados de las paredes.",
+          "B": "Se requieren conductos de instalación aérea o por el suelo.",
+          "C": "Son los usados en los grandes establecimientos por permitir el agrupamiento de las partidas.",
+          "D": "Tienen sus hornos y estufas en un solo frente, que es el de titulación de trabajo."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 25,
+        "idpregunta": 25,
+        "pregunta": "25.- Los tipos de 'baño maría' (señala la opción INCORRECTA):",
+        "opciones": {
+          "A": "Placa de bordes altos con agua.",
+          "B": "Fijo.",
+          "C": "Mural.",
+          "D": "Transportable."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 26,
+        "idpregunta": 26,
+        "pregunta": "26.- La ventilación de la cocina será por medio de:",
+        "opciones": {
+          "A": "Ventanales de salida a nivel bajo.",
+          "B": "Ventanales de entrada a nivel más alto.",
+          "C": "Ventanales de salida a nivel alto.",
+          "D": "Ventanales de entrada y salida a nivel medio."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 27,
+        "idpregunta": 27,
+        "pregunta": "27.- La ubicación de la cocina:",
+        "opciones": {
+          "A": "Estará situada en la misma planta que los comedores principales.",
+          "B": "Estará alejada de terrazas y comedores para evitar olores.",
+          "C": "Para evitar que la comida se enfríe, se emplearán mantas isotérmicas.",
+          "D": "Deberá estar alejada de la zona de llegada de mercancías para evitar contaminaciones."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 28,
+        "idpregunta": 28,
+        "pregunta": "28.- Los materiales adecuados para la construcción de las cocinas como revestimiento de paredes, suelos y techos:",
+        "opciones": {
+          "A": "En los suelos ha de buscarse material que permita el fácil deslizamiento.",
+          "B": "Para el techo se emplea el encalado o revestimiento de yeso o pintura gris.",
+          "C": "En las paredes han de emplearse materiales de fácil limpieza e inalterables al calor.",
+          "D": "Ninguna de las respuestas anteriores es correcta."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 29,
+        "idpregunta": 29,
+        "pregunta": "29.- El despacho del jefe:",
+        "opciones": {
+          "A": "Debe estar alejado de la cocina para que no haya ruidos.",
+          "B": "Dispondrá de teléfono, control de micrófonos y mesa de despacho.",
+          "C": "Es imprescindible en todos los establecimientos, sea cual sea su tamaño.",
+          "D": "Es el lugar donde se controlan el peso, el rendimiento y la calidad de los artículos alimenticios."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 30,
+        "idpregunta": 30,
+        "pregunta": "30.- Los gases más usados en la generación de frío en principio fueron:",
+        "opciones": {
+          "A": "Cloruro de metilo y gas carbónico.",
+          "B": "Gas cianhídrico y el amoníaco.",
+          "C": "El sulfuro y el amoníaco.",
+          "D": "Ninguna de las anteriores."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 31,
+        "idpregunta": 31,
+        "pregunta": "31.- Los materiales que se utilizan principalmente para la fabricación del colador chino, son:",
+        "opciones": {
+          "A": "Hierro estañado o aluminio.",
+          "B": "Hierro estañado o acero inoxidable.",
+          "C": "Cobre o acero inoxidable.",
+          "D": "Aluminio anodizado o acero inoxidable."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 32,
+        "idpregunta": 32,
+        "pregunta": "32.- El material de fabricación del mortero o almirez será:",
+        "opciones": {
+          "A": "Madera.",
+          "B": "Acero inoxidable.",
+          "C": "Poliestireno.",
+          "D": "Mármol."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 33,
+        "idpregunta": 33,
+        "pregunta": "33.- Para toda clase de fritos y géneros a la 'gran fritura” como croquetas, gambas orly, soldaditos de pavía, etc. se utiliza:",
+        "opciones": {
+          "A": "La salamandra.",
+          "B": "La carmela.",
+          "C": "La sauté.",
+          "D": "El sartén escurridor o fritura."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 34,
+        "idpregunta": 34,
+        "pregunta": "34.- Se emplean para medir líquidos:",
+        "opciones": {
+          "A": "Las medidas de capacidad.",
+          "B": "Caudalímetro.",
+          "C": "Vaso medidor.",
+          "D": "Balanza."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 35,
+        "idpregunta": 35,
+        "pregunta": "35.- Se emplea para majar y machacar elementos de condimentación:",
+        "opciones": {
+          "A": "Colador cónico perforado o 'chino”.",
+          "B": "Batidora de mano.",
+          "C": "Pasapurés de mano.",
+          "D": "Mortero o almirez."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 36,
+        "idpregunta": 36,
+        "pregunta": "36.- El utensilio, de hierro estañado, utilizado para tamizar purés, cremas y salsas, es:",
+        "opciones": {
+          "A": "Cedazo.",
+          "B": "Pasapurés.",
+          "C": "Tamiz.",
+          "D": "Colador."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 37,
+        "idpregunta": 37,
+        "pregunta": "37.- Son tipos de cuchillos:",
+        "opciones": {
+          "A": "De golpe, de medio golpe, cebollero y puntilla.",
+          "B": "De golpe, cebollero, chuletero y puntilla.",
+          "C": "De golpe, de medio golpe, descorazonador y deshuesador.",
+          "D": "Cebollero, tronchante, puntilla y jamonero."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 38,
+        "idpregunta": 38,
+        "pregunta": "38.- Cuchillo que se emplea para cortar hortalizas, pescados, carnes, etc. de dimensiones entre 37,5 y 42 cm. Se trata de:",
+        "opciones": {
+          "A": "Cuchillo de medio golpe.",
+          "B": "Puntilla.",
+          "C": "Cuchillo cebollero.",
+          "D": "Cuchillo tranchelar."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 39,
+        "idpregunta": 39,
+        "pregunta": "39.- Se emplea para cortar grandes piezas con huesos muy tiernos, inclusive.",
+        "opciones": {
+          "A": "Macheta.",
+          "B": "Medio golpe.",
+          "C": "Cebollero.",
+          "D": "Ninguna de las anteriores."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 40,
+        "idpregunta": 40,
+        "pregunta": "40.- Se emplea para pasar y colar caldos y cremas, y también salsas.",
+        "opciones": {
+          "A": "Colador 'chino”.",
+          "B": "Pasapuré.",
+          "C": "Tamizador.",
+          "D": "Estameña."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 41,
+        "idpregunta": 41,
+        "pregunta": "41.- En cocina, para tornear utilizaremos preferentemente:",
+        "opciones": {
+          "A": "Un cuchillo de medio golpe.",
+          "B": "Un cuchillo cebollero.",
+          "C": "Una puntilla.",
+          "D": "Un trinchante."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 42,
+        "idpregunta": 42,
+        "pregunta": "42.- Las aplicaciones de la balanza son:",
+        "opciones": {
+          "A": "Pesar hasta un determinado número de kilos (de 6 a 10).",
+          "B": "Pesar hasta un determinado número de kilos (de 1 a 2).",
+          "C": "Pesar hasta un determinado número de kilos (de 4 a 12).",
+          "D": "Pesar hasta un determinado número de kilos (de 6 a 12)."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 43,
+        "idpregunta": 43,
+        "pregunta": "43.- Se emplea para cortar huesos:",
+        "opciones": {
+          "A": "Jamonero.",
+          "B": "Trinchante.",
+          "C": "Macheta.",
+          "D": "Puntilla."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 44,
+        "idpregunta": 44,
+        "pregunta": "44.- El recipiente que se emplea para la elaboración de caldos y fondos y que, en algunos casos, sirve para hervidos se denomina:",
+        "opciones": {
+          "A": "Cazo alto.",
+          "B": "Sauté.",
+          "C": "Rondón.",
+          "D": "Marmita con tapa."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 45,
+        "idpregunta": 45,
+        "pregunta": "45.- Un cuchillo jamonero mide:",
+        "opciones": {
+          "A": "40 cm.",
+          "B": "44 cm.",
+          "C": "48 cm.",
+          "D": "52 cm."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 46,
+        "idpregunta": 46,
+        "pregunta": "46.- La capacidad de la marmita con tapa será de:",
+        "opciones": {
+          "A": "De 15 a 100 litros.",
+          "B": "De 12 a 170 litros.",
+          "C": "De 10 a 150 litros.",
+          "D": "De 20 a 160 litros."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 47,
+        "idpregunta": 47,
+        "pregunta": "47.- En la cocina caliente, las mesas de trabajo irán paralelas a los fogones, con una separación mínima de:",
+        "opciones": {
+          "A": "1 m.",
+          "B": "1,10 m.",
+          "C": "1,20 m.",
+          "D": "1,30 m."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 48,
+        "idpregunta": 48,
+        "pregunta": "48.- ¿De qué material suelen estar fabricadas las medidas de capacidad?",
+        "opciones": {
+          "A": "De plástico y de acero inoxidable.",
+          "B": "De hojalata, acero inoxidable y aluminio.",
+          "C": "De plástico, aluminio y acero estañado.",
+          "D": "De hojalata, acero inoxidable y plástico."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 49,
+        "idpregunta": 49,
+        "pregunta": "49.- Se usa para trinchar jamón serrano y otras piezas similares:",
+        "opciones": {
+          "A": "Trinchante o tranchelar.",
+          "B": "Jamonero.",
+          "C": "Deshuesador.",
+          "D": "Cebollero."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 50,
+        "idpregunta": 50,
+        "pregunta": "50.- Muebles situados dentro de la cocina caliente o de sus departamentos, empleados en la conservación por refrigeración a corto plazo de géneros de uso inmediato o constante:",
+        "opciones": {
+          "A": "Antecámara.",
+          "B": "Cámaras frigoríficas.",
+          "C": "Armarios frigoríficos.",
+          "D": "Timbres."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 51,
+        "idpregunta": 51,
+        "pregunta": "51.- El diámetro del colador chino oscila entre:",
+        "opciones": {
+          "A": "20-23 cm.",
+          "B": "20-25 cm.",
+          "C": "18-22 cm.",
+          "D": "10-20 cm."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 52,
+        "idpregunta": 52,
+        "pregunta": "52.- Lugar de almacenaje de artículos poco perecederos, como fiambres, conservas y escabeches:",
+        "opciones": {
+          "A": "Cámara de refrigeración.",
+          "B": "Antecámara.",
+          "C": "Cuarto frío.",
+          "D": "Armarios frigoríficos."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 53,
+        "idpregunta": 53,
+        "pregunta": "53.- El material empleado para la fabricación de la sartén es:",
+        "opciones": {
+          "A": "Hierro fundido.",
+          "B": "Hierro negro.",
+          "C": "Hierro estañado.",
+          "D": "Teflón."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 54,
+        "idpregunta": 54,
+        "pregunta": "54.- ¿Qué diámetro suele tener el mortero grande?",
+        "opciones": {
+          "A": "14,5 cm.",
+          "B": "26 cm.",
+          "C": "30 cm.",
+          "D": "25,5 cm."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 55,
+        "idpregunta": 55,
+        "pregunta": "55.- Se establece para las mesas de trabajo en lo que se refiere a la amplitud, que cada puesto de trabajo necesita:",
+        "opciones": {
+          "A": "1,20 metros de largo por 0,50 de ancho.",
+          "B": "1,20 metros de largo por 0,70 de ancho.",
+          "C": "1,30 metros de largo por 0,50 de ancho.",
+          "D": "1,30 metros de largo por 0,70 de ancho."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 56,
+        "idpregunta": 56,
+        "pregunta": "56.- La capacidad de las cámaras de congelación, marcada en litros o metros cúbicos, será:",
+        "opciones": {
+          "A": "Adecuada a las necesidades de almacenamiento.",
+          "B": "La mayor capacidad posible para cubrir imprevistos.",
+          "C": "De 50 metros cúbicos.",
+          "D": "Es indiferente."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 57,
+        "idpregunta": 57,
+        "pregunta": "57.- El material empleado para la fabricación del rallador manual es:",
+        "opciones": {
+          "A": "Acero inoxidable.",
+          "B": "Hierro y acero inoxidable.",
+          "C": "Hojalata y hierro.",
+          "D": "Hojalata."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 58,
+        "idpregunta": 58,
+        "pregunta": "58.- La misión del cuarto frío es:",
+        "opciones": {
+          "A": "Conservar grandes piezas de carne y también géneros cocinados.",
+          "B": "Limpiar y racionar los géneros en crudo.",
+          "C": "Conservar géneros, por medio de la congelación a largo plazo.",
+          "D": "Lugar donde se limpia y conserva la batería de cocina."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 59,
+        "idpregunta": 59,
+        "pregunta": "59.- Respecto al comedor del personal de cocina (señala la INCORRECTA):",
+        "opciones": {
+          "A": "Suele estar anexo a la cocina.",
+          "B": "Puede tener dos o tres mesas.",
+          "C": "Debe ser un lugar agradable por su temperatura, aspecto y sencilla comodidad.",
+          "D": "Estará dotada de cafetera y baño maría, pequeño fogón con plancha, pila y armario."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 60,
+        "idpregunta": 60,
+        "pregunta": "60.- Su misión es conservar, cocinar y distribuir los alimentos.",
+        "opciones": {
+          "A": "La cocina.",
+          "B": "La mesa caliente.",
+          "C": "La cocina caliente.",
+          "D": "La cafetería del hotel."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 61,
+        "idpregunta": 61,
+        "pregunta": "61.- Entre las instalaciones necesarias en el cuarto frío están (SEÑALE LA INCORRECTA):",
+        "opciones": {
+          "A": "Grandes pilas con agua fría.",
+          "B": "Tajos o pilones.",
+          "C": "Altavoz que permita escuchar las comandas.",
+          "D": "Cajones basculantes para legumbres secas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 62,
+        "idpregunta": 62,
+        "pregunta": "62.- La temperatura de la mesa caliente será:",
+        "opciones": {
+          "A": "Menor de 100 o C.",
+          "B": "Entre 20 y 50 oC.",
+          "C": "Entre 70 y 120 oC.",
+          "D": "Entre 40 y 60 oC."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 63,
+        "idpregunta": 63,
+        "pregunta": "63.- La capacidad máxima de una cacerola será de:",
+        "opciones": {
+          "A": "25 litros.",
+          "B": "32 litros.",
+          "C": "23 litros.",
+          "D": "28 litros"
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 64,
+        "idpregunta": 64,
+        "pregunta": "64.- Se usa para rallar géneros tales como: quesos duros, nuez moscada, cáscara de limón, etc.",
+        "opciones": {
+          "A": "Rallador eléctrico.",
+          "B": "Rallador microplane.",
+          "C": "Rallador manual.",
+          "D": "Rallador 'chino”."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 65,
+        "idpregunta": 65,
+        "pregunta": "65.- Utensilio contenedor de agua caliente dentro del cual se sitúan los recipientes contenedores de alimentos para conservarlos calientes por espacio de un tiempo determinado:",
+        "opciones": {
+          "A": "Marmita con tapa.",
+          "B": "Sartén basculante.",
+          "C": "Mesa caliente.",
+          "D": "Baño María."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 66,
+        "idpregunta": 66,
+        "pregunta": "66.- Fuera de la hora del 'servicio” puede usarse como lugar de trabajo y estufa fermentadora.",
+        "opciones": {
+          "A": "Sartén abatible.",
+          "B": "Sartén basculante.",
+          "C": "Mesa caliente.",
+          "D": "Mesa de trabajo."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 67,
+        "idpregunta": 67,
+        "pregunta": "67.- Señala el requisito INNECESARIO en un buen programa de limpieza hospitalaria:",
+        "opciones": {
+          "A": "Buen personal.",
+          "B": "Equipo adecuado.",
+          "C": "Flexibilidad de horarios.",
+          "D": "Procedimientos de limpieza modernos."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 68,
+        "idpregunta": 68,
+        "pregunta": "68.- Señala la respuesta CORRECTA:",
+        "opciones": {
+          "A": "Se deben utilizar mopas de algodón de 16 onzas (unos 453 gramos) para las habitaciones con enfermos.",
+          "B": "Se deben utilizar mopas de algodón de 24 onzas (unos 680 gramos) en las zonas públicas.",
+          "C": "Se deben utilizar mopas de 12 pulgadas (unos 30 cm) para zonas más estrechas.",
+          "D": "a) b) y c) son correctas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 69,
+        "idpregunta": 69,
+        "pregunta": "69.- En la limpieza de ventanas, la segunda pasada debe hacerse:",
+        "opciones": {
+          "A": "Empezando por la superficie seca, por la esquina derecha de la parte superior de la ventana.",
+          "B": "Empezando por la superficie seca, por la esquina izquierda de la parte inferior de la ventana.",
+          "C": "Empezando por la superficie seca, por la esquina izquierda de la parte superior de la ventana.",
+          "D": "Empezando por la superficie mojada, por la esquina izquierda de la parte superior de la ventana."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 70,
+        "idpregunta": 70,
+        "pregunta": "70.- En relación con la aplicación y acabado de resina en mesas (muebles):",
+        "opciones": {
+          "A": "Haga una pasada, o sea, una capa.",
+          "B": "Haga dos pasadas, o sea, dos capas.",
+          "C": "Haga tres pasadas, o sea, tres capas.",
+          "D": "No es recomendable su uso."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 71,
+        "idpregunta": 71,
+        "pregunta": "71.- El procedimiento de esterilización de las habitaciones hospitalarias conlleva:",
+        "opciones": {
+          "A": "Esperar 24 horas después del fumigado antes de entrar en la habitación.",
+          "B": "Esperar 12 horas después del fumigado antes de entrar en la habitación.",
+          "C": "Esperar 1 hora después del fumigado antes de entrar en la habitación.",
+          "D": "Esperar 30 minutos después del fumigado antes de entrar en la habitación."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 72,
+        "idpregunta": 72,
+        "pregunta": "72.- Bacteriostático es:",
+        "opciones": {
+          "A": "Cualquier agente químico que destruye las bacterias.",
+          "B": "Cualquier agente químico que retrasa o inhibe el crecimiento de las bacterias.",
+          "C": "Cualquier agente de índole químico.",
+          "D": "Ninguna es correcta."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 73,
+        "idpregunta": 73,
+        "pregunta": "73.- Proceso mediante el cual se destruyen todos los organismos tanto patógenos como no patógenos incluyendo esporas:",
+        "opciones": {
+          "A": "Desinfección.",
+          "B": "Aniquilación.",
+          "C": "Esterilización.",
+          "D": "Desgerminación."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 74,
+        "idpregunta": 74,
+        "pregunta": "74.- Señala la CORRECTA:",
+        "opciones": {
+          "A": "Para poder ocuparse de la limpieza de los quirófanos, es necesario un cierto conocimiento de microbiología y electricidad, así como un considerable dominio de los procedimientos de sanificación.",
+          "B": "Para poder ocuparse de la limpieza de los quirófanos, no es necesario un cierto conocimiento de microbiología y electricidad.",
+          "C": "Para poder ocuparse de la limpieza de los quirófanos, es necesario un cierto conocimiento de microbiología, electricidad e inmunología.",
+          "D": "Ninguna es correcta."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 75,
+        "idpregunta": 75,
+        "pregunta": "75.- La técnica de limpieza básica empleada actualmente en los quirófanos es:",
+        "opciones": {
+          "A": "Mopa y doble cubo.",
+          "B": "Limpieza con el lavapavimentos.",
+          "C": "Limpieza spray.",
+          "D": "a) b) y c) son correctas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 76,
+        "idpregunta": 76,
+        "pregunta": "76.- La limpieza de los pavimentos es una operación muy importante ya que:",
+        "opciones": {
+          "A": "Elimina grandes concentraciones de polvo e impide la acumulación de materiales no conductores.",
+          "B": "Elimina grandes concentraciones de bacterias e impide la acumulación de materiales conductores.",
+          "C": "Elimina grandes concentraciones de polvo, impide la acumulación de materiales conductores y evita que el personal resbale.",
+          "D": "Elimina grandes concentraciones de bacterias, impide la acumulación de materiales no conductores y evita que el personal resbale."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 77,
+        "idpregunta": 77,
+        "pregunta": "77.- El recipiente de plástico que contiene una bolsa plástica color gris que sobresale 5 o 10 centímetros del borde del bote y se utiliza para depositar los desechos ordinarios no recuperables es de color:",
+        "opciones": {
+          "A": "Rojo.",
+          "B": "Amarillo.",
+          "C": "V erde.",
+          "D": "Gris."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 78,
+        "idpregunta": 78,
+        "pregunta": "78.- El término 'coeficiente del fenol”, aplicado a un producto, es:",
+        "opciones": {
+          "A": "La medida del poder exterminador de este producto, comparado con el del ácido carbónico puro.",
+          "B": "El número que indica si el producto es ácido, alcalino o neutro.",
+          "C": "La medida del poder limpiador de este producto, comparado con el del ácido carbónico puro.",
+          "D": "Ninguna de las respuestas anteriores es correcta."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 79,
+        "idpregunta": 79,
+        "pregunta": "79.- El pH de un producto es:",
+        "opciones": {
+          "A": "Un número que indica el grado de densidad del material.",
+          "B": "Un número que indica si el material es ácido, alcalino o neutro.",
+          "C": "Un número que indica el grado de humedad del material.",
+          "D": "Ninguna de las respuestas anteriores es correcta."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 80,
+        "idpregunta": 80,
+        "pregunta": "80.- Señala la respuesta INCORRECTA:",
+        "opciones": {
+          "A": "La función de la limpieza y el mantenimiento no debe interferir con la función principal del cuidado de los enfermos.",
+          "B": "El departamento de limpieza y mantenimiento de un hospital es el centro alrededor del cual se desarrollan toda clase de actividades que implican todo un sinfín de responsabilidades.",
+          "C": "Es necesario que los alrededores del hospital ofrezcan un aspecto atractivo.",
+          "D": "Los procedimientos básicos de limpieza en ningún caso pueden ser modificados."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 81,
+        "idpregunta": 81,
+        "pregunta": "81.- El objetivo del fregado con mopa y doble cubo es:",
+        "opciones": {
+          "A": "Conseguir una limpieza más esmerada, más higiénica y de más belleza ambiental.",
+          "B": "Dejar en el suelo el detergente germicida el tiempo suficiente para que mate las bacterias.",
+          "C": "Eliminar todo el polvo del pavimento.",
+          "D": "Quitar toda suciedad del suelo, antes de aplicar el nuevo acabado al suelo."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 82,
+        "idpregunta": 82,
+        "pregunta": "82.- Señala la respuesta que NO es correcta:",
+        "opciones": {
+          "A": "En el proceso de esterilización de habitaciones hay que ponerse uniforme apropiado, mascarilla y guantes de goma.",
+          "B": "En el proceso de esterilización de habitaciones hay que sellar la habitación.",
+          "C": "En el proceso de esterilización de habitaciones hay que airear la habitación.",
+          "D": "En el proceso de esterilización de habitaciones hay que fumigar al menos durante 15 minutos."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 83,
+        "idpregunta": 83,
+        "pregunta": "83.- El objetivo de la limpieza y desinfección de una habitación ocupada aislada es:",
+        "opciones": {
+          "A": "Ofrecer una habitación limpia al nuevo paciente que debe ocuparla.",
+          "B": "Ofrecer una habitación limpia y atractiva al nuevo paciente que debe ocuparla.",
+          "C": "Ofrecer una habitación limpia, higiénica y atractiva usando las más modernas técnicas de asepsia.",
+          "D": "Ofrecer una habitación atractiva al nuevo paciente que debe ocuparla."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 84,
+        "idpregunta": 84,
+        "pregunta": "84.- Los antisépticos son:",
+        "opciones": {
+          "A": "Agentes o sustancias fuertes, por lo general de índole químico, que no entran en contacto con el tejido viviente, sino que se aplican a objetos inanimados, destruyendo los microorganismos patógenos.",
+          "B": "Soluciones más débiles porque hay peligro de lesionar tejidos ya que se aplican sobre el cuerpo humano. Con actividad microbiana suficiente para interferir el desarrollo de la infección.",
+          "C": "Cualquier agente químico que retrasa o inhibe el crecimiento de bacterias.",
+          "D": "Cualquier agente químico que destruye bacterias."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 85,
+        "idpregunta": 85,
+        "pregunta": "85.- Son agentes o sustancias fuertes, por lo general de índole químico, que no entran en contacto con el tejido viviente, sino que se aplican a objetos inanimados, destruyendo los microorganismos patógenos:",
+        "opciones": {
+          "A": "Bactericidas.",
+          "B": "Antisépticos.",
+          "C": "Desinfectantes.",
+          "D": "Esterilizantes."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 86,
+        "idpregunta": 86,
+        "pregunta": "86.- Señala la respuesta que NO es correcta:",
+        "opciones": {
+          "A": "La limpieza de los pavimentos es una operación muy importante ya que elimina grandes concentraciones de bacterias.",
+          "B": "La limpieza de los pavimentos es una operación muy importante ya que impide la acumulación de materiales no conductores.",
+          "C": "La limpieza de los pavimentos es una operación muy importante ya que evita que el personal resbale.",
+          "D": "Muchos pavimentos de los quirófanos son no conductores para impedir la formación de electricidad estática."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 87,
+        "idpregunta": 87,
+        "pregunta": "87.- Respecto al manejo de basuras hospitalarias:",
+        "opciones": {
+          "A": "No deben permanecer recipientes que contengan basuras en áreas de mucha circulación de manera que causen problemas estéticos entre otros.",
+          "B": "La separación de la basura debe hacerse en destino.",
+          "C": "La basura debe apretarse en las bolsas plásticas con el fin de ocupar menos espacio y evitar accidentes.",
+          "D": "La basura debe vaciarse de un recipiente a otro."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 88,
+        "idpregunta": 88,
+        "pregunta": "88.- Señala la respuesta que NO es correcta. Entre los efectos nocivos que más comúnmente encontramos originados por los deshechos tenemos:",
+        "opciones": {
+          "A": "Los contaminantes.",
+          "B": "Los tóxicos.",
+          "C": "Los patógenos.",
+          "D": "Los alérgicos."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 89,
+        "idpregunta": 89,
+        "pregunta": "89.- Señala la respuesta que NO es correcta:",
+        "opciones": {
+          "A": "La recolección de basura debe efectuarse en horas que no coincidan con las de mayor tránsito (comida, visitas, etc.).",
+          "B": "La basura seca es aquella que proviene de la limpieza diaria, y también se incluye a los residuos sólidos que son recuperables para terceros.",
+          "C": "La basura húmeda es aquella que proviene del servicio de alimentación, cirugía, etc.",
+          "D": "La recolección de basura en cada área del hospital debe tener una frecuencia mínima de una vez cada dos días."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 90,
+        "idpregunta": 90,
+        "pregunta": "90.- En el procedimiento de quitar el polvo con mopas en zonas públicas, pasillos y vestíbulos, utilizaremos:",
+        "opciones": {
+          "A": "Mopas de impregnación de 1,20 m.",
+          "B": "Mopas de impregnación de 1 m.",
+          "C": "Mopas de impregnación de 80 cm.",
+          "D": "Mopas de impregnación de 30 cm."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 91,
+        "idpregunta": 91,
+        "pregunta": "91.- En el procedimiento de quitar el polvo con mopas en habitaciones con pacientes y áreas congestionadas, remplazaremos el cabezal de la mopa:",
+        "opciones": {
+          "A": "Máximo tres veces al día.",
+          "B": "Al cambiar de estancia.",
+          "C": "Cuando la suciedad ya no pueda ser quitada o vea que está demasiado sucia.",
+          "D": "a) b) y c) son correctas."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 92,
+        "idpregunta": 92,
+        "pregunta": "92.- En el procedimiento de 'Aplicación del acabado de los suelos”:",
+        "opciones": {
+          "A": "Deje que se seque la primera capa durante unos 5 minutos.",
+          "B": "Deje que se seque la primera capa durante unos 20 minutos.",
+          "C": "Deje que se seque la primera capa durante unos 60 minutos.",
+          "D": "Deje que se seque la primera capa durante al menos 24 horas."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 93,
+        "idpregunta": 93,
+        "pregunta": "93.- En la limpieza de una habitación que está desocupada:",
+        "opciones": {
+          "A": "Empiece a fregar partiendo de la puerta y siga trabajando a lo largo de la habitación.",
+          "B": "Inspeccione y quite las telarañas.",
+          "C": "Se debe fregar la habitación y el cuarto de baño todos los días, aunque siga desocupada.",
+          "D": "Ninguna es correcta."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 94,
+        "idpregunta": 94,
+        "pregunta": "94.- La limpieza y desinfección recurrente en áreas críticas se hace:",
+        "opciones": {
+          "A": "Diariamente y se repite 2 o más veces al día según las condiciones de cada área.",
+          "B": "Periódicamente cada 2 días.",
+          "C": "Periódicamente cada 7 días.",
+          "D": "Ninguna es correcta."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 95,
+        "idpregunta": 95,
+        "pregunta": "95.- Señala la respuesta que NO es correcta:",
+        "opciones": {
+          "A": "La limpieza diaria de la sala de reanimación incluirá quitar el polvo de los muebles con un detergente germicida.",
+          "B": "La limpieza diaria de la sala de reanimación incluirá limpiar en seco con una mopa todo el pavimento.",
+          "C": "Una limpieza completa de la sala de reanimación debería realizarse, al menos, mensualmente.",
+          "D": "La limpieza completa de la sala de reanimación incluye el lavado de las paredes y los puntos de luz."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 96,
+        "idpregunta": 96,
+        "pregunta": "96.- Para depositar los residuos sólidos patógenos y residuos sólidos tóxicos utilizaremos:",
+        "opciones": {
+          "A": "Bolsa plástica color negro.",
+          "B": "Recipiente color rojo.",
+          "C": "Recipiente plástico color verde.",
+          "D": "Recipiente color naranja."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 97,
+        "idpregunta": 97,
+        "pregunta": "97.- Cuando un producto tiene un coeficiente de fenol del 2, quiere decir que es aproximadamente:",
+        "opciones": {
+          "A": "Unas 2 veces más efectivo que el ácido carbónico.",
+          "B": "Unas 20 veces más efectivo que el ácido carbónico.",
+          "C": "Unas 40 veces más efectivo que el ácido carbónico.",
+          "D": "Unas 80 veces más efectivo que el ácido carbónico."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 98,
+        "idpregunta": 98,
+        "pregunta": "98.- El agente 'chelating” es un producto limpiador que:",
+        "opciones": {
+          "A": "En un detergente incrementa la efectividad del producto.",
+          "B": "Aporta espuma jabonosa.",
+          "C": "Reduce la espuma jabonosa.",
+          "D": "Al combinarse con materiales solubles los convierte en insolubles."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 99,
+        "idpregunta": 99,
+        "pregunta": "99.- Utensilios y equipo necesario para el abrillantado de suelos:",
+        "opciones": {
+          "A": "Máquina fregadora provista de cepillos abrillantadores.",
+          "B": "Discos de lana de acero o discos abrillantadores sintéticos.",
+          "C": "Mopas de fregar de 24 onzas (unos 680 gramos) para las áreas públicas.",
+          "D": "a) b) y c) son correctas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 100,
+        "idpregunta": 100,
+        "pregunta": "100.- Para quitar el polvo con mopas en habitaciones con pacientes y áreas congestionadas se utilizan mopas de impregnación:",
+        "opciones": {
+          "A": "De 1,20 m.",
+          "B": "De 45-50 cm.",
+          "C": "De 80-85 cm.",
+          "D": "De 1 m."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 101,
+        "idpregunta": 101,
+        "pregunta": "101.- El objetivo del fregado con mopas esterilizadas es:",
+        "opciones": {
+          "A": "Dejar en el suelo detergente germicida el tiempo suficiente para que mate las bacterias.",
+          "B": "Conseguir una limpieza más esmerada, más higiénica y de más belleza ambiental.",
+          "C": "Quitar los desperdicios, el polvo y la suciedad del suelo.",
+          "D": "Que el ambiente esté limpio, higiénico y atractivo."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 102,
+        "idpregunta": 102,
+        "pregunta": "102.- ¿Qué paso NO se realiza en el fregado de mopa y doble cubo?",
+        "opciones": {
+          "A": "Quitar el polvo.",
+          "B": "Aplicar la disolución del fregado a la mopa.",
+          "C": "Recoger el agua sucia.",
+          "D": "Pasar la máquina abrillantadora."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 103,
+        "idpregunta": 103,
+        "pregunta": "103.- Señala la respuesta INCORRECTA. En el lavado de paredes:",
+        "opciones": {
+          "A": "Una parte importante es la técnica de asepsia en la incomunicación de la habitación.",
+          "B": "En el depósito de la máquina se echa el detergente germicida y medio litro de agua.",
+          "C": "Al preparar la maquinaria se bombea a mano la bomba hasta llegar a la presión recomendada.",
+          "D": "Las marcas y manchas difíciles se deben quitar rascando con la almohadilla abrasiva."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 104,
+        "idpregunta": 104,
+        "pregunta": "104.- ¿Cuál de las siguientes acciones NO se debe realizar en el mantenimiento diario de habitaciones de descanso?",
+        "opciones": {
+          "A": "Desinfectar la taza del wáter y los urinarios.",
+          "B": "Fregar las instalaciones con un paño mojado.",
+          "C": "Vaciar los recipientes de desechos.",
+          "D": "Cambiar las cortinas y los cortinajes."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 105,
+        "idpregunta": 105,
+        "pregunta": "105.- Proceso que destruye la mayor parte de los microorganismos, pero no todas las formas:",
+        "opciones": {
+          "A": "Esterilización.",
+          "B": "Desgerminación.",
+          "C": "Desinfección.",
+          "D": "Limpieza."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 106,
+        "idpregunta": 106,
+        "pregunta": "106.- Señala la respuesta INCORRECTA:",
+        "opciones": {
+          "A": "Las bacterias se reproducen aproximadamente cada 50 segundos.",
+          "B": "Las bacterias son células vivientes.",
+          "C": "La suciedad es una fuente excelente de alimento para las bacterias.",
+          "D": "La supervivencia de las bacterias está ligada a la disponibilidad de alimento."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 107,
+        "idpregunta": 107,
+        "pregunta": "107.- Señala la respuesta INCORRECTA. En la limpieza postoperatoria:",
+        "opciones": {
+          "A": "Se lavan los cubos con jabón y germicida.",
+          "B": "Las esponjas y la ropa sucia de sangre se colocan en contenedores separados.",
+          "C": "La ropa blanca y verde se guardan en el mismo saco.",
+          "D": "Se deben mover los muebles a una parte de la estancia."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 108,
+        "idpregunta": 108,
+        "pregunta": "108.- La limpieza general de los quirófanos se realiza:",
+        "opciones": {
+          "A": "Una vez acabadas todas las operaciones programadas.",
+          "B": "Hacia las cinco de la tarde.",
+          "C": "Entre operación y operación.",
+          "D": "Por la mañana, justo antes de empezar con las operaciones."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 109,
+        "idpregunta": 109,
+        "pregunta": "109.- Señala la afirmación INCORRECTA:",
+        "opciones": {
+          "A": "Las ruedas de los muebles del quirófano se deben limpiar siempre muy bien para eliminar todos los residuos.",
+          "B": "Si se olvida un objeto en la sala operatoria las bacterias podrían difundirse rápidamente.",
+          "C": "Siempre se debe aplicar el sellador en los pavimentos conductores de los quirófanos.",
+          "D": "Los pavimentos de los quirófanos son conductores, para impedir la formación de electricidad estática."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 110,
+        "idpregunta": 110,
+        "pregunta": "110.- Para la limpieza y desinfección de los equipos del área de endoscopia se debe utilizar diariamente hipoclorito de sodio en:",
+        "opciones": {
+          "A": "500 ppm.",
+          "B": "50 ppm.",
+          "C": "200 ppm.",
+          "D": "100 ppm."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 111,
+        "idpregunta": 111,
+        "pregunta": "111.- Son los desechos procedentes de la elaboración de materiales y suministros propios del hospital:",
+        "opciones": {
+          "A": "Desechos industriales.",
+          "B": "Desechos contaminantes.",
+          "C": "Desechos orgánicos.",
+          "D": "Desechos orgánicos humanos."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 112,
+        "idpregunta": 112,
+        "pregunta": "112.- Señala la respuesta INCORRECTA. Para el correcto mantenimiento de la mopa se debe:",
+        "opciones": {
+          "A": "Enjuagar la mopa después de cada sesión de trabajo.",
+          "B": "Retorcer la mopa para escurrir.",
+          "C": "Utilizar los colgadores de mopas.",
+          "D": "Utilizar el tamaño de mopa apropiado para cada exprimidor."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 113,
+        "idpregunta": 113,
+        "pregunta": "113.- Identifica la respuesta CORRECTA sobre el factor pH:",
+        "opciones": {
+          "A": "El pH del 1 al 6 es ácido y del 8 al 14 es alcalino.",
+          "B": "Un valor de pH 8 es neutro.",
+          "C": "Los ácidos son más fuertes cuando el número es más grande, es decir, del 7 al 14.",
+          "D": "Las respuestas b) y c) son correctas."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 114,
+        "idpregunta": 114,
+        "pregunta": "114.- En la limpieza de los zócalos, en la aplicación del disolvente:",
+        "opciones": {
+          "A": "Se utiliza una brocha de unos 5 cm y se deja reposar durante 5 minutos.",
+          "B": "Se utiliza un rodillo de 10 cm y se deja reposar durante 15 minutos.",
+          "C": "Se utiliza una brocha de unos 15 cm y se deja reposar durante 30 minutos.",
+          "D": "Se utiliza una brocha de unos 5 cm y se deja reposar durante 15 minutos."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 115,
+        "idpregunta": 115,
+        "pregunta": "115.- Señala la opción CORRECTA. Para la limpieza diaria de los quirófanos debe:",
+        "opciones": {
+          "A": "Lavarse las manos y las uñas con jabón quirúrgico durante 3 minutos.",
+          "B": "Ponerse un uniforme de quirófano limpio.",
+          "C": "Recoger los residuos y limpiar la zona operatoria con un spray desinfectante.",
+          "D": "a) b) y c) son correctas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 116,
+        "idpregunta": 116,
+        "pregunta": "116.- En la sala de reanimación se debe limpiar el polvo de los muebles y de los aparatos en húmedo con detergente germicida:",
+        "opciones": {
+          "A": "Todos los días.",
+          "B": "Semanalmente.",
+          "C": "Mensualmente.",
+          "D": "Cada 2 días."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 117,
+        "idpregunta": 117,
+        "pregunta": "117.- El objetivo de la renovación de suelos es:",
+        "opciones": {
+          "A": "Proteger varios tipos de superficies y mantener limpio y atractivo el suelo del hospital.",
+          "B": "Conseguir una limpieza más esmerada, más higiénica y de más belleza ambiental.",
+          "C": "Quitar los desperdicios, el polvo y la suciedad del suelo.",
+          "D": "Quitar toda suciedad del suelo, la cera o acabados sintéticos antes de aplicar el nuevo acabado del suelo."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 118,
+        "idpregunta": 118,
+        "pregunta": "118.- Algunos residuos pueden causar infecciones o enfermedades en animales y personas, debido a sus características, a su composición o a su utilización. ¿A qué efecto nocivo de los desechos se refiere esta frase?",
+        "opciones": {
+          "A": "Efectos contaminantes.",
+          "B": "Efectos tóxicos.",
+          "C": "Efectos patógenos.",
+          "D": "Plagas."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 119,
+        "idpregunta": 119,
+        "pregunta": "119.- Señala la opción CORRECTA. Los productos de higienización:",
+        "opciones": {
+          "A": "Son productos que reducen el número de gérmenes o bacterias con el fin de garantizar los niveles mínimos de seguridad recomendados en la salvaguarda de la salud pública.",
+          "B": "Son sustancias que se aplican a una superficie que se supone que puede ser infecciosa y sirven para matar las bacterias infecciosas de los objetos inanimados.",
+          "C": "Son productos limpiadores que en un detergente incrementan la efectividad del producto.",
+          "D": "Son productos que exterminan las bacterias, se aplican especialmente a los agentes químicos que matan a los gérmenes patógenos."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 120,
+        "idpregunta": 120,
+        "pregunta": "120.- Señala la opción INCORRECTA. En la limpieza de las ventanas:",
+        "opciones": {
+          "A": "La parte exterior de las ventanas es posible que necesite una disolución más concentrada.",
+          "B": "En ventanas grandes, remoje y pase el limpiador solamente por la mitad inferior de la misma.",
+          "C": "Empiece siempre pasando el limpiador pegado al marco de la ventana.",
+          "D": "En las ventanas altas utilice pértigas extensibles."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 121,
+        "idpregunta": 121,
+        "pregunta": "121.- Son utensilios y equipo necesario para el abrillantado de los suelos:",
+        "opciones": {
+          "A": "La máquina fregadora provista de cepillos abrillantadores.",
+          "B": "Los discos de lana de acero o discos abrillantadores sintéticos.",
+          "C": "El doble cubo, uno para fregar y el otro para enjuagar.",
+          "D": "a) b) y c) son correctas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 122,
+        "idpregunta": 122,
+        "pregunta": "122.- Señala la opción CORRECTA. La desgerminación es:",
+        "opciones": {
+          "A": "Un procedimiento encaminado a disminuir el número de gérmenes en un área. Tal es el caso del lavado de las manos o el aseo de pisos.",
+          "B": "El proceso que destruye la mayor parte de los microorganismos, pero no todas las formas.",
+          "C": "Proceso mediante el cual se destruyen todos los organismos tanto patógenos como no patógenos incluyendo esporas.",
+          "D": "a) b) y c) son correctas."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 123,
+        "idpregunta": 123,
+        "pregunta": "123.- Señala la respuesta INCORRECTA. Pasos a realizar en la limpieza de una habitación que está ocupada por un paciente:",
+        "opciones": {
+          "A": "Vaciado de los cubos de desperdicios.",
+          "B": "Fregar la habitación y el cuarto de baño.",
+          "C": "Fregar toda la cama, los colchones, las fundas, todos los muebles, instalaciones, y el alféizar de las ventanas.",
+          "D": "Quitar el polvo de la habitación."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 124,
+        "idpregunta": 124,
+        "pregunta": "124.- Señala la respuesta INCORRECTA:",
+        "opciones": {
+          "A": "La limpieza y desinfección recurrente se hace diariamente y se repite 2 o más veces al día según las condiciones de cada área.",
+          "B": "La limpieza y desinfección terminal se hace cuando entra un paciente infectado o periódicamente cada 8 días.",
+          "C": "En la limpieza y desinfección terminal se pretende cubrir todos los materiales, equipos y toda el área incluyendo la parte alta de las paredes y ventanas.",
+          "D": "En la limpieza y desinfección en áreas críticas es recomendable una estricta limpieza y desinfección."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 125,
+        "idpregunta": 125,
+        "pregunta": "125.- El departamento de Limpieza y Mantenimiento de un Hospital se responsabiliza de:",
+        "opciones": {
+          "A": "Mantenimiento del edificio.",
+          "B": "Equipo.",
+          "C": "Dar facilidades en la limpieza del Hospital.",
+          "D": "a) b) y c) son correctas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 126,
+        "idpregunta": 126,
+        "pregunta": "126.- Señala la respuesta INCORRECTA:",
+        "opciones": {
+          "A": "Si el cuerpo del paciente está limpio los gérmenes tienen más posibilidades de penetrar en el paciente.",
+          "B": "Si el médico tiene el uniforme limpio los gérmenes tienen menos posibilidades de penetrar en el paciente.",
+          "C": "Cuanto más limpio esté el quirófano, menos posibilidades de infección existirán para nuestro paciente.",
+          "D": "Las bacterias presentes en el aire pueden penetrar en el paciente y causar infecciones o enfermedades."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 127,
+        "idpregunta": 127,
+        "pregunta": "127.- La limpieza que tiene por objetivo el ofrecer un aspecto limpio, higiénico y atractivo sin molestar al paciente es:",
+        "opciones": {
+          "A": "La limpieza de las habitaciones aisladas que acaban de ser desocupadas.",
+          "B": "La limpieza de una habitación que está ocupada por un paciente.",
+          "C": "El abrillantado de los suelos.",
+          "D": "El fregado con mopa y doble cubo."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 128,
+        "idpregunta": 128,
+        "pregunta": "128.- El objetivo de quitar el polvo con mopas es:",
+        "opciones": {
+          "A": "Limpiar de una forma esmerada toda la habitación y todos los muebles antes que otro paciente la ocupe, de tal manera que ofrezca un aspecto atractivo e higiénico.",
+          "B": "Proteger varios tipos de superficies y mantener limpio, seguro, y atractivo el suelo de todo el hospital.",
+          "C": "Quitar los desperdicios, polvo y suciedad del suelo como tarea diaria de mantenimiento o como preparación para el fregado con mopa y cubo.",
+          "D": "Ofrecer un aspecto limpio, higiénico y atractivo sin molestar al paciente."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 129,
+        "idpregunta": 129,
+        "pregunta": "129.- Los recipientes destinados para depositar agujas usadas y darle su disposición final son:",
+        "opciones": {
+          "A": "Recipientes de color naranja.",
+          "B": "Recipientes plásticos de color verde.",
+          "C": "Bolsas plásticas de color negro.",
+          "D": "Recipientes rígidos."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 130,
+        "idpregunta": 130,
+        "pregunta": "130.- El objetivo de la aplicación del acabado de los suelos es:",
+        "opciones": {
+          "A": "Proteger varios tipos de superficies y mantener limpio, seguro y atractivo el suelo de todo el hospital.",
+          "B": "Ofrecer una habitación limpia, higiénica y atractiva usando las más modernas técnicas de asepsia.",
+          "C": "Limpiar de una forma esmerada toda la habitación y todos los muebles antes que otro paciente la ocupe, de tal manera que ofrezca un aspecto atractivo e higiénico.",
+          "D": "Conseguir una limpieza más esmerada, más higiénica y de más belleza ambiental."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 131,
+        "idpregunta": 131,
+        "pregunta": "131.- Tiene por objetivo el mantener el suelo limpio, seguro y atractivo:",
+        "opciones": {
+          "A": "El abrillantado de los suelos.",
+          "B": "Fregar con mopas esterilizadas.",
+          "C": "El mantenimiento diario de habitaciones de descanso.",
+          "D": "La desinfección de las habitaciones ocupadas aisladas."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 132,
+        "idpregunta": 132,
+        "pregunta": "132.- En un hospital general, el cambio de ropa de las camas y de los pacientes es más frecuente, pudiéndose admitir el cambio diario de la misma hasta un total de:",
+        "opciones": {
+          "A": "6 kg. /lecho/día.",
+          "B": "4 kg. /lecho/día.",
+          "C": "2 kg. /lecho/día.",
+          "D": "1 kg. /lecho/día."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 133,
+        "idpregunta": 133,
+        "pregunta": "133.- La máquina de lavar más utilizada en la lavandería de los hospitales modernos es:",
+        "opciones": {
+          "A": "Una lavadora convencional, con control manual y automático.",
+          "B": "Una lavadora-extractora, que combina el proceso de lavado con la centrifugación o acondicionamiento.",
+          "C": "Una lavadora de desinfección, que queda encajada entre paredes o barrera contra la contaminación.",
+          "D": "Una lavadora continua, también llamada túnel de lavado."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 134,
+        "idpregunta": 134,
+        "pregunta": "134.- El equipamiento que se destina a secar y a planchar la ropa al mismo tiempo se denomina:",
+        "opciones": {
+          "A": "Cabina.",
+          "B": "Extractor.",
+          "C": "Calandra.",
+          "D": "Prensa."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 135,
+        "idpregunta": 135,
+        "pregunta": "135.- Señala la CORRECTA:",
+        "opciones": {
+          "A": "La centrífuga o extractora elimina hasta 60% de agua de la ropa salida de la lavadora.",
+          "B": "Las lavadoras – extractoras requieren más espacio.",
+          "C": "La capacidad de la lavadora continua varía de 300 a 1000 kg. de ropa seca procesada por hora.",
+          "D": "La prensa está constituida por dos cilindros, uno fijo externo y uno giratorio interno."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 136,
+        "idpregunta": 136,
+        "pregunta": "136.- El equipamiento destinado a pasar ropa de personal, donde se esteriliza la ropa es la:",
+        "opciones": {
+          "A": "Centrífuga o extractora.",
+          "B": "Calandra.",
+          "C": "Plancha de vapor.",
+          "D": "Prensa."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 137,
+        "idpregunta": 137,
+        "pregunta": "137.- Los tejidos para la confección de la ropa más utilizados en el hospital son:",
+        "opciones": {
+          "A": "Algodón y poliéster/algodón.",
+          "B": "Algodón y viscosa.",
+          "C": "Algodón y lino.",
+          "D": "Algodón y poliamida."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 138,
+        "idpregunta": 138,
+        "pregunta": "138.- La calidad del agua utilizada en lavandería:",
+        "opciones": {
+          "A": "Es muy importante y debe cumplir, por lo menos, tres requisitos.",
+          "B": "Es importante, debe de ser blanda.",
+          "C": "Es indiferente, lo que importa son los productos.",
+          "D": "No tiene importancia, depende de la máquina."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 139,
+        "idpregunta": 139,
+        "pregunta": "139.- El vapor consumido en la lavandería para el calentamiento del agua, secadoras, calandras y prensas debe ser de:",
+        "opciones": {
+          "A": "No se necesita vapor.",
+          "B": "Vapor de baja presión.",
+          "C": "Vapor de alta presión.",
+          "D": "Vapor de media presión."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 140,
+        "idpregunta": 140,
+        "pregunta": "140.- En el procesamiento de la ropa hospitalaria, la que se debe introducir en los sacos de plástico autosolubles es la:",
+        "opciones": {
+          "A": "Ropa reciclable.",
+          "B": "Ropa sucia.",
+          "C": "Ropa contaminada.",
+          "D": "Ropa esterilizada."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 141,
+        "idpregunta": 141,
+        "pregunta": "141.- Los Sacos Autodisolubles:",
+        "opciones": {
+          "A": "Desinfectan el agua de lavado y las aguas residuales.",
+          "B": "Están fabricados en film opaco.",
+          "C": "Son permeables a cualquier tipo de transpiración de gas, etc.",
+          "D": "Son tóxicos para el organismo humano."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 142,
+        "idpregunta": 142,
+        "pregunta": "142.- Un buen lavado empieza con la separación de la ropa sucia, que se clasificará según:",
+        "opciones": {
+          "A": "El grado de suciedad, tamaño y tipo de tejido.",
+          "B": "El grado de suciedad, tamaño y color.",
+          "C": "El grado de suciedad, nivel de deterioro y color.",
+          "D": "El grado de suciedad, tipo de tejido y color."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 143,
+        "idpregunta": 143,
+        "pregunta": "143.- Durante la separación, la ropa es agrupada en lotes o fardos correspondientes a una fracción de la capacidad de la máquina:",
+        "opciones": {
+          "A": "En general, 50% de sus capacidades de lavado.",
+          "B": "Entre el 40% y 80% de sus capacidades de lavado.",
+          "C": "Por encima del 50% de sus capacidades de lavado.",
+          "D": "En general, 80% de sus capacidades de lavado."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 144,
+        "idpregunta": 144,
+        "pregunta": "144.- El ciclo para el lavado de ropa con suciedad más acusada comienza con:",
+        "opciones": {
+          "A": "El remojado previo.",
+          "B": "El prelavado.",
+          "C": "La humectación.",
+          "D": "La vaporización."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 145,
+        "idpregunta": 145,
+        "pregunta": "145.- En el procesamiento de la ropa hospitalaria, terminadas las operaciones de recepción, separación, pesaje y lavado:",
+        "opciones": {
+          "A": "Toda el área debe ser ordenada.",
+          "B": "Toda el área debe ser desinfectada y lavada.",
+          "C": "Se hace control de stock.",
+          "D": "Se realiza el cambio de turno."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 146,
+        "idpregunta": 146,
+        "pregunta": "146.- Los principios asociados en el proceso del lavado son de orden:",
+        "opciones": {
+          "A": "Físico.",
+          "B": "Químico.",
+          "C": "Físico y químico.",
+          "D": "Electromecánico."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 147,
+        "idpregunta": 147,
+        "pregunta": "147.- Si el nivel del agua estuviera demasiado alto, durante los enjabonamientos, blanqueado y acidulación, puede ocurrir:",
+        "opciones": {
+          "A": "Menor costo.",
+          "B": "Menor necesidad de productos de lavado.",
+          "C": "Permanencia de los residuos de productos.",
+          "D": "Menor acción mecánica."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 148,
+        "idpregunta": 148,
+        "pregunta": "148.- En general, ¿Qué cantidad del agua utilizada en el lavado es agua tibia o caliente?",
+        "opciones": {
+          "A": "Del 5 al 15%.",
+          "B": "Del 15 al 25%.",
+          "C": "Del 25 al 35%.",
+          "D": "Del 35 al 45%."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 149,
+        "idpregunta": 149,
+        "pregunta": "149.- El tiempo es uno de los factores importantes del lavado. Señala la CORRECTA.",
+        "opciones": {
+          "A": "Si el enjabonado es muy rápido será insuficiente para la actuación de los productos.",
+          "B": "El enjuague es, en general, la operación más lenta del proceso.",
+          "C": "El tiempo prolongado es más importante que la cantidad de enjabonado.",
+          "D": "El tiempo utilizado para el lavado necesita de una media de 15 minutos."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 150,
+        "idpregunta": 150,
+        "pregunta": "150.- Cuando el jabón es colocado en demasiada cantidad, produce exceso de espuma...",
+        "opciones": {
+          "A": "Facilitando el proceso de lavado.",
+          "B": "Dificulta el enjuague.",
+          "C": "Aumentando la concentración de la solución.",
+          "D": "Mejora la acción mecánica."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 151,
+        "idpregunta": 151,
+        "pregunta": "151.- El blanqueador debe ser adicionado en la última enjabonada o en el primer enjuagado, para:",
+        "opciones": {
+          "A": "Neutralizar los residuos alcalinos de la ropa.",
+          "B": "Evitar que los efectos del cloro sean disminuidos por la presencia de materias orgánicas.",
+          "C": "Economizar agua, tiempo y energía.",
+          "D": "Evitar amarillear la ropa en el secado y el calandrado."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 152,
+        "idpregunta": 152,
+        "pregunta": "152.- La acidulación consiste en:",
+        "opciones": {
+          "A": "Adicionar un producto ácido durante el blanqueado para bajar el pH y neutralizar los residuos alcalinos de la ropa.",
+          "B": "Adicionar un producto ácido en el último aclarado para bajar el pH y neutralizar los residuos alcalinos de la ropa.",
+          "C": "Adicionar un producto ácido en el último aclarado para subir el pH.",
+          "D": "Adicionar en el último enjuague de determinados tejidos, un producto que contiene glicerina en su composición."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 153,
+        "idpregunta": 153,
+        "pregunta": "153.- Para conseguir una desinfección completa en el lavado de la ropa debe usarse:",
+        "opciones": {
+          "A": "La temperatura de 65 a 75oC durante 15 minutos.",
+          "B": "La temperatura de 75 a 85 oC, durante 10 minutos.",
+          "C": "La temperatura de 85 a 95 oC, durante 15 minutos.",
+          "D": "La temperatura de 100 oC, durante 10 minutos."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 154,
+        "idpregunta": 154,
+        "pregunta": "154.- La eliminación de las bacterias patógenas presentes en la ropa se consigue mediante la:",
+        "opciones": {
+          "A": "Acidulación.",
+          "B": "Clorodesinfección.",
+          "C": "V aporización.",
+          "D": "Glicerinación."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 155,
+        "idpregunta": 155,
+        "pregunta": "155.- Señala la opción CORRECTA. En la eliminación de manchas.",
+        "opciones": {
+          "A": "Herrumbre (amarillo-rojizo): a través de un prelavado en agua fría con sal.",
+          "B": "Café: son quitadas con acidulantes.",
+          "C": "Aceite o grasa: son disueltas por almidón, talco o arcilla blanca en polvo.",
+          "D": "Tinta de escribir se quita con hielo."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 156,
+        "idpregunta": 156,
+        "pregunta": "156.- Quitaremos las manchas de sangre:",
+        "opciones": {
+          "A": "A través de un prelavado con agua caliente.",
+          "B": "A través de un prelavado con agua fría.",
+          "C": "Aplicando alcohol.",
+          "D": "Con limón y sal en agua caliente."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 157,
+        "idpregunta": 157,
+        "pregunta": "157.- Dentro del proceso de la ropa en el área limpia, la ropa seleccionada es distribuida para el secado en la siguiente proporción:",
+        "opciones": {
+          "A": "35% para el calandrado, 35% para la secadora y 30% para el prensado o planchado.",
+          "B": "45% para el calandrado, 35% para la secadora y 20% para el prensado o planchado.",
+          "C": "55% para el calandrado, 35% para la secadora y 10% para el prensado o planchado.",
+          "D": "70% para el calandrado, 25% para la secadora y 5% para el prensado o planchado."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 158,
+        "idpregunta": 158,
+        "pregunta": "158.- El calandrado es una operación que seca y pisa al mismo tiempo",
+        "opciones": {
+          "A": "Los uniformes.",
+          "B": "Las piezas pesadas.",
+          "C": "Las piezas pequeñas.",
+          "D": "Las piezas de la ropa lisa."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 159,
+        "idpregunta": 159,
+        "pregunta": "159.- Señala la CORRECTA:",
+        "opciones": {
+          "A": "En la centrifugación, por la eliminación del agua, se reduce un 80% del peso de la ropa.",
+          "B": "En la centrifugadora la ropa se colocará en grandes pilas dentro de sacos de lona.",
+          "C": "Ropas como colchas pesadas, piezas pequeñas y otras, son secadas en la secadora.",
+          "D": "Las sábanas u colchas ligeras son pasadas por la prensa."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 160,
+        "idpregunta": 160,
+        "pregunta": "160.- ¿Cuál de los siguientes es un elemento del área física, complementa el área limpia y canaliza el movimiento de toda la ropa del hospital?",
+        "opciones": {
+          "A": "El ropero.",
+          "B": "El vestidor.",
+          "C": "La lavandería.",
+          "D": "El vestuario."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 161,
+        "idpregunta": 161,
+        "pregunta": "161.- La barrera de contaminación:",
+        "opciones": {
+          "A": "Separa la lavandería en 3 áreas: lavado, secado y ropero.",
+          "B": "Separa el área sucia y el área limpia.",
+          "C": "Es eficiente si existe una lavadora de desinfección.",
+          "D": "No puede tener visores."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 162,
+        "idpregunta": 162,
+        "pregunta": "162.- Señala la INCORRECTA. Si el agua del lavado contiene sales de calcio (cal) se produce:",
+        "opciones": {
+          "A": "Desperdicios de detergente.",
+          "B": "La destrucción prematura de la ropa.",
+          "C": "La disminución de las capacidades de absorción del tejido.",
+          "D": "El ablandamiento y suavizado de la ropa."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 163,
+        "idpregunta": 163,
+        "pregunta": "163.- La caja de suspensión o de grosor con tela sirve para:",
+        "opciones": {
+          "A": "Retener los hilos de la ropa.",
+          "B": "Filtrar la cal del agua.",
+          "C": "Suministrar productos desinfectantes.",
+          "D": "Medir la temperatura"
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 164,
+        "idpregunta": 164,
+        "pregunta": "164.- Señala la afirmación CORRECTA respecto de la recogida de la ropa sucia:",
+        "opciones": {
+          "A": "Debe permanecer el mayor tiempo posible en la unidad.",
+          "B": "El empleado debe usar guantes de caucho, máscara y gorro.",
+          "C": "La ropa sucia se deposita directamente en el carro.",
+          "D": "Utilizaremos el carro de la ropa limpia cuando se vacíe."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 165,
+        "idpregunta": 165,
+        "pregunta": "165.- En cada unidad de enfermería ¿Cuántas mudas se reciben para cada cama por día?",
+        "opciones": {
+          "A": "Una y media por cama y día.",
+          "B": "De una y media a dos mudas.",
+          "C": "Dos mudas.",
+          "D": "De dos a tres mudas."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 166,
+        "idpregunta": 166,
+        "pregunta": "166.- En la unidad de enfermería, la ropa de reserva:",
+        "opciones": {
+          "A": "Debe constar en una lista de ropa.",
+          "B": "Debe estar protegida con bolsa de tela.",
+          "C": "Estará bien planchada y colgada en la percha.",
+          "D": "No se repone hasta la mañana siguiente."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 167,
+        "idpregunta": 167,
+        "pregunta": "167.- Las mesas de planchado están recubiertas de:",
+        "opciones": {
+          "A": "Una espuma siliconizada.",
+          "B": "Una funda de nylon.",
+          "C": "Una garnitura flexible y de una funda muletón.",
+          "D": "Una tela de algodón."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 168,
+        "idpregunta": 168,
+        "pregunta": "168.- El planchado:",
+        "opciones": {
+          "A": "Es un conjunto de operaciones diversas que tienen por objeto poner los artículos ya usados en un estado lo más próximo posible al que tenían de nuevos.",
+          "B": "Es una operación que tiende a devolver a las ropas su aspecto, su textura y su calidad inicial.",
+          "C": "Requiere destreza y entrenamiento práctico experto y la cuidadosa práctica de técnicas correctas.",
+          "D": "Todas son correctas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 169,
+        "idpregunta": 169,
+        "pregunta": "169.- En el planchado, la recomendación en general es que el tiempo de vacío:",
+        "opciones": {
+          "A": "Debe durar entre cinco y 15 segundos, y que la prenda debe sentirse siempre fría al tacto, antes de pasar a la siguiente operación.",
+          "B": "NO debe ser menor de cinco segundos, y que la prenda debe sentirse siempre caliente al tacto, antes de pasar a la siguiente operación.",
+          "C": "NO debe ser menor de cinco segundos, y que la prenda debe sentirse siempre fría al tacto, antes de pasar a la siguiente operación.",
+          "D": "Debe durar entre cinco y 15 segundos, y que la prenda debe sentirse siempre caliente al tacto, antes de pasar a la siguiente operación."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 170,
+        "idpregunta": 170,
+        "pregunta": "170.- De las siguientes fibras textiles, la que mejor soporta el calor es:",
+        "opciones": {
+          "A": "Lino.",
+          "B": "Lana.",
+          "C": "Acrílico.",
+          "D": "Poliamidas"
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 171,
+        "idpregunta": 171,
+        "pregunta": "171.- Señala la CORRECTA:",
+        "opciones": {
+          "A": "Tanto el túnel de acabado como la cabina de acabado trabajan 'continuamente”.",
+          "B": "Tanto la cabina de acabado como el túnel de acabado trabajan 'discontinuamente”.",
+          "C": "Mientras el túnel de acabado trabaja 'discontinuamente”, la cabina de acabado lo hace 'continuamente”.",
+          "D": "Mientras la cabina de acabado trabaja 'discontinuamente”, el túnel de acabado lo hace 'continuamente”."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 172,
+        "idpregunta": 172,
+        "pregunta": "172.- La funda de tela que se hincha, para el planchado del cuerpo del pantalón, se denomina:",
+        "opciones": {
+          "A": "Bacín.",
+          "B": "Pan-topper.",
+          "C": "Prensa.",
+          "D": "Cojinete."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 173,
+        "idpregunta": 173,
+        "pregunta": "173.- En el taller de planchado es importante:",
+        "opciones": {
+          "A": "Tener todos los aparatos muy juntos.",
+          "B": "Buena calefacción.",
+          "C": "Un humidificador.",
+          "D": "Buena aireación."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 174,
+        "idpregunta": 174,
+        "pregunta": "174.- El factor más importante para obtener un buen planchado es:",
+        "opciones": {
+          "A": "La humedad.",
+          "B": "La presión.",
+          "C": "El calor.",
+          "D": "El descenso brusco de la temperatura del tejido después del calentamiento."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 175,
+        "idpregunta": 175,
+        "pregunta": "175.- La excesiva vaporización en el proceso del planchado puede producir:",
+        "opciones": {
+          "A": "Fatiga al operador.",
+          "B": "Disolución del tejido.",
+          "C": "Holgura en tejidos de algodón.",
+          "D": "Endurecimiento del tejido."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 176,
+        "idpregunta": 176,
+        "pregunta": "176.- En el planchado:",
+        "opciones": {
+          "A": "La operación de vacío es menos importante que la vaporización.",
+          "B": "El vacío es el que da consistencia a la pieza.",
+          "C": "En la operación de vacío será suficiente un ligero toque de pedal.",
+          "D": "La recomendación en general es que el tiempo de vacío NO debe ser menor de quince segundos."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 177,
+        "idpregunta": 177,
+        "pregunta": "177.- El poliéster soporta una temperatura hasta:",
+        "opciones": {
+          "A": "110oc.",
+          "B": "150oc.",
+          "C": "200oc.",
+          "D": "245oc."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 178,
+        "idpregunta": 178,
+        "pregunta": "178.- La prensa universal de planchado:",
+        "opciones": {
+          "A": "Lleva accesorios diversos como el soporte para la plancha.",
+          "B": "Tiene un ciclo de 4 tiempos.",
+          "C": "Se compone de dos platos recubiertos.",
+          "D": "Puede ser con bancada de forma rectangular o contorneada."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 179,
+        "idpregunta": 179,
+        "pregunta": "179.- Cualidades que debe tener el revestimiento de tela de la prensa universal de planchado:",
+        "opciones": {
+          "A": "Ser lisa, para NO dejar marcas en los tejidos finos.",
+          "B": "Ser impermeable al vapor.",
+          "C": "Ser de seda natural.",
+          "D": "Ser suficientemente rígida."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 180,
+        "idpregunta": 180,
+        "pregunta": "180.- El sistema de aspiración de la prensa universal se encuentra:",
+        "opciones": {
+          "A": "En el plato inferior.",
+          "B": "En el plato superior.",
+          "C": "En ambos platos.",
+          "D": "La prensa universal no tiene este sistema."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 181,
+        "idpregunta": 181,
+        "pregunta": "181.- ¿Cuál NO es un tipo de mesa de planchado?",
+        "opciones": {
+          "A": "Mesa calentadora.",
+          "B": "Mesa aspirante.",
+          "C": "Mesa vaporizante.",
+          "D": "Mesa irradiante."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 182,
+        "idpregunta": 182,
+        "pregunta": "182.- El recubrimiento de la mesa de planchar:",
+        "opciones": {
+          "A": "Debe ser impermeable.",
+          "B": "Debe ser duro y compacto.",
+          "C": "Necesita 'elasticidad”.",
+          "D": "Consiste en una funda de espuma siliconizada."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 183,
+        "idpregunta": 183,
+        "pregunta": "183.- Las cabinas y túneles de acabado del proceso de planchado:",
+        "opciones": {
+          "A": "Permiten tratar simultáneamente más de 25 prendas.",
+          "B": "Eliminan completamente las arrugas de uso de las entrepiernas de pantalones.",
+          "C": "Ambos trabajan continuamente.",
+          "D": "Interesan especialmente para artículos de punto sintéticos o naturales."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 184,
+        "idpregunta": 184,
+        "pregunta": "184.- En el planchado, el equipo base de servicio de acabado comprende:",
+        "opciones": {
+          "A": "La prensa universal y el túnel de acabado.",
+          "B": "La prensa universal y la mesa de planchado.",
+          "C": "La prensa universal y la cabina.",
+          "D": "La prensa universal y el pan-topper"
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 185,
+        "idpregunta": 185,
+        "pregunta": "185.- Es un aparato con forma de armario equipado con un sistema de vaporización y otro de circulación de aire caliente:",
+        "opciones": {
+          "A": "Cabina de acabado.",
+          "B": "Mesa de planchar.",
+          "C": "V aporizador.",
+          "D": "Prensa universal."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 186,
+        "idpregunta": 186,
+        "pregunta": "186.- Señala la opción INCORRECTA sobre la operación de vacío en el planchado.",
+        "opciones": {
+          "A": "Esta operación es más importante que la vaporización.",
+          "B": "Tras vaporizar, antes de pasar a la siguiente operación, la prenda debe sentirse siempre caliente al tacto.",
+          "C": "El tiempo de vacío NO debe ser menor de 5 segundos.",
+          "D": "Es preferible sobrevaporizar que vaporizar de menos."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 187,
+        "idpregunta": 187,
+        "pregunta": "187.- ¿Dónde se suele ejecutar el planchado de la chaqueta?",
+        "opciones": {
+          "A": "Prensa universal.",
+          "B": "Cabina de acabado.",
+          "C": "Maniquí.",
+          "D": "Todas son correctas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 188,
+        "idpregunta": 188,
+        "pregunta": "188.- Con la ropa que pasa por el túnel de acabado es posible:",
+        "opciones": {
+          "A": "Borrar más o menos todos los pliegues.",
+          "B": "Rehacer los pliegues de confección.",
+          "C": "Ahuecar el tejido mejorando el aspecto y la caída de la prenda.",
+          "D": "a) y c) son correctas."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 189,
+        "idpregunta": 189,
+        "pregunta": "189.- En prendas ligeras (blusas):",
+        "opciones": {
+          "A": "El vaporizado debe durar 1-2 segundos y el vacío 5 segundos.",
+          "B": "El vaporizado debe durar 8 segundos y el vacío 16-17 segundos.",
+          "C": "El vaporizado debe durar 5-6 segundos y el vacío 10-12 segundos.",
+          "D": "El vaporizado debe durar 4 segundos y el vacío 8-9 segundos."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 190,
+        "idpregunta": 190,
+        "pregunta": "190.- ¿Cuál de las siguientes prendas NO se deben planchar?",
+        "opciones": {
+          "A": "Prendas de clorofibra.",
+          "B": "Prendas de lino.",
+          "C": "Prendas de seda.",
+          "D": "Prendas de poliéster."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 191,
+        "idpregunta": 191,
+        "pregunta": "191.- En el planchado, la temperatura de seguridad de la lana es de:",
+        "opciones": {
+          "A": "230 oC.",
+          "B": "150 oC.",
+          "C": "180 oC",
+          "D": "215 oC."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 192,
+        "idpregunta": 192,
+        "pregunta": "192.- ¿Cuál es una causa principal del pegado de componentes accionados por aire?",
+        "opciones": {
+          "A": "Presión de vapor demasiado alta.",
+          "B": "Mala calidad del aire del compresor: aire caliente, húmedo o con lubricación incorrecta.",
+          "C": "Exceso de vacío en la prensa.",
+          "D": "Temperatura baja del plato de planchado."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 193,
+        "idpregunta": 193,
+        "pregunta": "193.- ¿Cuál es una medida CORRECTA para evitar deformaciones y alargamientos en las prendas?",
+        "opciones": {
+          "A": "Usar siempre el mismo ciclo de temperatura y duración.",
+          "B": "Evitar clasificar las prendas por tipo.",
+          "C": "Clasificar los artículos por categoría y adaptar el ciclo a cada uno.",
+          "D": "Usar cualquier tipo de percha disponible."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 194,
+        "idpregunta": 194,
+        "pregunta": "194.- Al planchar un pantalón en prensa universal, ¿por qué es importante controlar el paso del calor al frío?",
+        "opciones": {
+          "A": "Porque evita que el tejido se humedezca demasiado.",
+          "B": "Porque fija el tejido en la forma deseada, manteniendo los pliegues correctamente.",
+          "C": "Porque acelera el secado de la prenda sin afectar la forma.",
+          "D": "Porque reduce la presión necesaria sobre la prenda."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 195,
+        "idpregunta": 195,
+        "pregunta": "195.- ¿Cuáles son las dos fases del funcionamiento de los túneles de acabado?",
+        "opciones": {
+          "A": "Lavado y centrifugado.",
+          "B": "Vaporización y secado.",
+          "C": "Enfriamiento y doblado.",
+          "D": "Compresión y sellado."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 196,
+        "idpregunta": 196,
+        "pregunta": "196.- En el planchado, la temperatura de seguridad de la acrílica es de:",
+        "opciones": {
+          "A": "75-100 oC.",
+          "B": "150- 2175 oC.",
+          "C": "180-200 oC.",
+          "D": "200-215 oC."
+        },
+        "correcta": "A",
+        "metodo": "acierto"
+      },
+      {
+        "num": 197,
+        "idpregunta": 197,
+        "pregunta": "197.- ¿Cuáles son las dos grandes fases del planchado del pantalón?",
+        "opciones": {
+          "A": "Lavado y secado.",
+          "B": "Vaporización y doblado.",
+          "C": "Planchado del bacín hasta la cintura y planchado de las piernas.",
+          "D": "Marcado de bolsillos y costuras laterales."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 198,
+        "idpregunta": 198,
+        "pregunta": "198.- Se usa para enfriar y secar totalmente el artículo, de modo que los pliegues queden bien marcados.",
+        "opciones": {
+          "A": "El lavado.",
+          "B": "El vacío.",
+          "C": "La presión.",
+          "D": "El vapor."
+        },
+        "correcta": "B",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 199,
+        "idpregunta": 199,
+        "pregunta": "199.- La prensa de doble pierna...",
+        "opciones": {
+          "A": "Es una prensa corta en la cual se efectúa el planchado del bacín en 5 o 6 operaciones.",
+          "B": "Es una prensa cuya plancha inferior más plana que la de una prensa universal.",
+          "C": "Tiene una escotadura en el extremo o en una esquina.",
+          "D": "Permite el prensado de las dos piernas al mismo tiempo."
+        },
+        "correcta": "D",
+        "metodo": "fallo->azul"
+      },
+      {
+        "num": 200,
+        "idpregunta": 200,
+        "pregunta": "200.- ¿En qué tipo de artículos son más frecuentes los alargamientos?",
+        "opciones": {
+          "A": "En prendas de algodón ligero.",
+          "B": "En artículos de seda natural.",
+          "C": "En artículos de fibras acrílicas y, a veces, de lana.",
+          "D": "En prendas de lino corto."
+        },
+        "correcta": "C",
+        "metodo": "fallo->azul"
+      }
+    ]
   }
 };

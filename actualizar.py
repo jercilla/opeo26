@@ -41,6 +41,16 @@ TESTS = {
         'num':    300,
         'label':  'Temario comun. Categorias C2, C3, D y E. 300 preguntas',
     },
+    'celador': {
+        'aukera': 'ope26osakicelador',
+        'num':    200,
+        'label':  'Celador',
+    },
+    'operario': {
+        'aukera': 'ope26osakioperario',
+        'num':    200,
+        'label':  'Operario',
+    },
 }
 
 def paths(slug):
