@@ -11,6 +11,7 @@ const Quiz = (() => {
   const els = {
     progress: document.getElementById('quiz-progress'),
     score: document.getElementById('quiz-score'),
+    label: document.getElementById('quiz-label'),
     text: document.getElementById('question-text'),
     options: document.getElementById('options-list'),
     validate: document.getElementById('btn-validate'),
@@ -32,6 +33,7 @@ const Quiz = (() => {
     user = config.user;
     quizSlug = config.slug;
     questions = QUIZZES[quizSlug].questions;
+    els.label.textContent = QUIZZES[quizSlug].label;
 
     if (config.resume) {
       const saved = State.getSession(user, quizSlug);

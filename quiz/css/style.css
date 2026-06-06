@@ -115,6 +115,10 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 }
 .quiz-progress { font-weight: 700; }
 .quiz-score { font-weight: 700; }
+.quiz-label {
+  text-align: center; font-size: 0.9rem; font-weight: 600;
+  color: #64748b; margin-bottom: 0.75rem; margin-top: -0.25rem;
+}
 
 .question-card {
   background: #fff; border: 1px solid #cbd5e1; border-radius: 1rem;
