@@ -125,6 +125,20 @@ const App = (() => {
       }
     });
 
+    document.getElementById('btn-clear-data').addEventListener('click', () => {
+      if (!confirm('¿Seguro? Se borraran TODOS los perfiles, estadisticas y sesiones guardadas.')) return;
+      // Remove all quiz-related keys
+      for (let i = localStorage.length - 1; i >= 0; i--) {
+        const k = localStorage.key(i);
+        if (k && (k.startsWith('quiz_') || k === 'quiz_last_user')) {
+          localStorage.removeItem(k);
+        }
+      }
+      currentUser = null;
+      Users.ensureDefault();
+      renderUsers();
+    });
+
     document.getElementById('btn-back-from-session').addEventListener('click', goMenu);
     document.getElementById('btn-start-session').addEventListener('click', () => startSession(false));
     document.getElementById('btn-continue-session').addEventListener('click', () => startSession(true));

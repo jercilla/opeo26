@@ -24,6 +24,7 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 .btn:active { transform: scale(0.98); }
 .btn-primary { background: #2563eb; color: #fff; }
 .btn-secondary { background: #2563eb; color: #fff; }
+.btn-danger { background: #dc2626; color: #fff; }
 .btn-block { width: 100%; }
 .btn:disabled { opacity: .5; cursor: not-allowed; }
 .btn-icon {
