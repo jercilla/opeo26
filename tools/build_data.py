@@ -139,6 +139,12 @@ QUIZ_SOURCES = [
         'label': 'Auxiliar Administrativo',
         'meta': '200 preguntas',
     },
+    {
+        'slug': 'tecnico_informatica',
+        'file': 'tecnico_informatica.json',
+        'label': 'Tecnico Especialista Informatica',
+        'meta': '200 preguntas - RESPUESTAS PRELIMINARES',
+    },
 ]
 
 def main():
