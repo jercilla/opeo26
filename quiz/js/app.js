@@ -82,14 +82,8 @@ const App = (() => {
     // Reset start num
     document.getElementById('start-num').value = 1;
     document.getElementById('start-num').max = quiz.questions.length;
-    toggleStartNumBox();
 
     show('session');
-  }
-
-  function toggleStartNumBox() {
-    const isSequential = document.getElementById('radio-sequential').checked;
-    document.getElementById('start-num-box').classList.toggle('hidden', !isSequential);
   }
 
   function startSession(resume) {
@@ -131,9 +125,6 @@ const App = (() => {
       }
     });
 
-    document.getElementById('radio-sequential').addEventListener('change', toggleStartNumBox);
-    document.getElementById('radio-random').addEventListener('change', toggleStartNumBox);
-
     document.getElementById('btn-back-from-session').addEventListener('click', goMenu);
     document.getElementById('btn-start-session').addEventListener('click', () => startSession(false));
     document.getElementById('btn-continue-session').addEventListener('click', () => startSession(true));
@@ -141,9 +132,7 @@ const App = (() => {
     document.getElementById('btn-validate').addEventListener('click', () => Quiz.validate());
     document.getElementById('btn-next').addEventListener('click', () => Quiz.next());
     document.getElementById('btn-quit-quiz').addEventListener('click', () => {
-      if (confirm('Salir del quiz? El progreso se guarda automaticamente.')) {
-        goMenu();
-      }
+      goMenu();
     });
     document.getElementById('btn-back-menu').addEventListener('click', () => {
       goMenu();

@@ -58,16 +58,12 @@
           <label class="mode-option">
             <input type="radio" name="session-mode" value="sequential" checked id="radio-sequential">
             <span class="mode-label">Secuencial</span>
+            <input type="number" id="start-num" class="inline-num" min="1" value="1" title="Empezar en pregunta">
           </label>
           <label class="mode-option">
             <input type="radio" name="session-mode" value="random" id="radio-random">
             <span class="mode-label">Aleatorio</span>
           </label>
-        </div>
-
-        <div class="start-num-box" id="start-num-box">
-          <label for="start-num">Empezar en pregunta</label>
-          <input type="number" id="start-num" min="1" value="1">
         </div>
 
         <button class="btn btn-primary btn-block" id="btn-start-session">Empezar</button>
@@ -88,13 +84,13 @@
           <div class="options-list" id="options-list"></div>
         </div>
 
+        <div class="feedback hidden" id="feedback">
+          <p class="feedback-text" id="feedback-text"></p>
+        </div>
+
         <div class="quiz-actions">
           <button class="btn btn-primary btn-block" id="btn-validate">Validar</button>
           <button class="btn btn-secondary btn-block hidden" id="btn-next">Siguiente</button>
-        </div>
-
-        <div class="feedback hidden" id="feedback">
-          <p class="feedback-text" id="feedback-text"></p>
         </div>
       </div>
     </section>
