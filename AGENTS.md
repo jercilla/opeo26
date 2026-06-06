@@ -19,10 +19,14 @@ Herramientas para preparar la OPE Osakidetza 2026:
 - **Abrir directamente**: `file:///home/jercilla/OPs/2026/osakidetza/quiz/index.html`
   - O servir con: `python3 -m http.server 8080` dentro de `quiz/`
 - **No hay build ni dependencias**. Todo es vanilla HTML/CSS/JS.
-- `js/data.js` contiene las preguntas embebidas como `const QUESTIONS`. Se genera copiando el JSON.
+- `js/data.js` contiene `const QUIZZES` con cada test como objeto `{ label, meta, questions }`. Facil anadir nuevos.
 - **Perfiles locales**: sin auth. Guarda stats en `localStorage` con namespace por usuario.
 - El perfil por defecto es **"Joseba"**. Se puede cambiar desde el menu.
-- Modos de juego: **Secuencial** y **Aleatorio**. Arquitectura preparada para un tercer modo (las que mas fallas) via `Stats.getRankingFallos()`.
+- **Flujo**: Menu -> pulsar quiz -> pantalla de sesion (modo + opciones) -> quiz.
+- Modos de juego por sesion:
+  - **Secuencial**: permite elegir en que pregunta empezar.
+  - **Aleatorio**: descarta automaticamente las ya respondidas por ese usuario en ese quiz; cuando estan todas, reinicia.
+- Las sesiones se guardan en `localStorage` y se pueden **continuar**. Se borran al terminar.
 - Para volver al menu desde el quiz hay una flecha arriba a la izquierda.
 
 ## Convenciones
