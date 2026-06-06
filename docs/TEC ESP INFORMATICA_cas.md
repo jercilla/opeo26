@@ -788,9 +788,6 @@ d) BCDBoot.
 ```
 a) Instalar apps de la tienda oficial.
 b) Crear cuentas empresariales.
-```
-
-```
 c) Gestionar actualizaciones de drivers.
 d) Instalar aplicaciones de prueba sin certificación.
 ```

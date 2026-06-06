@@ -16048,7 +16048,9 @@ const QUIZZES = {
         "pregunta": "82.- ¿Qué permite el SideLoading de aplicaciones en Windows 11?",
         "opciones": {
           "A": "Instalar apps de la tienda oficial.",
-          "B": "Crear cuentas empresariales."
+          "B": "Crear cuentas empresariales.",
+          "C": "Gestionar actualizaciones de drivers.",
+          "D": "Instalar aplicaciones de prueba sin certificacion."
         },
         "correcta": "D",
         "metodo": "estimado_manual"
