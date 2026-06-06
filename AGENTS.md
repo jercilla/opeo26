@@ -29,6 +29,11 @@ Herramientas para preparar la OPE Osakidetza 2026:
 - Las sesiones se guardan en `localStorage` y se pueden **continuar**. Se borran al terminar.
 - Para volver al menu desde el quiz hay una flecha arriba a la izquierda.
 
+## Workflow / Git
+- **Nunca hacer `git push` sin confirmacion explicita del usuario.**
+  - Hacer cambios y commit en local, avisar, y esperar confirmacion.
+  - El usuario prefiere probar en local (`file:///.../quiz/index.html`) antes de subir.
+
 ## Convenciones
 - Variables con nombres en espanol/euskera (`aukera`, `eranmota`, `pregunta`, `correcta`).
 - No hay test runner. `--self-test` es la unica verificacion automatizada.

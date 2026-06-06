@@ -36,28 +36,63 @@ const App = (() => {
     });
   }
 
+  function getCollapsed() {
+    try {
+      return JSON.parse(localStorage.getItem(`quiz_user_${currentUser}_collapsed`)) || [];
+    } catch { return []; }
+  }
+  function setCollapsed(slugs) {
+    localStorage.setItem(`quiz_user_${currentUser}_collapsed`, JSON.stringify(slugs));
+  }
+  function toggleCollapsed(slug) {
+    const arr = getCollapsed();
+    const idx = arr.indexOf(slug);
+    if (idx >= 0) arr.splice(idx, 1); else arr.push(slug);
+    setCollapsed(arr);
+  }
+
   function renderQuizzes() {
     const container = document.getElementById('quizzes-list');
     container.innerHTML = '';
+    const collapsed = getCollapsed();
     Object.entries(QUIZZES).forEach(([slug, quiz]) => {
       const g = Stats.getGlobal(currentUser, slug);
+      const isCollapsed = collapsed.includes(slug);
       const card = document.createElement('div');
-      card.className = 'quiz-card';
+      card.className = 'quiz-card' + (isCollapsed ? ' collapsed' : '');
+      card.dataset.slug = slug;
       card.innerHTML = `
-        <h2>${escapeHtml(quiz.label)}</h2>
-        <p class="quiz-meta">${escapeHtml(quiz.meta)}</p>
-        <div class="stats-preview">
-          <div class="stat"><span class="stat-value">${g.total_respondidas}</span><span class="stat-label">Respondidas</span></div>
-          <div class="stat"><span class="stat-value">${g.total_aciertos}</span><span class="stat-label">Aciertos</span></div>
-          <div class="stat"><span class="stat-value">${g.total_fallos}</span><span class="stat-label">Fallos</span></div>
+        <div class="quiz-card-header">
+          <div>
+            <h2>${escapeHtml(quiz.label)}</h2>
+            <p class="quiz-meta">${escapeHtml(quiz.meta)}</p>
+          </div>
+          <span class="quiz-card-toggle">&#9662;</span>
         </div>
-        <button class="btn btn-primary btn-block btn-open-session" data-slug="${escapeHtml(slug)}">Empezar</button>
+        <div class="quiz-card-body">
+          <div class="stats-preview">
+            <div class="stat"><span class="stat-value">${g.total_respondidas}</span><span class="stat-label">Respondidas</span></div>
+            <div class="stat"><span class="stat-value">${g.total_aciertos}</span><span class="stat-label">Aciertos</span></div>
+            <div class="stat"><span class="stat-value">${g.total_fallos}</span><span class="stat-label">Fallos</span></div>
+          </div>
+          <button class="btn btn-primary btn-block btn-open-session" data-slug="${escapeHtml(slug)}">Empezar</button>
+        </div>
       `;
       container.appendChild(card);
     });
 
+    container.querySelectorAll('.quiz-card-header').forEach(header => {
+      header.addEventListener('click', () => {
+        const card = header.closest('.quiz-card');
+        const slug = card.dataset.slug;
+        card.classList.toggle('collapsed');
+        toggleCollapsed(slug);
+      });
+    });
+
     container.querySelectorAll('.btn-open-session').forEach(btn => {
-      btn.addEventListener('click', () => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
         selectedQuizSlug = btn.dataset.slug;
         goSession(selectedQuizSlug);
       });
