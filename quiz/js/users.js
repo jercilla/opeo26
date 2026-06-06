@@ -38,7 +38,7 @@ const Users = (() => {
   function ensureDefault() {
     let users = list();
     if (users.length === 0) {
-      create('Joseba');
+      create('User 1');
       users = list();
     }
     let last = getLast();
