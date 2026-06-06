@@ -75,7 +75,7 @@ const App = (() => {
             <div class="stat"><span class="stat-value">${g.total_aciertos}</span><span class="stat-label">Aciertos</span></div>
             <div class="stat"><span class="stat-value">${g.total_fallos}</span><span class="stat-label">Fallos</span></div>
           </div>
-          <button class="btn btn-primary btn-block btn-open-session" data-slug="${escapeHtml(slug)}">Empezar</button>
+          <button class="btn btn-primary btn-block btn-open-session" data-slug="${escapeHtml(slug)}">Entrar</button>
         </div>
       `;
       container.appendChild(card);
