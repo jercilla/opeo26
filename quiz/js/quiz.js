@@ -85,7 +85,8 @@ const Quiz = (() => {
       btn.className = 'option';
       btn.type = 'button';
       btn.dataset.letter = letter;
-      btn.innerHTML = `<span class="option-letter">${letter}</span><span class="option-text">${escapeHtml(txt)}</span>`;
+      const html = current.diffs && current.diffs[letter] ? current.diffs[letter] : escapeHtml(txt);
+      btn.innerHTML = `<span class="option-letter">${letter}</span><span class="option-text">${html}</span>`;
       btn.addEventListener('click', () => selectOption(letter));
       els.options.appendChild(btn);
     });

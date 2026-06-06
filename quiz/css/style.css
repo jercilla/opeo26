@@ -160,6 +160,11 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
   .btn, .option, .user-item { transition: none; }
 }
 
+.diff-highlight {
+  background: #fef3c7; color: #92400e; font-weight: 600;
+  padding: 0 0.15rem; border-radius: 0.2rem;
+}
+
 /* Tablet */
 @media (min-width: 600px) {
   .container { padding: 1.5rem; }
