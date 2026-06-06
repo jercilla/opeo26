@@ -1,5 +1,6 @@
 const Quiz = (() => {
   let user = null;
+  let quizSlug = null;
   let questions = [];
   let order = [];
   let idx = 0;
@@ -27,9 +28,10 @@ const Quiz = (() => {
     return a;
   }
 
-  function start(u, mode) {
+  function start(u, slug, mode) {
     user = u;
-    questions = QUESTIONS;
+    quizSlug = slug;
+    questions = QUIZZES[slug].questions;
     if (mode === 'random') {
       order = shuffle(questions.map((_, i) => i));
     } else {
@@ -82,7 +84,7 @@ const Quiz = (() => {
     const acierto = selectedLetter === correct;
     if (acierto) session.aciertos++; else session.fallos++;
 
-    Stats.record(user, current.idpregunta, correct, selectedLetter);
+    Stats.record(user, quizSlug, current.idpregunta, correct, selectedLetter);
 
     Array.from(els.options.children).forEach(btn => {
       const l = btn.dataset.letter;

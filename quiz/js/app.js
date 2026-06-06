@@ -18,7 +18,7 @@ const App = (() => {
     const users = Users.list();
     list.innerHTML = '';
     if (users.length === 0) {
-      list.innerHTML = '<p style="color:#94a3b8;text-align:center;">No hay perfiles. Crea uno abajo.</p>';
+      list.innerHTML = '<p style="color:#64748b;text-align:center;">No hay perfiles. Crea uno abajo.</p>';
       return;
     }
     users.forEach(u => {
@@ -34,11 +34,34 @@ const App = (() => {
     });
   }
 
-  function renderMenuStats() {
-    const g = Stats.getGlobal(currentUser);
-    document.getElementById('stat-total').textContent = g.total_respondidas;
-    document.getElementById('stat-aciertos').textContent = g.total_aciertos;
-    document.getElementById('stat-fallos').textContent = g.total_fallos;
+  function renderQuizzes() {
+    const container = document.getElementById('quizzes-list');
+    container.innerHTML = '';
+    Object.entries(QUIZZES).forEach(([slug, quiz]) => {
+      const g = Stats.getGlobal(currentUser, slug);
+      const card = document.createElement('div');
+      card.className = 'quiz-card';
+      card.innerHTML = `
+        <h2>${escapeHtml(quiz.label)}</h2>
+        <p class="quiz-meta">${escapeHtml(quiz.meta)}</p>
+        <div class="stats-preview">
+          <div class="stat"><span class="stat-value">${g.total_respondidas}</span><span class="stat-label">Respondidas</span></div>
+          <div class="stat"><span class="stat-value">${g.total_aciertos}</span><span class="stat-label">Aciertos</span></div>
+          <div class="stat"><span class="stat-value">${g.total_fallos}</span><span class="stat-label">Fallos</span></div>
+        </div>
+        <button class="btn btn-primary btn-block btn-start-quiz" data-slug="${escapeHtml(slug)}">Empezar</button>
+      `;
+      container.appendChild(card);
+    });
+
+    container.querySelectorAll('.btn-start-quiz').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const slug = btn.dataset.slug;
+        const mode = document.querySelector('input[name="mode"]:checked').value;
+        Quiz.start(currentUser, slug, mode);
+        show('quiz');
+      });
+    });
   }
 
   function goUsers() {
@@ -49,14 +72,8 @@ const App = (() => {
   function goMenu() {
     currentUser = Users.ensureDefault();
     document.getElementById('current-user-name').textContent = currentUser;
-    renderMenuStats();
+    renderQuizzes();
     show('menu');
-  }
-
-  function goQuiz() {
-    const mode = document.querySelector('input[name="mode"]:checked').value;
-    Quiz.start(currentUser, mode);
-    show('quiz');
   }
 
   function init() {
@@ -79,18 +96,15 @@ const App = (() => {
       }
     });
 
-    document.getElementById('btn-start').addEventListener('click', goQuiz);
     document.getElementById('btn-validate').addEventListener('click', () => Quiz.validate());
     document.getElementById('btn-next').addEventListener('click', () => Quiz.next());
     document.getElementById('btn-quit-quiz').addEventListener('click', () => {
       if (confirm('Salir del quiz? El progreso de esta sesion no se guardara.')) {
-        renderMenuStats();
-        show('menu');
+        goMenu();
       }
     });
     document.getElementById('btn-back-menu').addEventListener('click', () => {
-      renderMenuStats();
-      show('menu');
+      goMenu();
     });
 
     if ('serviceWorker' in navigator) {

@@ -1,5 +1,8 @@
-const QUESTIONS = 
-[
+const QUIZZES = {
+  general_A_B_C1: {
+    label: 'General A, B y C1',
+    meta: '200 preguntas - Temario comun',
+    questions: [
   {
     "num": 1,
     "idpregunta": 1,
@@ -2600,4 +2603,6 @@ const QUESTIONS =
     "correcta": "B",
     "metodo": "fallo->azul"
   }
-];
+]
+  }
+};

@@ -1,28 +1,28 @@
 const Stats = (() => {
-  function record(user, idpregunta, correcta, elegida) {
+  function record(user, quizSlug, idpregunta, correcta, elegida) {
     const acierto = elegida === correcta;
 
-    // global
-    const g = State.getGlobal(user);
+    // global per quiz
+    const g = State.getGlobal(user, quizSlug);
     g.total_respondidas += 1;
     if (acierto) g.total_aciertos += 1; else g.total_fallos += 1;
-    State.setGlobal(user, g);
+    State.setGlobal(user, quizSlug, g);
 
-    // per question
-    const pp = State.getPorPregunta(user);
+    // per question per quiz
+    const pp = State.getPorPregunta(user, quizSlug);
     const rec = pp[idpregunta] || { aciertos: 0, fallos: 0, ultimo_resultado: null };
     if (acierto) rec.aciertos += 1; else rec.fallos += 1;
     rec.ultimo_resultado = acierto ? 'acierto' : 'fallo';
     pp[idpregunta] = rec;
-    State.setPorPregunta(user, pp);
+    State.setPorPregunta(user, quizSlug, pp);
 
     return acierto;
   }
 
-  function getGlobal(user) { return State.getGlobal(user); }
+  function getGlobal(user, quizSlug) { return State.getGlobal(user, quizSlug); }
 
-  function getRankingFallos(user, questions) {
-    const pp = State.getPorPregunta(user);
+  function getRankingFallos(user, quizSlug, questions) {
+    const pp = State.getPorPregunta(user, quizSlug);
     const arr = questions.map(q => {
       const r = pp[q.idpregunta] || { fallos: 0, aciertos: 0 };
       return { idpregunta: q.idpregunta, fallos: r.fallos, aciertos: r.aciertos, ratio: r.fallos - r.aciertos };

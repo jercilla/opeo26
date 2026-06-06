@@ -12,15 +12,25 @@ const State = (() => {
     localStorage.setItem(ns(user) + key, JSON.stringify(value));
   }
 
-  function getGlobal(user) {
-    return get(user, 'global', { total_respondidas: 0, total_aciertos: 0, total_fallos: 0 });
+  function getGlobal(user, quizSlug) {
+    const all = get(user, 'global', {});
+    return all[quizSlug] || { total_respondidas: 0, total_aciertos: 0, total_fallos: 0 };
   }
-  function setGlobal(user, data) { set(user, 'global', data); }
+  function setGlobal(user, quizSlug, data) {
+    const all = get(user, 'global', {});
+    all[quizSlug] = data;
+    set(user, 'global', all);
+  }
 
-  function getPorPregunta(user) {
-    return get(user, 'por_pregunta', {});
+  function getPorPregunta(user, quizSlug) {
+    const all = get(user, 'por_pregunta', {});
+    return all[quizSlug] || {};
   }
-  function setPorPregunta(user, data) { set(user, 'por_pregunta', data); }
+  function setPorPregunta(user, quizSlug, data) {
+    const all = get(user, 'por_pregunta', {});
+    all[quizSlug] = data;
+    set(user, 'por_pregunta', all);
+  }
 
   return { get, set, getGlobal, setGlobal, getPorPregunta, setPorPregunta };
 })();
