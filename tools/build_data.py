@@ -6,20 +6,28 @@ Uso: python3 tools/build_data.py
 import json, re, os
 
 def split_tokens(text):
-    return [t for t in re.split(r'(\s+)', text) if t]
+    """Separa palabras y no-palabras (espacios, puntuacion) en tokens."""
+    return re.findall(r'\w+|\W+', text)
+
+def tokens_equal(a, b):
+    """Compara tokens ignorando mayusculas y considerando espacios equivalentes."""
+    if a.isspace() and b.isspace():
+        return True
+    return a.lower() == b.lower()
 
 def lcs_tokens(a, b):
+    """Longest Common Subsequence sobre listas de tokens."""
     dp = [[0]*(len(b)+1) for _ in range(len(a)+1)]
     for i in range(1, len(a)+1):
         for j in range(1, len(b)+1):
-            if a[i-1] == b[j-1]:
+            if tokens_equal(a[i-1], b[j-1]):
                 dp[i][j] = dp[i-1][j-1] + 1
             else:
                 dp[i][j] = max(dp[i-1][j], dp[i][j-1])
     i, j = len(a), len(b)
     res = []
     while i > 0 and j > 0:
-        if a[i-1] == b[j-1]:
+        if tokens_equal(a[i-1], b[j-1]):
             res.append(('same', a[i-1]))
             i -= 1; j -= 1
         elif dp[i-1][j] >= dp[i][j-1]:
@@ -49,7 +57,7 @@ def highlight(text, other):
     in_diff = False
     for typ, tok in diff:
         esc = escape_html(tok)
-        if typ == 'diff':
+        if typ == 'diff' and not tok.isspace():
             if not in_diff:
                 html += '<span class="diff-highlight">'
                 in_diff = True
