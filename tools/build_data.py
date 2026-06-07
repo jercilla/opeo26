@@ -145,6 +145,12 @@ QUIZ_SOURCES = [
         'label': 'Tecnico Especialista Informatica',
         'meta': '200 preguntas - RESPUESTAS PRELIMINARES',
     },
+    {
+        'slug': 'tecnico_superior_informatica',
+        'file': 'tecnico_superior_informatica.json',
+        'label': 'Tecnico Superior Informatica',
+        'meta': '500 preguntas - RESPUESTAS PRELIMINARES',
+    },
 ]
 
 def main():
