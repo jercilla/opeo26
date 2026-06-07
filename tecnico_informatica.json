@@ -1634,8 +1634,13 @@
   {
     "num": 127,
     "idpregunta": 127,
-    "pregunta": "127.- ¿Qué nivel de RAID se destaca por ofrecer actualmente la mejor \"relación",
-    "opciones": {},
+    "pregunta": "127.- ¿Que nivel de RAID se destaca por ofrecer actualmente la mejor \"relacion rendimiento-coste\" para aplicaciones empresariales?",
+    "opciones": {
+      "A": "RAID 0+1 / RAID 10",
+      "B": "RAID 6 (Acceso independiente con doble paridad)",
+      "C": "RAID 2 (Acceso sincrono con codigo de errores)",
+      "D": "RAID 5"
+    },
     "correcta": "D",
     "metodo": "estimado_manual"
   },

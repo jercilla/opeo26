@@ -1318,11 +1318,8 @@ b) Utiliza códigos Hamming para la corrección de errores en tiempo real.
 c) Este nivel no ofrece tolerancia a fallos.
 d) Requiere un disco dedicado exclusivamente para el almacenamiento de paridad.
 ```
-127. ¿Qué nivel de RAID se destaca por ofrecer actualmente la mejor "relación
+127. ¿Qué nivel de RAID se destaca por ofrecer actualmente la mejor "relación rendimiento-coste" para aplicaciones empresariales?
 
-```
-rendimiento-coste" para aplicaciones empresariales?
-```
 ```
 a) RAID 0+1 / RAID 10
 b) RAID 6 (Acceso independiente con doble paridad)
