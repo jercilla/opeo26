@@ -1376,7 +1376,10 @@
     "idpregunta": 107,
     "pregunta": "107.- Varias personas de un equipo necesitan modificar el mismo archivo almacenado en una biblioteca de documentos SharePoint. ¿Qué es preferible hacer para evitar que varias personas usuarias realicen modificaciones simultáneas sobre el mismo archivo?",
     "opciones": {
-      "A": "Extraer el archivo del repositorio antes de abrirlo, de forma que ninguna otra persona usuaria pueda modificarlo mientras esté extraído, e insertarlo de nuevo una vez guardados los cambios para que todas puedan ver las modificaciones."
+      "A": "Extraer el archivo del repositorio antes de abrirlo, de forma que ninguna otra persona usuaria pueda modificarlo mientras esté extraído, e insertarlo de nuevo una vez guardados los cambios para que todas puedan ver las modificaciones.",
+      "B": "Abrir el archivo directamente desde la biblioteca y activar el modo de edicion exclusiva desde las opciones del documento, que bloqueara automaticamente el acceso al resto de personas usuarias mientras este abierto.",
+      "C": "Crear una copia local del archivo, realizar las modificaciones necesarias y subir la nueva version a la biblioteca, sobreescribiendo la anterior para que el resto de personas usuarias accedan a la version actualizada.",
+      "D": "Compartir el archivo con permisos de solo lectura para el resto de personas usuarias mientras una persona del equipo lo edita, y restablecer los permisos de edicion una vez finalizados los cambios."
     },
     "correcta": "A",
     "metodo": "estimado_manual"

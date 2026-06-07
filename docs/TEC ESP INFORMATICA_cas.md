@@ -1090,9 +1090,6 @@ automáticamente los archivos a las ubicaciones definidas.
 a) Extraer el archivo del repositorio antes de abrirlo, de forma que ninguna otra persona
 usuaria pueda modificarlo mientras esté extraído, e insertarlo de nuevo una vez
 guardados los cambios para que todas puedan ver las modificaciones.
-```
-
-```
 b) Abrir el archivo directamente desde la biblioteca y activar el modo de edición
 exclusiva desde las opciones del documento, que bloqueará automáticamente el
 acceso al resto de personas usuarias mientras esté abierto.
