@@ -1838,9 +1838,6 @@ b) El derecho de supresión sobre contenidos de la etapa de minoría de edad dec
 automáticamente si la persona afectada, una vez alcanzada la mayoría de edad, realiza
 nuevas publicaciones en el mismo servicio, entendiéndose como una validación tácita
 de su historial previo.
-```
-
-```
 c) En caso de que el derecho se ejercitase por una persona afectada respecto de datos
 que hubiesen sido facilitados al servicio, por ella o por terceras personas, durante su
 minoría de edad, la persona prestadora del servicio deberá proceder sin dilación a su
@@ -2143,9 +2140,6 @@ d) Asignar y asegurar el presupuesto para la mejora continua.
 ```
 a) Regular exclusivamente la protección de datos de carácter personal en el sector
 público.
-```
-
-```
 b) Establecer los principios básicos y requisitos mínimos para una protección adecuada
 de la información tratada y los servicios prestados.
 c) Sustituir la Ley de Procedimiento Administrativo Común en materia de

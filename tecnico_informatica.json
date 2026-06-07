@@ -2078,7 +2078,10 @@
     "idpregunta": 161,
     "pregunta": "161.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, ¿cuál de las siguientes afirmaciones se corresponde con lo dispuesto en relación con el derecho a la desconexión digital en el ámbito laboral?",
     "opciones": {
-      "A": "El derecho a la desconexión faculta a la persona trabajadora para interrumpir de forma discrecional el uso de herramientas tecnológicas durante la jornada laboral"
+      "A": "El derecho a la desconexion faculta a la persona trabajadora para interrumpir de forma discrecional el uso de herramientas tecnologicas durante la jornada laboral efectiva, siempre que se acredite un riesgo de fatiga informatica conforme a la normativa de prevencion de riesgos laborales.",
+      "B": "La persona empleadora, previa audiencia de los y las representantes de las personas trabajadoras, debe elaborar una politica interna que defina las modalidades de ejercicio de este derecho y las acciones de formacion y sensibilizacion sobre un uso razonable de las herramientas tecnologicas.",
+      "C": "Dada la naturaleza de este derecho, su obligatoriedad y el deber empresarial de definir protocolos de desconexion se circunscriben exclusivamente a las personas trabajadoras que prestan servicios a distancia o mediante teletrabajo.",
+      "D": "En defecto de previsiones especificas en la negociacion colectiva, la persona empresaria podra establecer de forma unilateral las condiciones de la desconexion digital, siendo suficiente la notificacion informativa a los y las representantes de las personas trabajadoras para su validez."
     },
     "correcta": "B",
     "metodo": "estimado_manual"
@@ -2101,8 +2104,10 @@
     "idpregunta": 163,
     "pregunta": "163.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, en relación con el ejercicio del derecho al olvido en servicios de redes sociales y servicios equivalentes, ¿cuál de las siguientes afirmaciones es correcta respecto a la supresión de datos facilitados durante la minoría de edad?",
     "opciones": {
-      "A": "El prestador del servicio sólo está obligado a suprimir los datos si la persona afectada demuestra que la información es inexacta, no pertinente o excesiva, siguiendo los criterios de ponderación aplicables a los datos facilitados por terceras personas en la edad adulta.",
-      "B": "El derecho de supresión sobre contenidos de la etapa de minoría de edad decae automáticamente si la persona afectada, una vez alcanzada la mayoría de edad, realiza nuevas publicaciones en el mismo servicio, entendiéndose como una validación tácita de su historial previo."
+      "A": "El prestador del servicio solo esta obligado a suprimir los datos si la persona afectada demuestra que la informacion es inexacta, no pertinente o excesiva, siguiendo los criterios de ponderacion aplicables a los datos facilitados por terceras personas en la edad adulta.",
+      "B": "El derecho de supresion sobre contenidos de la etapa de minoria de edad decae automaticamente si la persona afectada, una vez alcanzada la mayoria de edad, realiza nuevas publicaciones en el mismo servicio, entendiendose como una validacion tacita de su historial previo.",
+      "C": "En caso de que el derecho se ejercitase por una persona afectada respecto de datos que hubiesen sido facilitados al servicio, por ella o por terceras personas, durante su minoria de edad, la persona prestadora del servicio debera proceder sin dilacion a su supresion por su simple solicitud, sin necesidad de que concurran otras circunstancias.",
+      "D": "Las personas prestadoras de servicios de redes sociales estan exentas de suprimir datos de menores si acreditan que dicha informacion se utiliza unicamente para fines estadisticos."
     },
     "correcta": "C",
     "metodo": "estimado_manual"
@@ -2436,7 +2441,10 @@
     "idpregunta": 189,
     "pregunta": "189.- ¿Cuál es el objeto principal del Esquema Nacional de Seguridad (ENS)?",
     "opciones": {
-      "A": "Regular exclusivamente la protección de datos de carácter personal en el sector público."
+      "A": "Regular exclusivamente la proteccion de datos de caracter personal en el sector publico.",
+      "B": "Establecer los principios basicos y requisitos minimos para una proteccion adecuada de la informacion tratada y los servicios prestados.",
+      "C": "Sustituir la Ley de Procedimiento Administrativo Comun en materia de administracion digital.",
+      "D": "Definir los estandares tecnicos de interoperabilidad entre administraciones europeas."
     },
     "correcta": "B",
     "metodo": "estimado_manual"
