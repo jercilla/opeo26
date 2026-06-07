@@ -1294,11 +1294,7 @@ de seguridad.
 c) Un procedimiento para detectar un ataque durante su ejecución.
 d) Una técnica para monitorizar los registros de actividad de los equipos.
 ```
-124. En la jerarquía de conceptos de seguridad, ¿qué elemento constituye la base de la
-
-```
-pirámide y sirve para dejar constancia de las tareas realizadas?
-```
+124. En la jerarquía de conceptos de seguridad, ¿qué elemento constituye la base de lapirámide y sirve para dejar constancia de las tareas realizadas?
 ```
 a) Procedimientos de Seguridad.
 b) Planes de Contingencia.

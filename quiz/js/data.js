@@ -16607,8 +16607,13 @@ const QUIZZES = {
       {
         "num": 124,
         "idpregunta": 124,
-        "pregunta": "124.- En la jerarquía de conceptos de seguridad, ¿qué elemento constituye la base de la",
-        "opciones": {},
+        "pregunta": "124.- En la jerarquia de conceptos de seguridad, ¿que elemento constituye la base de la piramide y sirve para dejar constancia de las tareas realizadas?",
+        "opciones": {
+          "A": "Procedimientos de Seguridad.",
+          "B": "Planes de Contingencia.",
+          "C": "Registros / Evidencias.",
+          "D": "Politicas de Seguridad."
+        },
         "correcta": "C",
         "metodo": "estimado_manual"
       },
