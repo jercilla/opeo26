@@ -16415,10 +16415,19 @@ const QUIZZES = {
         "idpregunta": 110,
         "pregunta": "110.- Una persona usuaria acaba de crear un nuevo sitio Wiki en SharePoint y observa que al acceder a él se muestra automáticamente una página por defecto. ¿Cómo se denomina técnicamente esta página y qué características tiene?",
         "opciones": {
-          "A": "Se denomina Home.aspx; es la primera página del sitio que aparece al acceder a él y, aunque al crear el sitio se propone una versión estándar, puede modificarse o eliminarse y sustituirse por otra."
+          "A": "Se denomina Home.aspx; es la primera página del sitio que aparece al acceder a él y, aunque al crear el sitio se propone una versión estándar, puede modificarse o eliminarse y sustituirse por otra.",
+          "B": "Se denomina Index.aspx; es la primera pagina del sitio que aparece al acceder a el y, aunque al crear el sitio se propone una version estandar, puede modificarse o eliminarse y sustituirse por otra.",
+          "C": "Se denomina Index.aspx y es una pagina generada automaticamente que recoge un indice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada.",
+          "D": "Se denomina Home.aspx y es una pagina generada automaticamente que recoge un indice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "estimado_manual",
+        "diffs": {
+          "A": "Se denomina <span class=\"diff-highlight\">Home</span>.aspx; es la primera <span class=\"diff-highlight\">página</span> del sitio que aparece al acceder a <span class=\"diff-highlight\">él</span> y, aunque al crear el sitio se propone una <span class=\"diff-highlight\">versión</span> <span class=\"diff-highlight\">estándar</span>, puede modificarse o eliminarse y sustituirse por otra.",
+          "B": "Se denomina <span class=\"diff-highlight\">Index</span>.aspx; es la primera <span class=\"diff-highlight\">pagina</span> del sitio que aparece al acceder a <span class=\"diff-highlight\">el</span> y, aunque al crear el sitio se propone una <span class=\"diff-highlight\">version</span> <span class=\"diff-highlight\">estandar</span>, puede modificarse o eliminarse y sustituirse por otra.",
+          "C": "Se denomina <span class=\"diff-highlight\">Index</span>.aspx y es una pagina generada automaticamente que recoge un indice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada.",
+          "D": "Se denomina <span class=\"diff-highlight\">Home</span>.aspx y es una pagina generada automaticamente que recoge un indice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada."
+        }
       },
       {
         "num": 111,

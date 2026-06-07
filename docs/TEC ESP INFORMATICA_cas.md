@@ -1140,9 +1140,6 @@ y las pendientes con un círculo en la escala de tiempo.
 a) Se denomina Home.aspx; es la primera página del sitio que aparece al acceder a él y,
 aunque al crear el sitio se propone una versión estándar, puede modificarse o
 eliminarse y sustituirse por otra.
-```
-
-```
 b) Se denomina Index.aspx; es la primera página del sitio que aparece al acceder a él y,
 aunque al crear el sitio se propone una versión estándar, puede modificarse o
 eliminarse y sustituirse por otra.
