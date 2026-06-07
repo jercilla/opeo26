@@ -1332,28 +1332,19 @@ d) RAID 5
 ```
 a) Auditoría de las últimas sesiones de acceso de la persona usuaria.
 b) Transferencia de sus ficheros personales a un soporte desmagnetizado.
-```
-
-```
 c) Cancelación o bloqueo inmediato de las cuentas de una persona usuaria.
 d) Cambio de contraseña de acceso al BIOS de su estación de trabajo.
 ```
-129. Dentro de los factores de autenticación, ¿cuál es un ejemplo textual de "Lo que se
+129. Dentro de los factores de autenticación, ¿cuál es un ejemplo textual de "Lo que se sabe"?
 
-```
-sabe"?
-```
 ```
 a) Tarjeta inteligente (smartcard) o token USB.
 b) Características biométricas como el iris o la voz.
 c) Firma manuscrita.
 d) Contraseñas (passwords) y PINs.
 ```
-130. ¿Cómo se clasifica la información cuya divulgación podría ocasionar "daños
+130. ¿Cómo se clasifica la información cuya divulgación podría ocasionar "daños significativos" para la organización?
 
-```
-significativos" para la organización?
-```
 ```
 a) Información de uso interno.
 b) Información secreta o reservada.
@@ -1369,12 +1360,9 @@ b) Confidencialidad, autenticidad e integridad de los datos.
 c) Mayor ancho de banda y menor latencia en conexiones remotas.
 d) Encapsulamiento de protocolos no enrutables mediante túneles.
 ```
-132. ¿Cómo se denomina al intervalo de tiempo transcurrido desde que se hace pública
-
-```
-una vulnerabilidad hasta que se presenta la correspondiente actualización o parche
+132. ¿Cómo se denomina al intervalo de tiempo transcurrido desde que se hace pública una vulnerabilidad hasta que se presenta la correspondiente actualización o parche
 de seguridad?
-```
+
 ```
 a) Días de riesgo.
 b) Periodo de exposición.
@@ -1391,12 +1379,8 @@ c) Dumpster diving.
 d) Scraping físico.
 ```
 
-134. Según la Ley General de Telecomunicaciones de España (32/2003), ¿qué obligación
+134. Según la Ley General de Telecomunicaciones de España (32/2003), ¿qué obligación puede imponer el Estado a los organismos públicos o fabricantes en relación con el cifrado?
 
-```
-puede imponer el Estado a los organismos públicos o fabricantes en relación con el
-cifrado?
-```
 ```
 a) Entregar copias de seguridad de todas las claves privadas.
 b) Utilizar exclusivamente algoritmos de cifrado de flujo.
@@ -1442,11 +1426,8 @@ c) Vulnerability Definition Language (VDL).
 d) Nessus Core Script.
 ```
 
-139. ¿A qué tipo de tratamiento de datos personales resultará de aplicación el
+139. ¿A qué tipo de tratamiento de datos personales resultará de aplicación el Reglamento (UE) 2016/679 relativo a la protección de las personas físicas?
 
-```
-Reglamento (UE) 2016/679 relativo a la protección de las personas físicas?
-```
 ```
 a) Al tratamiento total o parcialmente automatizado de datos personales, así como al
 tratamiento no automatizado de datos personales contenidos o destinados a ser
@@ -1547,9 +1528,6 @@ a) En cualquier formato que el responsable considere oportuno, siempre que sea l
 por el interesado.
 b) Únicamente en formato papel certificado y compulsado para garantizar su
 autenticidad.
-```
-
-```
 c) En un formato estructurado, de uso común y lectura mecánica.
 d) En un formato cifrado que solo pueda ser abierto por autoridades de control.
 ```
@@ -1809,9 +1787,6 @@ entornos rurales con baja densidad demográfica.
 ```
 a) El derecho a la desconexión faculta a la persona trabajadora para interrumpir de
 forma discrecional el uso de herramientas tecnológicas durante la jornada laboral
-```
-
-```
 efectiva, siempre que se acredite un riesgo de fatiga informática conforme a la
 normativa de prevención de riesgos laborales.
 b) La persona empleadora, previa audiencia de los y las representantes de las personas

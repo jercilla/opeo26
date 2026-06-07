@@ -16661,8 +16661,10 @@ const QUIZZES = {
         "idpregunta": 128,
         "pregunta": "128.- ¿Qué acción debe realizarse de forma inmediata en el sistema cuando un/una empleado/a causa baja en la organización?",
         "opciones": {
-          "A": "Auditoría de las últimas sesiones de acceso de la persona usuaria.",
-          "B": "Transferencia de sus ficheros personales a un soporte desmagnetizado."
+          "A": "Auditoria de las ultimas sesiones de acceso de la persona usuaria.",
+          "B": "Transferencia de sus ficheros personales a un soporte desmagnetizado.",
+          "C": "Cancelacion o bloqueo inmediato de las cuentas de una persona usuaria.",
+          "D": "Cambio de contrasena de acceso al BIOS de su estacion de trabajo."
         },
         "correcta": "C",
         "metodo": "estimado_manual"
@@ -16671,7 +16673,12 @@ const QUIZZES = {
         "num": 129,
         "idpregunta": 129,
         "pregunta": "129.- Dentro de los factores de autenticación, ¿cuál es un ejemplo textual de \"Lo que se",
-        "opciones": {},
+        "opciones": {
+          "A": "Tarjeta inteligente (smartcard) o token USB.",
+          "B": "Caracteristicas biometricas como el iris o la voz.",
+          "C": "Firma manuscrita.",
+          "D": "Contrasenas (passwords) y PINs."
+        },
         "correcta": "D",
         "metodo": "estimado_manual"
       },
@@ -16679,7 +16686,12 @@ const QUIZZES = {
         "num": 130,
         "idpregunta": 130,
         "pregunta": "130.- ¿Cómo se clasifica la información cuya divulgación podría ocasionar \"daños",
-        "opciones": {},
+        "opciones": {
+          "A": "Informacion de uso interno.",
+          "B": "Informacion secreta o reservada.",
+          "C": "Informacion desclasificada.",
+          "D": "Informacion confidencial."
+        },
         "correcta": "D",
         "metodo": "estimado_manual"
       },
@@ -16699,8 +16711,13 @@ const QUIZZES = {
       {
         "num": 132,
         "idpregunta": 132,
-        "pregunta": "132.- ¿Cómo se denomina al intervalo de tiempo transcurrido desde que se hace pública",
-        "opciones": {},
+        "pregunta": "132.- ¿Como se denomina al intervalo de tiempo transcurrido desde que se hace publica una vulnerabilidad hasta que se presenta la correspondiente actualizacion o parche de seguridad?",
+        "opciones": {
+          "A": "Dias de riesgo.",
+          "B": "Periodo de exposicion.",
+          "C": "Ventana de vulnerabilidad.",
+          "D": "Tiempo de respuesta tecnica."
+        },
         "correcta": "C",
         "metodo": "estimado_manual"
       },
@@ -16720,8 +16737,13 @@ const QUIZZES = {
       {
         "num": 134,
         "idpregunta": 134,
-        "pregunta": "134.- Según la Ley General de Telecomunicaciones de España (32/2003), ¿qué obligación",
-        "opciones": {},
+        "pregunta": "134.- Segun la Ley General de Telecomunicaciones de Espana (32/2003), ¿que obligacion puede imponer el Estado a los organismos publicos o fabricantes en relacion con el cifrado?",
+        "opciones": {
+          "A": "Entregar copias de seguridad de todas las claves privadas.",
+          "B": "Utilizar exclusivamente algoritmos de cifrado de flujo.",
+          "C": "Prohibir el uso de longitudes de clave superiores a 128 bits.",
+          "D": "Facilitar sin coste alguno los aparatos de cifrado a efectos de su control."
+        },
         "correcta": "D",
         "metodo": "estimado_manual"
       },
@@ -16780,8 +16802,13 @@ const QUIZZES = {
       {
         "num": 139,
         "idpregunta": 139,
-        "pregunta": "139.- ¿A qué tipo de tratamiento de datos personales resultará de aplicación el",
-        "opciones": {},
+        "pregunta": "139.- ¿A que tipo de tratamiento de datos personales resultara de aplicacion el Reglamento (UE) 2016/679 relativo a la proteccion de las personas fisicas?",
+        "opciones": {
+          "A": "Al tratamiento total o parcialmente automatizado de datos personales, asi como al tratamiento no automatizado de datos personales contenidos o destinados a ser incluidos en un fichero.",
+          "B": "Al tratamiento realizado en el ejercicio de una actividad no comprendida en el ambito de aplicacion del Derecho de la Union.",
+          "C": "Al tratamiento efectuado por parte de las autoridades competentes con fines de prevencion, investigacion, deteccion o enjuiciamiento de infracciones penales, o de ejecucion de sanciones penales, incluida la de proteccion frente a amenazas a la seguridad publica y su prevencion.",
+          "D": "Al tratamiento efectuado por una persona fisica en el ejercicio de actividades exclusivamente personales o domesticas."
+        },
         "correcta": "A",
         "metodo": "estimado_manual"
       },
@@ -16856,7 +16883,9 @@ const QUIZZES = {
         "pregunta": "145.- De acuerdo con el texto del Reglamento (UE) 2016/679, ¿en qué formato tendrá derecho a recibir la persona interesada sus datos personales al ejercer el derecho a la portabilidad?",
         "opciones": {
           "A": "En cualquier formato que el responsable considere oportuno, siempre que sea legible por el interesado.",
-          "B": "Únicamente en formato papel certificado y compulsado para garantizar su autenticidad."
+          "B": "Unicamente en formato papel certificado y compulsado para garantizar su autenticidad.",
+          "C": "En un formato estructurado, de uso comun y lectura mecanica.",
+          "D": "En un formato cifrado que solo pueda ser abierto por autoridades de control."
         },
         "correcta": "C",
         "metodo": "estimado_manual"
