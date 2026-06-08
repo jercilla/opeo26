@@ -62,9 +62,10 @@ const Quiz = (() => {
       }
       order = shuffle(pool);
     } else {
-      const startNum = Math.max(1, Math.min(questions.length, config.startNum || 1));
+      const sStart = Math.max(0, (config.seqStart || 1) - 1);
+      const sEnd = Math.min(questions.length, config.seqEnd || questions.length);
       order = [];
-      for (let i = startNum - 1; i < questions.length; i++) order.push(i);
+      for (let i = sStart; i < sEnd; i++) order.push(i);
     }
 
     idx = 0;
