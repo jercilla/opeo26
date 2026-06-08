@@ -114,15 +114,23 @@ const App = (() => {
       resumeBox.classList.add('hidden');
     }
 
-    // Reset inputs
-    document.getElementById('seq-start').value = 1;
-    document.getElementById('seq-start').max = quiz.questions.length;
-    document.getElementById('seq-end').value = quiz.questions.length;
-    document.getElementById('seq-end').max = quiz.questions.length;
-    document.getElementById('rand-start').value = 1;
-    document.getElementById('rand-start').max = quiz.questions.length;
-    document.getElementById('rand-end').value = quiz.questions.length;
-    document.getElementById('rand-end').max = quiz.questions.length;
+    // Reset inputs defaults
+    const qLen = quiz.questions.length;
+    document.getElementById('seq-start').max = qLen;
+    document.getElementById('seq-end').max = qLen;
+    document.getElementById('rand-start').max = qLen;
+    document.getElementById('rand-end').max = qLen;
+
+    // Load last used ranges for this user/quiz
+    const last = State.get(currentUser, 'last_ranges', {});
+    const r = last[slug] || {};
+    if (r.mode) {
+      document.querySelector(`input[name="session-mode"][value="${r.mode}"]`).checked = true;
+    }
+    document.getElementById('seq-start').value = r.seqStart || 1;
+    document.getElementById('seq-end').value = r.seqEnd || qLen;
+    document.getElementById('rand-start').value = r.randStart || 1;
+    document.getElementById('rand-end').value = r.randEnd || qLen;
 
     show('session');
   }
@@ -133,6 +141,12 @@ const App = (() => {
     const seqEnd = parseInt(document.getElementById('seq-end').value, 10) || 1;
     const randStart = parseInt(document.getElementById('rand-start').value, 10) || 1;
     const randEnd = parseInt(document.getElementById('rand-end').value, 10) || 1;
+
+    // Save last used ranges
+    const last = State.get(currentUser, 'last_ranges', {});
+    last[selectedQuizSlug] = { mode, seqStart, seqEnd, randStart, randEnd };
+    State.set(currentUser, 'last_ranges', last);
+
     Quiz.start({ user: currentUser, slug: selectedQuizSlug, mode, seqStart, seqEnd, randStart, randEnd, resume });
     show('quiz');
   }
