@@ -114,9 +114,13 @@ const App = (() => {
       resumeBox.classList.add('hidden');
     }
 
-    // Reset start num
+    // Reset inputs
     document.getElementById('start-num').value = 1;
     document.getElementById('start-num').max = quiz.questions.length;
+    document.getElementById('rand-start').value = 1;
+    document.getElementById('rand-start').max = quiz.questions.length;
+    document.getElementById('rand-end').value = quiz.questions.length;
+    document.getElementById('rand-end').max = quiz.questions.length;
 
     show('session');
   }
@@ -124,7 +128,9 @@ const App = (() => {
   function startSession(resume) {
     const mode = document.querySelector('input[name="session-mode"]:checked').value;
     const startNum = parseInt(document.getElementById('start-num').value, 10) || 1;
-    Quiz.start({ user: currentUser, slug: selectedQuizSlug, mode, startNum, resume });
+    const randStart = parseInt(document.getElementById('rand-start').value, 10) || 1;
+    const randEnd = parseInt(document.getElementById('rand-end').value, 10) || 1;
+    Quiz.start({ user: currentUser, slug: selectedQuizSlug, mode, startNum, randStart, randEnd, resume });
     show('quiz');
   }
 

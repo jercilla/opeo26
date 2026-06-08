@@ -50,12 +50,15 @@ const Quiz = (() => {
     session = { aciertos: 0, fallos: 0 };
 
     if (config.mode === 'random') {
+      const rStart = Math.max(0, (config.randStart || 1) - 1);
+      const rEnd = Math.min(questions.length, config.randEnd || questions.length);
+      let pool = questions.map((_, i) => i).slice(rStart, rEnd);
       // Descartar preguntas ya respondidas en este quiz por este usuario
       const pp = State.getPorPregunta(user, quizSlug);
       const answeredIds = new Set(Object.keys(pp).map(Number));
-      let pool = questions.map((_, i) => i).filter(i => !answeredIds.has(questions[i].idpregunta));
+      pool = pool.filter(i => !answeredIds.has(questions[i].idpregunta));
       if (pool.length === 0) {
-        pool = questions.map((_, i) => i);
+        pool = questions.map((_, i) => i).slice(rStart, rEnd);
       }
       order = shuffle(pool);
     } else {
