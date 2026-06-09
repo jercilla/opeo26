@@ -135,7 +135,7 @@ const App = (() => {
     show('session');
   }
 
-  function startSession(resume) {
+  function startSession(resume, practice) {
     const mode = document.querySelector('input[name="session-mode"]:checked').value;
     const seqStart = parseInt(document.getElementById('seq-start').value, 10) || 1;
     const seqEnd = parseInt(document.getElementById('seq-end').value, 10) || 1;
@@ -147,7 +147,7 @@ const App = (() => {
     last[selectedQuizSlug] = { mode, seqStart, seqEnd, randStart, randEnd };
     State.set(currentUser, 'last_ranges', last);
 
-    Quiz.start({ user: currentUser, slug: selectedQuizSlug, mode, seqStart, seqEnd, randStart, randEnd, resume });
+    Quiz.start({ user: currentUser, slug: selectedQuizSlug, mode, seqStart, seqEnd, randStart, randEnd, resume, practice });
     show('quiz');
   }
 
@@ -199,8 +199,9 @@ const App = (() => {
     });
 
     document.getElementById('btn-back-from-session').addEventListener('click', goMenu);
-    document.getElementById('btn-start-session').addEventListener('click', () => startSession(false));
-    document.getElementById('btn-continue-session').addEventListener('click', () => startSession(true));
+    document.getElementById('btn-start-session').addEventListener('click', () => startSession(false, false));
+    document.getElementById('btn-practice-session').addEventListener('click', () => startSession(false, true));
+    document.getElementById('btn-continue-session').addEventListener('click', () => startSession(true, false));
 
     document.getElementById('btn-validate').addEventListener('click', () => Quiz.validate());
     document.getElementById('btn-next').addEventListener('click', () => Quiz.next());

@@ -7,6 +7,7 @@ const Quiz = (() => {
   let session = { aciertos: 0, fallos: 0 };
   let current = null;
   let validated = false;
+  let practice = false;
 
   const els = {
     progress: document.getElementById('quiz-progress'),
@@ -33,7 +34,8 @@ const Quiz = (() => {
     user = config.user;
     quizSlug = config.slug;
     questions = QUIZZES[quizSlug].questions;
-    els.label.textContent = QUIZZES[quizSlug].label;
+    practice = config.practice || false;
+    els.label.textContent = QUIZZES[quizSlug].label + (practice ? ' (Prueba)' : '');
 
     if (config.resume) {
       const saved = State.getSession(user, quizSlug);
@@ -46,19 +48,23 @@ const Quiz = (() => {
       }
     }
 
-    State.clearSession(user, quizSlug);
+    if (!practice) {
+      State.clearSession(user, quizSlug);
+    }
     session = { aciertos: 0, fallos: 0 };
 
     if (config.mode === 'random') {
       const rStart = Math.max(0, (config.randStart || 1) - 1);
       const rEnd = Math.min(questions.length, config.randEnd || questions.length);
       let pool = questions.map((_, i) => i).slice(rStart, rEnd);
-      // Descartar preguntas ya respondidas en este quiz por este usuario
-      const pp = State.getPorPregunta(user, quizSlug);
-      const answeredIds = new Set(Object.keys(pp).map(Number));
-      pool = pool.filter(i => !answeredIds.has(questions[i].idpregunta));
-      if (pool.length === 0) {
-        pool = questions.map((_, i) => i).slice(rStart, rEnd);
+      // Descartar preguntas ya respondidas en este quiz por este usuario (solo en modo normal)
+      if (!practice) {
+        const pp = State.getPorPregunta(user, quizSlug);
+        const answeredIds = new Set(Object.keys(pp).map(Number));
+        pool = pool.filter(i => !answeredIds.has(questions[i].idpregunta));
+        if (pool.length === 0) {
+          pool = questions.map((_, i) => i).slice(rStart, rEnd);
+        }
       }
       order = shuffle(pool);
     } else {
@@ -69,11 +75,16 @@ const Quiz = (() => {
     }
 
     idx = 0;
-    saveProgress();
+    if (order.length === 0) {
+      showResults();
+      return;
+    }
+    if (!practice) saveProgress();
     renderQuestion();
   }
 
   function saveProgress() {
+    if (practice) return;
     State.setSession(user, quizSlug, { order, idx, session });
   }
 
@@ -120,7 +131,9 @@ const Quiz = (() => {
     const acierto = selectedLetter === correct;
     if (acierto) session.aciertos++; else session.fallos++;
 
-    Stats.record(user, quizSlug, current.idpregunta, correct, selectedLetter);
+    if (!practice) {
+      Stats.record(user, quizSlug, current.idpregunta, correct, selectedLetter);
+    }
     saveProgress();
 
     Array.from(els.options.children).forEach(btn => {
@@ -143,7 +156,9 @@ const Quiz = (() => {
     selectedLetter = null;
     saveProgress();
     if (idx >= order.length) {
-      State.clearSession(user, quizSlug);
+      if (!practice) {
+        State.clearSession(user, quizSlug);
+      }
       showResults();
       return;
     }
