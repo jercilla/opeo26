@@ -1,0 +1,196 @@
+{
+  "quiz": "general_C2_C3_D_E",
+  "matched": 104,
+  "mismatches": [
+    {
+      "num": 8,
+      "pregunta": "8.- De acuerdo con las normas generales de ordenación de las profesiones sanitarias, las personas pacientes tienen derecho a recibir informa...",
+      "ugt": "B",
+      "kaixo": "A",
+      "score": 1.0
+    },
+    {
+      "num": 29,
+      "pregunta": "29.- Según dispone la Ley 16/2003, de 28 de mayo, de cohesión y calidad del Sistema Nacional de Salud, las comunidades autónomas, en el ámbi...",
+      "ugt": "A",
+      "kaixo": "C",
+      "score": 1.0
+    },
+    {
+      "num": 49,
+      "pregunta": "49.- En materia de retribuciones, la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud,...",
+      "ugt": "C",
+      "kaixo": "D",
+      "score": 1.0
+    },
+    {
+      "num": 51,
+      "pregunta": "51.- La pérdida de la condición de personal estatutario de los servicios de salud se produce cuando la incapacidad permanente sea declarada:",
+      "ugt": "C",
+      "kaixo": "D",
+      "score": 1.0
+    },
+    {
+      "num": 86,
+      "pregunta": "86.- La función de aprobar los criterios y líneas generales de actuación del ente público Osakidetza-Servicio Vasco de Salud corresponde a:",
+      "ugt": "C",
+      "kaixo": "A",
+      "score": 1.0
+    },
+    {
+      "num": 100,
+      "pregunta": "100.- En el ámbito de una organización de servicios sanitarios del ente público Osakidetza-Servicio Vasco de Salud, presidir los Consejos Té...",
+      "ugt": "D",
+      "kaixo": "C",
+      "score": 0.996
+    },
+    {
+      "num": 103,
+      "pregunta": "103.- Según el Artículo 2.1 del Decreto 100/2018 de las organizaciones sanitarias integradas del ente público Osakidetza-Servicio Vasco de S...",
+      "ugt": "C",
+      "kaixo": "B",
+      "score": 0.995
+    },
+    {
+      "num": 116,
+      "pregunta": "116.- De acuerdo con el Decreto 100/2018 de las organizaciones sanitarias integradas del ente público Osakidetza-Servicio Vasco de Salud, ¿c...",
+      "ugt": "D",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 136,
+      "pregunta": "136.- Según el Decreto 147/2015, de 21 de julio, por el que se aprueba la Declaración sobre Derechos y Deberes de las personas en el sistema...",
+      "ugt": "C",
+      "kaixo": "D",
+      "score": 1.0
+    },
+    {
+      "num": 143,
+      "pregunta": "143.- Según dispone la Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en mater...",
+      "ugt": "B",
+      "kaixo": "A",
+      "score": 1.0
+    },
+    {
+      "num": 150,
+      "pregunta": "150.- Según dispone la Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en mater...",
+      "ugt": "A",
+      "kaixo": "C",
+      "score": 1.0
+    },
+    {
+      "num": 154,
+      "pregunta": "154.- Según dispone la Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en mater...",
+      "ugt": "A",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 171,
+      "pregunta": "171.- Según dispone la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, podrá...",
+      "ugt": "B",
+      "kaixo": "C",
+      "score": 1.0
+    },
+    {
+      "num": 185,
+      "pregunta": "185.- Según el Decreto Legislativo 1/2023, de 16 de marzo, por el que se aprueba el texto refundido de la Ley para la Igualdad de Mujeres y ...",
+      "ugt": "B",
+      "kaixo": "C",
+      "score": 0.852
+    },
+    {
+      "num": 191,
+      "pregunta": "191.- ¿Cuántos Objetivos Generales, clasificados como finalistas e instrumentales, se definen en la estructura del Plan de Salud Euskadi 203...",
+      "ugt": "D",
+      "kaixo": "C",
+      "score": 1.0
+    },
+    {
+      "num": 203,
+      "pregunta": "203.- ¿Qué enfoque de investigación prioriza el Plan de Salud Euskadi 2030 para asegurar que los avances científicos lleguen de forma efecti...",
+      "ugt": "A",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 211,
+      "pregunta": "211.- Según el análisis del contexto social del documento de Diagnóstico del Pacto Vasco de Salud de Euskadi, ¿qué factor se identifica como...",
+      "ugt": "D",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 235,
+      "pregunta": "235.- ¿Cuáles son las dos nuevas Líneas de Acción incorporadas en la “Estrategia de Seguridad del Paciente 20-30” que responden a una necesi...",
+      "ugt": "D",
+      "kaixo": "C",
+      "score": 1.0
+    },
+    {
+      "num": 249,
+      "pregunta": "249.- De acuerdo con el II Plan para la Igualdad de Mujeres y Hombres en Osakidetza (2025-2028), ¿qué concepto define, dentro del diagnóstic...",
+      "ugt": "B",
+      "kaixo": "D",
+      "score": 1.0
+    },
+    {
+      "num": 262,
+      "pregunta": "262.- El III Plan de Normalización del Uso del Euskera en Osakidetza 2022-2028 establece que, en los escritos individualizados de respuesta ...",
+      "ugt": "B",
+      "kaixo": "A",
+      "score": 1.0
+    },
+    {
+      "num": 263,
+      "pregunta": "263.- Siguiendo lo previsto en el III Plan de Normalización del Uso del Euskera en Osakidetza 2022-2028, señale la respuesta que no es corre...",
+      "ugt": "A",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 275,
+      "pregunta": "275.- La Misión del Plan Oncológico Integral de Euskadi (POIE) 2025-2030 busca generar valor a la ciudadanía vasca en términos de:",
+      "ugt": "B",
+      "kaixo": "C",
+      "score": 1.0
+    },
+    {
+      "num": 294,
+      "pregunta": "294.- Según la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, ¿qué requis...",
+      "ugt": "D",
+      "kaixo": "C",
+      "score": 1.0
+    },
+    {
+      "num": 300,
+      "pregunta": "300.- La finalidad principal de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones P...",
+      "ugt": "C",
+      "kaixo": "B",
+      "score": 1.0
+    }
+  ],
+  "weak_matches": [
+    {
+      "ugt_num": 110,
+      "ugt_text": "De acuerdo con el Decreto 100/2018 de las organizaciones sanitarias integradas del ente público Osak",
+      "score": 0.82
+    },
+    {
+      "ugt_num": 221,
+      "ugt_text": "En el marco del Pacto Vasco de Salud, dentro de los principios rectores, la \"Orientación al Valor\" s",
+      "score": 0.7
+    },
+    {
+      "ugt_num": 257,
+      "ugt_text": "El III Plan de Normalización del Uso del Euskera en Osakidetza 2022-2028 establece respecto a los me",
+      "score": 0.69
+    },
+    {
+      "ugt_num": 283,
+      "ugt_text": "Según la Ley Orgánica 3/2021, de 24 de marzo, de regulación de la eutanasia, ¿qué concepto define la",
+      "score": 0.79
+    }
+  ]
+}

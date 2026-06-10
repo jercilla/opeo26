@@ -1,0 +1,230 @@
+{
+  "quiz": "auxiliar_administrativo",
+  "matched": 90,
+  "mismatches": [
+    {
+      "num": 7,
+      "pregunta": "7.- Los residentes en el extranjero, así como sus descendientes, si así lo solicitaren:",
+      "ugt": "B",
+      "kaixo": "D",
+      "score": 0.988
+    },
+    {
+      "num": 13,
+      "pregunta": "13.- El Parlamento elegirá de entre sus miembros:",
+      "ugt": "D",
+      "kaixo": "A",
+      "score": 1.0
+    },
+    {
+      "num": 14,
+      "pregunta": "14.- El Gobierno Vasco es el órgano colegiado que ostenta las funciones:",
+      "ugt": "D",
+      "kaixo": "A",
+      "score": 1.0
+    },
+    {
+      "num": 19,
+      "pregunta": "19.- Según el Decreto 149/2007, de 18 de septiembre, se garantiza el ejercicio del derecho a la segunda opinión médica en los siguientes pro...",
+      "ugt": "A",
+      "kaixo": "D",
+      "score": 1.0
+    },
+    {
+      "num": 27,
+      "pregunta": "27.- La solicitud de una segunda opinión médica podrá presentarse:",
+      "ugt": "D",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 29,
+      "pregunta": "29.- En el centro sanitario de origen, el Servicio de Atención al Paciente-Usuario informará de la solicitud de una segunda opinión médica:",
+      "ugt": "B",
+      "kaixo": "C",
+      "score": 1.0
+    },
+    {
+      "num": 36,
+      "pregunta": "36.- Según la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos laborales tiene por objeto:",
+      "ugt": "B",
+      "kaixo": "C",
+      "score": 1.0
+    },
+    {
+      "num": 48,
+      "pregunta": "48.- Las Administraciones públicas en materia preventiva promoverán:",
+      "ugt": "C",
+      "kaixo": "D",
+      "score": 1.0
+    },
+    {
+      "num": 50,
+      "pregunta": "50.- El Gobierno, a través de las correspondientes normas reglamentarias y previa consulta a las organizaciones sindicales y empresariales m...",
+      "ugt": "B",
+      "kaixo": "C",
+      "score": 1.0
+    },
+    {
+      "num": 54,
+      "pregunta": "54.- El Instituto Nacional de Seguridad e Higiene en el Trabajo, en el marco de sus funciones:",
+      "ugt": "C",
+      "kaixo": "D",
+      "score": 1.0
+    },
+    {
+      "num": 64,
+      "pregunta": "64.- Indica cuando NO se considera accidente in-itinere:",
+      "ugt": "C",
+      "kaixo": "D",
+      "score": 0.98
+    },
+    {
+      "num": 70,
+      "pregunta": "70.- Si alguna disposición atribuye la competencia a una Administración, sin especificar el órgano que debe ejercerla, se entenderá que la f...",
+      "ugt": "D",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 74,
+      "pregunta": "74.- En las resoluciones y actos que se dicten mediante suplencia:",
+      "ugt": "C",
+      "kaixo": "D",
+      "score": 0.984
+    },
+    {
+      "num": 76,
+      "pregunta": "76.- En las sesiones que celebren los órganos colegiados a distancia, se consideran medios electrónicos:",
+      "ugt": "B",
+      "kaixo": "D",
+      "score": 1.0
+    },
+    {
+      "num": 79,
+      "pregunta": "79.- Corresponde a los miembros de los órganos colegiados de la Administración General del Estado:",
+      "ugt": "A",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 81,
+      "pregunta": "81.- Cada Administración Pública determinará las condiciones e instrumentos de creación de las sedes electrónicas, con sujeción a los princi...",
+      "ugt": "D",
+      "kaixo": "A",
+      "score": 0.923
+    },
+    {
+      "num": 89,
+      "pregunta": "89.- En el desarrollo del Estatuto Básico del Empleado Público, las leyes reguladoras de la Función Pública de la Administración General del...",
+      "ugt": "D",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 95,
+      "pregunta": "95.- El funcionario interino es nombrado como tal con carácter temporal para el desempeño de funciones propias de funcionarios de carrera cu...",
+      "ugt": "B",
+      "kaixo": "C",
+      "score": 0.994
+    },
+    {
+      "num": 107,
+      "pregunta": "107.- En relación a la Euskaldunización, el Decreto 106/2008 establece la realización de:",
+      "ugt": "D",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 117,
+      "pregunta": "117.- Es una situación administrativa en la que puede hallarse el personal sujeto al Acuerdo regulador de las condiciones de trabajo del per...",
+      "ugt": "B",
+      "kaixo": "D",
+      "score": 0.998
+    },
+    {
+      "num": 127,
+      "pregunta": "127.- La Dirección General del Ente Público Osakidetza-Servicio Vasco de Salud contará con el apoyo de un equipo directivo formado por:",
+      "ugt": "A",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 131,
+      "pregunta": "131.- Al frente de cada organización de servicios sanitarios del Ente Público Osakidetza-Servicio Vasco de Salud se encontrará un:",
+      "ugt": "C",
+      "kaixo": "D",
+      "score": 1.0
+    },
+    {
+      "num": 149,
+      "pregunta": "149.- Según la Ley 39/2015, la identificación electrónica del interesado:",
+      "ugt": "D",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 156,
+      "pregunta": "156.- Según la Ley 39/2015, la comparecencia de las personas ante las Administraciones Públicas:",
+      "ugt": "D",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 157,
+      "pregunta": "157.- Según la Ley 39/2015, las personas en sus relaciones con las Administraciones Públicas deberán:",
+      "ugt": "A",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 171,
+      "pregunta": "171.- Según la Ley 39/2015, los recursos administrativos se fundamentan en el principio de:",
+      "ugt": "D",
+      "kaixo": "C",
+      "score": 1.0
+    },
+    {
+      "num": 173,
+      "pregunta": "173.- Según la Ley 39/2015, el plazo para interponer recurso de alzada será de:",
+      "ugt": "C",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 177,
+      "pregunta": "177.- Según la Ley 39/2015, transcurrido el plazo para resolver el recurso de alzada sin que recaiga resolución expresa:",
+      "ugt": "A",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 181,
+      "pregunta": "181.- Según la Ley 39/2015, el recurso extraordinario de revisión podrá interponerse cuando:",
+      "ugt": "D",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 188,
+      "pregunta": "188.- Según la Ley 39/2015, la competencia para resolver un recurso de alzada corresponde:",
+      "ugt": "C",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 197,
+      "pregunta": "197.- Según la Ley 39/2015, cuando la notificación se practique por medios electrónicos y no sea posible acceder a su contenido:",
+      "ugt": "C",
+      "kaixo": "B",
+      "score": 1.0
+    }
+  ],
+  "weak_matches": [
+    {
+      "ugt_num": 190,
+      "ugt_text": "Según la Ley 39/2015, los actos nulos de pleno derecho: medio. Puede ejercer sus derechos de acceso,",
+      "score": 0.38
+    }
+  ]
+}

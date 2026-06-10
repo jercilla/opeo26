@@ -1,0 +1,130 @@
+{
+  "quiz": "general_A_B_C1",
+  "matched": 66,
+  "mismatches": [
+    {
+      "num": 26,
+      "pregunta": "26.- Procede la extinción de la condición de personal estatutario fijo de los servicios de salud:",
+      "ugt": "C",
+      "kaixo": "D",
+      "score": 1.0
+    },
+    {
+      "num": 35,
+      "pregunta": "35.- La excedencia voluntaria solicitada por el personal estatutario de los servicios de salud por interés particular exige haber prestado s...",
+      "ugt": "B",
+      "kaixo": "A",
+      "score": 1.0
+    },
+    {
+      "num": 36,
+      "pregunta": "36.- La Ley 8/1997, de 26 de junio, de ordenación Sanitaria de Euskadi, establece que la Administración sanitaria vasca debe garantizar la t...",
+      "ugt": "A",
+      "kaixo": "D",
+      "score": 1.0
+    },
+    {
+      "num": 51,
+      "pregunta": "51.- Corresponderá la presidencia del ente público Osakidetza-Servicio Vasco de Salud a:",
+      "ugt": "C",
+      "kaixo": "D",
+      "score": 1.0
+    },
+    {
+      "num": 65,
+      "pregunta": "65.- En el ámbito de una organización de servicios sanitarios del ente público Osakidetza-Servicio Vasco de Salud, presidir los Consejos Téc...",
+      "ugt": "D",
+      "kaixo": "C",
+      "score": 1.0
+    },
+    {
+      "num": 75,
+      "pregunta": "75.- De acuerdo con el Decreto 100/2018 de las organizaciones sanitarias integradas del ente público Osakidetza-Servicio Vasco de Salud, ¿cu...",
+      "ugt": "A",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 119,
+      "pregunta": "119.- De acuerdo con lo establecido en el artículo 54 del texto refundido de la Ley para la Igualdad de Mujeres y Hombres y Vidas Libres de ...",
+      "ugt": "D",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 149,
+      "pregunta": "149.- Respecto a la 'Salud Mental' (Línea 11), el Pacto Vasco de Salud pone el foco en:",
+      "ugt": "B",
+      "kaixo": "A",
+      "score": 1.0
+    },
+    {
+      "num": 158,
+      "pregunta": "158.- ¿Qué documento se menciona en la “Estrategia de Seguridad del Paciente 20- 30” como el que determinó que las personas atendidas por un...",
+      "ugt": "B",
+      "kaixo": "C",
+      "score": 0.998
+    },
+    {
+      "num": 164,
+      "pregunta": "164.- De acuerdo con el II Plan para la Igualdad de Mujeres y Hombres en Osakidetza (2025-2028), ¿qué concepto define, dentro del diagnóstic...",
+      "ugt": "B",
+      "kaixo": "D",
+      "score": 1.0
+    },
+    {
+      "num": 172,
+      "pregunta": "172.- El III Plan de Normalización del Uso del Euskera en Osakidetza 2022-2028 contempla que tanto en los servicios de recepción y admisión,...",
+      "ugt": "D",
+      "kaixo": "A",
+      "score": 0.996
+    },
+    {
+      "num": 175,
+      "pregunta": "175.- En atención a lo previsto en el III Plan de Normalización del Uso del Euskera en Osakidetza 2022-2028, en todos los centros de atenció...",
+      "ugt": "D",
+      "kaixo": "C",
+      "score": 1.0
+    },
+    {
+      "num": 183,
+      "pregunta": "183.- Según el listado de acrónimos del Plan Oncológico Integral de Euskadi (POIE) 2025-2030, ¿a qué hacen referencia las siglas PROMs?",
+      "ugt": "C",
+      "kaixo": "D",
+      "score": 1.0
+    },
+    {
+      "num": 189,
+      "pregunta": "189.- Según la Ley Orgánica 3/2021, de 24 de marzo, de regulación de la eutanasia, ¿cuál debe ser la periodicidad mínima con la que el perso...",
+      "ugt": "D",
+      "kaixo": "B",
+      "score": 1.0
+    },
+    {
+      "num": 199,
+      "pregunta": "199.- Según la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, para que se...",
+      "ugt": "D",
+      "kaixo": "C",
+      "score": 1.0
+    },
+    {
+      "num": 200,
+      "pregunta": "200.- La finalidad principal de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones P...",
+      "ugt": "C",
+      "kaixo": "B",
+      "score": 1.0
+    }
+  ],
+  "weak_matches": [
+    {
+      "ugt_num": 30,
+      "ugt_text": "En el supuesto del personal estatutario de los servicios de salud: medio. Puede ejercer sus derechos",
+      "score": 0.53
+    },
+    {
+      "ugt_num": 182,
+      "ugt_text": "Teniendo en cuenta la introducción y el contexto del Plan Oncológico Integral de Euskadi 2025-2030. ",
+      "score": 0.79
+    }
+  ]
+}
