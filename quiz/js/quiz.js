@@ -171,6 +171,7 @@ const Quiz = (() => {
       return;
     }
     renderQuestion();
+    els.text.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
   function showResults() {
