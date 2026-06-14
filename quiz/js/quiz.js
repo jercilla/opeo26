@@ -153,6 +153,10 @@ const Quiz = (() => {
     els.feedback.className = 'feedback ' + (acierto ? 'correct' : 'wrong');
     els.feedbackText.textContent = acierto ? 'Correcto!' : `La correcta era la ${correct}`;
     els.score.innerHTML = `&#9989; ${session.aciertos} - &#10060; ${session.fallos}`;
+    const nextRect = els.next.getBoundingClientRect();
+    if (nextRect.bottom > window.innerHeight) {
+      els.next.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
   }
 
   function next() {
