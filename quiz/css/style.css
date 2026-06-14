@@ -171,6 +171,50 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 .result-label { font-size: 0.8rem; color: #64748b; margin-top: 0.15rem; }
 .result-detail { text-align: center; color: #64748b; margin-bottom: 1.5rem; }
 
+.result-falladas { margin-top: 1.5rem; }
+.result-falladas-title {
+  font-size: 1rem; font-weight: 600; color: #0f172a;
+  margin-bottom: 0.75rem; text-align: center;
+}
+.result-fallada-card {
+  background: #fff; border: 1px solid #cbd5e1; border-radius: 0.75rem;
+  margin-bottom: 0.6rem; overflow: hidden;
+}
+.result-fallada-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0.875rem 1rem; cursor: pointer; user-select: none;
+}
+.result-fallada-header h4 {
+  font-size: 0.95rem; font-weight: 600; margin: 0; color: #0f172a;
+  flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.result-fallada-toggle {
+  font-size: 1rem; color: #64748b; transition: transform .2s; line-height: 1;
+  flex-shrink: 0; margin-left: 0.5rem;
+}
+.result-fallada-card.collapsed .result-fallada-toggle { transform: rotate(-90deg); }
+.result-fallada-body {
+  padding: 0 1rem 1rem; font-size: 0.9rem; color: #1e293b;
+}
+.result-fallada-card.collapsed .result-fallada-body { display: none; }
+.result-fallada-question {
+  font-weight: 500; margin-bottom: 0.5rem; line-height: 1.45;
+}
+.result-fallada-opt {
+  padding: 0.4rem 0.6rem; border-radius: 0.5rem; margin-bottom: 0.35rem;
+  display: flex; align-items: flex-start; gap: 0.4rem;
+}
+.result-fallada-opt.correct { background: #f0fdf4; border: 1px solid #bbf7d0; }
+.result-fallada-opt.wrong { background: #fef2f2; border: 1px solid #fecaca; }
+.result-fallada-opt-letter {
+  flex-shrink: 0; width: 1.4rem; height: 1.4rem; border-radius: 50%;
+  font-size: 0.75rem; font-weight: 700; display: inline-flex;
+  align-items: center; justify-content: center;
+}
+.result-fallada-opt.correct .result-fallada-opt-letter { background: #16a34a; color: #fff; }
+.result-fallada-opt.wrong .result-fallada-opt-letter { background: #dc2626; color: #fff; }
+.result-fallada-opt-text { line-height: 1.4; }
+
 .session-resume {
   background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 0.75rem;
   padding: 1rem; margin-bottom: 1.25rem; text-align: center;

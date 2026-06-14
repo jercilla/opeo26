@@ -4,7 +4,7 @@ const Quiz = (() => {
   let questions = [];
   let order = [];
   let idx = 0;
-  let session = { aciertos: 0, fallos: 0 };
+  let session = { aciertos: 0, fallos: 0, falladas: [] };
   let current = null;
   let validated = false;
   let practice = false;
@@ -42,7 +42,7 @@ const Quiz = (() => {
       if (saved) {
         order = saved.order;
         idx = saved.idx;
-        session = saved.session || { aciertos: 0, fallos: 0 };
+        session = saved.session || { aciertos: 0, fallos: 0, falladas: [] };
         renderQuestion();
         return;
       }
@@ -51,7 +51,7 @@ const Quiz = (() => {
     if (!practice) {
       State.clearSession(user, quizSlug);
     }
-    session = { aciertos: 0, fallos: 0 };
+    session = { aciertos: 0, fallos: 0, falladas: [] };
 
     if (config.mode === 'random') {
       const rStart = Math.max(0, (config.randStart || 1) - 1);
@@ -120,7 +120,16 @@ const Quiz = (() => {
     validated = true;
     const correct = current.correcta;
     const acierto = selectedLetter === correct;
-    if (acierto) session.aciertos++; else session.fallos++;
+    if (acierto) session.aciertos++; else {
+      session.fallos++;
+      session.falladas.push({
+        num: current.num,
+        pregunta: current.pregunta,
+        opciones: current.opciones,
+        correcta: correct,
+        elegida: selectedLetter,
+      });
+    }
 
     if (!practice) {
       Stats.record(user, quizSlug, current.idpregunta, correct, selectedLetter);
@@ -162,6 +171,43 @@ const Quiz = (() => {
     document.getElementById('result-aciertos').textContent = session.aciertos;
     document.getElementById('result-fallos').textContent = session.fallos;
     document.getElementById('result-detail').textContent = `${session.aciertos + session.fallos} de ${order.length} preguntas`;
+
+    const container = document.getElementById('result-falladas');
+    container.innerHTML = '';
+    if (!session.falladas || session.falladas.length === 0) return;
+
+    const title = document.createElement('h3');
+    title.className = 'result-falladas-title';
+    title.textContent = `Preguntas falladas (${session.falladas.length})`;
+    container.appendChild(title);
+
+    session.falladas.forEach((f, i) => {
+      const card = document.createElement('div');
+      card.className = 'result-fallada-card collapsed';
+
+      const header = document.createElement('div');
+      header.className = 'result-fallada-header';
+      header.innerHTML = `<h4>${f.num}. ${escapeHtml(f.pregunta)}</h4><span class="result-fallada-toggle">&#9662;</span>`;
+      header.addEventListener('click', () => card.classList.toggle('collapsed'));
+      card.appendChild(header);
+
+      const body = document.createElement('div');
+      body.className = 'result-fallada-body';
+
+      ['A','B','C','D'].forEach(letter => {
+        const txt = f.opciones[letter];
+        if (txt === undefined) return;
+        const isCorrect = letter === f.correcta;
+        const isWrong = letter === f.elegida && !isCorrect;
+        const row = document.createElement('div');
+        row.className = 'result-fallada-opt' + (isCorrect ? ' correct' : '') + (isWrong ? ' wrong' : '');
+        row.innerHTML = `<span class="result-fallada-opt-letter">${letter}</span><span class="result-fallada-opt-text">${escapeHtml(txt)}</span>`;
+        body.appendChild(row);
+      });
+
+      card.appendChild(body);
+      container.appendChild(card);
+    });
   }
 
   function escapeHtml(str) {
