@@ -143,8 +143,8 @@ class QuizE2E:
         # aciertos/fallos suman 2
         self.assert_true(stats[1] + stats[2] == 2, "aciertos+fallos == 2")
 
-    def test_happy_random_filters_answered_then_resets(self):
-        """Happy path: aleatorio filtra respondidas; si todas respondidas reinicia."""
+    def test_happy_random_new_session_uses_full_range(self):
+        """Happy path: aleatorio nuevo usa el rango completo sin filtrar historial."""
         self.refresh_and_clear()
         quiz = self.page.evaluate("() => Object.keys(QUIZZES)[0]")
         q_len = self.page.evaluate(f"() => QUIZZES['{quiz}'].questions.length")
@@ -164,15 +164,15 @@ class QuizE2E:
         stats1 = self.get_first_quiz_stats()
         self.assert_eq(stats1[0], 1, "respondidas tras 1 pregunta aleatoria")
 
-        # Volver a empezar aleatorio: deberia descartar la ya respondida
+        # Volver a empezar aleatorio nuevo: debe incluir TODAS las preguntas del rango
         self.open_first_quiz()
         self.page.locator("#radio-random").check()
+        self.page.locator("#rand-start").fill("1")
+        self.page.locator("#rand-end").fill(str(q_len))
         self.start_normal()
 
-        # Si quedan preguntas por responder, el contador total de la sesion debe ser q_len - 1
-        # Esperamos que la barra de progreso muestre algo como "1 / {q_len-1}"
         progress_text = self.page.locator("#quiz-progress").inner_text()
-        self.assert_true("/" in progress_text, "progreso visible en aleatorio")
+        self.assert_eq(progress_text.strip(), f"1 / {q_len}", "nuevo test aleatorio incluye rango completo")
         self.quit_to_menu()
 
     def test_happy_resume_session(self):
@@ -414,7 +414,7 @@ class QuizE2E:
     def run_all(self):
         tests = [
             self.test_happy_sequential_completes_and_updates_stats,
-            self.test_happy_random_filters_answered_then_resets,
+            self.test_happy_random_new_session_uses_full_range,
             self.test_happy_resume_session,
             self.test_happy_user_profiles_isolated,
             self.test_happy_practice_does_not_affect_stats_or_session,

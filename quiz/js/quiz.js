@@ -56,16 +56,7 @@ const Quiz = (() => {
     if (config.mode === 'random') {
       const rStart = Math.max(0, (config.randStart || 1) - 1);
       const rEnd = Math.min(questions.length, config.randEnd || questions.length);
-      let pool = questions.map((_, i) => i).slice(rStart, rEnd);
-      // Descartar preguntas ya respondidas en este quiz por este usuario (solo en modo normal)
-      if (!practice) {
-        const pp = State.getPorPregunta(user, quizSlug);
-        const answeredIds = new Set(Object.keys(pp).map(Number));
-        pool = pool.filter(i => !answeredIds.has(questions[i].idpregunta));
-        if (pool.length === 0) {
-          pool = questions.map((_, i) => i).slice(rStart, rEnd);
-        }
-      }
+      const pool = questions.map((_, i) => i).slice(rStart, rEnd);
       order = shuffle(pool);
     } else {
       const sStart = Math.max(0, (config.seqStart || 1) - 1);

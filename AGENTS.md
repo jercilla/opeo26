@@ -25,7 +25,7 @@ Herramientas para preparar la OPE Osakidetza 2026:
 - **Flujo**: Menu -> pulsar quiz -> pantalla de sesion (modo + opciones) -> quiz.
 - Modos de juego por sesion:
   - **Secuencial**: permite elegir en que pregunta empezar.
-  - **Aleatorio**: descarta automaticamente las ya respondidas por ese usuario en ese quiz; cuando estan todas, reinicia.
+  - **Aleatorio**: mezcla el rango elegido sin filtrar historial. Cada sesion nueva es independiente.
 - Las sesiones se guardan en `localStorage` y se pueden **continuar**. Se borran al terminar.
 - Para volver al menu desde el quiz hay una flecha arriba a la izquierda.
 
