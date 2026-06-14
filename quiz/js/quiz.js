@@ -113,6 +113,10 @@ const Quiz = (() => {
       btn.classList.toggle('selected', btn.dataset.letter === letter);
     });
     els.validate.disabled = false;
+    const rect = els.validate.getBoundingClientRect();
+    if (rect.bottom > window.innerHeight) {
+      els.validate.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
   }
 
   function validate() {
