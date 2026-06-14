@@ -187,7 +187,7 @@ const Quiz = (() => {
 
       const header = document.createElement('div');
       header.className = 'result-fallada-header';
-      header.innerHTML = `<h4>${f.num}. ${escapeHtml(f.pregunta)}</h4><span class="result-fallada-toggle">&#9662;</span>`;
+      header.innerHTML = `<h4>${escapeHtml(f.pregunta)}</h4><span class="result-fallada-toggle">&#9662;</span>`;
       header.addEventListener('click', () => card.classList.toggle('collapsed'));
       card.appendChild(header);
 
