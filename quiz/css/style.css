@@ -7,6 +7,9 @@ body {
 #app { margin: 0 auto; min-height: 100vh; position: relative; }
 .container { padding: 1rem; max-width: 600px; margin: 0 auto; }
 #screen-quiz .container { max-width: 960px; }
+@media (orientation: landscape) {
+  #screen-quiz .container { max-width: 1200px; }
+}
 .screen { min-height: 100vh; display: none; }
 .screen:not(.hidden) { display: block; }
 .hidden { display: none !important; }
