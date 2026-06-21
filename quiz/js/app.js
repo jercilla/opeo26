@@ -151,6 +151,34 @@ const App = (() => {
     show('quiz');
   }
 
+  function renderUserDropdown() {
+    const dd = document.getElementById('user-dropdown');
+    const users = Users.list();
+    dd.innerHTML = '';
+    users.forEach(u => {
+      const div = document.createElement('div');
+      div.className = 'dropdown-item' + (u === currentUser ? ' active' : '');
+      div.innerHTML = `<span>${escapeHtml(u)}</span>${u === currentUser ? '<span class="dropdown-check">&#10003;</span>' : ''}`;
+      div.addEventListener('click', () => {
+        currentUser = u;
+        Users.setLast(u);
+        dd.classList.add('hidden');
+        goMenu();
+      });
+      dd.appendChild(div);
+    });
+  }
+
+  function toggleUserDropdown() {
+    const dd = document.getElementById('user-dropdown');
+    if (dd.classList.contains('hidden')) {
+      renderUserDropdown();
+      dd.classList.remove('hidden');
+    } else {
+      dd.classList.add('hidden');
+    }
+  }
+
   function goUsers() {
     renderUsers();
     show('users');
@@ -168,8 +196,16 @@ const App = (() => {
     goMenu();
 
     document.getElementById('btn-switch-user').addEventListener('click', goUsers);
-    document.getElementById('menu-user-badge').addEventListener('click', goUsers);
+    document.getElementById('menu-user-badge').addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleUserDropdown();
+    });
     document.getElementById('btn-back-from-users').addEventListener('click', goMenu);
+
+    document.addEventListener('click', () => {
+      document.getElementById('user-dropdown').classList.add('hidden');
+    });
+    document.getElementById('user-dropdown').addEventListener('click', (e) => e.stopPropagation());
 
     document.getElementById('new-user-form').addEventListener('submit', e => {
       e.preventDefault();

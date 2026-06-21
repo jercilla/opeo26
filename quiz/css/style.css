@@ -66,6 +66,22 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 }
 .user-name { font-weight: 700; color: #0f172a; }
 
+.user-badge { position: relative; }
+#user-dropdown {
+  position: absolute; top: calc(100% + 0.4rem); left: 0;
+  background: #fff; border: 1px solid #cbd5e1; border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12); min-width: 10rem; z-index: 10;
+  padding: 0.25rem 0;
+}
+#user-dropdown .dropdown-item {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0.6rem 0.875rem; cursor: pointer; transition: background .1s;
+  font-size: 0.95rem; color: #0f172a;
+}
+#user-dropdown .dropdown-item:hover { background: #f1f5f9; }
+#user-dropdown .dropdown-item.active { background: #eff6ff; font-weight: 600; }
+#user-dropdown .dropdown-check { color: #2563eb; font-size: 0.85rem; }
+
 .quiz-card {
   background: #fff; border: 1px solid #cbd5e1; border-radius: 1rem;
   margin-bottom: 1.25rem; overflow: hidden;
