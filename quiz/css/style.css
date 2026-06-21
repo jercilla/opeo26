@@ -62,6 +62,7 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 }
 .user-badge {
   display: flex; align-items: center; gap: 0.4rem; color: #64748b;
+  cursor: pointer;
 }
 .user-name { font-weight: 700; color: #0f172a; }
 

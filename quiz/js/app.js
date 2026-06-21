@@ -168,6 +168,7 @@ const App = (() => {
     goMenu();
 
     document.getElementById('btn-switch-user').addEventListener('click', goUsers);
+    document.getElementById('menu-user-badge').addEventListener('click', goUsers);
     document.getElementById('btn-back-from-users').addEventListener('click', goMenu);
 
     document.getElementById('new-user-form').addEventListener('submit', e => {
