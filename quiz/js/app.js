@@ -191,6 +191,30 @@ const App = (() => {
     show('menu');
   }
 
+  function showImportModal(conflicts) {
+    const list = document.getElementById('import-conflicts-list');
+    list.innerHTML = '';
+    conflicts.forEach(c => {
+      const item = document.createElement('div');
+      item.className = 'import-conflict-item';
+      const shortQ = c.pregunta.length > 80 ? c.pregunta.slice(0, 80) + '...' : c.pregunta;
+      const shortO = c.opcion.length > 60 ? c.opcion.slice(0, 60) + '...' : c.opcion;
+      item.innerHTML = `
+        <input type="checkbox" checked data-user="${escapeHtml(c.user)}" data-quiz="${escapeHtml(c.quizSlug)}" data-qid="${escapeHtml(c.idpregunta)}" data-letter="${escapeHtml(c.letter)}" data-text="${escapeHtml(c.text)}">
+        <div class="import-conflict-text">
+          <span class="conf-q">${escapeHtml(shortQ)}</span>
+          <span class="conf-opt">${escapeHtml(c.letter)}: ${escapeHtml(shortO)} — <em>${escapeHtml(c.text)}</em></span>
+        </div>
+      `;
+      list.appendChild(item);
+    });
+    document.getElementById('import-modal').classList.remove('hidden');
+  }
+
+  function hideImportModal() {
+    document.getElementById('import-modal').classList.add('hidden');
+  }
+
   function init() {
     currentUser = Users.ensureDefault();
     goMenu();
@@ -246,6 +270,9 @@ const App = (() => {
       URL.revokeObjectURL(url);
     });
 
+    let pendingImportData = null;
+    let pendingImportApply = null;
+
     document.getElementById('btn-import-data').addEventListener('change', (e) => {
       const file = e.target.files[0];
       if (!file) return;
@@ -253,17 +280,51 @@ const App = (() => {
       reader.onload = (ev) => {
         try {
           const data = JSON.parse(ev.target.result);
-          if (!confirm('¿Importar datos? Se fusionaran con los existentes (stats se suman, subrayados se unen).')) return;
-          Users.importData(data);
-          currentUser = Users.ensureDefault();
-          renderUsers();
-          alert('Datos importados correctamente.');
+          const preview = Users.previewImport(data);
+          if (preview.conflicts.length > 0) {
+            pendingImportData = data;
+            pendingImportApply = preview.apply;
+            showImportModal(preview.conflicts);
+          } else {
+            if (!confirm('¿Importar datos? Se fusionaran con los existentes (stats se suman, subrayados se unen).')) return;
+            preview.apply();
+            currentUser = Users.ensureDefault();
+            renderUsers();
+            alert('Datos importados correctamente.');
+          }
         } catch (err) {
           alert('Error al importar: ' + err.message);
         }
       };
       reader.readAsText(file);
       e.target.value = '';
+    });
+
+    document.getElementById('btn-import-cancel').addEventListener('click', () => {
+      if (!pendingImportData || !pendingImportApply) return;
+      // Apply without deletions
+      pendingImportApply();
+      pendingImportData = null;
+      pendingImportApply = null;
+      hideImportModal();
+      currentUser = Users.ensureDefault();
+      renderUsers();
+      alert('Datos importados. Se mantuvieron todos los subrayados locales.');
+    });
+
+    document.getElementById('btn-import-confirm').addEventListener('click', () => {
+      if (!pendingImportData || !pendingImportApply) return;
+      const checked = Array.from(document.querySelectorAll('.import-conflict-item input:checked')).map(cb => ({
+        user: cb.dataset.user, quizSlug: cb.dataset.quiz, idpregunta: cb.dataset.qid,
+        letter: cb.dataset.letter, text: cb.dataset.text
+      }));
+      pendingImportApply(checked);
+      pendingImportData = null;
+      pendingImportApply = null;
+      hideImportModal();
+      currentUser = Users.ensureDefault();
+      renderUsers();
+      alert(`Import completado. ${checked.length} subrayados eliminados.`);
     });
 
     document.getElementById('btn-back-from-session').addEventListener('click', goMenu);

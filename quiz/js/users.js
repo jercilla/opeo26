@@ -60,7 +60,48 @@ const Users = (() => {
     return data;
   }
 
-  function importData(data) {
+  function previewImport(data) {
+    const conflicts = [];
+    const existingUsers = list();
+    const importedUsers = JSON.parse(data['quiz_users'] || '[]');
+
+    // Detect deleted highlights that still exist locally
+    for (const [key, value] of Object.entries(data)) {
+      if (!key.endsWith('_deleted_highlights')) continue;
+      const user = key.replace('quiz_user_', '').replace('_deleted_highlights', '');
+      if (!existingUsers.includes(user)) continue;
+
+      const importedDeletes = JSON.parse(value);
+      const highlightsRaw = localStorage.getItem(`quiz_user_${user}_highlights`);
+      if (!highlightsRaw) continue;
+      const existingHighlights = JSON.parse(highlightsRaw);
+
+      for (const [quizSlug, questions] of Object.entries(importedDeletes)) {
+        if (!existingHighlights[quizSlug]) continue;
+        for (const [qid, letters] of Object.entries(questions)) {
+          if (!existingHighlights[quizSlug][qid]) continue;
+          for (const [letter, texts] of Object.entries(letters)) {
+            if (!existingHighlights[quizSlug][qid][letter]) continue;
+            for (const text of texts) {
+              if (existingHighlights[quizSlug][qid][letter].includes(text)) {
+                const quizData = window.QUIZZES && window.QUIZZES[quizSlug];
+                const question = quizData ? quizData.questions.find(q => String(q.idpregunta) === String(qid)) : null;
+                conflicts.push({
+                  user, quizSlug, idpregunta: qid, letter, text,
+                  pregunta: question ? question.pregunta : `Pregunta ${qid}`,
+                  opcion: question ? question.opciones[letter] : text,
+                });
+              }
+            }
+          }
+        }
+      }
+    }
+
+    return { conflicts, apply: () => applyImport(data, conflicts) };
+  }
+
+  function applyImport(data, conflictsToDelete) {
     // Merge users
     const existingUsers = list();
     const importedUsers = JSON.parse(data['quiz_users'] || '[]');
@@ -81,6 +122,22 @@ const Users = (() => {
         localStorage.setItem(key, JSON.stringify(merged));
       } catch {
         localStorage.setItem(key, value);
+      }
+    }
+
+    // Apply deletions
+    if (conflictsToDelete && conflictsToDelete.length > 0) {
+      for (const c of conflictsToDelete) {
+        const h = JSON.parse(localStorage.getItem(`quiz_user_${c.user}_highlights`) || '{}');
+        if (h[c.quizSlug] && h[c.quizSlug][c.idpregunta] && h[c.quizSlug][c.idpregunta][c.letter]) {
+          const arr = h[c.quizSlug][c.idpregunta][c.letter];
+          const idx = arr.indexOf(c.text);
+          if (idx >= 0) {
+            arr.splice(idx, 1);
+            if (arr.length === 0) delete h[c.quizSlug][c.idpregunta][c.letter];
+            localStorage.setItem(`quiz_user_${c.user}_highlights`, JSON.stringify(h));
+          }
+        }
       }
     }
   }
@@ -132,9 +189,28 @@ const Users = (() => {
       }
       return existing;
     }
+    if (key.endsWith('_deleted_highlights')) {
+      for (const [quiz, questions] of Object.entries(imported)) {
+        if (!existing[quiz]) existing[quiz] = questions;
+        else {
+          for (const [qid, letters] of Object.entries(questions)) {
+            if (!existing[quiz][qid]) existing[quiz][qid] = letters;
+            else {
+              for (const [letter, texts] of Object.entries(letters)) {
+                if (!existing[quiz][qid][letter]) existing[quiz][qid][letter] = texts;
+                else {
+                  existing[quiz][qid][letter] = [...new Set([...existing[quiz][qid][letter], ...texts])];
+                }
+              }
+            }
+          }
+        }
+      }
+      return existing;
+    }
     // For other keys (collapsed, last_ranges, session): overwrite
     return imported;
   }
 
-  return { list, create, remove, getLast, setLast, ensureDefault, exportData, importData };
+  return { list, create, remove, getLast, setLast, ensureDefault, exportData, previewImport };
 })();

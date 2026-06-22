@@ -539,6 +539,186 @@ class QuizE2E:
 
         incognito.close()
 
+    def test_happy_delete_highlight_and_import_conflict(self):
+        """Eliminar un highlight local, exportar, y al importar de otro dispositivo detectar conflicto."""
+        self.refresh_and_clear()
+        self.open_first_quiz()
+        self.start_normal()
+
+        # Responder y validar
+        self.answer_and_validate(0)
+
+        # Obtener letra de la primera opcion
+        first_letter = self.page.evaluate("() => document.querySelector('#options-list .option').dataset.letter")
+        slug = self.page.evaluate("() => Object.keys(QUIZZES)[0]")
+        qid = self.page.evaluate("() => QUIZZES[Object.keys(QUIZZES)[0]].questions[0].idpregunta")
+
+        # Simular subrayado via localStorage directamente
+        self.page.evaluate("""
+            (args) => {
+                const [slug, qid, letter] = args;
+                const all = JSON.parse(localStorage.getItem('quiz_user_User 1_highlights') || '{}');
+                if (!all[slug]) all[slug] = {};
+                if (!all[slug][qid]) all[slug][qid] = {};
+                if (!all[slug][qid][letter]) all[slug][qid][letter] = [];
+                all[slug][qid][letter].push('testword');
+                localStorage.setItem('quiz_user_User 1_highlights', JSON.stringify(all));
+            }
+        """, [slug, qid, first_letter])
+
+        # Verificar que el highlight existe en localStorage
+        has_highlight = self.page.evaluate("""
+            (args) => {
+                const [slug, qid, letter] = args;
+                const all = JSON.parse(localStorage.getItem('quiz_user_User 1_highlights') || '{}');
+                return !!(all[slug] && all[slug][qid] && all[slug][qid][letter] && all[slug][qid][letter].includes('testword'));
+            }
+        """, [slug, qid, first_letter])
+        self.assert_true(has_highlight, "highlight creado en localStorage")
+
+        # Eliminar el highlight y loguear delete
+        self.page.evaluate("""
+            (args) => {
+                const [slug, qid, letter] = args;
+                // Remove highlight
+                const all = JSON.parse(localStorage.getItem('quiz_user_User 1_highlights') || '{}');
+                if (all[slug] && all[slug][qid] && all[slug][qid][letter]) {
+                    const arr = all[slug][qid][letter];
+                    const idx = arr.indexOf('testword');
+                    if (idx >= 0) {
+                        arr.splice(idx, 1);
+                        if (arr.length === 0) delete all[slug][qid][letter];
+                        localStorage.setItem('quiz_user_User 1_highlights', JSON.stringify(all));
+                    }
+                }
+                // Log delete
+                const del = JSON.parse(localStorage.getItem('quiz_user_User 1_deleted_highlights') || '{}');
+                if (!del[slug]) del[slug] = {};
+                if (!del[slug][qid]) del[slug][qid] = {};
+                if (!del[slug][qid][letter]) del[slug][qid][letter] = [];
+                del[slug][qid][letter].push('testword');
+                localStorage.setItem('quiz_user_User 1_deleted_highlights', JSON.stringify(del));
+            }
+        """, [slug, qid, first_letter])
+
+        # Verificar que el delete se logueo
+        has_delete = self.page.evaluate("""
+            (args) => {
+                const [slug, qid, letter] = args;
+                const del = JSON.parse(localStorage.getItem('quiz_user_User 1_deleted_highlights') || '{}');
+                return !!(del[slug] && del[slug][qid] && del[slug][qid][letter] && del[slug][qid][letter].includes('testword'));
+            }
+        """, [slug, qid, first_letter])
+        self.assert_true(has_delete, "delete logueado en deleted_highlights")
+
+        # Exportar datos
+        exported = self.page.evaluate("""
+            () => {
+                const data = {};
+                for (let i = 0; i < localStorage.length; i++) {
+                    const k = localStorage.key(i);
+                    if (k && k.startsWith('quiz_')) data[k] = localStorage.getItem(k);
+                }
+                return data;
+            }
+        """)
+
+        # Contexto incognito donde el highlight aun existe
+        incognito = self.browser.new_context()
+        page2 = incognito.new_page()
+        page2.set_viewport_size({"width": 1280, "height": 800})
+        page2.goto(BASE_URL, wait_until="networkidle")
+
+        # Crear el highlight en incognito (simulando que existia antes)
+        page2.evaluate("""
+            (args) => {
+                const [slug, qid, letter] = args;
+                const all = JSON.parse(localStorage.getItem('quiz_user_User 1_highlights') || '{}');
+                if (!all[slug]) all[slug] = {};
+                if (!all[slug][qid]) all[slug][qid] = {};
+                if (!all[slug][qid][letter]) all[slug][qid][letter] = [];
+                all[slug][qid][letter].push('testword');
+                localStorage.setItem('quiz_user_User 1_highlights', JSON.stringify(all));
+            }
+        """, [slug, qid, first_letter])
+
+        # Importar el archivo que tiene el delete logueado
+        page2.evaluate("""
+            (exported) => {
+                for (const [key, value] of Object.entries(exported)) {
+                    if (key === 'quiz_users') {
+                        const existing = JSON.parse(localStorage.getItem(key) || '[]');
+                        const imported = JSON.parse(value);
+                        const merged = [...new Set([...existing, ...imported])];
+                        localStorage.setItem(key, JSON.stringify(merged));
+                        continue;
+                    }
+                    if (key.endsWith('_deleted_highlights')) {
+                        const existing = JSON.parse(localStorage.getItem(key) || '{}');
+                        const imported = JSON.parse(value);
+                        for (const [quiz, questions] of Object.entries(imported)) {
+                            if (!existing[quiz]) existing[quiz] = questions;
+                            else {
+                                for (const [qid, letters] of Object.entries(questions)) {
+                                    if (!existing[quiz][qid]) existing[quiz][qid] = letters;
+                                    else {
+                                        for (const [letter, texts] of Object.entries(letters)) {
+                                            if (!existing[quiz][qid][letter]) existing[quiz][qid][letter] = texts;
+                                            else {
+                                                existing[quiz][qid][letter] = [...new Set([...existing[quiz][qid][letter], ...texts])];
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        localStorage.setItem(key, JSON.stringify(existing));
+                        continue;
+                    }
+                    localStorage.setItem(key, value);
+                }
+            }
+        """, exported)
+
+        # Verificar que el highlight sigue existiendo (no se elimino automaticamente)
+        highlight_exists = page2.evaluate("""
+            (args) => {
+                const [slug, qid, letter] = args;
+                const all = JSON.parse(localStorage.getItem('quiz_user_User 1_highlights') || '{}');
+                return !!(all[slug] && all[slug][qid] && all[slug][qid][letter] && all[slug][qid][letter].includes('testword'));
+            }
+        """, [slug, qid, first_letter])
+        self.assert_true(highlight_exists, "highlight sigue existiendo antes de aplicar deletes")
+
+        # Simular que el usuario acepta eliminar desde el modal
+        page2.evaluate("""
+            (args) => {
+                const [slug, qid, letter] = args;
+                const h = JSON.parse(localStorage.getItem('quiz_user_User 1_highlights') || '{}');
+                if (h[slug] && h[slug][qid] && h[slug][qid][letter]) {
+                    const arr = h[slug][qid][letter];
+                    const idx = arr.indexOf('testword');
+                    if (idx >= 0) {
+                        arr.splice(idx, 1);
+                        if (arr.length === 0) delete h[slug][qid][letter];
+                        localStorage.setItem('quiz_user_User 1_highlights', JSON.stringify(h));
+                    }
+                }
+            }
+        """, [slug, qid, first_letter])
+
+        # Verificar que el highlight fue eliminado
+        highlight_gone = page2.evaluate("""
+            (args) => {
+                const [slug, qid, letter] = args;
+                const all = JSON.parse(localStorage.getItem('quiz_user_User 1_highlights') || '{}');
+                return !(all[slug] && all[slug][qid] && all[slug][qid][letter] && all[slug][qid][letter].includes('testword'));
+            }
+        """, [slug, qid, first_letter])
+        self.assert_true(highlight_gone, "highlight eliminado tras aplicar deletes del import")
+
+        incognito.close()
+
     def run_all(self):
         tests = [
             self.test_happy_sequential_completes_and_updates_stats,
@@ -555,6 +735,7 @@ class QuizE2E:
             self.test_corner_practice_random_does_not_filter_answered,
             self.test_happy_user_highlight_post_validate,
             self.test_happy_export_import_incognito,
+            self.test_happy_delete_highlight_and_import_conflict,
         ]
         passed = 0
         for t in tests:

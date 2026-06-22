@@ -137,6 +137,19 @@
         <div id="result-falladas" class="result-falladas"></div>
       </div>
     </section>
+    <!-- Modal: preview de eliminaciones de import -->
+    <div id="import-modal" class="modal hidden">
+      <div class="modal-backdrop"></div>
+      <div class="modal-content">
+        <h3>Subrayados eliminados en el archivo</h3>
+        <p class="modal-desc">Estos subrayados se eliminaron en el dispositivo de origen. ¿Quieres eliminarlos aquí también?</p>
+        <div id="import-conflicts-list" class="import-conflicts-list"></div>
+        <div class="modal-actions">
+          <button class="btn btn-secondary" id="btn-import-cancel">Mantener todo</button>
+          <button class="btn btn-danger" id="btn-import-confirm">Eliminar marcados</button>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="js/data.js"></script>

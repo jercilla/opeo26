@@ -75,8 +75,25 @@ const State = (() => {
       arr.splice(idx, 1);
       if (arr.length === 0) delete all[quizSlug][idpregunta][letter];
       set(user, 'highlights', all);
+      logDelete(user, quizSlug, idpregunta, letter, text);
     }
   }
 
-  return { get, set, getGlobal, setGlobal, getPorPregunta, setPorPregunta, getSession, setSession, clearSession, getHighlights, setHighlights, addHighlight, removeHighlight };
+  function logDelete(user, quizSlug, idpregunta, letter, text) {
+    const all = get(user, 'deleted_highlights', {});
+    if (!all[quizSlug]) all[quizSlug] = {};
+    if (!all[quizSlug][idpregunta]) all[quizSlug][idpregunta] = {};
+    if (!all[quizSlug][idpregunta][letter]) all[quizSlug][idpregunta][letter] = [];
+    if (!all[quizSlug][idpregunta][letter].includes(text)) {
+      all[quizSlug][idpregunta][letter].push(text);
+      set(user, 'deleted_highlights', all);
+    }
+  }
+
+  function getDeletedHighlights(user, quizSlug) {
+    const all = get(user, 'deleted_highlights', {});
+    return all[quizSlug] || {};
+  }
+
+  return { get, set, getGlobal, setGlobal, getPorPregunta, setPorPregunta, getSession, setSession, clearSession, getHighlights, setHighlights, addHighlight, removeHighlight, logDelete, getDeletedHighlights };
 })();
