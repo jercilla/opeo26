@@ -385,67 +385,64 @@ const Quiz = (() => {
   els.options.addEventListener('click', handleXClick);
   els.text.addEventListener('click', handleXClick);
 
-  // Mobile: long press on non-highlighted text to add
+  // Mobile: unified touch handling via event delegation on #screen-quiz
   let longPressTimer = null;
-  els.options.addEventListener('touchstart', (e) => {
+  let touchStartPos = null;
+
+  document.getElementById('screen-quiz').addEventListener('touchstart', (e) => {
     if (!validated) return;
     const touch = e.touches[0];
-    longPressTimer = setTimeout(() => {
-      // Skip if touching a highlight (user can tap the X)
-      let target = document.elementFromPoint(touch.clientX, touch.clientY);
-      while (target && target !== els.options) {
-        if (target.classList && target.classList.contains('user-highlight')) return;
-        target = target.parentElement;
+    touchStartPos = { x: touch.clientX, y: touch.clientY };
+    longPressTimer = setTimeout(() => { touchStartPos = null; longPressTimer = null; }, 500);
+  }, { passive: true });
+
+  document.getElementById('screen-quiz').addEventListener('touchend', (e) => {
+    if (!validated) return;
+    if (longPressTimer) { clearTimeout(longPressTimer); longPressTimer = null; }
+
+    // 1. Prefer native text selection
+    const sel = window.getSelection();
+    if (sel && !sel.isCollapsed) {
+      const text = sel.toString().trim();
+      if (text) {
+        const range = sel.getRangeAt(0);
+        const container = range.commonAncestorContainer;
+        const parent = container.nodeType === Node.TEXT_NODE ? container.parentElement : container;
+        const optionText = parent.closest('.option-text');
+        const questionText = parent.closest('.question-text');
+        const rect = range.getBoundingClientRect();
+        if (optionText) {
+          const btn = optionText.closest('.option');
+          if (btn) { showHighlightMenu(rect.left + window.scrollX, rect.bottom + window.scrollY + 4, text, btn.dataset.letter, false); return; }
+        } else if (questionText) {
+          showHighlightMenu(rect.left + window.scrollX, rect.bottom + window.scrollY + 4, text, 'Q', false); return;
+        }
       }
-      const pos = getTextNodeAtPoint(touch.clientX, touch.clientY);
-      if (!pos) return;
-      const word = getWordAtPosition(pos.node, pos.offset);
-      if (!word) return;
-      const optionText = pos.node.nodeType === Node.TEXT_NODE
-        ? pos.node.parentElement.closest('.option-text')
-        : null;
-      if (!optionText) return;
+    }
+
+    // 2. Fallback: no movement -> single word under finger
+    if (!touchStartPos) return;
+    const touch = e.changedTouches[0];
+    if (Math.abs(touch.clientX - touchStartPos.x) >= 10 || Math.abs(touch.clientY - touchStartPos.y) >= 10) { touchStartPos = null; return; }
+    let target = document.elementFromPoint(touch.clientX, touch.clientY);
+    const textEl = target.closest('.option-text') || target.closest('.question-text');
+    if (!textEl) { touchStartPos = null; return; }
+    while (target && target !== els.options && target !== els.text) {
+      if (target.classList && target.classList.contains('user-highlight')) { touchStartPos = null; return; }
+      target = target.parentElement;
+    }
+    const pos = getTextNodeAtPoint(touch.clientX, touch.clientY);
+    if (!pos) { touchStartPos = null; return; }
+    const word = getWordAtPosition(pos.node, pos.offset);
+    if (!word) { touchStartPos = null; return; }
+    const optionText = pos.node.nodeType === Node.TEXT_NODE ? pos.node.parentElement.closest('.option-text') : null;
+    if (optionText) {
       const btn = optionText.closest('.option');
-      if (!btn) return;
-      const letter = btn.dataset.letter;
-      showHighlightMenu(touch.clientX + window.scrollX, touch.clientY + window.scrollY + 4, word, letter, false);
-    }, 500);
-  }, { passive: true });
-
-  els.options.addEventListener('touchend', () => {
-    if (longPressTimer) { clearTimeout(longPressTimer); longPressTimer = null; }
-  });
-  els.options.addEventListener('touchmove', () => {
-    if (longPressTimer) { clearTimeout(longPressTimer); longPressTimer = null; }
-  });
-
-  // Mobile long press on question text
-  els.text.addEventListener('touchstart', (e) => {
-    if (!validated) return;
-    const touch = e.touches[0];
-    longPressTimer = setTimeout(() => {
-      let target = document.elementFromPoint(touch.clientX, touch.clientY);
-      while (target && target !== els.text) {
-        if (target.classList && target.classList.contains('user-highlight')) return;
-        target = target.parentElement;
-      }
-      const pos = getTextNodeAtPoint(touch.clientX, touch.clientY);
-      if (!pos) return;
-      const word = getWordAtPosition(pos.node, pos.offset);
-      if (!word) return;
-      const questionText = pos.node.nodeType === Node.TEXT_NODE
-        ? pos.node.parentElement.closest('.question-text')
-        : null;
-      if (!questionText) return;
+      if (btn) showHighlightMenu(touch.clientX + window.scrollX, touch.clientY + window.scrollY + 4, word, btn.dataset.letter, false);
+    } else {
       showHighlightMenu(touch.clientX + window.scrollX, touch.clientY + window.scrollY + 4, word, 'Q', false);
-    }, 500);
-  }, { passive: true });
-
-  els.text.addEventListener('touchend', () => {
-    if (longPressTimer) { clearTimeout(longPressTimer); longPressTimer = null; }
-  });
-  els.text.addEventListener('touchmove', () => {
-    if (longPressTimer) { clearTimeout(longPressTimer); longPressTimer = null; }
+    }
+    touchStartPos = null;
   });
 
   function getTextNodeAtPoint(x, y) {
