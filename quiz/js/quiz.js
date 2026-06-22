@@ -87,11 +87,11 @@ const Quiz = (() => {
     current = questions[order[idx]];
     els.progress.textContent = `${idx + 1} / ${order.length}`;
     els.score.innerHTML = `&#9989; ${session.aciertos} - &#10060; ${session.fallos}`;
-    els.text.textContent = current.pregunta;
     els.options.innerHTML = '';
 
     if (validated) {
       // Post-validar: texto plano + highlights, botones deshabilitados
+      els.text.innerHTML = applyHighlights(escapeHtml(current.pregunta), 'Q');
       const correct = current.correcta;
       ['A','B','C','D'].forEach(letter => {
         const txt = current.opciones[letter];
@@ -116,6 +116,7 @@ const Quiz = (() => {
       }
     } else {
       // Pre-validar: diffs como están ahora
+      els.text.textContent = current.pregunta;
       ['A','B','C','D'].forEach(letter => {
         const txt = current.opciones[letter];
         if (txt === undefined) return;
@@ -192,6 +193,7 @@ const Quiz = (() => {
       // Reemplazar diffs por texto plano + highlights
       renderOptionText(btn, l);
     });
+    els.text.innerHTML = applyHighlights(escapeHtml(current.pregunta), 'Q');
 
     els.validate.classList.add('hidden');
     els.next.classList.remove('hidden');
@@ -271,10 +273,18 @@ const Quiz = (() => {
     const h = State.getHighlights(user, quizSlug);
     const list = h[current.idpregunta] && h[current.idpregunta][letter] ? h[current.idpregunta][letter] : [];
     if (list.length === 0) return html;
-    list.slice().sort((a, b) => b.length - a.length).forEach(text => {
+    const sorted = list.slice().sort((a, b) => b.length - a.length);
+    const spans = {};
+    sorted.forEach((text, i) => {
       const escaped = escapeHtml(text);
-      html = html.replaceAll(escaped, `<span class="user-highlight" data-text="${escaped}" data-letter="${letter}">${escaped}<span class="hl-x">&#10005;</span></span>`);
+      const marker = `___HL_${i}___`;
+      spans[marker] = `<span class="user-highlight" data-letter="${letter}">${escaped}<span class="hl-x">&#10005;</span></span>`;
+      // Solo primera ocurrencia (replace, no replaceAll)
+      html = html.replace(escaped, marker);
     });
+    for (const [marker, span] of Object.entries(spans)) {
+      html = html.replaceAll(marker, span);
+    }
     return html;
   }
 
@@ -298,15 +308,11 @@ const Quiz = (() => {
         State.addHighlight(user, quizSlug, current.idpregunta, letter, text);
       }
       hideHighlightMenu();
-      // Re-render only this option's text
-      const btn = els.options.querySelector(`[data-letter="${letter}"]`);
-      if (btn) {
-        const txt = current.opciones[letter];
-        if (txt !== undefined) {
-          let html = escapeHtml(txt);
-          html = applyHighlights(html, letter);
-          btn.querySelector('.option-text').innerHTML = html;
-        }
+      if (letter === 'Q') {
+      els.text.innerHTML = applyHighlights(escapeHtml(current.pregunta), 'Q');
+      } else {
+        const btn = els.options.querySelector(`[data-letter="${letter}"]`);
+        if (btn) renderOptionText(btn, letter);
       }
     };
   }
@@ -338,28 +344,46 @@ const Quiz = (() => {
     const optionText = container.nodeType === Node.TEXT_NODE
       ? container.parentElement.closest('.option-text')
       : container.closest('.option-text');
-    if (!optionText) return;
-    const btn = optionText.closest('.option');
-    if (!btn) return;
-    const letter = btn.dataset.letter;
-    const rect = range.getBoundingClientRect();
+    const questionText = container.nodeType === Node.TEXT_NODE
+      ? container.parentElement.closest('.question-text')
+      : container.closest('.question-text');
+    let letter, rect;
+    if (optionText) {
+      const btn = optionText.closest('.option');
+      if (!btn) return;
+      letter = btn.dataset.letter;
+      rect = range.getBoundingClientRect();
+    } else if (questionText) {
+      letter = 'Q';
+      rect = range.getBoundingClientRect();
+    } else {
+      return;
+    }
     ignoreNextClick = true;
     showHighlightMenu(rect.left + window.scrollX, rect.bottom + window.scrollY + 4, text, letter, false);
   });
 
   // Click on X to remove (both PC and tablet)
-  els.options.addEventListener('click', (e) => {
+  function handleXClick(e) {
     if (!validated) return;
     const x = e.target.closest('.hl-x');
     if (!x) return;
+    e.stopPropagation();
     const hl = x.closest('.user-highlight');
     if (!hl) return;
-    const text = hl.dataset.text;
+    // Leer texto del primer nodo de texto del span (antes del X)
+    const text = hl.childNodes[0] ? hl.childNodes[0].textContent : '';
     const letter = hl.dataset.letter;
     State.removeHighlight(user, quizSlug, current.idpregunta, letter, text);
-    const btn = els.options.querySelector(`[data-letter="${letter}"]`);
-    if (btn) renderOptionText(btn, letter);
-  });
+    if (letter === 'Q') {
+      els.text.innerHTML = applyHighlights(escapeHtml(current.pregunta), 'Q');
+    } else {
+      const btn = els.options.querySelector(`[data-letter="${letter}"]`);
+      if (btn) renderOptionText(btn, letter);
+    }
+  }
+  els.options.addEventListener('click', handleXClick);
+  els.text.addEventListener('click', handleXClick);
 
   // Mobile: long press on non-highlighted text to add
   let longPressTimer = null;
@@ -392,6 +416,35 @@ const Quiz = (() => {
     if (longPressTimer) { clearTimeout(longPressTimer); longPressTimer = null; }
   });
   els.options.addEventListener('touchmove', () => {
+    if (longPressTimer) { clearTimeout(longPressTimer); longPressTimer = null; }
+  });
+
+  // Mobile long press on question text
+  els.text.addEventListener('touchstart', (e) => {
+    if (!validated) return;
+    const touch = e.touches[0];
+    longPressTimer = setTimeout(() => {
+      let target = document.elementFromPoint(touch.clientX, touch.clientY);
+      while (target && target !== els.text) {
+        if (target.classList && target.classList.contains('user-highlight')) return;
+        target = target.parentElement;
+      }
+      const pos = getTextNodeAtPoint(touch.clientX, touch.clientY);
+      if (!pos) return;
+      const word = getWordAtPosition(pos.node, pos.offset);
+      if (!word) return;
+      const questionText = pos.node.nodeType === Node.TEXT_NODE
+        ? pos.node.parentElement.closest('.question-text')
+        : null;
+      if (!questionText) return;
+      showHighlightMenu(touch.clientX + window.scrollX, touch.clientY + window.scrollY + 4, word, 'Q', false);
+    }, 500);
+  }, { passive: true });
+
+  els.text.addEventListener('touchend', () => {
+    if (longPressTimer) { clearTimeout(longPressTimer); longPressTimer = null; }
+  });
+  els.text.addEventListener('touchmove', () => {
     if (longPressTimer) { clearTimeout(longPressTimer); longPressTimer = null; }
   });
 
