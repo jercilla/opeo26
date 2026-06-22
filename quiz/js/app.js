@@ -235,6 +235,37 @@ const App = (() => {
       renderUsers();
     });
 
+    document.getElementById('btn-export-data').addEventListener('click', () => {
+      const data = Users.exportData();
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `ope_quiz_backup_${new Date().toISOString().slice(0,10)}.json`;
+      a.click();
+      URL.revokeObjectURL(url);
+    });
+
+    document.getElementById('btn-import-data').addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (ev) => {
+        try {
+          const data = JSON.parse(ev.target.result);
+          if (!confirm('¿Importar datos? Se fusionaran con los existentes (stats se suman, subrayados se unen).')) return;
+          Users.importData(data);
+          currentUser = Users.ensureDefault();
+          renderUsers();
+          alert('Datos importados correctamente.');
+        } catch (err) {
+          alert('Error al importar: ' + err.message);
+        }
+      };
+      reader.readAsText(file);
+      e.target.value = '';
+    });
+
     document.getElementById('btn-back-from-session').addEventListener('click', goMenu);
     document.getElementById('btn-start-session').addEventListener('click', () => startSession(false, false));
     document.getElementById('btn-practice-session').addEventListener('click', () => startSession(false, true));

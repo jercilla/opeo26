@@ -43,6 +43,8 @@ const Quiz = (() => {
         order = saved.order;
         idx = saved.idx;
         session = saved.session || { aciertos: 0, fallos: 0, falladas: [] };
+        validated = saved.validated || false;
+        selectedLetter = saved.selectedLetter || null;
         renderQuestion();
         return;
       }
@@ -52,6 +54,8 @@ const Quiz = (() => {
       State.clearSession(user, quizSlug);
     }
     session = { aciertos: 0, fallos: 0, falladas: [] };
+    validated = false;
+    selectedLetter = null;
 
     if (config.mode === 'random') {
       const rStart = Math.max(0, (config.randStart || 1) - 1);
@@ -76,33 +80,72 @@ const Quiz = (() => {
 
   function saveProgress() {
     if (practice) return;
-    State.setSession(user, quizSlug, { order, idx, session });
+    State.setSession(user, quizSlug, { order, idx, session, validated, selectedLetter });
   }
 
   function renderQuestion() {
-    validated = false;
     current = questions[order[idx]];
     els.progress.textContent = `${idx + 1} / ${order.length}`;
     els.score.innerHTML = `&#9989; ${session.aciertos} - &#10060; ${session.fallos}`;
     els.text.textContent = current.pregunta;
     els.options.innerHTML = '';
-    ['A','B','C','D'].forEach(letter => {
-      const txt = current.opciones[letter];
-      if (txt === undefined) return;
-      const btn = document.createElement('button');
-      btn.className = 'option';
-      btn.type = 'button';
-      btn.dataset.letter = letter;
-      const html = current.diffs && current.diffs[letter] ? current.diffs[letter] : escapeHtml(txt);
-      btn.innerHTML = `<span class="option-letter">${letter}</span><span class="option-text">${html}</span>`;
-      btn.addEventListener('click', () => selectOption(letter));
-      els.options.appendChild(btn);
-    });
-    els.validate.classList.remove('hidden');
-    els.validate.disabled = true;
-    els.next.classList.add('hidden');
-    els.feedback.classList.add('hidden');
-    els.feedback.className = 'feedback hidden';
+
+    if (validated) {
+      // Post-validar: texto plano + highlights, botones deshabilitados
+      const correct = current.correcta;
+      ['A','B','C','D'].forEach(letter => {
+        const txt = current.opciones[letter];
+        if (txt === undefined) return;
+        const btn = document.createElement('div');
+        btn.className = 'option';
+        btn.setAttribute('role', 'button');
+        btn.setAttribute('tabindex', '-1');
+        btn.dataset.letter = letter;
+        if (letter === correct) btn.classList.add('correct');
+        else if (letter === selectedLetter && letter !== correct) btn.classList.add('wrong');
+        renderOptionText(btn, letter);
+        els.options.appendChild(btn);
+      });
+      els.validate.classList.add('hidden');
+      els.next.classList.remove('hidden');
+      els.feedback.classList.remove('hidden');
+      if (session.lastResult) {
+        const lr = session.lastResult;
+        els.feedback.className = 'feedback ' + (lr.acierto ? 'correct' : 'wrong');
+        els.feedbackText.textContent = lr.acierto ? 'Correcto!' : `La correcta era la ${lr.correct}`;
+      }
+    } else {
+      // Pre-validar: diffs como están ahora
+      ['A','B','C','D'].forEach(letter => {
+        const txt = current.opciones[letter];
+        if (txt === undefined) return;
+        const btn = document.createElement('div');
+        btn.className = 'option';
+        btn.setAttribute('role', 'button');
+        btn.setAttribute('tabindex', '0');
+        btn.dataset.letter = letter;
+        let html = current.diffs && current.diffs[letter] ? current.diffs[letter] : escapeHtml(txt);
+        btn.innerHTML = `<span class="option-letter">${letter}</span><span class="option-text">${html}</span>`;
+        btn.addEventListener('click', () => selectOption(letter));
+        btn.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); selectOption(letter); }
+        });
+        els.options.appendChild(btn);
+      });
+      els.validate.classList.remove('hidden');
+      els.validate.disabled = true;
+      els.next.classList.add('hidden');
+      els.feedback.classList.add('hidden');
+      els.feedback.className = 'feedback hidden';
+    }
+  }
+
+  function renderOptionText(btn, letter) {
+    const txt = current.opciones[letter];
+    if (txt === undefined) return;
+    let html = escapeHtml(txt);
+    html = applyHighlights(html, letter);
+    btn.innerHTML = `<span class="option-letter">${letter}</span><span class="option-text">${html}</span>`;
   }
 
   let selectedLetter = null;
@@ -138,13 +181,16 @@ const Quiz = (() => {
     if (!practice) {
       Stats.record(user, quizSlug, current.idpregunta, correct, selectedLetter);
     }
+    session.lastResult = { correct, selectedLetter, acierto };
     saveProgress();
 
     Array.from(els.options.children).forEach(btn => {
       const l = btn.dataset.letter;
-      btn.disabled = true;
+      btn.setAttribute('tabindex', '-1');
       if (l === correct) btn.classList.add('correct');
       else if (l === selectedLetter && l !== correct) btn.classList.add('wrong');
+      // Reemplazar diffs por texto plano + highlights
+      renderOptionText(btn, l);
     });
 
     els.validate.classList.add('hidden');
@@ -162,6 +208,8 @@ const Quiz = (() => {
   function next() {
     idx++;
     selectedLetter = null;
+    validated = false;
+    session.lastResult = null;
     saveProgress();
     if (idx >= order.length) {
       if (!practice) {
@@ -217,6 +265,157 @@ const Quiz = (() => {
       card.appendChild(body);
       container.appendChild(card);
     });
+  }
+
+  function applyHighlights(html, letter) {
+    const h = State.getHighlights(user, quizSlug);
+    const list = h[current.idpregunta] && h[current.idpregunta][letter] ? h[current.idpregunta][letter] : [];
+    if (list.length === 0) return html;
+    list.slice().sort((a, b) => b.length - a.length).forEach(text => {
+      const escaped = escapeHtml(text);
+      html = html.replaceAll(escaped, `<span class="user-highlight" data-text="${escaped}" data-letter="${letter}">${escaped}<span class="hl-x">&#10005;</span></span>`);
+    });
+    return html;
+  }
+
+  // ---------- highlight interaction (post-validate only) ----------
+  const highlightMenu = document.createElement('div');
+  highlightMenu.id = 'highlight-menu';
+  highlightMenu.className = 'hidden';
+  document.body.appendChild(highlightMenu);
+
+  function showHighlightMenu(x, y, text, letter, isRemove) {
+    highlightMenu.innerHTML = isRemove
+      ? `Eliminar subrayado: "${escapeHtml(text)}"`
+      : `Subrayar: "${escapeHtml(text)}"`;
+    highlightMenu.style.left = x + 'px';
+    highlightMenu.style.top = y + 'px';
+    highlightMenu.classList.remove('hidden');
+    highlightMenu.onclick = () => {
+      if (isRemove) {
+        State.removeHighlight(user, quizSlug, current.idpregunta, letter, text);
+      } else {
+        State.addHighlight(user, quizSlug, current.idpregunta, letter, text);
+      }
+      hideHighlightMenu();
+      // Re-render only this option's text
+      const btn = els.options.querySelector(`[data-letter="${letter}"]`);
+      if (btn) {
+        const txt = current.opciones[letter];
+        if (txt !== undefined) {
+          let html = escapeHtml(txt);
+          html = applyHighlights(html, letter);
+          btn.querySelector('.option-text').innerHTML = html;
+        }
+      }
+    };
+  }
+
+  function hideHighlightMenu() {
+    highlightMenu.classList.add('hidden');
+    highlightMenu.onclick = null;
+  }
+
+  let ignoreNextClick = false;
+
+  document.addEventListener('click', (e) => {
+    if (ignoreNextClick) {
+      ignoreNextClick = false;
+      return;
+    }
+    if (!highlightMenu.contains(e.target)) hideHighlightMenu();
+  });
+
+  // PC: mouseup after selection -> show menu
+  document.addEventListener('mouseup', () => {
+    if (!validated) return;
+    const sel = window.getSelection();
+    if (!sel || sel.rangeCount === 0 || sel.isCollapsed) return;
+    const text = sel.toString().trim();
+    if (!text) return;
+    const range = sel.getRangeAt(0);
+    const container = range.commonAncestorContainer;
+    const optionText = container.nodeType === Node.TEXT_NODE
+      ? container.parentElement.closest('.option-text')
+      : container.closest('.option-text');
+    if (!optionText) return;
+    const btn = optionText.closest('.option');
+    if (!btn) return;
+    const letter = btn.dataset.letter;
+    const rect = range.getBoundingClientRect();
+    ignoreNextClick = true;
+    showHighlightMenu(rect.left + window.scrollX, rect.bottom + window.scrollY + 4, text, letter, false);
+  });
+
+  // Click on X to remove (both PC and tablet)
+  els.options.addEventListener('click', (e) => {
+    if (!validated) return;
+    const x = e.target.closest('.hl-x');
+    if (!x) return;
+    const hl = x.closest('.user-highlight');
+    if (!hl) return;
+    const text = hl.dataset.text;
+    const letter = hl.dataset.letter;
+    State.removeHighlight(user, quizSlug, current.idpregunta, letter, text);
+    const btn = els.options.querySelector(`[data-letter="${letter}"]`);
+    if (btn) renderOptionText(btn, letter);
+  });
+
+  // Mobile: long press on non-highlighted text to add
+  let longPressTimer = null;
+  els.options.addEventListener('touchstart', (e) => {
+    if (!validated) return;
+    const touch = e.touches[0];
+    longPressTimer = setTimeout(() => {
+      // Skip if touching a highlight (user can tap the X)
+      let target = document.elementFromPoint(touch.clientX, touch.clientY);
+      while (target && target !== els.options) {
+        if (target.classList && target.classList.contains('user-highlight')) return;
+        target = target.parentElement;
+      }
+      const pos = getTextNodeAtPoint(touch.clientX, touch.clientY);
+      if (!pos) return;
+      const word = getWordAtPosition(pos.node, pos.offset);
+      if (!word) return;
+      const optionText = pos.node.nodeType === Node.TEXT_NODE
+        ? pos.node.parentElement.closest('.option-text')
+        : null;
+      if (!optionText) return;
+      const btn = optionText.closest('.option');
+      if (!btn) return;
+      const letter = btn.dataset.letter;
+      showHighlightMenu(touch.clientX + window.scrollX, touch.clientY + window.scrollY + 4, word, letter, false);
+    }, 500);
+  }, { passive: true });
+
+  els.options.addEventListener('touchend', () => {
+    if (longPressTimer) { clearTimeout(longPressTimer); longPressTimer = null; }
+  });
+  els.options.addEventListener('touchmove', () => {
+    if (longPressTimer) { clearTimeout(longPressTimer); longPressTimer = null; }
+  });
+
+  function getTextNodeAtPoint(x, y) {
+    if (document.caretPositionFromPoint) {
+      const pos = document.caretPositionFromPoint(x, y);
+      return pos ? { node: pos.offsetNode, offset: pos.offset } : null;
+    } else if (document.caretRangeFromPoint) {
+      const range = document.caretRangeFromPoint(x, y);
+      return range ? { node: range.startContainer, offset: range.startOffset } : null;
+    }
+    return null;
+  }
+
+  function getWordAtPosition(node, offset) {
+    if (node.nodeType !== Node.TEXT_NODE) return null;
+    const text = node.textContent;
+    if (offset < 0 || offset > text.length) return null;
+    let start = offset;
+    let end = offset;
+    while (start > 0 && /\S/.test(text[start - 1])) start--;
+    while (end < text.length && /\S/.test(text[end])) end++;
+    const word = text.substring(start, end);
+    return word.length > 0 ? word : null;
   }
 
   function escapeHtml(str) {

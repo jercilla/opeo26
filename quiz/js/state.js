@@ -47,5 +47,36 @@ const State = (() => {
     set(user, 'session', all);
   }
 
-  return { get, set, getGlobal, setGlobal, getPorPregunta, setPorPregunta, getSession, setSession, clearSession };
+  function getHighlights(user, quizSlug) {
+    const all = get(user, 'highlights', {});
+    return all[quizSlug] || {};
+  }
+  function setHighlights(user, quizSlug, data) {
+    const all = get(user, 'highlights', {});
+    all[quizSlug] = data;
+    set(user, 'highlights', all);
+  }
+  function addHighlight(user, quizSlug, idpregunta, letter, text) {
+    const all = get(user, 'highlights', {});
+    if (!all[quizSlug]) all[quizSlug] = {};
+    if (!all[quizSlug][idpregunta]) all[quizSlug][idpregunta] = {};
+    if (!all[quizSlug][idpregunta][letter]) all[quizSlug][idpregunta][letter] = [];
+    if (!all[quizSlug][idpregunta][letter].includes(text)) {
+      all[quizSlug][idpregunta][letter].push(text);
+      set(user, 'highlights', all);
+    }
+  }
+  function removeHighlight(user, quizSlug, idpregunta, letter, text) {
+    const all = get(user, 'highlights', {});
+    if (!all[quizSlug] || !all[quizSlug][idpregunta] || !all[quizSlug][idpregunta][letter]) return;
+    const arr = all[quizSlug][idpregunta][letter];
+    const idx = arr.indexOf(text);
+    if (idx >= 0) {
+      arr.splice(idx, 1);
+      if (arr.length === 0) delete all[quizSlug][idpregunta][letter];
+      set(user, 'highlights', all);
+    }
+  }
+
+  return { get, set, getGlobal, setGlobal, getPorPregunta, setPorPregunta, getSession, setSession, clearSession, getHighlights, setHighlights, addHighlight, removeHighlight };
 })();
