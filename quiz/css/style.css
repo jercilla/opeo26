@@ -170,6 +170,11 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 .option.correct .option-letter { background: #16a34a; color: #fff; }
 .option.wrong .option-letter { background: #dc2626; color: #fff; }
 .option-text { line-height: 1.45; -webkit-user-select: text; user-select: text; }
+#screen-quiz.validated .option-text,
+#screen-quiz.validated .question-text {
+  -webkit-touch-callout: none;
+  touch-action: manipulation;
+}
 
 .user-highlight {
   text-decoration: underline;

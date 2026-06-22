@@ -85,6 +85,7 @@ const Quiz = (() => {
 
   function renderQuestion() {
     current = questions[order[idx]];
+    document.getElementById('screen-quiz').classList.toggle('validated', validated);
     els.progress.textContent = `${idx + 1} / ${order.length}`;
     els.score.innerHTML = `&#9989; ${session.aciertos} - &#10060; ${session.fallos}`;
     els.options.innerHTML = '';
@@ -166,6 +167,7 @@ const Quiz = (() => {
   function validate() {
     if (validated || !selectedLetter) return;
     validated = true;
+    document.getElementById('screen-quiz').classList.add('validated');
     const correct = current.correcta;
     const acierto = selectedLetter === correct;
     if (acierto) session.aciertos++; else {
@@ -332,6 +334,13 @@ const Quiz = (() => {
     if (!highlightMenu.contains(e.target)) hideHighlightMenu();
   });
 
+  // Suppress native context menu on highlightable text when validated
+  document.addEventListener('contextmenu', (e) => {
+    if (validated && (e.target.closest('.option-text') || e.target.closest('.question-text'))) {
+      e.preventDefault();
+    }
+  });
+
   // PC: mouseup after selection -> show menu
   document.addEventListener('mouseup', () => {
     if (!validated) return;
@@ -393,11 +402,12 @@ const Quiz = (() => {
     if (!validated) return;
     const touch = e.touches[0];
     touchStartPos = { x: touch.clientX, y: touch.clientY };
-    longPressTimer = setTimeout(() => { touchStartPos = null; longPressTimer = null; }, 500);
+    longPressTimer = setTimeout(() => { longPressTimer = null; }, 500);
   }, { passive: true });
 
   document.getElementById('screen-quiz').addEventListener('touchend', (e) => {
     if (!validated) return;
+    const wasLongPress = longPressTimer === null;
     if (longPressTimer) { clearTimeout(longPressTimer); longPressTimer = null; }
 
     // 1. Prefer native text selection
@@ -420,28 +430,32 @@ const Quiz = (() => {
       }
     }
 
-    // 2. Fallback: no movement -> single word under finger
-    if (!touchStartPos) return;
-    const touch = e.changedTouches[0];
-    if (Math.abs(touch.clientX - touchStartPos.x) >= 10 || Math.abs(touch.clientY - touchStartPos.y) >= 10) { touchStartPos = null; return; }
-    let target = document.elementFromPoint(touch.clientX, touch.clientY);
-    const textEl = target.closest('.option-text') || target.closest('.question-text');
-    if (!textEl) { touchStartPos = null; return; }
-    while (target && target !== els.options && target !== els.text) {
-      if (target.classList && target.classList.contains('user-highlight')) { touchStartPos = null; return; }
-      target = target.parentElement;
+    // 2. Long-press: single word under finger
+    if (wasLongPress) {
+      const touch = e.changedTouches[0];
+      let target = document.elementFromPoint(touch.clientX, touch.clientY);
+      const textEl = target && (target.closest('.option-text') || target.closest('.question-text'));
+      if (!textEl) { touchStartPos = null; return; }
+      while (target && target !== els.options && target !== els.text) {
+        if (target.classList && target.classList.contains('user-highlight')) { touchStartPos = null; return; }
+        target = target.parentElement;
+      }
+      const pos = getTextNodeAtPoint(touch.clientX, touch.clientY);
+      if (!pos) { touchStartPos = null; return; }
+      const word = getWordAtPosition(pos.node, pos.offset);
+      if (!word) { touchStartPos = null; return; }
+      const optText = pos.node.nodeType === Node.TEXT_NODE ? pos.node.parentElement.closest('.option-text') : null;
+      if (optText) {
+        const btn = optText.closest('.option');
+        if (btn) showHighlightMenu(touch.clientX + window.scrollX, touch.clientY + window.scrollY + 4, word, btn.dataset.letter, false);
+      } else {
+        showHighlightMenu(touch.clientX + window.scrollX, touch.clientY + window.scrollY + 4, word, 'Q', false);
+      }
+      touchStartPos = null;
+      return;
     }
-    const pos = getTextNodeAtPoint(touch.clientX, touch.clientY);
-    if (!pos) { touchStartPos = null; return; }
-    const word = getWordAtPosition(pos.node, pos.offset);
-    if (!word) { touchStartPos = null; return; }
-    const optionText = pos.node.nodeType === Node.TEXT_NODE ? pos.node.parentElement.closest('.option-text') : null;
-    if (optionText) {
-      const btn = optionText.closest('.option');
-      if (btn) showHighlightMenu(touch.clientX + window.scrollX, touch.clientY + window.scrollY + 4, word, btn.dataset.letter, false);
-    } else {
-      showHighlightMenu(touch.clientX + window.scrollX, touch.clientY + window.scrollY + 4, word, 'Q', false);
-    }
+
+    // 3. Short tap: ignore
     touchStartPos = null;
   });
 
