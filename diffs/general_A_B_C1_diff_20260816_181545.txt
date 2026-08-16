@@ -1,0 +1,12 @@
+======================================================================
+DIFF respuestas OPE Osakidetza
+  prev: general_A_B_C1.prev.json
+  last: general_A_B_C1.last.json @ 20260816_181545
+======================================================================
+Cambios de respuesta correcta: 0
+Otros cambios (texto/opciones):  0
+Preguntas nuevas: []
+Preguntas eliminadas: []
+Sin respuesta detectada: []
+
+(sin cambios)
