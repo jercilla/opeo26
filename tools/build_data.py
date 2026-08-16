@@ -123,15 +123,15 @@ QUIZ_SOURCES = [
     },
     {
         'slug': 'tecnico_informatica',
-        'file': 'tecnico_informatica.json',
+        'file': 'tecnico_informatica.last.json',
         'label': 'Tecnico Especialista Informatica',
-        'meta': '200 preguntas - RESPUESTAS PRELIMINARES',
+        'meta': '200 preguntas',
     },
     {
         'slug': 'tecnico_superior_informatica',
-        'file': 'tecnico_superior_informatica.json',
+        'file': 'tecnico_superior_informatica.last.json',
         'label': 'Tecnico Superior Informatica',
-        'meta': '500 preguntas - RESPUESTAS PRELIMINARES',
+        'meta': '500 preguntas',
     },
 ]
 

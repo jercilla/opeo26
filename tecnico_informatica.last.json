@@ -10,7 +10,7 @@
       "D": "Zilog Z c80."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 2,
@@ -23,7 +23,7 @@
       "D": "Todas las anteriores son correctas."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 3,
@@ -36,7 +36,7 @@
       "D": "Tipos de disco duro."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 4,
@@ -49,7 +49,7 @@
       "D": "Todas las anteriores son correctas."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 5,
@@ -62,12 +62,12 @@
       "D": "NINGUNA de las anteriores es correcta."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 6,
     "idpregunta": 6,
-    "pregunta": "6.- ¿Qué **se entiende por “resolución” de una pantalla?**",
+    "pregunta": "6.- ¿Qué se entiende por “resolución” de una pantalla?",
     "opciones": {
       "A": "La relación entre el tamaño horizontal y el tamaño vertical de la pantalla.",
       "B": "El número de pulgadas que hay en la diagonal de la pantalla.",
@@ -75,7 +75,7 @@
       "D": "NINGUNA de las anteriores es correcta."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 7,
@@ -87,8 +87,8 @@
       "C": "Ranuras de extensión para los discos duros.",
       "D": "Buses de datos."
     },
-    "correcta": "B",
-    "metodo": "estimado_manual"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 8,
@@ -101,7 +101,7 @@
       "D": "HGST."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 9,
@@ -114,7 +114,7 @@
       "D": "La a) y c) son correctas."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 10,
@@ -127,7 +127,7 @@
       "D": "Todas las anteriores son correctas."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 11,
@@ -140,7 +140,7 @@
       "D": "De ella depende el tamaño máximo de memoria que puede manejar el microprocesador."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 12,
@@ -153,7 +153,7 @@
       "D": "Es la máxima cantidad de memoria que podría trasladarse por segundo."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 13,
@@ -166,7 +166,7 @@
       "D": "DIMM y DD2."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 14,
@@ -179,7 +179,7 @@
       "D": "NINGUNA de las anteriores es correcta."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 15,
@@ -192,7 +192,7 @@
       "D": "Elevado refresco y tiempo de respuesta."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 16,
@@ -205,7 +205,7 @@
       "D": "Todas las anteriores son correctas."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 17,
@@ -218,7 +218,7 @@
       "D": "Si no existe fragmentación los discos duros de alta velocidad de rotaciones son más rápidos que los discos duros SSD."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 18,
@@ -231,7 +231,7 @@
       "D": "Disquete."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 19,
@@ -244,7 +244,7 @@
       "D": "5º Generación."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 20,
@@ -257,7 +257,7 @@
       "D": "EXEC II."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 21,
@@ -270,12 +270,12 @@
       "D": "Sistemas operativos interactivos."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 22,
     "idpregunta": 22,
-    "pregunta": "22.- Si en un superordenador se instala un sistema **operativo monotarea...**",
+    "pregunta": "22.- Si en un superordenador se instala un sistema operativo monotarea…",
     "opciones": {
       "A": "Ejecutará m ás de un proceso cada vez.",
       "B": "Solo ejecutará un proceso cada vez.",
@@ -283,7 +283,7 @@
       "D": "Seleccionará los demás procesos para distribuir el trabajo."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 23,
@@ -296,7 +296,7 @@
       "D": "NINGUNA de las anteriores es correcta."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 24,
@@ -308,8 +308,8 @@
       "C": "En 5 niveles: del 0 al 4.",
       "D": "En 6 niveles: del 0 al 5."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 25,
@@ -322,7 +322,7 @@
       "D": "Son los procesos que cada usuario necesita para un correcto funcionamiento del sistema operativo."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 26,
@@ -335,12 +335,12 @@
       "D": "Este algoritmo va dando tiempo de ejecución a cada proceso que esté en espera."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 27,
     "idpregunta": 27,
-    "pregunta": "27.- La técnica de gestión de memoria principal del sistema operativo por **particionamiento ...**",
+    "pregunta": "27.- La técnica de gestión de memoria principal del sistema operativo por particionamiento …",
     "opciones": {
       "A": "Consiste en particionar la memoria en particiones de tamaño fijo o particiones de tamaño variable.",
       "B": "Solamente se pueden particionar a tamaño fijo.",
@@ -348,7 +348,7 @@
       "D": "Protege la zona de memoria asignada a cada proceso."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 28,
@@ -361,7 +361,7 @@
       "D": "HFS."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 29,
@@ -374,7 +374,7 @@
       "D": "OSI se usa solo en LAN; TCP/IP en WAN."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 30,
@@ -387,7 +387,7 @@
       "D": "La necesidad de replicar manualmente los archivos de datos en cada estación de trabajo para garantizar su disponibilidad, incrementando la probabilidad de inconsistencias y duplicidad de información."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 31,
@@ -400,7 +400,7 @@
       "D": "Solo permite transmisión en modo full-dúplex."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 32,
@@ -413,7 +413,7 @@
       "D": "Topología en malla."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 33,
@@ -426,7 +426,7 @@
       "D": "IEEE 802.4"
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 34,
@@ -439,7 +439,7 @@
       "D": "El ancho de banda limita la velocidad máxima teórica de transmisión."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 35,
@@ -452,7 +452,7 @@
       "D": "Medio inalámbrico en banda de 5 GHz."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 36,
@@ -465,20 +465,20 @@
       "D": "DNS (Domain Name System)."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 37,
     "idpregunta": 37,
-    "pregunta": "37.- ¿Cuál es la forma más comprimida posible de la siguiente dirección IPv6? 2001:db8:0:0:0:1:2:",
+    "pregunta": "37.- ¿Cuál es la forma más comprimida posible de la siguiente dirección IPv6? 2001:db8:0:0:0:1:2:3",
     "opciones": {
-      "A": "2001:db8::1:2:",
-      "B": "2001:db8:0::0:1:2:",
-      "C": "2001:db8:0:0::1:2:",
-      "D": "2001:db8:::1:2:"
+      "A": "2001:db8::1:2:3",
+      "B": "2001:db8:0::0:1:2:3",
+      "C": "2001:db8:0:0::1:2:3",
+      "D": "2001:db8:::1:2:3"
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 38,
@@ -491,7 +491,7 @@
       "D": "Bridge (puente)."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 39,
@@ -504,7 +504,7 @@
       "D": "Cada subred tiene 128 hosts utilizables."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 40,
@@ -517,7 +517,7 @@
       "D": "La máscara de subred es 255.255.255.128."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 41,
@@ -530,7 +530,7 @@
       "D": "Tabla de sesiones TCP activas."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 42,
@@ -543,7 +543,7 @@
       "D": "Porque está diseñado exclusivamente para comunicaciones multimedia."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 43,
@@ -556,7 +556,7 @@
       "D": "Son bidireccionales y cualquiera de los elementos puede iniciar la comunicación."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 44,
@@ -569,7 +569,7 @@
       "D": "Se altera la estructura completa del modelo."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 45,
@@ -582,7 +582,7 @@
       "D": "Mayor velocidad de transferencia que WiFi y compatibilidad exclusiva con redes metropolitanas."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 46,
@@ -595,7 +595,7 @@
       "D": "Comunicación WAN (red de área amplia)."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 47,
@@ -608,7 +608,7 @@
       "D": "Call centers."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 48,
@@ -621,7 +621,7 @@
       "D": "Las pasivas permiten mayores distancias de lectura que las activas."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 49,
@@ -634,7 +634,7 @@
       "D": "100BaseTX."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 50,
@@ -647,7 +647,7 @@
       "D": "Hardware, software, conectividad y seguridad."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 51,
@@ -656,10 +656,11 @@
     "opciones": {
       "A": "Utiliza frecuencias por debajo de 1 GHz, permite alcances de hasta 20 km y está orientada a bajo consumo energético.",
       "B": "Opera por encima de 2,4 GHz, ofrece altas tasas de Mbps y está orientada a comunicaciones de corto alcance.",
-      "C": "Funciona exclusivamente en entornos urbanos, con alcances máximos de 2 km y alto consumo de energía."
+      "C": "Funciona exclusivamente en entornos urbanos, con alcances máximos de 2 km y alto consumo de energía.",
+      "D": "Requiere licencia propietaria y ofrece velocidades comparables a WiFi."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 52,
@@ -672,7 +673,7 @@
       "D": "Redes de área amplia para comunicaciones de largo alcance."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 53,
@@ -685,7 +686,7 @@
       "D": "El sensor mide la humedad → los datos se envían a un sistema de control → se activa el actuador si es necesario."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 54,
@@ -698,7 +699,7 @@
       "D": "Diseño, codificación, integración, pruebas y mantenimiento."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 55,
@@ -711,7 +712,7 @@
       "D": "Esta fase permite la optimización de los recursos en la producción del mismo."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 56,
@@ -719,10 +720,12 @@
     "pregunta": "56.- ¿En cuántos documentos se describen los trabajos realizados en cada una de las fases del ciclo de vida del software?",
     "opciones": {
       "A": "En 5 documentos: requisitos del software, diseño del software, código fuente, documento de pruebas y documento de cambios.",
-      "B": "En 3 documentos: requisitos del software, diseño del software, documento de cambios."
+      "B": "En 3 documentos: requisitos del software, diseño del software, documento de cambios.",
+      "C": "En 5 documentos: requisitos del software, diseño del software, código fuente, sistema de software y documento de cambios.",
+      "D": "En 3 documentos: requisitos del software, documento de pruebas, documento de cambios."
     },
-    "correcta": "A",
-    "metodo": "estimado_manual"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 57,
@@ -735,12 +738,12 @@
       "D": "Se basa en un sistema auxiliar que permite probar experimentalmente ciertas soluciones parciales a las necesidades de la persona usuaria."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 58,
     "idpregunta": 58,
-    "pregunta": "58.- **La revisión de la fase de codificación en el ciclo de vida en cascada se realiza sobre...**",
+    "pregunta": "58.- La revisión de la fase de codificación en el ciclo de vida en cascada se realiza sobre…",
     "opciones": {
       "A": "El documento de análisis.",
       "B": "El documento de diseño.",
@@ -748,7 +751,7 @@
       "D": "El sistema de explotación."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 59,
@@ -761,7 +764,7 @@
       "D": "El análisis inicial."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 60,
@@ -774,7 +777,7 @@
       "D": "Análisis, Codificación, Comunicación y Retroalimentación."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 61,
@@ -787,7 +790,7 @@
       "D": "Todas las anteriores son correctas."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 62,
@@ -799,8 +802,8 @@
       "C": "Consiste en diseñar y almacenar de forma organizada los archivos de registro (.log) correspondientes a las distintas versiones de la configuración.",
       "D": "NINGUNA de las anteriores es correcta."
     },
-    "correcta": "D",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 63,
@@ -813,7 +816,7 @@
       "D": "IDEE."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 64,
@@ -825,8 +828,8 @@
       "C": "La fase de mantenimiento se centra en el cambio que va asociado a la corrección de errores, a las adaptaciones requeridas a medida que evoluciona el entorno del software, y a cambios debidos a las mejoras producidas por los requisitos cambiantes del cliente.",
       "D": "Hay 4 tipos de mantenimiento del software: correctivo, adaptativo, perfectivo y preventivo."
     },
-    "correcta": "D",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 65,
@@ -839,19 +842,20 @@
       "D": "El mantenimiento perfectivo consiste en localizar y eliminar posibles defectos de los programas."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 66,
     "idpregunta": 66,
-    "pregunta": "66.- ¿De qué dos clases pueden ser los cambios en el entorno a los que se refiere el mantenimiento adaptativo?",
+    "pregunta": "66.- ¿De qué dos clases pueden ser los cambios en el entorno a los que se refi ere el mantenimiento adaptativo?",
     "opciones": {
       "A": "Entorno de los datos y el entorno de la programación.",
       "B": "Entorno de los procesos y el entorno del sistema operativo.",
-      "C": "Entorno del hardware y el entorno del software."
+      "C": "Entorno del hardware y el entorno del software.",
+      "D": "Entorno de los datos y el entorno de los procesos."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 67,
@@ -864,20 +868,20 @@
       "D": "Todas las anteriores son correctas."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 68,
     "idpregunta": 68,
-    "pregunta": "68.- Segun las Leyes de Lehman sobre el mantenimiento del software, la Ley de Continuidad del Cambio establece que:",
+    "pregunta": "68.- Según las Leyes de Lehman sobre el mantenimiento del software, la Ley de Continuidad del Cambio establece que:",
     "opciones": {
-      "A": "Que tan pronto como un programa ha sido escrito, esta ya desfasado.",
-      "B": "Que cuando hay cambios en un programa la estructura se hace mas compleja.",
-      "C": "Que la evolucion de un programa es un proceso autorregulado.",
+      "A": "Que tan pronto como un programa ha sido escrito, está ya desfasado.",
+      "B": "Que cuando hay cambios en un programa la estructura se hace más compleja.",
+      "C": "Que la evolución de un programa es un proceso autorregulado.",
       "D": "Que a lo largo del tiempo de vida de un programa, la carga que supone el desarrollo del programa es constante."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "A",
+    "metodo": "acierto"
   },
   {
     "num": 69,
@@ -890,7 +894,7 @@
       "D": "Todas las anteriores son correctas."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 70,
@@ -903,7 +907,7 @@
       "D": "NINGUNA de las anteriores es correcta."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 71,
@@ -913,10 +917,10 @@
       "A": "Obtener el producto o servicio de acuerdo a los requisitos de la persona compradora.",
       "B": "Proveer un producto o servicio a la persona compradora, que cumpla con los requisitos acordados.",
       "C": "Proveer la infraestructura y los servicios de los proyectos.",
-      "D": "a) y b) son correctas."
+      "D": "a) y b) son correctas. 14"
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 72,
@@ -924,12 +928,12 @@
     "pregunta": "72.- ¿Cuál de estas tareas pertenece a la fase de implementación del proceso de la estructura de mantenimiento que propone la norma ISO/IEC 14764?",
     "opciones": {
       "A": "Desarrollar, documentar y ejecutar planes y procedimientos para dirigir las actividades y tareas del proceso de mantenimiento.",
-      "B": "Definir procedimiento para recibir, almacenar y controlar los informes de problemas y solicitudes de modificación de las personas usuarias, y proporcionar a éstas retroalimentación.",
+      "B": "Definir procedimiento para recibir, almacenar y controlar los informes de problemas y s olicitudes de modificación de la s personas usuarias, y proporcionar a ésta s retroalimentación.",
       "C": "Implementar o establecer una interfaz con el proceso de gestión de configuración, para gestionar las modificaciones del sistema existente.",
       "D": "Todas las anteriores son correctas."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 73,
@@ -942,12 +946,12 @@
       "D": "Controlar los elementos y las configuraciones del sistema."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 74,
     "idpregunta": 74,
-    "pregunta": "74.- ¿Qué actividad se encarga de obtener los recursos necesarios para soportar el sistema de software durante todo su ciclo de vida?",
+    "pregunta": "74.- ¿Qué actividad se en carga de obtener los recursos necesarios para soportar el sistema de software durante todo su ciclo de vida?",
     "opciones": {
       "A": "Preparación del mantenimiento.",
       "B": "Ejecución del mantenimiento.",
@@ -955,7 +959,7 @@
       "D": "Gestión de resultados del mantenimiento."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 75,
@@ -963,12 +967,12 @@
     "pregunta": "75.- ¿Cuándo se realiza la migración de un software?",
     "opciones": {
       "A": "Cuando el software ha llegado al final de su vida útil.",
-      "B": "Cuando el sistema debe adaptarse para funcionar en un nuevo entorno (hardware, sistema operativo, plataforma, infraestructura...).",
+      "B": "Cuando el sistema debe adaptarse para funcionar en un nuevo entorno (hardware, sistema operativo, plataforma, infraestructura…).",
       "C": "Cuando es necesario analizar el software para decidir si debe retirarse o no.",
       "D": "NINGUNA de las anteriores es correcta."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 76,
@@ -978,10 +982,10 @@
       "A": "Navegación InPrivate.",
       "B": "Filtro Microsoft Defender SmartScreen.",
       "C": "Windows Defender Credential Guard.",
-      "D": "Firewall de Windows Defender."
+      "D": "Firewall de Windows Defender. 15"
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 77,
@@ -991,10 +995,10 @@
       "A": "Windows Configuration Designer para exportar e importar perfiles durante el aprovisionamiento.",
       "B": "User State Migration Tool (USMT) incluida en el Windows Assessment and Deployment Kit.",
       "C": "Windows Deployment Services (WDS) utilizando imágenes de arranque personalizadas para transferir automáticamente los perfiles.",
-      "D": "Microsoft Deployment Toolkit (MDT) usando una tarea de actualización in-place para migrar los perfiles."
+      "D": "Microsoft Deployment Toolkit (MDT) usando una tarea de actualización in -place para migrar los perfiles."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 78,
@@ -1007,7 +1011,7 @@
       "D": "Autenticación biométrica."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 79,
@@ -1020,7 +1024,7 @@
       "D": "Una tarjeta inteligente conectada por USB."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 80,
@@ -1033,7 +1037,7 @@
       "D": "Imágenes de inicio."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 81,
@@ -1046,7 +1050,7 @@
       "D": "BCDBoot."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 82,
@@ -1054,12 +1058,12 @@
     "pregunta": "82.- ¿Qué permite el SideLoading de aplicaciones en Windows 11?",
     "opciones": {
       "A": "Instalar apps de la tienda oficial.",
-      "B": "Crear cuentas empresariales.",
+      "B": "Crear cuentas empresariales. 16",
       "C": "Gestionar actualizaciones de drivers.",
-      "D": "Instalar aplicaciones de prueba sin certificacion."
+      "D": "Instalar aplicaciones de prueba sin certificación."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 83,
@@ -1072,7 +1076,7 @@
       "D": "Requiere licencia Enterprise para cualquier uso."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 84,
@@ -1085,7 +1089,7 @@
       "D": "PnPUtil."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 85,
@@ -1098,7 +1102,7 @@
       "D": "Netsh."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 86,
@@ -1111,7 +1115,7 @@
       "D": "Wi-Fi Direct Printing."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 87,
@@ -1124,7 +1128,7 @@
       "D": "ServerScope."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 88,
@@ -1132,12 +1136,12 @@
     "pregunta": "88.- En Windows 11, ¿qué herramienta controla la ejecución de aplicaciones basándose en reglas?",
     "opciones": {
       "A": "Windows Defender SmartScreen.",
-      "B": "AppLocker.",
+      "B": "AppLocker. 17",
       "C": "Device Guard.",
       "D": "Credential Guard."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 89,
@@ -1150,7 +1154,7 @@
       "D": "Network Domain Controller."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 90,
@@ -1163,7 +1167,7 @@
       "D": "La lista de exclusiones de direcciones."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 91,
@@ -1176,7 +1180,7 @@
       "D": "Un tiempo de concesión de direcciones extendido."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 92,
@@ -1189,7 +1193,7 @@
       "D": "Grupo Local."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 93,
@@ -1199,15 +1203,15 @@
       "A": "Servicio Kerberos.",
       "B": "Servicio Netlogon.",
       "C": "Servicio DNS.",
-      "D": "Servicio Active Directory."
+      "D": "Servicio Active Directory. 18"
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 94,
     "idpregunta": 94,
-    "pregunta": "94.- En Windows Server 2022, en un dominio de Active Directory, una persona usuaria **pertenece a una Unidad Organizativa (OU) llamada “Pediatría”. Existen** las siguientes Directivas de Grupo (GPO): ● Una GPO vinculada al Sitio que configura el fondo de pantalla en azul. ● Una GPO vinculada al Dominio que configura el fondo de pantalla en verde. ● **Una GPO vinculada a la OU “Pediatría” que configura el fondo de** pantalla en rojo. **No hay herencia bloqueada ni “Enforced” activado en NINGUNA GPO. ¿Cuál será** el color del fondo de pantalla que recibirá la persona usuaria?",
+    "pregunta": "94.- En Windows Server 2022, en un dominio de Active Directory, una persona usuaria pertenece a una Unidad Organizativa (OU) llamada “Pediatría”. Existen las siguientes Directivas de Grupo (GPO): ● Una GPO vinculada al Sitio que configura el fondo de pantalla en azul. ● Una GPO vinculada al Dominio que configura el fondo de pantalla en verde. ● Una GPO vinculada a la OU “Pediatría” que configura el fondo de pantalla en rojo. No hay herencia bloqueada ni “Enforced” activado en NINGUNA GPO. ¿Cuál será el color del fondo de pantalla que recibirá la persona usuaria?",
     "opciones": {
       "A": "Depende del controlador de dominio que autentique a la persona usuaria.",
       "B": "Azul.",
@@ -1215,7 +1219,7 @@
       "D": "Rojo."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 95,
@@ -1228,7 +1232,7 @@
       "D": "Mantener las referencias entre dominios."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 96,
@@ -1241,7 +1245,7 @@
       "D": "Replicar completamente todos los objetos entre controladores de dominio."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 97,
@@ -1251,10 +1255,10 @@
       "A": "La DACL se almacena dentro del token de acceso de la persona usuaria y se genera en el momento del inicio de sesión.",
       "B": "El token de acceso contiene los SID de la persona usuaria y sus grupos, y se comparan con los de la DACL cuando se intenta acceder a un recurso.",
       "C": "El token de acceso solo se utiliza para autenticación, mientras que la DACL solo interviene en la auditoría.",
-      "D": "La DACL determina qué grupos aparecerán en el token de acceso durante el inicio de sesión."
+      "D": "La DACL determina qué grupos aparecerán en el token de acc eso durante el inicio de sesión. 19"
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 98,
@@ -1267,7 +1271,7 @@
       "D": "Los archivos adml solo se utilizan cuando el dominio está en nivel funcional 2022."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 99,
@@ -1276,11 +1280,11 @@
     "opciones": {
       "A": "Default Domain Policy se aplica únicamente a los controladores de dominio, mientras que Default Domain Controllers Policy se aplica a todas las personas usuarias y equipos del dominio.",
       "B": "Default Domain Controllers Policy se aplica a nivel de sitio, mientras que Default Domain Policy solo se aplica a OUs específicas.",
-      "C": "Default Domain Policy se aplica a todos los objetos del dominio y generalmente configura directivas de contraseña y bloqueo de cuenta, mientras que Default Domain Controllers Policy se aplica solo a los controladores de dominio y suele configurar directivas de auditoría y de inicio de sesión.",
+      "C": "Default Domain Policy se aplica a todos los objetos del dominio y generalmente configura directivas de contraseña y bloqueo de cuenta, mientras que Default Domain Controllers Policy se aplica solo a los controladores de dominio y suele confi gurar directivas de auditoría y de inicio de sesión.",
       "D": "Ambas políticas son idénticas y se aplican de forma redundante a todos los objetos del dominio."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 100,
@@ -1290,23 +1294,23 @@
       "A": "Duplica todos los datos en otro disco, tolerando fallos de hasta dos discos.",
       "B": "Requiere solo 2 discos y mantiene rendimiento de escritura igual a lectura.",
       "C": "Aumenta capacidad sin tolerancia a fallos, como RAID 0.",
-      "D": "Distribuye datos y paridad entre los discos, permitiendo que el sistema siga operativo si falla un disco."
+      "D": "Distribuye datos y paridad entre los discos, permitiendo que el sistema siga operativo si falla un disco. 20"
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 101,
     "idpregunta": 101,
-    "pregunta": "101.- En una organización, la persona administradora gestiona los permisos de acceso a los documentos almacenados en OneDrive para la Empresa. Una persona trabajadora quiere compartir un archivo con algunos/as compañeros/as, pero mantenerlo inaccesible para el resto de la empresa. Según el funcionamiento descrito, ¿cuál de las siguientes afirmaciones refleja correctamente cómo se gestionan estos permisos?",
+    "pregunta": "101.- En una organización, la persona administradora gestiona los permisos de acceso a los documentos almacenados en OneDrive para la Empresa. Una persona trabajadora quiere compartir un archivo con algunos /as compañeros/as, pero mantenerlo inaccesible para el resto de la empresa. Según el funcionamiento descrito, ¿cuál de las siguientes afirmaciones refleja correctamente cómo se gestionan estos permisos?",
     "opciones": {
       "A": "Una vez subido un archivo a OneDrive para la Empresa, automáticamente todas las personas de la organización tienen acceso de lectura, sin posibilidad de restricciones individuales.",
       "B": "El sistema no permite compartir archivos de forma selectiva; únicamente se pueden compartir bibliotecas completas con toda la organización.",
-      "C": "Las personas usuarias pueden guardar sus archivos profesionales y decidir compartirlos o no con sus colaboradores/as, pero los derechos y autorizaciones sobre el contenido de la biblioteca son gestionados por el/la administrador/a del sitio SharePoint.",
-      "D": "Las personas usuarias pueden guardar sus archivos profesionales, pero tanto la decisión de poder compartir con otros colaboradores/as como los derechos y autorizaciones sobre el contenido de la biblioteca son gestionados por la persona administradora del sitio SharePoint."
+      "C": "Las personas usuaria s pueden guardar sus archivos profesionales y decidir compartirlos o no con sus colaboradores/as, pero los derechos y autorizaciones sobre el contenido de la biblioteca son gestionados por el /la administrador/a del sitio SharePoint.",
+      "D": "Las personas usuaria s pueden guardar sus archivos profesionales, pero tanto la decisión de poder compartir con otros colaboradores /as como los derechos y autorizaciones sobre el contenido de la bi blioteca son gesti onados por la persona administradora del sitio SharePoint."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 102,
@@ -1319,7 +1323,7 @@
       "D": "Se denomina ruta de acceso rápido."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 103,
@@ -1331,19 +1335,21 @@
       "C": "La ordenación por tipo de archivos y por nombre de autor.",
       "D": "La ordenación por tamaño de archivo y fecha de modificación."
     },
-    "correcta": "B",
-    "metodo": "estimado_manual"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 104,
     "idpregunta": 104,
-    "pregunta": "104.- Una persona responsable de TI de una empresa está evaluando si el Almacén personal de OneDrive puede ser utilizado por los/as empleados/as para guardar documentación sensible corporativa. ¿En qué planes de suscripción está disponible esta funcionalidad?",
+    "pregunta": "104.- Una persona responsable de TI de una empresa está evaluando si el Almacén personal de OneDrive puede ser utilizado por los /as empleados/as para guardar documentación sensible corporativa. ¿En qué planes de suscripción está disponible esta funcionalidad?",
     "opciones": {
       "A": "En los planes Microsoft 365 Familia y Personal, no en OneDrive para la Empresa ni en suscripciones para grandes empresas o educativas.",
-      "B": "En todos los planes de Microsoft 365, incluyendo OneDrive para la Empresa y los planes educativos."
+      "B": "En todos los planes de Microsoft 365, incluyendo OneDrive para la Empresa y los planes educativos. 21",
+      "C": "En los planes Microsoft 365 Empresa Básico y Empresa Estándar, pero no en los planes personales ni familiares.",
+      "D": "En los planes Microsoft 365 Empresa únicamente si el administrador del tenant de Microsoft 365 lo habilita expresamente desde el centro de administración corporativo."
     },
-    "correcta": "B",
-    "metodo": "estimado_manual"
+    "correcta": "A",
+    "metodo": "acierto"
   },
   {
     "num": 105,
@@ -1356,33 +1362,33 @@
       "D": "Sí es posible, siempre que la persona administradora haya autorizado compartir con personas usuarias externas, que recibirán el acceso mediante un vínculo por correo electrónico como invitadas anónimas."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 106,
     "idpregunta": 106,
-    "pregunta": "106.- Una empresa necesita crear un sitio SharePoint para gestionar grandes volúmenes de datos entrantes, configurar reglas que dirijan automáticamente esos archivos a ubicaciones específicas, y administrar modificaciones sobre los datos una vez añadidos al sistema. ¿Qué tipo de sitio SharePoint cubre estas necesidades?",
+    "pregunta": "106.- Una empresa necesita crear un sitio SharePoint para gestionar grandes volúmenes de datos entrantes, configurar reglas que dirijan automáticamente esos archivos a ubicaciones específicas, y administrar modifi caciones sobre los datos una vez añadidos al sistema. ¿Qué tipo de sitio SharePoint cubre estas necesidades?",
     "opciones": {
       "A": "Un centro de documentos, ya que está diseñado para la gestión centralizada de documentos de la empresa y permite configurar reglas de enrutamiento para dirigir los archivos a las ubicaciones correspondientes.",
       "B": "Un centro de datos, ya que permite crear un sitio diseñado para la gestión de datos, configurar tablas de enrutamiento para enviar archivos entrantes a ubicaciones específicas y administrar la eliminación o modificación de datos tras añadirlos al sistema de referencia.",
       "C": "Un sitio de proyecto, ya que reúne todos los estados y artefactos del proyecto en un entorno único, incluyendo herramientas para gestionar y redirigir los datos entrantes de forma automatizada.",
       "D": "Un centro de investigación de base, ya que proporciona funciones avanzadas de búsqueda y clasificación de datos, permitiendo además configurar reglas para dirigir automáticamente los archivos a las ubicaciones definidas."
     },
-    "correcta": "A",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 107,
     "idpregunta": 107,
-    "pregunta": "107.- Varias personas de un equipo necesitan modificar el mismo archivo almacenado en una biblioteca de documentos SharePoint. ¿Qué es preferible hacer para evitar que varias personas usuarias realicen modificaciones simultáneas sobre el mismo archivo?",
+    "pregunta": "107.- Varias personas de un equipo necesitan modificar el mismo archivo almacenado en una biblioteca de documentos SharePoint. ¿Qué es preferible hacer para evitar que varias personas usuaria s realicen modificaciones simultáneas sobre el mismo archivo?",
     "opciones": {
-      "A": "Extraer el archivo del repositorio antes de abrirlo, de forma que ninguna otra persona usuaria pueda modificarlo mientras esté extraído, e insertarlo de nuevo una vez guardados los cambios para que todas puedan ver las modificaciones.",
-      "B": "Abrir el archivo directamente desde la biblioteca y activar el modo de edicion exclusiva desde las opciones del documento, que bloqueara automaticamente el acceso al resto de personas usuarias mientras este abierto.",
-      "C": "Crear una copia local del archivo, realizar las modificaciones necesarias y subir la nueva version a la biblioteca, sobreescribiendo la anterior para que el resto de personas usuarias accedan a la version actualizada.",
-      "D": "Compartir el archivo con permisos de solo lectura para el resto de personas usuarias mientras una persona del equipo lo edita, y restablecer los permisos de edicion una vez finalizados los cambios."
+      "A": "Extraer el archivo del repositorio antes de abrirlo, de forma que ninguna otra persona usuaria pueda modificarlo mientras esté extraído, e insertarlo de nuevo una vez guardados los cambios para que todas puedan ver las modificaciones. 22",
+      "B": "Abrir el archivo directamente desde la bibli oteca y activar el modo de edición exclusiva desde las opciones del documento, que bloqueará automáticamente el acceso al resto de personas usuarias mientras esté abierto.",
+      "C": "Crear una copia local del archivo, realizar las modificaciones necesarias y subir la nueva versión a la biblioteca, sobreescribiendo la anterior para que el resto de personas usuarias accedan a la versión actualizada.",
+      "D": "Compartir el archivo con permisos de solo lectura para el resto de personas usuarias mientras una persona del equipo lo edita, y restablecer los permisos de edición una vez finalizados los cambios."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 108,
@@ -1395,7 +1401,7 @@
       "D": "Puede recibir un aviso por correo electrónico o por SMS cada vez que se realice una modificación en dicho archivo, tras crear una alerta sobre el mismo."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 109,
@@ -1408,25 +1414,25 @@
       "D": "Depende del estado de la tarea: las tareas completadas se representan con un rombo y las pendientes con un círculo en la escala de tiempo."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 110,
     "idpregunta": 110,
     "pregunta": "110.- Una persona usuaria acaba de crear un nuevo sitio Wiki en SharePoint y observa que al acceder a él se muestra automáticamente una página por defecto. ¿Cómo se denomina técnicamente esta página y qué características tiene?",
     "opciones": {
-      "A": "Se denomina Home.aspx; es la primera página del sitio que aparece al acceder a él y, aunque al crear el sitio se propone una versión estándar, puede modificarse o eliminarse y sustituirse por otra.",
-      "B": "Se denomina Index.aspx; es la primera pagina del sitio que aparece al acceder a el y, aunque al crear el sitio se propone una version estandar, puede modificarse o eliminarse y sustituirse por otra.",
-      "C": "Se denomina Index.aspx y es una pagina generada automaticamente que recoge un indice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada.",
-      "D": "Se denomina Home.aspx y es una pagina generada automaticamente que recoge un indice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada."
+      "A": "Se denomina Home.aspx; es la primera página del sitio que aparece al acceder a él y, aunque al crear el sitio se propone una versión estándar, puede modificarse o eliminarse y sustituirse por otra. 23",
+      "B": "Se denomina Index.aspx; es la primera página del sitio que aparece al acceder a él y, aunque al crear el sitio se propone una versión estándar, puede modificarse o eliminarse y sustituirse por otra.",
+      "C": "Se denomina Index.aspx y es una página generada automáticamente que recoge un índice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada.",
+      "D": "Se denomina Home.aspx y es una página generada automáticamente que recoge un índice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 111,
     "idpregunta": 111,
-    "pregunta": "111.- Microsoft Teams es una plataforma de trabajo colaborativo que pone a disposición de sus personas usuarias una serie de herramientas y servicios. ¿Cuál de las siguientes opciones describe correctamente las tareas que pueden realizar las personas de un equipo en Teams?",
+    "pregunta": "111.- Microsoft Teams es una plataforma de trabajo colaborativo que pone a disposición de sus personas usuarias una serie de herramientas y servicios. ¿Cuál de las siguientes opciones describe correctamente l as tareas que pueden realizar las personas de un equipo en Teams?",
     "opciones": {
       "A": "Conversar por mensajería instantánea, gestionar el correo electrónico corporativo, transferir archivos, administrar los permisos de acceso a documentos y planificar reuniones de equipo.",
       "B": "Acceder a información del equipo, transferir archivos, consultar el historial de conversaciones, crear sitios SharePoint y administrar las suscripciones de Microsoft 365 del equipo.",
@@ -1434,7 +1440,7 @@
       "D": "Conversar por mensajería instantánea, transferir archivos, consultar el historial de conversaciones, gestionar las licencias de usuario y coeditar historiales compartidos del equipo."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 112,
@@ -1442,12 +1448,12 @@
     "pregunta": "112.- La persona propietaria de un equipo en Microsoft Teams quiere revisar qué aspectos puede gestionar desde la configuración del equipo. ¿Cuál de las siguientes opciones describe correctamente las posibilidades que ofrece dicha configuración?",
     "opciones": {
       "A": "Modificar la imagen asociada al equipo, gestionar el calendario compartido, administrar las autorizaciones de las personas miembro y configurar las notificaciones de correo electrónico del equipo.",
-      "B": "Administrar las autorizaciones de las personas miembro, gestionar el calendario compartido, configurar los canales privados, gestionar las reuniones programadas del equipo y autorizar el uso de emojis y GIF animados y pegatinas.",
-      "C": "Modificar la imagen asociada al equipo, gestionar el calendario compartido, administrar las licencias de Microsoft 365 de las personas miembro, activar o desactivar las menciones y gestionar el almacenamiento de archivos del equipo.",
-      "D": "Modificar la imagen asociada al equipo, administrar las autorizaciones de las personas miembro, activar o desactivar las menciones a equipos y canales, y autorizar el uso de emojis, GIF animados y pegatinas."
+      "B": "Administrar las autorizaciones de las personas miembro , gestionar el calendario compartido, configurar los canales privados, gestionar las reuniones programadas del equipo y autorizar el uso de emojis y GIF animados y pegatinas.",
+      "C": "Modificar la imagen asociada al equipo, gestionar el calendario compartido, administrar las l icencias de Microsoft 365 de las personas m iembro, activar o desactivar las menciones y gestionar el almacenamiento de archivos del equipo.",
+      "D": "Modificar la imagen asociada al equipo, admi nistrar las autorizaciones de la s personas miembro, activar o desactivar las menciones a equipos y canales, y autorizar el uso de emojis, GIF animados y pegatinas. 24"
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 113,
@@ -1460,7 +1466,7 @@
       "D": "Se puede añadir hasta 300 canales por equipo, incluidos los canales eliminados que se pueden restaurar en un plazo de 60 días."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 114,
@@ -1473,7 +1479,7 @@
       "D": "Como la eliminación de todas las amenazas externas que afectan al hardware."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 115,
@@ -1486,7 +1492,7 @@
       "D": "Como el uso de técnicas criptográficas para garantizar el anonimato de la persona usuaria."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 116,
@@ -1499,7 +1505,7 @@
       "D": "Cumplimiento y adaptación a la legislación vigente como la LOPD y el Código Penal."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 117,
@@ -1508,11 +1514,11 @@
     "opciones": {
       "A": "Que la identidad de la persona creadora de un mensaje o documento es legítima.",
       "B": "Que un mensaje o fichero no ha sido modificado desde su creación.",
-      "C": "Que cada mensaje transmitido o almacenado en un sistema informático sólo podrá ser leído por su legítimo destinatario.",
-      "D": "Que el sistema sea lo suficientemente robusto frente a ataques e interferencias."
+      "C": "Que cada mensaje transmitido o almacenado en un sistema in formático sólo podrá ser leído por su legítimo destinatario.",
+      "D": "Que el sistema sea lo suficientemente robusto frente a ataques e interferencias. 25"
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 118,
@@ -1520,12 +1526,12 @@
     "pregunta": "118.- ¿En qué consiste el objeto del servicio de \"No repudiación\"?",
     "opciones": {
       "A": "En implementar un mecanismo probatorio que permita demostrar la autoría y envío de un determinado mensaje.",
-      "B": "En controlar el acceso de las personas usuarias a los distintos equipos y servicios ofrecidos.",
+      "B": "En controlar el acceso de la s personas usuarias a los distintos equipos y servicios ofrecidos.",
       "C": "En registrar y monitorizar la utilización de los distintos recursos del sistema.",
-      "D": "En probar que un contenido digital pertenece a una persona titular de derechos de autor."
+      "D": "En probar que un contenido digital pertenece a un a persona titular de derechos de autor."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 119,
@@ -1538,7 +1544,7 @@
       "D": "Como el cifrado de todos los datos sensibles transmitidos por Internet."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 120,
@@ -1551,7 +1557,7 @@
       "D": "La adaptación a los requisitos del marco legal y de las exigencias de los/las clientes."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 121,
@@ -1564,7 +1570,7 @@
       "D": "La medición y valoración del daño que produciría un incidente de seguridad."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 122,
@@ -1574,10 +1580,10 @@
       "A": "El impacto económico derivado de la falta de medidas preventivas.",
       "B": "La materialización de una amenaza.",
       "C": "Una debilidad en los sistemas físicos o lógicos de la empresa.",
-      "D": "Un medio empleado para eliminar o reducir un riesgo identificado."
+      "D": "Un medio empleado para eliminar o reducir un riesgo identificado. 26"
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 123,
@@ -1590,20 +1596,20 @@
       "D": "Una técnica para monitorizar los registros de actividad de los equipos."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 124,
     "idpregunta": 124,
-    "pregunta": "124.- En la jerarquia de conceptos de seguridad, ¿que elemento constituye la base de la piramide y sirve para dejar constancia de las tareas realizadas?",
+    "pregunta": "124.- En la jerarquía de conceptos de seguridad, ¿qué elemento constituye la base de la pirámide y sirve para dejar constancia de las tareas realizadas?",
     "opciones": {
       "A": "Procedimientos de Seguridad.",
       "B": "Planes de Contingencia.",
       "C": "Registros / Evidencias.",
-      "D": "Politicas de Seguridad."
+      "D": "Políticas de Seguridad."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 125,
@@ -1616,7 +1622,7 @@
       "D": "Control de Acceso Discrecional por Propietario/a."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 126,
@@ -1629,59 +1635,59 @@
       "D": "Requiere un disco dedicado exclusivamente para el almacenamiento de paridad."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 127,
     "idpregunta": 127,
-    "pregunta": "127.- ¿Que nivel de RAID se destaca por ofrecer actualmente la mejor \"relacion rendimiento-coste\" para aplicaciones empresariales?",
+    "pregunta": "127.- ¿Qué nivel de RAID se destaca por ofrecer actualmente la mejor \"relación rendimiento-coste\" para aplicaciones empresariales?",
     "opciones": {
       "A": "RAID 0+1 / RAID 10",
       "B": "RAID 6 (Acceso independiente con doble paridad)",
-      "C": "RAID 2 (Acceso sincrono con codigo de errores)",
+      "C": "RAID 2 (Acceso síncrono con código de errores)",
       "D": "RAID 5"
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 128,
     "idpregunta": 128,
-    "pregunta": "128.- ¿Qué acción debe realizarse de forma inmediata en el sistema cuando un/una empleado/a causa baja en la organización?",
+    "pregunta": "128.- ¿Qué acción debe realizarse de forma inm ediata en el sistema cuando un/una empleado/a causa baja en la organización?",
     "opciones": {
-      "A": "Auditoria de las ultimas sesiones de acceso de la persona usuaria.",
-      "B": "Transferencia de sus ficheros personales a un soporte desmagnetizado.",
-      "C": "Cancelacion o bloqueo inmediato de las cuentas de una persona usuaria.",
-      "D": "Cambio de contrasena de acceso al BIOS de su estacion de trabajo."
+      "A": "Auditoría de las últimas sesiones de acceso de la persona usuaria.",
+      "B": "Transferencia de sus ficheros personales a un soporte desmagnetizado. 27",
+      "C": "Cancelación o bloqueo inmediato de las cuentas de una persona usuaria.",
+      "D": "Cambio de contraseña de acceso al BIOS de su estación de trabajo."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 129,
     "idpregunta": 129,
-    "pregunta": "129.- Dentro de los factores de autenticación, ¿cuál es un ejemplo textual de \"Lo que se",
+    "pregunta": "129.- Dentro de los factores de autenticación, ¿cuál es un ejemplo textual de \"Lo que se sabe\"?",
     "opciones": {
       "A": "Tarjeta inteligente (smartcard) o token USB.",
-      "B": "Caracteristicas biometricas como el iris o la voz.",
+      "B": "Características biométricas como el iris o la voz.",
       "C": "Firma manuscrita.",
-      "D": "Contrasenas (passwords) y PINs."
+      "D": "Contraseñas (passwords) y PINs."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 130,
     "idpregunta": 130,
-    "pregunta": "130.- ¿Cómo se clasifica la información cuya divulgación podría ocasionar \"daños",
+    "pregunta": "130.- ¿Cómo se clasifica la información cuya divulgación podría ocasionar \"daños significativos\" para la organización?",
     "opciones": {
-      "A": "Informacion de uso interno.",
-      "B": "Informacion secreta o reservada.",
-      "C": "Informacion desclasificada.",
-      "D": "Informacion confidencial."
+      "A": "Información de uso interno.",
+      "B": "Información secreta o reservada.",
+      "C": "Información desclasificada.",
+      "D": "Información confidencial."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 131,
@@ -1694,38 +1700,38 @@
       "D": "Encapsulamiento de protocolos no enrutables mediante túneles."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 132,
     "idpregunta": 132,
-    "pregunta": "132.- ¿Como se denomina al intervalo de tiempo transcurrido desde que se hace publica una vulnerabilidad hasta que se presenta la correspondiente actualizacion o parche de seguridad?",
+    "pregunta": "132.- ¿Cómo se denomina al intervalo de tiempo transcurrido desde que se hace pública una vulnerabilidad hasta que se presenta la correspondiente actualización o parche de seguridad?",
     "opciones": {
-      "A": "Dias de riesgo.",
-      "B": "Periodo de exposicion.",
+      "A": "Días de riesgo.",
+      "B": "Periodo de exposición.",
       "C": "Ventana de vulnerabilidad.",
-      "D": "Tiempo de respuesta tecnica."
+      "D": "Tiempo de respuesta técnica."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 133,
     "idpregunta": 133,
-    "pregunta": "133.- ¿Qué técnica de espionaje empresarial consiste en la búsqueda de información sensible en copias generadas en papel que han sido descartadas?",
+    "pregunta": "133.- ¿Qué técnica de espionaje empresarial consiste en la búsqueda de i nformación sensible en copias generadas en papel que han sido descartadas?",
     "opciones": {
       "A": "Trash scanning.",
       "B": "Paper tracking.",
       "C": "Dumpster diving.",
-      "D": "Scraping físico."
+      "D": "Scraping físico. 28"
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 134,
     "idpregunta": 134,
-    "pregunta": "134.- Segun la Ley General de Telecomunicaciones de Espana (32/2003), ¿que obligacion puede imponer el Estado a los organismos publicos o fabricantes en relacion con el cifrado?",
+    "pregunta": "134.- Según la Ley General de Telecomunicaciones de España (32/2003), ¿qué obligación puede imponer el Estado a los organismos públicos o fabricantes en relación con el cifrado?",
     "opciones": {
       "A": "Entregar copias de seguridad de todas las claves privadas.",
       "B": "Utilizar exclusivamente algoritmos de cifrado de flujo.",
@@ -1733,7 +1739,7 @@
       "D": "Facilitar sin coste alguno los aparatos de cifrado a efectos de su control."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 135,
@@ -1746,7 +1752,7 @@
       "D": "Durante el mantenimiento correctivo."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 136,
@@ -1759,7 +1765,7 @@
       "D": "Remote cell control."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 137,
@@ -1768,11 +1774,11 @@
     "opciones": {
       "A": "OSSTMM.",
       "B": "Owasp",
-      "C": "NIST SP 800- 42",
+      "C": "NIST SP 800-42",
       "D": "EISPP"
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 138,
@@ -1782,23 +1788,23 @@
       "A": "Nessus Scripting Tool (NST).",
       "B": "NASL (Nessus Attack Scripting Language).",
       "C": "Vulnerability Definition Language (VDL).",
-      "D": "Nessus Core Script."
+      "D": "Nessus Core Script. 29"
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 139,
     "idpregunta": 139,
-    "pregunta": "139.- ¿A que tipo de tratamiento de datos personales resultara de aplicacion el Reglamento (UE) 2016/679 relativo a la proteccion de las personas fisicas?",
+    "pregunta": "139.- ¿A qué tipo de tratamiento de datos personales resultará de aplicación el Reglamento (UE) 2016/679 relativo a la protección de las personas físicas?",
     "opciones": {
-      "A": "Al tratamiento total o parcialmente automatizado de datos personales, asi como al tratamiento no automatizado de datos personales contenidos o destinados a ser incluidos en un fichero.",
-      "B": "Al tratamiento realizado en el ejercicio de una actividad no comprendida en el ambito de aplicacion del Derecho de la Union.",
-      "C": "Al tratamiento efectuado por parte de las autoridades competentes con fines de prevencion, investigacion, deteccion o enjuiciamiento de infracciones penales, o de ejecucion de sanciones penales, incluida la de proteccion frente a amenazas a la seguridad publica y su prevencion.",
-      "D": "Al tratamiento efectuado por una persona fisica en el ejercicio de actividades exclusivamente personales o domesticas."
+      "A": "Al tratamiento total o parcialmente automatizado de datos personales, así como al tratamiento no automatizado de datos personales contenidos o destinados a ser incluidos en un fichero.",
+      "B": "Al tratamiento realizado en el ejercicio de una actividad no comprendida en el ámbito de aplicación del Derecho de la Unión.",
+      "C": "Al t ratamiento efectuado por parte de las autoridades competentes con fines de prevención, investigación, detección o enjuiciamiento de infracciones penales, o de ejecución de sanciones penales, incluida la de protección frente a amenazas a la seguridad pública y su prevención.",
+      "D": "Al tratamiento efectuado por una persona física en el ejercicio de actividades exclusivamente personales o domésticas."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 140,
@@ -1806,12 +1812,12 @@
     "pregunta": "140.- ¿Qué exige el principio de «integridad y confidencialidad» respecto al tratamiento de datos personales según el Reglamento (UE) 2016/679?",
     "opciones": {
       "A": "Que los datos sean exactos y, si fuera necesario, se mantengan actualizados, adoptando todas las medidas razonables para que se supriman o rectifiquen sin dilación los datos personales que sean inexactos con respecto a los fines para los que se tratan.",
-      "B": "Que los datos sean tratados de tal manera que se garantice una seguridad adecuada, incluida la protección contra el tratamiento no autorizado o ilícito y contra su pérdida, destrucción o daño accidental, mediante la aplicación de medidas técnicas u organizativas apropiadas.",
+      "B": "Que los datos sean tratados de tal manera que se garantice una seguridad adecuada, incluida la protección contra el tratamiento no autorizado o ilícito y contra su pérdida, destrucción o daño accidental, mediante la aplicación de me didas técnicas u organizativas apropiadas.",
       "C": "Que los datos sean mantenidos de forma que se permita la identificación de las personas interesadas durante un plazo indefinido, sin atender a la necesidad del tratamiento de los datos personales ni a las medidas técnicas y organizativas que impone el presente Reglamento.",
       "D": "Que los datos sean recogidos con fines determinados, explícitos y legítimos, y no sean tratados ulteriormente de manera incompatible con dichos fines, salvo que se traten con fines de archivo en interés público, de investigación científica o histórica."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 141,
@@ -1821,10 +1827,10 @@
       "A": "Que la niña o el niño tenga como mínimo 14 años, sin que los Estados miembros puedan establecer por ley una edad inferior a tales fines.",
       "B": "Que el servicio sea gratuito y no implique la elaboración de perfiles comerciales.",
       "C": "Que el niño o la niña haya leído y aceptado las condiciones de privacidad de forma autónoma, siempre que tenga como mínimo 14 años de edad.",
-      "D": "Que la niña o el niño tenga como mínimo 16 años, o si es menor a dicha edad, que el consentimiento lo diera o autorizara el titular de la patria potestad o tutela."
+      "D": "Que la niña o el niño tenga como mínimo 16 años, o si es menor a dicha edad, que el consentimiento lo diera o autorizara el titular de la patria potestad o tutela. 30"
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 142,
@@ -1833,24 +1839,24 @@
     "opciones": {
       "A": "La fuente de la que proceden los datos personales y si estos proceden de fuentes de acceso público.",
       "B": "Los fines del tratamiento a que se destinan los datos personales y la base jurídica del tratamiento.",
-      "C": "Las categorías de datos personales de que se trate y el historial de tratamientos anteriores de la persona interesada.",
+      "C": "Las categorías de datos personales de que se trate y el historia l de tratamientos anteriores de la persona interesada.",
       "D": "La descripción general de las medidas técnicas y organizativas de seguridad adoptadas para garantizar la resiliencia de los sistemas de tratamiento de datos."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 143,
     "idpregunta": 143,
-    "pregunta": "143.- ¿Qué información específica, entre otras, tiene derecho a obtener la persona interesada del responsable del tratamiento cuando ejerce su derecho de acceso al amparo del Reglamento (UE) 2016/679?",
+    "pregunta": "143.- ¿Qué información específica, entre ot ras, tiene derecho a obtener la persona interesada del responsable del tratamiento cuando ejerce su derecho de acceso al amparo del Reglamento (UE) 2016/679?",
     "opciones": {
-      "A": "Las personas destinatarias o las categorías de personas destinatarias a las que se comunicaron o serán comunicados los datos personales, en particular personas destinatarias en terceros u organizaciones internacionales.",
+      "A": "Las personas destinataria s o las categorías de personas destinataria s a las que se comunicaron o serán comunicados los datos personales, en particular personas destinatarias en terceros u organizaciones internacionales.",
       "B": "Cuando los datos personales no se hayan obtenido de la persona interesada, los datos personales de la persona representante de la persona destinataria.",
       "C": "La identificación pormenorizada de la ubicación física de los servidores y la dirección del centro de procesamiento de datos donde se encuentran alojados sus datos personales.",
       "D": "La descripción técnica del estándar de seguridad y el algoritmo de cifrado específico aplicado para garantizar la resiliencia de sus datos personales."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 144,
@@ -1863,20 +1869,20 @@
       "D": "Cuando los datos personales ya no sean necesarios en relación con los fines para los que fueron recogidos o tratados de otro modo."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 145,
     "idpregunta": 145,
-    "pregunta": "145.- De acuerdo con el texto del Reglamento (UE) 2016/679, ¿en qué formato tendrá derecho a recibir la persona interesada sus datos personales al ejercer el derecho a la portabilidad?",
+    "pregunta": "145.- De acuerdo con el texto del Reglamento (UE) 2016/679, ¿en qué form ato tendrá derecho a recibir la persona interesada sus datos personales al ejercer el derecho a la portabilidad?",
     "opciones": {
       "A": "En cualquier formato que el responsable considere oportuno, siempre que sea legible por el interesado.",
-      "B": "Unicamente en formato papel certificado y compulsado para garantizar su autenticidad.",
-      "C": "En un formato estructurado, de uso comun y lectura mecanica.",
+      "B": "Únicamente en formato papel certificado y compulsado para garantizar su autenticidad. 31",
+      "C": "En un formato estructurado, de uso común y lectura mecánica.",
       "D": "En un formato cifrado que solo pueda ser abierto por autoridades de control."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 146,
@@ -1889,38 +1895,38 @@
       "D": "El dictamen vinculante del Comité Europeo de Protección de Datos sobre la gravedad de la infracción y la propuesta de sanción administrativa correspondiente."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 147,
     "idpregunta": 147,
     "pregunta": "147.- En el marco del Reglamento (UE) 2016/679, ¿en qué circunstancia NO resulta obligatoria la comunicación individual de una violación de la seguridad de los datos personales a la persona interesada, a pesar de que sea probable que dicha violación entrañe un alto riesgo para sus derechos y libertades?",
     "opciones": {
-      "A": "Cuando la persona responsable demuestre haber aplicado medidas de protección técnicas y organizativas, en particular las que hagan los datos personales ininteligibles para cualquier persona no autorizada a su acceso, como el cifrado.",
+      "A": "Cuando la persona responsable d emuestre haber aplicado medidas de protección técnicas y organizativas, en particular las que hagan los datos personales ininteligibles para cualquier persona no autorizada a su acceso, como el cifrado.",
       "B": "Siempre que la persona responsable haya procedido a la notificación obligatoria a la autoridad de control competente en el plazo máximo de 72 horas.",
       "C": "Cuando la violación afecte exclusivamente a datos personales que hayan sido objeto de un tratamiento de seudonimización previo al incidente.",
       "D": "Cuando el tratamiento de los datos personales afectados se encuentre amparado por una obligación legal o una misión de interés público."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 148,
     "idpregunta": 148,
     "pregunta": "148.- De acuerdo con el Reglamento (UE) 2016/679, ¿cuál de las siguientes funciones debe desempeñar la persona delegada de protección de datos como parte de sus cometidos mínimos?",
     "opciones": {
-      "A": "Asumir la representación legal y la responsabilidad jurídica de la persona responsable del tratamiento ante cualquier reclamación judicial interpuesta por las personas interesadas.",
+      "A": "Asumir la representación legal y la responsabilidad jurídica de la persona responsable del tratamiento ante cualquier reclamac ión judicial interpuesta por las personas interesadas.",
       "B": "Ofrecer el asesoramiento que se le solicite acerca de la evaluación de impacto relativa a la protección de datos y supervisar su aplicación.",
       "C": "Realizar de forma autónoma la evaluación de impacto relativa a la protección de datos en lugar de la persona responsable del tratamiento.",
-      "D": "Validar técnicamente las aplicaciones y auditar el estándar de cifrado específico aplicado a las bases de datos de la persona responsable."
+      "D": "Validar técnicamente las aplicaciones y auditar el estándar de cifrado específico aplicado a las bases de datos de la persona responsable. 32"
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 149,
     "idpregunta": 149,
-    "pregunta": "149.- ¿En qué lugar tiene derecho a presentar una reclamación ante una autoridad de control una persona interesada que considere que el tratamiento de sus datos personales infringe el Reglamento (UE) 2016/679?",
+    "pregunta": "149.- ¿En qué lugar tiene derecho a presentar una reclamación ante una autoridad de control un a persona interesada que considere que el tratamiento de sus datos personales infringe el Reglamento (UE) 2016/679?",
     "opciones": {
       "A": "Exclusivamente en el Estado miembro donde la persona responsable del tratamiento tenga su administración central o su establecimiento principal.",
       "B": "En el Estado miembro de su residencia habitual, lugar de trabajo o lugar de la supuesta infracción.",
@@ -1928,12 +1934,12 @@
       "D": "Ante la autoridad de control del Estado miembro donde se localice el servidor físico que aloja los datos personales objeto de la controversia."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 150,
     "idpregunta": 150,
-    "pregunta": "150.- De acuerdo con lo establecido en el Reglamento (UE) 2016/679, ¿de quién tiene derecho a recibir una indemnización toda persona que haya sufrido daños y perjuicios materiales o inmateriales como consecuencia de una infracción de dicho Reglamento?",
+    "pregunta": "150.- De acuerdo con lo establecido en el Reglamento (UE) 2016/679, ¿de quién tiene derecho a recibir una indemnización toda p ersona que haya sufrido daños y perjuicios materiales o inmateriales como consecuencia de una infracción de dicho Reglamento?",
     "opciones": {
       "A": "De la Persona Delegada de Protección de Datos.",
       "B": "De la Agencia Española de Protección de Datos.",
@@ -1941,7 +1947,7 @@
       "D": "Del Comité Europeo de Protección de Datos."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 151,
@@ -1951,23 +1957,23 @@
       "A": "La prohibición es absoluta y vinculante para todas las personas legitimadas, incluidas las personas herederas, ya que el derecho fundamental a la protección de datos exige el respeto íntegro a la voluntad de control sobre la propia información incluso tras el fallecimiento.",
       "B": "La prohibición impide el acceso, rectificación o supresión con carácter general, pero no puede afectar al derecho de las personas herederas a acceder a los datos de carácter patrimonial del o de la causante.",
       "C": "El ejercicio de los derechos de acceso y supresión decae únicamente si la prohibición ha sido inscrita en el registro de mandatos e instrucciones previsto por la Ley, siendo ineficaz cualquier otra manifestación de voluntad que no conste en documento público.",
-      "D": "En caso de fallecimiento de personas con discapacidad, la prohibición expresa del o de la causante podrá ser siempre revocada por el Ministerio Fiscal de oficio si considera que el acceso a los datos beneficia el interés superior de las personas herederas."
+      "D": "En caso de fallecimiento de personas con discapacidad, la prohibición expresa del o de la causante pod rá ser siempre revocada por el Ministerio Fiscal de oficio si considera que el acceso a los datos beneficia el interés superior de las personas herederas. 33"
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 152,
     "idpregunta": 152,
     "pregunta": "152.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿quién tiene la potestad legal para ejercer los derechos de acceso, rectificación, cancelación u oposición en nombre de un o una menor de catorce años?",
     "opciones": {
-      "A": "Las personas titulares de la patria potestad, quienes podrán ejercitar tales derechos en nombre y representación del o de la menor, así como cualquier otra persona que pudiera corresponderle en el contexto de la normativa de protección de datos.",
+      "A": "Las personas titulares de la patria potestad, quienes podrán ejercitar tales derechos en nombre y representación del o de l a menor, así como cualquier otra persona que pudiera corresponderle en el contexto de la normativa de protección de datos.",
       "B": "El Ministerio Fiscal, con carácter exclusivo y de oficio, para garantizar la neutralidad y la protección del interés superior de la o del menor frente a posibles usos comerciales de sus datos por parte de sus representantes legales.",
-      "C": "El o la propia menor de edad de forma autónoma, siempre que la persona responsable del tratamiento implemente mecanismos de verificación de madurez que demuestre que la persona afectada comprende las consecuencias del tratamiento de su información.",
+      "C": "El o la propia menor de edad de forma autónoma, siempre que la persona responsable del tratamiento implemente mecanismos de verificación de m adurez que demuestre que la persona afectada comprende las consecuencias del tratamiento de su información.",
       "D": "Únicamente la persona Delegada de Protección de Datos de la institución educativa o entidad donde se traten los datos, actuando como tutora o tutor digital para evitar conflictos de intereses entre el o la menor y sus progenitores."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 153,
@@ -1980,20 +1986,20 @@
       "D": "Únicamente las asociaciones y organismos que creen sistemas de información generales o sectoriales."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 154,
     "idpregunta": 154,
-    "pregunta": "154.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿cuál de las siguientes afirmaciones es válida en relación con el bloqueo de los datos?",
+    "pregunta": "154.- De acuerdo con lo esta blecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿cuál de las siguientes afirmaciones es válida en relación con el bloqueo de los datos?",
     "opciones": {
       "A": "El bloqueo es una medida facultativa que permite a la persona responsable del tratamiento seguir utilizando la información para fines estadísticos o de investigación interna, siempre que los datos se mantengan en un servidor independiente del principal.",
-      "B": "Los datos bloqueados deben ser objeto de una eliminación física inmediata e irreversible de todos los soportes lógicos, debiendo el responsable emitir un certificado de destrucción para su remisión obligatoria a la Agencia Española de Protección de Datos.",
+      "B": "Los datos bloqueados deben ser objeto de un a eliminación física inmediata e irreversible de todos los soportes lógicos, debiendo el responsable emitir un certificado de destrucción para su remisión obligatoria a la Agencia Española de Protección de Datos.",
       "C": "Consiste en la identificación y reserva de los datos para impedir su tratamiento y visualización, excepto para ponerlos a disposición de jueces y tribunales, el Ministerio Fiscal o las Administraciones Públicas competentes para la exigencia de posibles responsabilidades durante el plazo de prescripción.",
-      "D": "El bloqueo implica una suspensión temporal del acceso a los datos durante un plazo fijo de un año, transcurrido el cual, si la persona afectada no ha reiterado su solicitud de supresión, los datos volverán a estar activos para el tratamiento original."
+      "D": "El bloqueo implica una suspensión temporal del acceso a los datos durante un plazo fijo de un año, transcurrido el cual, si la persona afectada no ha reiterado su solicitud de supresión, los datos volverán a estar activos para el tratamiento original. 34"
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 155,
@@ -2005,8 +2011,8 @@
       "C": "El Ministerio de Justicia.",
       "D": "El Ministerio de Economía y Empresa."
     },
-    "correcta": "B",
-    "metodo": "estimado_manual"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 156,
@@ -2016,10 +2022,10 @@
       "A": "Sobre cualquier tratamiento de datos personales realizado por empresas privadas siempre que su domicilio social o su actividad principal se desarrolle dentro del territorio de la respectiva Comunidad Autónoma.",
       "B": "Sobre los tratamientos de datos de personas físicas realizados en el ejercicio de actividades exclusivamente personales o domésticas dentro del ámbito geográfico de la autonomía.",
       "C": "Sobre tratamientos llevados a cabo por personas físicas o jurídicas para el ejercicio de las funciones públicas en materias que sean competencia de la correspondiente Administración Autonómica o Local.",
-      "D": "Exclusivamente como órganos de consulta y asesoramiento del Gobierno autonómico, careciendo de potestad para dictar circulares o ejercer las funciones de inspección y sanción previstas en el Reglamento (UE) 2016/679."
+      "D": "Exclusivamente como órgano s de consulta y asesoramiento del Gobierno autonómico, careciendo de potestad para dictar circulares o ejercer las funciones de inspección y sanción previstas en el Reglamento (UE) 2016/679."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 157,
@@ -2027,12 +2033,12 @@
     "pregunta": "157.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿en qué supuestos debe la Agencia Española de Protección de Datos (AEPD) acordar obligatoriamente la inadmisión a trámite de una reclamación presentada por una o un ciudadano?",
     "opciones": {
       "A": "Únicamente cuando la reclamante sea una persona jurídica, dado que el derecho fundamental a la protección de datos ampara exclusivamente a las personas físicas y no a las organizaciones o empresas.",
-      "B": "Cuando la reclamación se presente de forma presencial en papel y la persona interesada sea una persona obligada a relacionarse electrónicamente con las Administraciones Públicas, de acuerdo con la Ley 39/2015",
+      "B": "Cuando la reclamación se presente d e forma presencial en papel y la persona interesada sea una persona obligad a a relacionarse electrónicamente con las Administraciones Públicas, de acuerdo con la Ley 39/2015",
       "C": "Cuando el objeto de la queja sea una infracción cuya sanción económica prevista sea inferior a 3.000 euros, considerándose en tal caso que no existe un interés público relevante para iniciar el procedimiento.",
-      "D": "Cuando las reclamaciones presentadas no versen sobre cuestiones de protección de datos personales, carezcan manifiestamente de fundamento, sean abusivas o no aporten indicios racionales de la existencia de una infracción."
+      "D": "Cuando las reclamaciones presentadas no versen sobre cuestiones de protección de datos personales, carezcan manifiestamente de fundamento, sean abu sivas o no aporten indicios racionales de la existencia de una infracción. 35"
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 158,
@@ -2040,12 +2046,12 @@
     "pregunta": "158.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿cuál de las siguientes conductas es tipificada como una infracción muy grave?",
     "opciones": {
       "A": "La exigencia del pago de un canon para atender las solicitudes de ejercicio de derechos de las personas afectadas cuando el ejercicio sea repetitivo, si la cuantía cobrada excede el importe de los costes de facilitar la información.",
-      "B": "El quebrantamiento, como consecuencia de la falta de la debida diligencia, de las medidas técnicas y organizativas de seguridad que la persona responsable hubiese implantado conforme a lo exigido por el artículo 32.1 del Reglamento (UE) 2016/679.",
+      "B": "El quebrantamiento, como consecuencia de la falta de la debida diligencia, de las medidas técnicas y or ganizativas de seguridad que la persona responsable hubiese implantado conforme a lo exigido por el artículo 32.1 del Re glamento (UE) 2016/679.",
       "C": "El tratamiento de datos personales relacionados con infracciones y sanciones administrativas fuera de los supuestos permitidos por el artículo 27 de esta ley orgánica.",
       "D": "No poner a disposición de la autoridad de protección de datos el registro de actividades de tratamiento cuando éste sea solicitado en el marco de una investigación."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 159,
@@ -2058,7 +2064,7 @@
       "D": "Durante más de 6 meses."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 160,
@@ -2067,24 +2073,24 @@
     "opciones": {
       "A": "El acceso a Internet de hombres y mujeres procurará la superación de la brecha de género tanto en el ámbito personal como laboral.",
       "B": "Se garantizará un acceso universal, asequible, de calidad y no discriminatorio para toda la población.",
-      "C": "Se procurará la superación de la brecha generacional mediante acciones dirigidas a la formación y el acceso de las personas mayores.",
+      "C": "Se procurará la superación de la brecha ge neracional mediante acciones dirigidas a la formación y el acceso de las personas mayores.",
       "D": "El derecho de acceso universal implica la obligación de las personas proveedoras de red de suministrar conexión gratuita de banda ancha a toda la ciudadanía residente en entornos rurales con baja densidad demográfica."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 161,
     "idpregunta": 161,
     "pregunta": "161.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, ¿cuál de las siguientes afirmaciones se corresponde con lo dispuesto en relación con el derecho a la desconexión digital en el ámbito laboral?",
     "opciones": {
-      "A": "El derecho a la desconexion faculta a la persona trabajadora para interrumpir de forma discrecional el uso de herramientas tecnologicas durante la jornada laboral efectiva, siempre que se acredite un riesgo de fatiga informatica conforme a la normativa de prevencion de riesgos laborales.",
-      "B": "La persona empleadora, previa audiencia de los y las representantes de las personas trabajadoras, debe elaborar una politica interna que defina las modalidades de ejercicio de este derecho y las acciones de formacion y sensibilizacion sobre un uso razonable de las herramientas tecnologicas.",
-      "C": "Dada la naturaleza de este derecho, su obligatoriedad y el deber empresarial de definir protocolos de desconexion se circunscriben exclusivamente a las personas trabajadoras que prestan servicios a distancia o mediante teletrabajo.",
-      "D": "En defecto de previsiones especificas en la negociacion colectiva, la persona empresaria podra establecer de forma unilateral las condiciones de la desconexion digital, siendo suficiente la notificacion informativa a los y las representantes de las personas trabajadoras para su validez."
+      "A": "El derecho a la desconexión faculta a la persona trabajadora para interrumpir de forma discrecional el uso de herramientas tecnológicas durante la jornada laboral 36 efectiva, siempre que se acredite un riesgo de fatiga informática conforme a la normativa de prevención de riesgos laborales.",
+      "B": "La persona empleadora, previa audiencia de los y las representantes de las personas trabajadoras, debe elaborar una política interna que defina las modalidades de ejercicio de este derecho y las acciones de formación y sensibilización sobre un uso razonable de las herramientas tecnológicas.",
+      "C": "Dada la naturaleza de este derecho, su obligatoriedad y el deber empresarial de definir protocolos de desconexión se circunscriben exclusivamente a las personas trabajadoras que prestan servicios a distancia o mediante teletrabajo.",
+      "D": "En defecto de previsiones específicas en la negociación colectiva, la persona empresaria podrá establecer de forma unilateral las condiciones de la desconexión digital, siendo suficiente la notificación informativa a los y las representantes de las personas trabajadoras para su validez."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 162,
@@ -2092,25 +2098,25 @@
     "pregunta": "162.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, en relación con la protección de menores en Internet, ¿qué deben cumplir los centros educativos o entidades que desarrollen actividades con menores para publicar o difundir datos personales de estos en redes sociales?",
     "opciones": {
       "A": "Debido a la misión de interés público que desempeñan los centros docentes, estos están facultados para difundir imágenes de actividades escolares sin necesidad de consentimiento, siempre que no se identifique al o a la menor con nombres y apellidos.",
-      "B": "La difusión o publicación de dichos datos en redes sociales o servicios equivalentes requiere obligatoriamente el consentimiento del o de la propia menor o de sus representantes legales, según lo dispuesto en las reglas generales de la Ley sobre consentimiento de menores.",
-      "C": "Para garantizar la seguridad de la o del menor, la normativa prohíbe taxativamente a los centros educativos el uso de redes sociales abiertas, permitiendo la difusión de datos únicamente a través de plataformas educativas cerradas y de acceso restringido a las familias.",
+      "B": "La difusión o publicación de dichos datos en redes sociales o servicios equivalentes requiere obligatoriamente el cons entimiento del o de la propia menor o de sus representantes legales, según lo dispuesto en las reglas generales de la Ley sobre consentimiento de menores.",
+      "C": "Para garantizar la seguridad de la o del menor, la normativa prohíbe taxativamente a los centros educ ativos el uso de redes sociales abiertas, permitiendo la difusión de datos únicamente a través de plataformas educativas cerradas y de acceso restringido a las familias.",
       "D": "El centro educativo podrá publicar la información basándose en el \"interés superior de la o del menor\", bastando con informar previamente a sus tutores legales y dándoles un plazo de diez días para que manifiesten su oposición expresa antes de la subida del contenido."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 163,
     "idpregunta": 163,
-    "pregunta": "163.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, en relación con el ejercicio del derecho al olvido en servicios de redes sociales y servicios equivalentes, ¿cuál de las siguientes afirmaciones es correcta respecto a la supresión de datos facilitados durante la minoría de edad?",
+    "pregunta": "163.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciemb re, en relación con el ejercicio del derecho al olvido en servicios de redes sociales y servicios equivalentes, ¿cuál de las siguientes afirmaciones es correcta respecto a la supresión de datos facilitados durante la minoría de edad?",
     "opciones": {
-      "A": "El prestador del servicio solo esta obligado a suprimir los datos si la persona afectada demuestra que la informacion es inexacta, no pertinente o excesiva, siguiendo los criterios de ponderacion aplicables a los datos facilitados por terceras personas en la edad adulta.",
-      "B": "El derecho de supresion sobre contenidos de la etapa de minoria de edad decae automaticamente si la persona afectada, una vez alcanzada la mayoria de edad, realiza nuevas publicaciones en el mismo servicio, entendiendose como una validacion tacita de su historial previo.",
-      "C": "En caso de que el derecho se ejercitase por una persona afectada respecto de datos que hubiesen sido facilitados al servicio, por ella o por terceras personas, durante su minoria de edad, la persona prestadora del servicio debera proceder sin dilacion a su supresion por su simple solicitud, sin necesidad de que concurran otras circunstancias.",
-      "D": "Las personas prestadoras de servicios de redes sociales estan exentas de suprimir datos de menores si acreditan que dicha informacion se utiliza unicamente para fines estadisticos."
+      "A": "El prestador del servicio sólo está obligado a suprimir los datos si la persona afectada demuestra que la información es inexacta, no pertinente o excesiva, siguiendo los criterios de ponderación aplicables a los datos facilitados por terceras personas en la edad adulta.",
+      "B": "El derecho de supresión sobre contenidos de la etapa de minoría de edad decae automáticamente si la persona afectada, una vez alcanzada la mayoría de edad, realiza nuevas publicaciones en el mismo servicio, entendiéndose como una validación tácita de su historial previo. 37",
+      "C": "En caso de que el derecho se ejercitase por una persona afectada respecto de datos que hubiesen sido facilitados al servicio, por ella o por terceras personas, durante su minoría de edad, la persona prestadora del servicio deberá proceder sin dilación a su supresión por su simple solicitud, sin necesidad de que concurran otras circunstancias.",
+      "D": "Las personas prestadora s de servicio s de redes sociales están exent as de suprimir datos de menores si acreditan que dicha información se utiliza únicamente para fines estadísticos."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 164,
@@ -2123,7 +2129,7 @@
       "D": "El derecho fundamental de las personas físicas a la protección de datos personales amparado por el artículo 18.4 de la Constitución."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 165,
@@ -2131,12 +2137,12 @@
     "pregunta": "165.- ¿A qué personas prestadoras establecidas fuera de España les resulta de aplicación la Ley 6/2020?",
     "opciones": {
       "A": "A todas las personas prestadoras residentes o domiciliadas en otro Estado que operen en España, independientemente de su supervisión.",
-      "B": "A las personas prestadoras residentes o domiciliadas en otro Estado con establecimiento permanente en España, siempre que sus servicios no estén supervisados por la autoridad competente de otro país de la UE.",
-      "C": "A las personas prestadoras residentes o domiciliadas en otro Estado con establecimiento permanente en España, siempre que sus servicios estén supervisados por la autoridad competente de otro país de la UE.",
+      "B": "A las pers onas prestadora s residentes o domiciliadas en otro Estado con establecimiento permanente en España, siempre que sus servicios no estén supervisados por la autoridad competente de otro país de la UE.",
+      "C": "A la s personas prestadoras residentes o domiciliada s en o tro Estado con establecimiento permanente en España, siempre que sus servicios estén supervisados por la autoridad competente de otro país de la UE.",
       "D": "A las personas prestadoras públicas y privadas de servicios electrónicos de confianza establecidos en España."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 166,
@@ -2146,10 +2152,10 @@
       "A": "Los documentos electrónicos públicos, administrativos y privados, tienen el valor y la eficacia jurídica que corresponda a su respectiva naturaleza, de conformidad con la legislación que les resulte aplicable.",
       "B": "Los documentos electrónicos públicos y administrativos, tienen el valor y la eficacia jurídica que se le otorgue en el ordenamiento jurídico español del Reglamento (UE) 2016/679.",
       "C": "Los documentos electrónicos públicos y privados, tienen el valor y la eficacia jurídica que corresponda a su copia no cualificada según el artículo 3 y la disposición segunda del Reglamento.",
-      "D": "Los documentos electrónicos públicos y privados, tienen el valor y la eficacia jurídica que se le otorgue en el ordenamiento jurídico español del Reglamento (UE) 2016/679."
+      "D": "Los documentos electrónicos públicos y privados, tienen el valor y la eficacia jurídica que se le otorgue en el ordenamiento jurídico español del Reglamento (UE) 2016/679. 38"
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 167,
@@ -2162,7 +2168,7 @@
       "D": "6 años."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 168,
@@ -2175,12 +2181,12 @@
       "D": "Que se revocará el certificado electrónico."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 169,
     "idpregunta": 169,
-    "pregunta": "169.- Con arreglo a la Ley 6/2020, ¿qué información debe incluir la persona prestadora de servicios electrónicos de confianza en la comunicación a la persona titular cuando revoca o suspende un certificado electrónico?",
+    "pregunta": "169.- Con arreglo a la Ley 6/2020, ¿qué información debe incluir la persona prestadora de servicios electrónicos de confianza en la comunicac ión a la persona titular cuando revoca o suspende un certificado electrónico?",
     "opciones": {
       "A": "Únicamente la fecha en la que el certificado quedará sin efecto, sin necesidad de justificación adicional.",
       "B": "Los motivos, la fecha y la hora en los que el certificado quedará sin efecto.",
@@ -2188,7 +2194,7 @@
       "D": "La identidad de la autoridad competente que ha ordenado la revocación o suspensión."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 170,
@@ -2198,10 +2204,10 @@
       "A": "Por su nombre y apellidos y su número de Documento Nacional de Identidad, número de identidad de extranjero o número de identificación fiscal, o a través de un pseudónimo que conste como tal de manera inequívoca.",
       "B": "Por su nombre y apellidos junto con su dirección postal y fecha de nacimiento y/o mediante un pseudónimo.",
       "C": "Por su denominación o razón social y su número de identificación fiscal.",
-      "D": "Por su Documento Nacional de Identidad, número de identidad de extranjero o número de identificación fiscal, o denominación o razón social y su número de identificación fiscal."
+      "D": "Por su Documento Nacional de Id entidad, nú mero de identidad de extranjero o número de identificación fiscal, o denominación o razón social y su número de identificación fiscal. 39"
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 171,
@@ -2211,15 +2217,15 @@
       "A": "Cuando la persona solicitante aporte una copia compulsada de su Documento Nacional de Identidad junto con una declaración responsable.",
       "B": "Cuando la firma de la persona solicitante en la solicitud de expedición del certificado cualificado haya sido legitimada en presencia notarial.",
       "C": "Cuando la persona solicitante haya obtenido previamente otro certificado cualificado en vigor expedido por el mismo prestador.",
-      "D": "Cuando un representante legal acuda en su nombre con el certificado cualificado compulsado por el departamento competente."
+      "D": "Cuando un representa nte legal acuda en su nombre con el certificado cualificado compulsado por el departamento competente."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 172,
     "idpregunta": 172,
-    "pregunta": "172.- Según la Ley 6/2020, ¿puede utilizarse la videoconferencia como método de identificación para solicitar un certificado cualificado y, en caso afirmativo, bajo qué condición?",
+    "pregunta": "172.- Según la Ley 6/2020, ¿puede utilizarse la videoconferencia como método de identificación para solicitar un certificado cualificado y, en caso afirmativo , bajo qué condición?",
     "opciones": {
       "A": "No, la videoconferencia nunca está permitida ya que la identificación a distancia no garantiza la fiabilidad exigida para los certificados cualificados.",
       "B": "Sí, pero únicamente cuando la persona solicitante resida en el extranjero y no pueda desplazarse a territorio español y se haga en la Embajada Española correspondiente al país en el que reside.",
@@ -2227,7 +2233,7 @@
       "D": "Sí, siempre que aporte una seguridad equivalente en términos de fiabilidad a la presencia física, según evaluación de un organismo de evaluación de la conformidad, y bajo las condiciones técnicas fijadas por Orden Ministerial."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 173,
@@ -2237,10 +2243,10 @@
       "A": "Comunicar el pseudónimo utilizado a la autoridad competente para su registro y validación previa.",
       "B": "Garantizar que el pseudónimo no coincida con el de ningún otro certificado expedido por el mismo prestador.",
       "C": "Constatar la verdadera identidad del titular del certificado y conservar la documentación que la acredite.",
-      "D": "No es posible usar pseudónimo en este tipo de certificados electrónicos."
+      "D": "No es posible usar pseudónimo en este tipo de certificados electrónicos. 40"
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 174,
@@ -2249,11 +2255,11 @@
     "opciones": {
       "A": "1.000.000 de euros, incrementándose en 250.000 euros por cada servicio cualificado adicional que se preste.",
       "B": "1.500.000 euros, salvo para los prestadores del sector público, añadiéndose 500.000 euros más por cada tipo de servicio cualificado adicional.",
-      "C": "1.500.000 euros para cualquier prestador, pudiéndose reducir 500.000 euros si se presta un único servicio cualificado en el sector privado.",
+      "C": "1.500.000 euros para cualquier pre stador, pudiéndose reducir 500.000 euros si se presta un único servicio cualificado en el sector privado.",
       "D": "2.000.000 de euros como importe base, con independencia del número de servicios cualificados que se presten."
     },
-    "correcta": "D",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 175,
@@ -2266,12 +2272,12 @@
       "D": "Infracción leve, si no se resuelve en el plazo de diez días desde que se produjeron."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 176,
     "idpregunta": 176,
-    "pregunta": "176.- En la Gestión de cambios de la tecnología ITIL4, un cambio abarca: Una modificación de uno o más elementos de configuración que componen el sistema de **información...**",
+    "pregunta": "176.- En la Gestión de cambios de la tecnología ITIL4, un cambio abarca: Una modificación de uno o más elementos de configuración que componen el sistema de información…",
     "opciones": {
       "A": "o de uno o más servicios proporcionados por este sistema de información.",
       "B": "pero no de servicios proporcionados por este sistema de información.",
@@ -2279,7 +2285,7 @@
       "D": "o de la modificación de un dato."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 177,
@@ -2292,7 +2298,7 @@
       "D": "Concierne a los cambios autorizados con antelación, que requerirán una evaluación completa."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 178,
@@ -2301,10 +2307,11 @@
     "opciones": {
       "A": "Es el actor principal en la práctica Gestión de cambios.",
       "B": "Actúa como secretario del CAB.",
-      "C": "Es mejor que sea una persona desconocida en la empresa."
+      "C": "Es mejor que sea una persona desconocida en la empresa. 41",
+      "D": "Debe tener la posibilidad de decir NO a un cambio."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 179,
@@ -2312,12 +2319,12 @@
     "pregunta": "179.- En la gestión de cambios de la metodología ITIL 4, los miembros permanentes del CAB (Change Advisory Board) son:",
     "opciones": {
       "A": "Un gestor de cambios y una persona representante de cada departamento.",
-      "B": "Un gestor de cambios, la persona propietaria del servicio concernido y una única persona representante entre los diferentes departamentos de la entidad.",
+      "B": "Un gestor de cambios, la persona propietaria del servicio concernido y un a única persona representante entre los diferentes departamentos de la entidad.",
       "C": "La persona propietaria del servicio concernido, expertos técnicos/as y subcontratistas.",
-      "D": "Un gestor de cambios, el propietario del servicio concernido y un/una representante de la práctica Gestión de lanzamiento."
+      "D": "Un gestor de cambios, el propietario del servicio concernido y un /una representante de la práctica Gestión de lanzamiento."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 180,
@@ -2330,7 +2337,7 @@
       "D": "Restablecer el servicio y encontrar la causa."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 181,
@@ -2343,7 +2350,7 @@
       "D": "Para codificar un incidente NO es necesario determinar la prioridad."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 182,
@@ -2355,8 +2362,8 @@
       "C": "El normal funciona tal y como fue concebido y el degradado funciona con un nivel de calidad inferior.",
       "D": "El normal funciona según el acuerdo de servicio (SLA) y el degradado funciona con un nivel de calidad inferior."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 183,
@@ -2366,10 +2373,10 @@
       "A": "Escalada funcional y escalada vertical.",
       "B": "Escalada vertical y escalada orgánica.",
       "C": "Escalada orgánica y escalada jerárquica.",
-      "D": "Escalada funcional y escalada jerárquica."
+      "D": "Escalada funcional y escalada jerárquica. 42"
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 184,
@@ -2382,7 +2389,7 @@
       "D": "Todas las anteriores son correctas."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 185,
@@ -2395,7 +2402,7 @@
       "D": "NINGUNA de las anteriores es correcta."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 186,
@@ -2407,8 +2414,8 @@
       "C": "Descartar errores conocidos.",
       "D": "Gestionar incidentes graves que se transformaron en problemas."
     },
-    "correcta": "D",
-    "metodo": "estimado_manual"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 187,
@@ -2421,7 +2428,7 @@
       "D": "De la práctica Gestión de solicitudes de servicio."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 188,
@@ -2433,21 +2440,21 @@
       "C": "Minimizar el impacto del incidente.",
       "D": "Asignar y asegurar el presupuesto para la mejora continua."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "A",
+    "metodo": "acierto"
   },
   {
     "num": 189,
     "idpregunta": 189,
     "pregunta": "189.- ¿Cuál es el objeto principal del Esquema Nacional de Seguridad (ENS)?",
     "opciones": {
-      "A": "Regular exclusivamente la proteccion de datos de caracter personal en el sector publico.",
-      "B": "Establecer los principios basicos y requisitos minimos para una proteccion adecuada de la informacion tratada y los servicios prestados.",
-      "C": "Sustituir la Ley de Procedimiento Administrativo Comun en materia de administracion digital.",
-      "D": "Definir los estandares tecnicos de interoperabilidad entre administraciones europeas."
+      "A": "Regular exclusivamente la protección de datos de carácter personal en el sector público. 43",
+      "B": "Establecer los principios básicos y requisitos mínimos para una protección adecuada de la información tratada y los servicios prestados.",
+      "C": "Sustituir la Ley de Procedimiento Administrativo Común en materia de administración digital.",
+      "D": "Definir los estándares técnicos de interoperabilidad entre administraciones europeas."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 190,
@@ -2457,10 +2464,10 @@
       "A": "A todas las entidades tecnológicas que operen en territorio español.",
       "B": "Únicamente a aquellas entidades que traten datos de nivel alto según el RGPD.",
       "C": "A las que presten servicios a entidades del sector público para el ejercicio de sus competencias y potestades administrativas.",
-      "D": "A NINGUNA entidad del sector privado, ya que el ENS solo vincula a la Administración Pública."
+      "D": "A NINGUNA entidad del sector p rivado, ya que el ENS solo vincula a la Administración Pública."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 191,
@@ -2473,7 +2480,7 @@
       "D": "Vigilancia continua y reevaluación periódica."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 192,
@@ -2483,23 +2490,23 @@
       "A": "Los roles o funciones de seguridad y la definición de sus deberes y responsabilidades.",
       "B": "El inventario completo de todos los activos de hardware de la organización",
       "C": "El presupuesto detallado anual para ciberseguridad",
-      "D": "La lista nominativa de todas las personas usuarias con acceso a datos de la organización"
+      "D": "La lista nominativa de todas la s personas usuaria s con acceso a datos de la organización"
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 193,
     "idpregunta": 193,
-    "pregunta": "193.- En el Esquema de Seguridad Nacional, ¿qué implica el requisito mínimo de \"Mínimo privilegio\"?",
+    "pregunta": "193.- En el Esquema de Seguridad Nacional, ¿qué implica el requisit o mínimo de \"Mínimo privilegio\"?",
     "opciones": {
       "A": "Que las funciones de operación, administración y registro de actividad serán las de por defecto, sin restricciones de horario ni puntos de acceso facultados.",
       "B": "Reducir el número de administradores del sistema a uno solo por cada departamento.",
       "C": "Que solo el personal con rango de directivo puede acceder a la configuración del sistema.",
-      "D": "Que los sistemas proporcionen la funcionalidad imprescindible para alcanzar los objetivos de la organización."
+      "D": "Que los sistemas proporcionen la funcionalidad imprescindible para alcanzar los objetivos de la organización. 44"
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 194,
@@ -2512,7 +2519,7 @@
       "D": "En la Declaración de Aplicabilidad."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 195,
@@ -2525,7 +2532,7 @@
       "D": "Solo cuando se detecte un incidente de seguridad grave."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 196,
@@ -2538,7 +2545,7 @@
       "D": "No requiere NINGÚN procedimiento de determinación de conformidad."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 197,
@@ -2551,7 +2558,7 @@
       "D": "La Secretaría de Estado de Digitalización e Inteligencia Artificial."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 198,
@@ -2561,10 +2568,10 @@
       "A": "Solo la confidencialidad y la disponibilidad.",
       "B": "Costo de reposición, tiempo de recuperación, hardware afectado y software afectado.",
       "C": "Disponibilidad, autenticidad, integridad, confidencialidad y trazabilidad.",
-      "D": "Solo costo de reposición y tiempo de recuperación."
+      "D": "Solo costo de reposición y tiempo de recuperación. 45"
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 199,
@@ -2577,7 +2584,7 @@
       "D": "Básicas, Medias y Altas."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 200,
@@ -2585,11 +2592,11 @@
     "pregunta": "200.- Según el Esquema de Seguridad Nacional, ¿qué facultad tiene el CCN-CERT para el cumplimiento de sus funciones de soporte y coordinación en la resolución de incidentes?",
     "opciones": {
       "A": "Puede sancionar económicamente a las entidades que no hayan aplicado las medidas de seguridad preventivas.",
-      "B": "Tiene la potestad de sustituir al personal técnico de la entidad afectada hasta que el incidente esté resuelto.",
+      "B": "Tiene la potestad de sustituir al perso nal técnico de la entidad afectada hasta que el incidente esté resuelto.",
       "C": "Puede recabar informes, registros de auditoría, configuraciones de los sistemas afectados y cualquier otra información o soporte necesario para la investigación.",
       "D": "Todas las anteriores son correctas."
     },
-    "correcta": "B",
-    "metodo": "estimado_manual"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   }
 ]

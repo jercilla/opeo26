@@ -7047,7 +7047,7 @@ const QUIZZES = {
   },
   "tecnico_informatica": {
     "label": "Tecnico Especialista Informatica",
-    "meta": "200 preguntas - RESPUESTAS PRELIMINARES",
+    "meta": "200 preguntas",
     "questions": [
       {
         "num": 1,
@@ -7060,7 +7060,7 @@ const QUIZZES = {
           "D": "Zilog Z c80."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 2,
@@ -7073,7 +7073,7 @@ const QUIZZES = {
           "D": "Todas las anteriores son correctas."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 3,
@@ -7086,7 +7086,7 @@ const QUIZZES = {
           "D": "Tipos de disco duro."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 4,
@@ -7099,7 +7099,7 @@ const QUIZZES = {
           "D": "Todas las anteriores son correctas."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 5,
@@ -7112,12 +7112,12 @@ const QUIZZES = {
           "D": "NINGUNA de las anteriores es correcta."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 6,
         "idpregunta": 6,
-        "pregunta": "6.- ¿Qué **se entiende por “resolución” de una pantalla?**",
+        "pregunta": "6.- ¿Qué se entiende por “resolución” de una pantalla?",
         "opciones": {
           "A": "La relación entre el tamaño horizontal y el tamaño vertical de la pantalla.",
           "B": "El número de pulgadas que hay en la diagonal de la pantalla.",
@@ -7125,7 +7125,7 @@ const QUIZZES = {
           "D": "NINGUNA de las anteriores es correcta."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 7,
@@ -7137,8 +7137,8 @@ const QUIZZES = {
           "C": "Ranuras de extensión para los discos duros.",
           "D": "Buses de datos."
         },
-        "correcta": "B",
-        "metodo": "estimado_manual"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 8,
@@ -7151,7 +7151,7 @@ const QUIZZES = {
           "D": "HGST."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 9,
@@ -7164,7 +7164,7 @@ const QUIZZES = {
           "D": "La a) y c) son correctas."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 10,
@@ -7177,7 +7177,7 @@ const QUIZZES = {
           "D": "Todas las anteriores son correctas."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 11,
@@ -7190,7 +7190,7 @@ const QUIZZES = {
           "D": "De ella depende el tamaño máximo de memoria que puede manejar el microprocesador."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 12,
@@ -7203,7 +7203,7 @@ const QUIZZES = {
           "D": "Es la máxima cantidad de memoria que podría trasladarse por segundo."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 13,
@@ -7216,7 +7216,7 @@ const QUIZZES = {
           "D": "DIMM y DD2."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 14,
@@ -7229,7 +7229,7 @@ const QUIZZES = {
           "D": "NINGUNA de las anteriores es correcta."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 15,
@@ -7242,7 +7242,7 @@ const QUIZZES = {
           "D": "Elevado refresco y tiempo de respuesta."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 16,
@@ -7255,7 +7255,7 @@ const QUIZZES = {
           "D": "Todas las anteriores son correctas."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 17,
@@ -7268,7 +7268,7 @@ const QUIZZES = {
           "D": "Si no existe fragmentación los discos duros de alta velocidad de rotaciones son más rápidos que los discos duros SSD."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 18,
@@ -7281,7 +7281,7 @@ const QUIZZES = {
           "D": "Disquete."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 19,
@@ -7294,7 +7294,7 @@ const QUIZZES = {
           "D": "5º Generación."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 20,
@@ -7307,7 +7307,7 @@ const QUIZZES = {
           "D": "EXEC II."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 21,
@@ -7320,12 +7320,12 @@ const QUIZZES = {
           "D": "Sistemas operativos interactivos."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 22,
         "idpregunta": 22,
-        "pregunta": "22.- Si en un superordenador se instala un sistema **operativo monotarea...**",
+        "pregunta": "22.- Si en un superordenador se instala un sistema operativo monotarea…",
         "opciones": {
           "A": "Ejecutará m ás de un proceso cada vez.",
           "B": "Solo ejecutará un proceso cada vez.",
@@ -7333,7 +7333,7 @@ const QUIZZES = {
           "D": "Seleccionará los demás procesos para distribuir el trabajo."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 23,
@@ -7346,7 +7346,7 @@ const QUIZZES = {
           "D": "NINGUNA de las anteriores es correcta."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 24,
@@ -7358,8 +7358,8 @@ const QUIZZES = {
           "C": "En 5 niveles: del 0 al 4.",
           "D": "En 6 niveles: del 0 al 5."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 25,
@@ -7372,7 +7372,7 @@ const QUIZZES = {
           "D": "Son los procesos que cada usuario necesita para un correcto funcionamiento del sistema operativo."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 26,
@@ -7385,12 +7385,12 @@ const QUIZZES = {
           "D": "Este algoritmo va dando tiempo de ejecución a cada proceso que esté en espera."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 27,
         "idpregunta": 27,
-        "pregunta": "27.- La técnica de gestión de memoria principal del sistema operativo por **particionamiento ...**",
+        "pregunta": "27.- La técnica de gestión de memoria principal del sistema operativo por particionamiento …",
         "opciones": {
           "A": "Consiste en particionar la memoria en particiones de tamaño fijo o particiones de tamaño variable.",
           "B": "Solamente se pueden particionar a tamaño fijo.",
@@ -7398,7 +7398,7 @@ const QUIZZES = {
           "D": "Protege la zona de memoria asignada a cada proceso."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 28,
@@ -7411,7 +7411,7 @@ const QUIZZES = {
           "D": "HFS."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 29,
@@ -7424,7 +7424,7 @@ const QUIZZES = {
           "D": "OSI se usa solo en LAN; TCP/IP en WAN."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 30,
@@ -7437,7 +7437,7 @@ const QUIZZES = {
           "D": "La necesidad de replicar manualmente los archivos de datos en cada estación de trabajo para garantizar su disponibilidad, incrementando la probabilidad de inconsistencias y duplicidad de información."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 31,
@@ -7450,7 +7450,7 @@ const QUIZZES = {
           "D": "Solo permite transmisión en modo full-dúplex."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 32,
@@ -7463,7 +7463,7 @@ const QUIZZES = {
           "D": "Topología en malla."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 33,
@@ -7476,7 +7476,7 @@ const QUIZZES = {
           "D": "IEEE 802.4"
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 34,
@@ -7489,7 +7489,7 @@ const QUIZZES = {
           "D": "El ancho de banda limita la velocidad máxima teórica de transmisión."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 35,
@@ -7502,7 +7502,7 @@ const QUIZZES = {
           "D": "Medio inalámbrico en banda de 5 GHz."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 36,
@@ -7515,20 +7515,20 @@ const QUIZZES = {
           "D": "DNS (Domain Name System)."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 37,
         "idpregunta": 37,
-        "pregunta": "37.- ¿Cuál es la forma más comprimida posible de la siguiente dirección IPv6? 2001:db8:0:0:0:1:2:",
+        "pregunta": "37.- ¿Cuál es la forma más comprimida posible de la siguiente dirección IPv6? 2001:db8:0:0:0:1:2:3",
         "opciones": {
-          "A": "2001:db8::1:2:",
-          "B": "2001:db8:0::0:1:2:",
-          "C": "2001:db8:0:0::1:2:",
-          "D": "2001:db8:::1:2:"
+          "A": "2001:db8::1:2:3",
+          "B": "2001:db8:0::0:1:2:3",
+          "C": "2001:db8:0:0::1:2:3",
+          "D": "2001:db8:::1:2:3"
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 38,
@@ -7541,7 +7541,7 @@ const QUIZZES = {
           "D": "Bridge (puente)."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 39,
@@ -7554,7 +7554,7 @@ const QUIZZES = {
           "D": "Cada subred tiene 128 hosts utilizables."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 40,
@@ -7567,7 +7567,7 @@ const QUIZZES = {
           "D": "La máscara de subred es 255.255.255.128."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 41,
@@ -7580,7 +7580,7 @@ const QUIZZES = {
           "D": "Tabla de sesiones TCP activas."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 42,
@@ -7593,7 +7593,7 @@ const QUIZZES = {
           "D": "Porque está diseñado exclusivamente para comunicaciones multimedia."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 43,
@@ -7606,7 +7606,7 @@ const QUIZZES = {
           "D": "Son bidireccionales y cualquiera de los elementos puede iniciar la comunicación."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 44,
@@ -7619,7 +7619,7 @@ const QUIZZES = {
           "D": "Se altera la estructura completa del modelo."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 45,
@@ -7632,7 +7632,7 @@ const QUIZZES = {
           "D": "Mayor velocidad de transferencia que WiFi y compatibilidad exclusiva con redes metropolitanas."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 46,
@@ -7645,7 +7645,7 @@ const QUIZZES = {
           "D": "Comunicación WAN (red de área amplia)."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 47,
@@ -7658,7 +7658,7 @@ const QUIZZES = {
           "D": "Call centers."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 48,
@@ -7671,7 +7671,7 @@ const QUIZZES = {
           "D": "Las pasivas permiten mayores distancias de lectura que las activas."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 49,
@@ -7684,7 +7684,7 @@ const QUIZZES = {
           "D": "100BaseTX."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 50,
@@ -7697,7 +7697,7 @@ const QUIZZES = {
           "D": "Hardware, software, conectividad y seguridad."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 51,
@@ -7706,10 +7706,11 @@ const QUIZZES = {
         "opciones": {
           "A": "Utiliza frecuencias por debajo de 1 GHz, permite alcances de hasta 20 km y está orientada a bajo consumo energético.",
           "B": "Opera por encima de 2,4 GHz, ofrece altas tasas de Mbps y está orientada a comunicaciones de corto alcance.",
-          "C": "Funciona exclusivamente en entornos urbanos, con alcances máximos de 2 km y alto consumo de energía."
+          "C": "Funciona exclusivamente en entornos urbanos, con alcances máximos de 2 km y alto consumo de energía.",
+          "D": "Requiere licencia propietaria y ofrece velocidades comparables a WiFi."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 52,
@@ -7722,7 +7723,7 @@ const QUIZZES = {
           "D": "Redes de área amplia para comunicaciones de largo alcance."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 53,
@@ -7735,7 +7736,7 @@ const QUIZZES = {
           "D": "El sensor mide la humedad → los datos se envían a un sistema de control → se activa el actuador si es necesario."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 54,
@@ -7748,7 +7749,7 @@ const QUIZZES = {
           "D": "Diseño, codificación, integración, pruebas y mantenimiento."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 55,
@@ -7761,7 +7762,7 @@ const QUIZZES = {
           "D": "Esta fase permite la optimización de los recursos en la producción del mismo."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 56,
@@ -7769,10 +7770,12 @@ const QUIZZES = {
         "pregunta": "56.- ¿En cuántos documentos se describen los trabajos realizados en cada una de las fases del ciclo de vida del software?",
         "opciones": {
           "A": "En 5 documentos: requisitos del software, diseño del software, código fuente, documento de pruebas y documento de cambios.",
-          "B": "En 3 documentos: requisitos del software, diseño del software, documento de cambios."
+          "B": "En 3 documentos: requisitos del software, diseño del software, documento de cambios.",
+          "C": "En 5 documentos: requisitos del software, diseño del software, código fuente, sistema de software y documento de cambios.",
+          "D": "En 3 documentos: requisitos del software, documento de pruebas, documento de cambios."
         },
-        "correcta": "A",
-        "metodo": "estimado_manual"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 57,
@@ -7785,12 +7788,12 @@ const QUIZZES = {
           "D": "Se basa en un sistema auxiliar que permite probar experimentalmente ciertas soluciones parciales a las necesidades de la persona usuaria."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 58,
         "idpregunta": 58,
-        "pregunta": "58.- **La revisión de la fase de codificación en el ciclo de vida en cascada se realiza sobre...**",
+        "pregunta": "58.- La revisión de la fase de codificación en el ciclo de vida en cascada se realiza sobre…",
         "opciones": {
           "A": "El documento de análisis.",
           "B": "El documento de diseño.",
@@ -7798,7 +7801,7 @@ const QUIZZES = {
           "D": "El sistema de explotación."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 59,
@@ -7811,7 +7814,7 @@ const QUIZZES = {
           "D": "El análisis inicial."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 60,
@@ -7824,7 +7827,7 @@ const QUIZZES = {
           "D": "Análisis, Codificación, Comunicación y Retroalimentación."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 61,
@@ -7837,7 +7840,7 @@ const QUIZZES = {
           "D": "Todas las anteriores son correctas."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 62,
@@ -7849,8 +7852,8 @@ const QUIZZES = {
           "C": "Consiste en diseñar y almacenar de forma organizada los archivos de registro (.log) correspondientes a las distintas versiones de la configuración.",
           "D": "NINGUNA de las anteriores es correcta."
         },
-        "correcta": "D",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 63,
@@ -7863,7 +7866,7 @@ const QUIZZES = {
           "D": "IDEE."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 64,
@@ -7875,8 +7878,8 @@ const QUIZZES = {
           "C": "La fase de mantenimiento se centra en el cambio que va asociado a la corrección de errores, a las adaptaciones requeridas a medida que evoluciona el entorno del software, y a cambios debidos a las mejoras producidas por los requisitos cambiantes del cliente.",
           "D": "Hay 4 tipos de mantenimiento del software: correctivo, adaptativo, perfectivo y preventivo."
         },
-        "correcta": "D",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 65,
@@ -7889,19 +7892,20 @@ const QUIZZES = {
           "D": "El mantenimiento perfectivo consiste en localizar y eliminar posibles defectos de los programas."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 66,
         "idpregunta": 66,
-        "pregunta": "66.- ¿De qué dos clases pueden ser los cambios en el entorno a los que se refiere el mantenimiento adaptativo?",
+        "pregunta": "66.- ¿De qué dos clases pueden ser los cambios en el entorno a los que se refi ere el mantenimiento adaptativo?",
         "opciones": {
           "A": "Entorno de los datos y el entorno de la programación.",
           "B": "Entorno de los procesos y el entorno del sistema operativo.",
-          "C": "Entorno del hardware y el entorno del software."
+          "C": "Entorno del hardware y el entorno del software.",
+          "D": "Entorno de los datos y el entorno de los procesos."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 67,
@@ -7914,20 +7918,20 @@ const QUIZZES = {
           "D": "Todas las anteriores son correctas."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 68,
         "idpregunta": 68,
-        "pregunta": "68.- Segun las Leyes de Lehman sobre el mantenimiento del software, la Ley de Continuidad del Cambio establece que:",
+        "pregunta": "68.- Según las Leyes de Lehman sobre el mantenimiento del software, la Ley de Continuidad del Cambio establece que:",
         "opciones": {
-          "A": "Que tan pronto como un programa ha sido escrito, esta ya desfasado.",
-          "B": "Que cuando hay cambios en un programa la estructura se hace mas compleja.",
-          "C": "Que la evolucion de un programa es un proceso autorregulado.",
+          "A": "Que tan pronto como un programa ha sido escrito, está ya desfasado.",
+          "B": "Que cuando hay cambios en un programa la estructura se hace más compleja.",
+          "C": "Que la evolución de un programa es un proceso autorregulado.",
           "D": "Que a lo largo del tiempo de vida de un programa, la carga que supone el desarrollo del programa es constante."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "A",
+        "metodo": "acierto"
       },
       {
         "num": 69,
@@ -7940,7 +7944,7 @@ const QUIZZES = {
           "D": "Todas las anteriores son correctas."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 70,
@@ -7953,7 +7957,7 @@ const QUIZZES = {
           "D": "NINGUNA de las anteriores es correcta."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 71,
@@ -7963,10 +7967,10 @@ const QUIZZES = {
           "A": "Obtener el producto o servicio de acuerdo a los requisitos de la persona compradora.",
           "B": "Proveer un producto o servicio a la persona compradora, que cumpla con los requisitos acordados.",
           "C": "Proveer la infraestructura y los servicios de los proyectos.",
-          "D": "a) y b) son correctas."
+          "D": "a) y b) son correctas. 14"
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 72,
@@ -7974,12 +7978,12 @@ const QUIZZES = {
         "pregunta": "72.- ¿Cuál de estas tareas pertenece a la fase de implementación del proceso de la estructura de mantenimiento que propone la norma ISO/IEC 14764?",
         "opciones": {
           "A": "Desarrollar, documentar y ejecutar planes y procedimientos para dirigir las actividades y tareas del proceso de mantenimiento.",
-          "B": "Definir procedimiento para recibir, almacenar y controlar los informes de problemas y solicitudes de modificación de las personas usuarias, y proporcionar a éstas retroalimentación.",
+          "B": "Definir procedimiento para recibir, almacenar y controlar los informes de problemas y s olicitudes de modificación de la s personas usuarias, y proporcionar a ésta s retroalimentación.",
           "C": "Implementar o establecer una interfaz con el proceso de gestión de configuración, para gestionar las modificaciones del sistema existente.",
           "D": "Todas las anteriores son correctas."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 73,
@@ -7992,12 +7996,12 @@ const QUIZZES = {
           "D": "Controlar los elementos y las configuraciones del sistema."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 74,
         "idpregunta": 74,
-        "pregunta": "74.- ¿Qué actividad se encarga de obtener los recursos necesarios para soportar el sistema de software durante todo su ciclo de vida?",
+        "pregunta": "74.- ¿Qué actividad se en carga de obtener los recursos necesarios para soportar el sistema de software durante todo su ciclo de vida?",
         "opciones": {
           "A": "Preparación del mantenimiento.",
           "B": "Ejecución del mantenimiento.",
@@ -8005,7 +8009,7 @@ const QUIZZES = {
           "D": "Gestión de resultados del mantenimiento."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 75,
@@ -8013,12 +8017,12 @@ const QUIZZES = {
         "pregunta": "75.- ¿Cuándo se realiza la migración de un software?",
         "opciones": {
           "A": "Cuando el software ha llegado al final de su vida útil.",
-          "B": "Cuando el sistema debe adaptarse para funcionar en un nuevo entorno (hardware, sistema operativo, plataforma, infraestructura...).",
+          "B": "Cuando el sistema debe adaptarse para funcionar en un nuevo entorno (hardware, sistema operativo, plataforma, infraestructura…).",
           "C": "Cuando es necesario analizar el software para decidir si debe retirarse o no.",
           "D": "NINGUNA de las anteriores es correcta."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 76,
@@ -8028,10 +8032,10 @@ const QUIZZES = {
           "A": "Navegación InPrivate.",
           "B": "Filtro Microsoft Defender SmartScreen.",
           "C": "Windows Defender Credential Guard.",
-          "D": "Firewall de Windows Defender."
+          "D": "Firewall de Windows Defender. 15"
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 77,
@@ -8041,10 +8045,10 @@ const QUIZZES = {
           "A": "Windows Configuration Designer para exportar e importar perfiles durante el aprovisionamiento.",
           "B": "User State Migration Tool (USMT) incluida en el Windows Assessment and Deployment Kit.",
           "C": "Windows Deployment Services (WDS) utilizando imágenes de arranque personalizadas para transferir automáticamente los perfiles.",
-          "D": "Microsoft Deployment Toolkit (MDT) usando una tarea de actualización in-place para migrar los perfiles."
+          "D": "Microsoft Deployment Toolkit (MDT) usando una tarea de actualización in -place para migrar los perfiles."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 78,
@@ -8057,7 +8061,7 @@ const QUIZZES = {
           "D": "Autenticación biométrica."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 79,
@@ -8070,7 +8074,7 @@ const QUIZZES = {
           "D": "Una tarjeta inteligente conectada por USB."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 80,
@@ -8083,7 +8087,7 @@ const QUIZZES = {
           "D": "Imágenes de inicio."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 81,
@@ -8096,7 +8100,7 @@ const QUIZZES = {
           "D": "BCDBoot."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 82,
@@ -8104,12 +8108,12 @@ const QUIZZES = {
         "pregunta": "82.- ¿Qué permite el SideLoading de aplicaciones en Windows 11?",
         "opciones": {
           "A": "Instalar apps de la tienda oficial.",
-          "B": "Crear cuentas empresariales.",
+          "B": "Crear cuentas empresariales. 16",
           "C": "Gestionar actualizaciones de drivers.",
-          "D": "Instalar aplicaciones de prueba sin certificacion."
+          "D": "Instalar aplicaciones de prueba sin certificación."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 83,
@@ -8122,7 +8126,7 @@ const QUIZZES = {
           "D": "Requiere licencia Enterprise para cualquier uso."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 84,
@@ -8135,7 +8139,7 @@ const QUIZZES = {
           "D": "PnPUtil."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 85,
@@ -8148,7 +8152,7 @@ const QUIZZES = {
           "D": "Netsh."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 86,
@@ -8161,7 +8165,7 @@ const QUIZZES = {
           "D": "Wi-Fi Direct Printing."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 87,
@@ -8174,7 +8178,7 @@ const QUIZZES = {
           "D": "ServerScope."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 88,
@@ -8182,12 +8186,12 @@ const QUIZZES = {
         "pregunta": "88.- En Windows 11, ¿qué herramienta controla la ejecución de aplicaciones basándose en reglas?",
         "opciones": {
           "A": "Windows Defender SmartScreen.",
-          "B": "AppLocker.",
+          "B": "AppLocker. 17",
           "C": "Device Guard.",
           "D": "Credential Guard."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 89,
@@ -8200,7 +8204,7 @@ const QUIZZES = {
           "D": "Network Domain Controller."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 90,
@@ -8213,7 +8217,7 @@ const QUIZZES = {
           "D": "La lista de exclusiones de direcciones."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 91,
@@ -8226,7 +8230,7 @@ const QUIZZES = {
           "D": "Un tiempo de concesión de direcciones extendido."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 92,
@@ -8239,7 +8243,7 @@ const QUIZZES = {
           "D": "Grupo Local."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 93,
@@ -8249,15 +8253,15 @@ const QUIZZES = {
           "A": "Servicio Kerberos.",
           "B": "Servicio Netlogon.",
           "C": "Servicio DNS.",
-          "D": "Servicio Active Directory."
+          "D": "Servicio Active Directory. 18"
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 94,
         "idpregunta": 94,
-        "pregunta": "94.- En Windows Server 2022, en un dominio de Active Directory, una persona usuaria **pertenece a una Unidad Organizativa (OU) llamada “Pediatría”. Existen** las siguientes Directivas de Grupo (GPO): ● Una GPO vinculada al Sitio que configura el fondo de pantalla en azul. ● Una GPO vinculada al Dominio que configura el fondo de pantalla en verde. ● **Una GPO vinculada a la OU “Pediatría” que configura el fondo de** pantalla en rojo. **No hay herencia bloqueada ni “Enforced” activado en NINGUNA GPO. ¿Cuál será** el color del fondo de pantalla que recibirá la persona usuaria?",
+        "pregunta": "94.- En Windows Server 2022, en un dominio de Active Directory, una persona usuaria pertenece a una Unidad Organizativa (OU) llamada “Pediatría”. Existen las siguientes Directivas de Grupo (GPO): ● Una GPO vinculada al Sitio que configura el fondo de pantalla en azul. ● Una GPO vinculada al Dominio que configura el fondo de pantalla en verde. ● Una GPO vinculada a la OU “Pediatría” que configura el fondo de pantalla en rojo. No hay herencia bloqueada ni “Enforced” activado en NINGUNA GPO. ¿Cuál será el color del fondo de pantalla que recibirá la persona usuaria?",
         "opciones": {
           "A": "Depende del controlador de dominio que autentique a la persona usuaria.",
           "B": "Azul.",
@@ -8265,7 +8269,7 @@ const QUIZZES = {
           "D": "Rojo."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 95,
@@ -8278,7 +8282,7 @@ const QUIZZES = {
           "D": "Mantener las referencias entre dominios."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 96,
@@ -8291,7 +8295,7 @@ const QUIZZES = {
           "D": "Replicar completamente todos los objetos entre controladores de dominio."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 97,
@@ -8301,10 +8305,10 @@ const QUIZZES = {
           "A": "La DACL se almacena dentro del token de acceso de la persona usuaria y se genera en el momento del inicio de sesión.",
           "B": "El token de acceso contiene los SID de la persona usuaria y sus grupos, y se comparan con los de la DACL cuando se intenta acceder a un recurso.",
           "C": "El token de acceso solo se utiliza para autenticación, mientras que la DACL solo interviene en la auditoría.",
-          "D": "La DACL determina qué grupos aparecerán en el token de acceso durante el inicio de sesión."
+          "D": "La DACL determina qué grupos aparecerán en el token de acc eso durante el inicio de sesión. 19"
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 98,
@@ -8317,7 +8321,7 @@ const QUIZZES = {
           "D": "Los archivos adml solo se utilizan cuando el dominio está en nivel funcional 2022."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 99,
@@ -8326,11 +8330,11 @@ const QUIZZES = {
         "opciones": {
           "A": "Default Domain Policy se aplica únicamente a los controladores de dominio, mientras que Default Domain Controllers Policy se aplica a todas las personas usuarias y equipos del dominio.",
           "B": "Default Domain Controllers Policy se aplica a nivel de sitio, mientras que Default Domain Policy solo se aplica a OUs específicas.",
-          "C": "Default Domain Policy se aplica a todos los objetos del dominio y generalmente configura directivas de contraseña y bloqueo de cuenta, mientras que Default Domain Controllers Policy se aplica solo a los controladores de dominio y suele configurar directivas de auditoría y de inicio de sesión.",
+          "C": "Default Domain Policy se aplica a todos los objetos del dominio y generalmente configura directivas de contraseña y bloqueo de cuenta, mientras que Default Domain Controllers Policy se aplica solo a los controladores de dominio y suele confi gurar directivas de auditoría y de inicio de sesión.",
           "D": "Ambas políticas son idénticas y se aplican de forma redundante a todos los objetos del dominio."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 100,
@@ -8340,28 +8344,28 @@ const QUIZZES = {
           "A": "Duplica todos los datos en otro disco, tolerando fallos de hasta dos discos.",
           "B": "Requiere solo 2 discos y mantiene rendimiento de escritura igual a lectura.",
           "C": "Aumenta capacidad sin tolerancia a fallos, como RAID 0.",
-          "D": "Distribuye datos y paridad entre los discos, permitiendo que el sistema siga operativo si falla un disco."
+          "D": "Distribuye datos y paridad entre los discos, permitiendo que el sistema siga operativo si falla un disco. 20"
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 101,
         "idpregunta": 101,
-        "pregunta": "101.- En una organización, la persona administradora gestiona los permisos de acceso a los documentos almacenados en OneDrive para la Empresa. Una persona trabajadora quiere compartir un archivo con algunos/as compañeros/as, pero mantenerlo inaccesible para el resto de la empresa. Según el funcionamiento descrito, ¿cuál de las siguientes afirmaciones refleja correctamente cómo se gestionan estos permisos?",
+        "pregunta": "101.- En una organización, la persona administradora gestiona los permisos de acceso a los documentos almacenados en OneDrive para la Empresa. Una persona trabajadora quiere compartir un archivo con algunos /as compañeros/as, pero mantenerlo inaccesible para el resto de la empresa. Según el funcionamiento descrito, ¿cuál de las siguientes afirmaciones refleja correctamente cómo se gestionan estos permisos?",
         "opciones": {
           "A": "Una vez subido un archivo a OneDrive para la Empresa, automáticamente todas las personas de la organización tienen acceso de lectura, sin posibilidad de restricciones individuales.",
           "B": "El sistema no permite compartir archivos de forma selectiva; únicamente se pueden compartir bibliotecas completas con toda la organización.",
-          "C": "Las personas usuarias pueden guardar sus archivos profesionales y decidir compartirlos o no con sus colaboradores/as, pero los derechos y autorizaciones sobre el contenido de la biblioteca son gestionados por el/la administrador/a del sitio SharePoint.",
-          "D": "Las personas usuarias pueden guardar sus archivos profesionales, pero tanto la decisión de poder compartir con otros colaboradores/as como los derechos y autorizaciones sobre el contenido de la biblioteca son gestionados por la persona administradora del sitio SharePoint."
+          "C": "Las personas usuaria s pueden guardar sus archivos profesionales y decidir compartirlos o no con sus colaboradores/as, pero los derechos y autorizaciones sobre el contenido de la biblioteca son gestionados por el /la administrador/a del sitio SharePoint.",
+          "D": "Las personas usuaria s pueden guardar sus archivos profesionales, pero tanto la decisión de poder compartir con otros colaboradores /as como los derechos y autorizaciones sobre el contenido de la bi blioteca son gesti onados por la persona administradora del sitio SharePoint."
         },
         "correcta": "C",
-        "metodo": "estimado_manual",
+        "metodo": "fallo->azul",
         "diffs": {
           "A": "Una vez subido un archivo a OneDrive para la Empresa, automáticamente todas las personas de la organización tienen acceso de lectura, sin posibilidad de restricciones individuales.",
           "B": "<span class=\"diff-highlight\">El</span> <span class=\"diff-highlight\">sistema</span> <span class=\"diff-highlight\">no</span> <span class=\"diff-highlight\">permite</span> <span class=\"diff-highlight\">compartir</span> archivos de <span class=\"diff-highlight\">forma</span> <span class=\"diff-highlight\">selectiva; únicamente</span> <span class=\"diff-highlight\">se</span> <span class=\"diff-highlight\">pueden</span> <span class=\"diff-highlight\">compartir</span> <span class=\"diff-highlight\">bibliotecas</span> <span class=\"diff-highlight\">completas</span> <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">toda</span> la <span class=\"diff-highlight\">organización</span>.",
-          "C": "Las personas usuarias pueden guardar sus archivos profesionales <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">decidir</span> <span class=\"diff-highlight\">compartirlos</span> <span class=\"diff-highlight\">o</span> <span class=\"diff-highlight\">no</span> con <span class=\"diff-highlight\">sus</span> colaboradores/as<span class=\"diff-highlight\">, pero</span> los derechos y autorizaciones sobre el contenido de la biblioteca son gestionados por <span class=\"diff-highlight\">el/</span>la <span class=\"diff-highlight\">administrador/a</span> del sitio SharePoint.",
-          "D": "Las personas usuarias pueden guardar sus archivos profesionales<span class=\"diff-highlight\">, pero</span> <span class=\"diff-highlight\">tanto</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">decisión</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">poder</span> <span class=\"diff-highlight\">compartir</span> con <span class=\"diff-highlight\">otros</span> colaboradores/as <span class=\"diff-highlight\">como</span> los derechos y autorizaciones sobre el contenido de la biblioteca son gestionados por la <span class=\"diff-highlight\">persona</span> <span class=\"diff-highlight\">administradora</span> del sitio SharePoint."
+          "C": "Las personas usuaria s pueden guardar sus archivos profesionales <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">decidir</span> <span class=\"diff-highlight\">compartirlos</span> <span class=\"diff-highlight\">o</span> <span class=\"diff-highlight\">no</span> con <span class=\"diff-highlight\">sus</span> colaboradores<span class=\"diff-highlight\">/</span>as<span class=\"diff-highlight\">, pero</span> los derechos y autorizaciones sobre el contenido de la <span class=\"diff-highlight\">biblioteca</span> son <span class=\"diff-highlight\">gestionados</span> por <span class=\"diff-highlight\">el /</span>la <span class=\"diff-highlight\">administrador/a</span> del sitio SharePoint.",
+          "D": "Las personas usuaria s pueden guardar sus archivos profesionales<span class=\"diff-highlight\">, pero</span> <span class=\"diff-highlight\">tanto</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">decisión</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">poder</span> <span class=\"diff-highlight\">compartir</span> con <span class=\"diff-highlight\">otros</span> colaboradores<span class=\"diff-highlight\"> /</span>as <span class=\"diff-highlight\">como</span> los derechos y autorizaciones sobre el contenido de la <span class=\"diff-highlight\">bi</span> <span class=\"diff-highlight\">blioteca</span> son <span class=\"diff-highlight\">gesti</span> <span class=\"diff-highlight\">onados</span> por la <span class=\"diff-highlight\">persona</span> <span class=\"diff-highlight\">administradora</span> del sitio SharePoint."
         }
       },
       {
@@ -8375,7 +8379,7 @@ const QUIZZES = {
           "D": "Se denomina ruta de acceso rápido."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 103,
@@ -8387,19 +8391,21 @@ const QUIZZES = {
           "C": "La ordenación por tipo de archivos y por nombre de autor.",
           "D": "La ordenación por tamaño de archivo y fecha de modificación."
         },
-        "correcta": "B",
-        "metodo": "estimado_manual"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 104,
         "idpregunta": 104,
-        "pregunta": "104.- Una persona responsable de TI de una empresa está evaluando si el Almacén personal de OneDrive puede ser utilizado por los/as empleados/as para guardar documentación sensible corporativa. ¿En qué planes de suscripción está disponible esta funcionalidad?",
+        "pregunta": "104.- Una persona responsable de TI de una empresa está evaluando si el Almacén personal de OneDrive puede ser utilizado por los /as empleados/as para guardar documentación sensible corporativa. ¿En qué planes de suscripción está disponible esta funcionalidad?",
         "opciones": {
           "A": "En los planes Microsoft 365 Familia y Personal, no en OneDrive para la Empresa ni en suscripciones para grandes empresas o educativas.",
-          "B": "En todos los planes de Microsoft 365, incluyendo OneDrive para la Empresa y los planes educativos."
+          "B": "En todos los planes de Microsoft 365, incluyendo OneDrive para la Empresa y los planes educativos. 21",
+          "C": "En los planes Microsoft 365 Empresa Básico y Empresa Estándar, pero no en los planes personales ni familiares.",
+          "D": "En los planes Microsoft 365 Empresa únicamente si el administrador del tenant de Microsoft 365 lo habilita expresamente desde el centro de administración corporativo."
         },
-        "correcta": "B",
-        "metodo": "estimado_manual"
+        "correcta": "A",
+        "metodo": "acierto"
       },
       {
         "num": 105,
@@ -8412,33 +8418,33 @@ const QUIZZES = {
           "D": "Sí es posible, siempre que la persona administradora haya autorizado compartir con personas usuarias externas, que recibirán el acceso mediante un vínculo por correo electrónico como invitadas anónimas."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 106,
         "idpregunta": 106,
-        "pregunta": "106.- Una empresa necesita crear un sitio SharePoint para gestionar grandes volúmenes de datos entrantes, configurar reglas que dirijan automáticamente esos archivos a ubicaciones específicas, y administrar modificaciones sobre los datos una vez añadidos al sistema. ¿Qué tipo de sitio SharePoint cubre estas necesidades?",
+        "pregunta": "106.- Una empresa necesita crear un sitio SharePoint para gestionar grandes volúmenes de datos entrantes, configurar reglas que dirijan automáticamente esos archivos a ubicaciones específicas, y administrar modifi caciones sobre los datos una vez añadidos al sistema. ¿Qué tipo de sitio SharePoint cubre estas necesidades?",
         "opciones": {
           "A": "Un centro de documentos, ya que está diseñado para la gestión centralizada de documentos de la empresa y permite configurar reglas de enrutamiento para dirigir los archivos a las ubicaciones correspondientes.",
           "B": "Un centro de datos, ya que permite crear un sitio diseñado para la gestión de datos, configurar tablas de enrutamiento para enviar archivos entrantes a ubicaciones específicas y administrar la eliminación o modificación de datos tras añadirlos al sistema de referencia.",
           "C": "Un sitio de proyecto, ya que reúne todos los estados y artefactos del proyecto en un entorno único, incluyendo herramientas para gestionar y redirigir los datos entrantes de forma automatizada.",
           "D": "Un centro de investigación de base, ya que proporciona funciones avanzadas de búsqueda y clasificación de datos, permitiendo además configurar reglas para dirigir automáticamente los archivos a las ubicaciones definidas."
         },
-        "correcta": "A",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 107,
         "idpregunta": 107,
-        "pregunta": "107.- Varias personas de un equipo necesitan modificar el mismo archivo almacenado en una biblioteca de documentos SharePoint. ¿Qué es preferible hacer para evitar que varias personas usuarias realicen modificaciones simultáneas sobre el mismo archivo?",
+        "pregunta": "107.- Varias personas de un equipo necesitan modificar el mismo archivo almacenado en una biblioteca de documentos SharePoint. ¿Qué es preferible hacer para evitar que varias personas usuaria s realicen modificaciones simultáneas sobre el mismo archivo?",
         "opciones": {
-          "A": "Extraer el archivo del repositorio antes de abrirlo, de forma que ninguna otra persona usuaria pueda modificarlo mientras esté extraído, e insertarlo de nuevo una vez guardados los cambios para que todas puedan ver las modificaciones.",
-          "B": "Abrir el archivo directamente desde la biblioteca y activar el modo de edicion exclusiva desde las opciones del documento, que bloqueara automaticamente el acceso al resto de personas usuarias mientras este abierto.",
-          "C": "Crear una copia local del archivo, realizar las modificaciones necesarias y subir la nueva version a la biblioteca, sobreescribiendo la anterior para que el resto de personas usuarias accedan a la version actualizada.",
-          "D": "Compartir el archivo con permisos de solo lectura para el resto de personas usuarias mientras una persona del equipo lo edita, y restablecer los permisos de edicion una vez finalizados los cambios."
+          "A": "Extraer el archivo del repositorio antes de abrirlo, de forma que ninguna otra persona usuaria pueda modificarlo mientras esté extraído, e insertarlo de nuevo una vez guardados los cambios para que todas puedan ver las modificaciones. 22",
+          "B": "Abrir el archivo directamente desde la bibli oteca y activar el modo de edición exclusiva desde las opciones del documento, que bloqueará automáticamente el acceso al resto de personas usuarias mientras esté abierto.",
+          "C": "Crear una copia local del archivo, realizar las modificaciones necesarias y subir la nueva versión a la biblioteca, sobreescribiendo la anterior para que el resto de personas usuarias accedan a la versión actualizada.",
+          "D": "Compartir el archivo con permisos de solo lectura para el resto de personas usuarias mientras una persona del equipo lo edita, y restablecer los permisos de edición una vez finalizados los cambios."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 108,
@@ -8451,7 +8457,7 @@ const QUIZZES = {
           "D": "Puede recibir un aviso por correo electrónico o por SMS cada vez que se realice una modificación en dicho archivo, tras crear una alerta sobre el mismo."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 109,
@@ -8464,31 +8470,31 @@ const QUIZZES = {
           "D": "Depende del estado de la tarea: las tareas completadas se representan con un rombo y las pendientes con un círculo en la escala de tiempo."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 110,
         "idpregunta": 110,
         "pregunta": "110.- Una persona usuaria acaba de crear un nuevo sitio Wiki en SharePoint y observa que al acceder a él se muestra automáticamente una página por defecto. ¿Cómo se denomina técnicamente esta página y qué características tiene?",
         "opciones": {
-          "A": "Se denomina Home.aspx; es la primera página del sitio que aparece al acceder a él y, aunque al crear el sitio se propone una versión estándar, puede modificarse o eliminarse y sustituirse por otra.",
-          "B": "Se denomina Index.aspx; es la primera pagina del sitio que aparece al acceder a el y, aunque al crear el sitio se propone una version estandar, puede modificarse o eliminarse y sustituirse por otra.",
-          "C": "Se denomina Index.aspx y es una pagina generada automaticamente que recoge un indice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada.",
-          "D": "Se denomina Home.aspx y es una pagina generada automaticamente que recoge un indice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada."
+          "A": "Se denomina Home.aspx; es la primera página del sitio que aparece al acceder a él y, aunque al crear el sitio se propone una versión estándar, puede modificarse o eliminarse y sustituirse por otra. 23",
+          "B": "Se denomina Index.aspx; es la primera página del sitio que aparece al acceder a él y, aunque al crear el sitio se propone una versión estándar, puede modificarse o eliminarse y sustituirse por otra.",
+          "C": "Se denomina Index.aspx y es una página generada automáticamente que recoge un índice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada.",
+          "D": "Se denomina Home.aspx y es una página generada automáticamente que recoge un índice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada."
         },
         "correcta": "A",
-        "metodo": "estimado_manual",
+        "metodo": "acierto",
         "diffs": {
-          "A": "Se denomina <span class=\"diff-highlight\">Home</span>.aspx; es la primera <span class=\"diff-highlight\">página</span> del sitio que aparece al acceder a <span class=\"diff-highlight\">él</span> y, aunque al crear el sitio se propone una <span class=\"diff-highlight\">versión</span> <span class=\"diff-highlight\">estándar</span>, puede modificarse o eliminarse y sustituirse por otra.",
-          "B": "Se denomina <span class=\"diff-highlight\">Index</span>.aspx; es la primera <span class=\"diff-highlight\">pagina</span> del sitio que aparece al acceder a <span class=\"diff-highlight\">el</span> y, aunque al crear el sitio se propone una <span class=\"diff-highlight\">version</span> <span class=\"diff-highlight\">estandar</span>, puede modificarse o eliminarse y sustituirse por otra.",
-          "C": "Se denomina <span class=\"diff-highlight\">Index</span>.aspx y es una pagina generada automaticamente que recoge un indice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada.",
-          "D": "Se denomina <span class=\"diff-highlight\">Home</span>.aspx y es una pagina generada automaticamente que recoge un indice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada."
+          "A": "Se denomina <span class=\"diff-highlight\">Home</span>.aspx; es la primera página del sitio que aparece al acceder a él y, aunque al crear el sitio se propone una versión estándar, puede modificarse o eliminarse y sustituirse por otra<span class=\"diff-highlight\">. 23</span>",
+          "B": "Se denomina <span class=\"diff-highlight\">Index</span>.aspx; es la primera página del sitio que aparece al acceder a él y, aunque al crear el sitio se propone una versión estándar, puede modificarse o eliminarse y sustituirse por otra<span class=\"diff-highlight\">.</span>",
+          "C": "Se denomina <span class=\"diff-highlight\">Index</span>.aspx y es una página generada automáticamente que recoge un índice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada.",
+          "D": "Se denomina <span class=\"diff-highlight\">Home</span>.aspx y es una página generada automáticamente que recoge un índice de todos los contenidos del sitio, pudiendo ser modificada pero no eliminada."
         }
       },
       {
         "num": 111,
         "idpregunta": 111,
-        "pregunta": "111.- Microsoft Teams es una plataforma de trabajo colaborativo que pone a disposición de sus personas usuarias una serie de herramientas y servicios. ¿Cuál de las siguientes opciones describe correctamente las tareas que pueden realizar las personas de un equipo en Teams?",
+        "pregunta": "111.- Microsoft Teams es una plataforma de trabajo colaborativo que pone a disposición de sus personas usuarias una serie de herramientas y servicios. ¿Cuál de las siguientes opciones describe correctamente l as tareas que pueden realizar las personas de un equipo en Teams?",
         "opciones": {
           "A": "Conversar por mensajería instantánea, gestionar el correo electrónico corporativo, transferir archivos, administrar los permisos de acceso a documentos y planificar reuniones de equipo.",
           "B": "Acceder a información del equipo, transferir archivos, consultar el historial de conversaciones, crear sitios SharePoint y administrar las suscripciones de Microsoft 365 del equipo.",
@@ -8496,7 +8502,7 @@ const QUIZZES = {
           "D": "Conversar por mensajería instantánea, transferir archivos, consultar el historial de conversaciones, gestionar las licencias de usuario y coeditar historiales compartidos del equipo."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 112,
@@ -8504,12 +8510,12 @@ const QUIZZES = {
         "pregunta": "112.- La persona propietaria de un equipo en Microsoft Teams quiere revisar qué aspectos puede gestionar desde la configuración del equipo. ¿Cuál de las siguientes opciones describe correctamente las posibilidades que ofrece dicha configuración?",
         "opciones": {
           "A": "Modificar la imagen asociada al equipo, gestionar el calendario compartido, administrar las autorizaciones de las personas miembro y configurar las notificaciones de correo electrónico del equipo.",
-          "B": "Administrar las autorizaciones de las personas miembro, gestionar el calendario compartido, configurar los canales privados, gestionar las reuniones programadas del equipo y autorizar el uso de emojis y GIF animados y pegatinas.",
-          "C": "Modificar la imagen asociada al equipo, gestionar el calendario compartido, administrar las licencias de Microsoft 365 de las personas miembro, activar o desactivar las menciones y gestionar el almacenamiento de archivos del equipo.",
-          "D": "Modificar la imagen asociada al equipo, administrar las autorizaciones de las personas miembro, activar o desactivar las menciones a equipos y canales, y autorizar el uso de emojis, GIF animados y pegatinas."
+          "B": "Administrar las autorizaciones de las personas miembro , gestionar el calendario compartido, configurar los canales privados, gestionar las reuniones programadas del equipo y autorizar el uso de emojis y GIF animados y pegatinas.",
+          "C": "Modificar la imagen asociada al equipo, gestionar el calendario compartido, administrar las l icencias de Microsoft 365 de las personas m iembro, activar o desactivar las menciones y gestionar el almacenamiento de archivos del equipo.",
+          "D": "Modificar la imagen asociada al equipo, admi nistrar las autorizaciones de la s personas miembro, activar o desactivar las menciones a equipos y canales, y autorizar el uso de emojis, GIF animados y pegatinas. 24"
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 113,
@@ -8522,7 +8528,7 @@ const QUIZZES = {
           "D": "Se puede añadir hasta 300 canales por equipo, incluidos los canales eliminados que se pueden restaurar en un plazo de 60 días."
         },
         "correcta": "B",
-        "metodo": "estimado_manual",
+        "metodo": "fallo->azul",
         "diffs": {
           "A": "Se puede añadir hasta <span class=\"diff-highlight\">200</span> canales por equipo, sin contar los canales eliminados que se pueden restaurar en un plazo de <span class=\"diff-highlight\">30</span> días.",
           "B": "Se puede añadir hasta 200 canales por equipo, <span class=\"diff-highlight\">incluidos</span> los canales eliminados que se pueden restaurar en un plazo de 30 días.",
@@ -8541,7 +8547,7 @@ const QUIZZES = {
           "D": "Como la eliminación de todas las amenazas externas que afectan al hardware."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 115,
@@ -8554,7 +8560,7 @@ const QUIZZES = {
           "D": "Como el uso de técnicas criptográficas para garantizar el anonimato de la persona usuaria."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 116,
@@ -8567,7 +8573,7 @@ const QUIZZES = {
           "D": "Cumplimiento y adaptación a la legislación vigente como la LOPD y el Código Penal."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 117,
@@ -8576,11 +8582,11 @@ const QUIZZES = {
         "opciones": {
           "A": "Que la identidad de la persona creadora de un mensaje o documento es legítima.",
           "B": "Que un mensaje o fichero no ha sido modificado desde su creación.",
-          "C": "Que cada mensaje transmitido o almacenado en un sistema informático sólo podrá ser leído por su legítimo destinatario.",
-          "D": "Que el sistema sea lo suficientemente robusto frente a ataques e interferencias."
+          "C": "Que cada mensaje transmitido o almacenado en un sistema in formático sólo podrá ser leído por su legítimo destinatario.",
+          "D": "Que el sistema sea lo suficientemente robusto frente a ataques e interferencias. 25"
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 118,
@@ -8588,12 +8594,12 @@ const QUIZZES = {
         "pregunta": "118.- ¿En qué consiste el objeto del servicio de \"No repudiación\"?",
         "opciones": {
           "A": "En implementar un mecanismo probatorio que permita demostrar la autoría y envío de un determinado mensaje.",
-          "B": "En controlar el acceso de las personas usuarias a los distintos equipos y servicios ofrecidos.",
+          "B": "En controlar el acceso de la s personas usuarias a los distintos equipos y servicios ofrecidos.",
           "C": "En registrar y monitorizar la utilización de los distintos recursos del sistema.",
-          "D": "En probar que un contenido digital pertenece a una persona titular de derechos de autor."
+          "D": "En probar que un contenido digital pertenece a un a persona titular de derechos de autor."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 119,
@@ -8606,7 +8612,7 @@ const QUIZZES = {
           "D": "Como el cifrado de todos los datos sensibles transmitidos por Internet."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 120,
@@ -8619,7 +8625,7 @@ const QUIZZES = {
           "D": "La adaptación a los requisitos del marco legal y de las exigencias de los/las clientes."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 121,
@@ -8632,7 +8638,7 @@ const QUIZZES = {
           "D": "La medición y valoración del daño que produciría un incidente de seguridad."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 122,
@@ -8642,10 +8648,10 @@ const QUIZZES = {
           "A": "El impacto económico derivado de la falta de medidas preventivas.",
           "B": "La materialización de una amenaza.",
           "C": "Una debilidad en los sistemas físicos o lógicos de la empresa.",
-          "D": "Un medio empleado para eliminar o reducir un riesgo identificado."
+          "D": "Un medio empleado para eliminar o reducir un riesgo identificado. 26"
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 123,
@@ -8658,20 +8664,20 @@ const QUIZZES = {
           "D": "Una técnica para monitorizar los registros de actividad de los equipos."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 124,
         "idpregunta": 124,
-        "pregunta": "124.- En la jerarquia de conceptos de seguridad, ¿que elemento constituye la base de la piramide y sirve para dejar constancia de las tareas realizadas?",
+        "pregunta": "124.- En la jerarquía de conceptos de seguridad, ¿qué elemento constituye la base de la pirámide y sirve para dejar constancia de las tareas realizadas?",
         "opciones": {
           "A": "Procedimientos de Seguridad.",
           "B": "Planes de Contingencia.",
           "C": "Registros / Evidencias.",
-          "D": "Politicas de Seguridad."
+          "D": "Políticas de Seguridad."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 125,
@@ -8684,7 +8690,7 @@ const QUIZZES = {
           "D": "Control de Acceso Discrecional por Propietario/a."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 126,
@@ -8697,59 +8703,59 @@ const QUIZZES = {
           "D": "Requiere un disco dedicado exclusivamente para el almacenamiento de paridad."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 127,
         "idpregunta": 127,
-        "pregunta": "127.- ¿Que nivel de RAID se destaca por ofrecer actualmente la mejor \"relacion rendimiento-coste\" para aplicaciones empresariales?",
+        "pregunta": "127.- ¿Qué nivel de RAID se destaca por ofrecer actualmente la mejor \"relación rendimiento-coste\" para aplicaciones empresariales?",
         "opciones": {
           "A": "RAID 0+1 / RAID 10",
           "B": "RAID 6 (Acceso independiente con doble paridad)",
-          "C": "RAID 2 (Acceso sincrono con codigo de errores)",
+          "C": "RAID 2 (Acceso síncrono con código de errores)",
           "D": "RAID 5"
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 128,
         "idpregunta": 128,
-        "pregunta": "128.- ¿Qué acción debe realizarse de forma inmediata en el sistema cuando un/una empleado/a causa baja en la organización?",
+        "pregunta": "128.- ¿Qué acción debe realizarse de forma inm ediata en el sistema cuando un/una empleado/a causa baja en la organización?",
         "opciones": {
-          "A": "Auditoria de las ultimas sesiones de acceso de la persona usuaria.",
-          "B": "Transferencia de sus ficheros personales a un soporte desmagnetizado.",
-          "C": "Cancelacion o bloqueo inmediato de las cuentas de una persona usuaria.",
-          "D": "Cambio de contrasena de acceso al BIOS de su estacion de trabajo."
+          "A": "Auditoría de las últimas sesiones de acceso de la persona usuaria.",
+          "B": "Transferencia de sus ficheros personales a un soporte desmagnetizado. 27",
+          "C": "Cancelación o bloqueo inmediato de las cuentas de una persona usuaria.",
+          "D": "Cambio de contraseña de acceso al BIOS de su estación de trabajo."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 129,
         "idpregunta": 129,
-        "pregunta": "129.- Dentro de los factores de autenticación, ¿cuál es un ejemplo textual de \"Lo que se",
+        "pregunta": "129.- Dentro de los factores de autenticación, ¿cuál es un ejemplo textual de \"Lo que se sabe\"?",
         "opciones": {
           "A": "Tarjeta inteligente (smartcard) o token USB.",
-          "B": "Caracteristicas biometricas como el iris o la voz.",
+          "B": "Características biométricas como el iris o la voz.",
           "C": "Firma manuscrita.",
-          "D": "Contrasenas (passwords) y PINs."
+          "D": "Contraseñas (passwords) y PINs."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 130,
         "idpregunta": 130,
-        "pregunta": "130.- ¿Cómo se clasifica la información cuya divulgación podría ocasionar \"daños",
+        "pregunta": "130.- ¿Cómo se clasifica la información cuya divulgación podría ocasionar \"daños significativos\" para la organización?",
         "opciones": {
-          "A": "Informacion de uso interno.",
-          "B": "Informacion secreta o reservada.",
-          "C": "Informacion desclasificada.",
-          "D": "Informacion confidencial."
+          "A": "Información de uso interno.",
+          "B": "Información secreta o reservada.",
+          "C": "Información desclasificada.",
+          "D": "Información confidencial."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 131,
@@ -8762,38 +8768,38 @@ const QUIZZES = {
           "D": "Encapsulamiento de protocolos no enrutables mediante túneles."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 132,
         "idpregunta": 132,
-        "pregunta": "132.- ¿Como se denomina al intervalo de tiempo transcurrido desde que se hace publica una vulnerabilidad hasta que se presenta la correspondiente actualizacion o parche de seguridad?",
+        "pregunta": "132.- ¿Cómo se denomina al intervalo de tiempo transcurrido desde que se hace pública una vulnerabilidad hasta que se presenta la correspondiente actualización o parche de seguridad?",
         "opciones": {
-          "A": "Dias de riesgo.",
-          "B": "Periodo de exposicion.",
+          "A": "Días de riesgo.",
+          "B": "Periodo de exposición.",
           "C": "Ventana de vulnerabilidad.",
-          "D": "Tiempo de respuesta tecnica."
+          "D": "Tiempo de respuesta técnica."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 133,
         "idpregunta": 133,
-        "pregunta": "133.- ¿Qué técnica de espionaje empresarial consiste en la búsqueda de información sensible en copias generadas en papel que han sido descartadas?",
+        "pregunta": "133.- ¿Qué técnica de espionaje empresarial consiste en la búsqueda de i nformación sensible en copias generadas en papel que han sido descartadas?",
         "opciones": {
           "A": "Trash scanning.",
           "B": "Paper tracking.",
           "C": "Dumpster diving.",
-          "D": "Scraping físico."
+          "D": "Scraping físico. 28"
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 134,
         "idpregunta": 134,
-        "pregunta": "134.- Segun la Ley General de Telecomunicaciones de Espana (32/2003), ¿que obligacion puede imponer el Estado a los organismos publicos o fabricantes en relacion con el cifrado?",
+        "pregunta": "134.- Según la Ley General de Telecomunicaciones de España (32/2003), ¿qué obligación puede imponer el Estado a los organismos públicos o fabricantes en relación con el cifrado?",
         "opciones": {
           "A": "Entregar copias de seguridad de todas las claves privadas.",
           "B": "Utilizar exclusivamente algoritmos de cifrado de flujo.",
@@ -8801,7 +8807,7 @@ const QUIZZES = {
           "D": "Facilitar sin coste alguno los aparatos de cifrado a efectos de su control."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 135,
@@ -8814,7 +8820,7 @@ const QUIZZES = {
           "D": "Durante el mantenimiento correctivo."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 136,
@@ -8827,7 +8833,7 @@ const QUIZZES = {
           "D": "Remote cell control."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 137,
@@ -8836,11 +8842,11 @@ const QUIZZES = {
         "opciones": {
           "A": "OSSTMM.",
           "B": "Owasp",
-          "C": "NIST SP 800- 42",
+          "C": "NIST SP 800-42",
           "D": "EISPP"
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 138,
@@ -8850,23 +8856,23 @@ const QUIZZES = {
           "A": "Nessus Scripting Tool (NST).",
           "B": "NASL (Nessus Attack Scripting Language).",
           "C": "Vulnerability Definition Language (VDL).",
-          "D": "Nessus Core Script."
+          "D": "Nessus Core Script. 29"
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 139,
         "idpregunta": 139,
-        "pregunta": "139.- ¿A que tipo de tratamiento de datos personales resultara de aplicacion el Reglamento (UE) 2016/679 relativo a la proteccion de las personas fisicas?",
+        "pregunta": "139.- ¿A qué tipo de tratamiento de datos personales resultará de aplicación el Reglamento (UE) 2016/679 relativo a la protección de las personas físicas?",
         "opciones": {
-          "A": "Al tratamiento total o parcialmente automatizado de datos personales, asi como al tratamiento no automatizado de datos personales contenidos o destinados a ser incluidos en un fichero.",
-          "B": "Al tratamiento realizado en el ejercicio de una actividad no comprendida en el ambito de aplicacion del Derecho de la Union.",
-          "C": "Al tratamiento efectuado por parte de las autoridades competentes con fines de prevencion, investigacion, deteccion o enjuiciamiento de infracciones penales, o de ejecucion de sanciones penales, incluida la de proteccion frente a amenazas a la seguridad publica y su prevencion.",
-          "D": "Al tratamiento efectuado por una persona fisica en el ejercicio de actividades exclusivamente personales o domesticas."
+          "A": "Al tratamiento total o parcialmente automatizado de datos personales, así como al tratamiento no automatizado de datos personales contenidos o destinados a ser incluidos en un fichero.",
+          "B": "Al tratamiento realizado en el ejercicio de una actividad no comprendida en el ámbito de aplicación del Derecho de la Unión.",
+          "C": "Al t ratamiento efectuado por parte de las autoridades competentes con fines de prevención, investigación, detección o enjuiciamiento de infracciones penales, o de ejecución de sanciones penales, incluida la de protección frente a amenazas a la seguridad pública y su prevención.",
+          "D": "Al tratamiento efectuado por una persona física en el ejercicio de actividades exclusivamente personales o domésticas."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 140,
@@ -8874,12 +8880,12 @@ const QUIZZES = {
         "pregunta": "140.- ¿Qué exige el principio de «integridad y confidencialidad» respecto al tratamiento de datos personales según el Reglamento (UE) 2016/679?",
         "opciones": {
           "A": "Que los datos sean exactos y, si fuera necesario, se mantengan actualizados, adoptando todas las medidas razonables para que se supriman o rectifiquen sin dilación los datos personales que sean inexactos con respecto a los fines para los que se tratan.",
-          "B": "Que los datos sean tratados de tal manera que se garantice una seguridad adecuada, incluida la protección contra el tratamiento no autorizado o ilícito y contra su pérdida, destrucción o daño accidental, mediante la aplicación de medidas técnicas u organizativas apropiadas.",
+          "B": "Que los datos sean tratados de tal manera que se garantice una seguridad adecuada, incluida la protección contra el tratamiento no autorizado o ilícito y contra su pérdida, destrucción o daño accidental, mediante la aplicación de me didas técnicas u organizativas apropiadas.",
           "C": "Que los datos sean mantenidos de forma que se permita la identificación de las personas interesadas durante un plazo indefinido, sin atender a la necesidad del tratamiento de los datos personales ni a las medidas técnicas y organizativas que impone el presente Reglamento.",
           "D": "Que los datos sean recogidos con fines determinados, explícitos y legítimos, y no sean tratados ulteriormente de manera incompatible con dichos fines, salvo que se traten con fines de archivo en interés público, de investigación científica o histórica."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 141,
@@ -8889,10 +8895,10 @@ const QUIZZES = {
           "A": "Que la niña o el niño tenga como mínimo 14 años, sin que los Estados miembros puedan establecer por ley una edad inferior a tales fines.",
           "B": "Que el servicio sea gratuito y no implique la elaboración de perfiles comerciales.",
           "C": "Que el niño o la niña haya leído y aceptado las condiciones de privacidad de forma autónoma, siempre que tenga como mínimo 14 años de edad.",
-          "D": "Que la niña o el niño tenga como mínimo 16 años, o si es menor a dicha edad, que el consentimiento lo diera o autorizara el titular de la patria potestad o tutela."
+          "D": "Que la niña o el niño tenga como mínimo 16 años, o si es menor a dicha edad, que el consentimiento lo diera o autorizara el titular de la patria potestad o tutela. 30"
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 142,
@@ -8901,24 +8907,24 @@ const QUIZZES = {
         "opciones": {
           "A": "La fuente de la que proceden los datos personales y si estos proceden de fuentes de acceso público.",
           "B": "Los fines del tratamiento a que se destinan los datos personales y la base jurídica del tratamiento.",
-          "C": "Las categorías de datos personales de que se trate y el historial de tratamientos anteriores de la persona interesada.",
+          "C": "Las categorías de datos personales de que se trate y el historia l de tratamientos anteriores de la persona interesada.",
           "D": "La descripción general de las medidas técnicas y organizativas de seguridad adoptadas para garantizar la resiliencia de los sistemas de tratamiento de datos."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 143,
         "idpregunta": 143,
-        "pregunta": "143.- ¿Qué información específica, entre otras, tiene derecho a obtener la persona interesada del responsable del tratamiento cuando ejerce su derecho de acceso al amparo del Reglamento (UE) 2016/679?",
+        "pregunta": "143.- ¿Qué información específica, entre ot ras, tiene derecho a obtener la persona interesada del responsable del tratamiento cuando ejerce su derecho de acceso al amparo del Reglamento (UE) 2016/679?",
         "opciones": {
-          "A": "Las personas destinatarias o las categorías de personas destinatarias a las que se comunicaron o serán comunicados los datos personales, en particular personas destinatarias en terceros u organizaciones internacionales.",
+          "A": "Las personas destinataria s o las categorías de personas destinataria s a las que se comunicaron o serán comunicados los datos personales, en particular personas destinatarias en terceros u organizaciones internacionales.",
           "B": "Cuando los datos personales no se hayan obtenido de la persona interesada, los datos personales de la persona representante de la persona destinataria.",
           "C": "La identificación pormenorizada de la ubicación física de los servidores y la dirección del centro de procesamiento de datos donde se encuentran alojados sus datos personales.",
           "D": "La descripción técnica del estándar de seguridad y el algoritmo de cifrado específico aplicado para garantizar la resiliencia de sus datos personales."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 144,
@@ -8931,20 +8937,20 @@ const QUIZZES = {
           "D": "Cuando los datos personales ya no sean necesarios en relación con los fines para los que fueron recogidos o tratados de otro modo."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 145,
         "idpregunta": 145,
-        "pregunta": "145.- De acuerdo con el texto del Reglamento (UE) 2016/679, ¿en qué formato tendrá derecho a recibir la persona interesada sus datos personales al ejercer el derecho a la portabilidad?",
+        "pregunta": "145.- De acuerdo con el texto del Reglamento (UE) 2016/679, ¿en qué form ato tendrá derecho a recibir la persona interesada sus datos personales al ejercer el derecho a la portabilidad?",
         "opciones": {
           "A": "En cualquier formato que el responsable considere oportuno, siempre que sea legible por el interesado.",
-          "B": "Unicamente en formato papel certificado y compulsado para garantizar su autenticidad.",
-          "C": "En un formato estructurado, de uso comun y lectura mecanica.",
+          "B": "Únicamente en formato papel certificado y compulsado para garantizar su autenticidad. 31",
+          "C": "En un formato estructurado, de uso común y lectura mecánica.",
           "D": "En un formato cifrado que solo pueda ser abierto por autoridades de control."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 146,
@@ -8957,38 +8963,38 @@ const QUIZZES = {
           "D": "El dictamen vinculante del Comité Europeo de Protección de Datos sobre la gravedad de la infracción y la propuesta de sanción administrativa correspondiente."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 147,
         "idpregunta": 147,
         "pregunta": "147.- En el marco del Reglamento (UE) 2016/679, ¿en qué circunstancia NO resulta obligatoria la comunicación individual de una violación de la seguridad de los datos personales a la persona interesada, a pesar de que sea probable que dicha violación entrañe un alto riesgo para sus derechos y libertades?",
         "opciones": {
-          "A": "Cuando la persona responsable demuestre haber aplicado medidas de protección técnicas y organizativas, en particular las que hagan los datos personales ininteligibles para cualquier persona no autorizada a su acceso, como el cifrado.",
+          "A": "Cuando la persona responsable d emuestre haber aplicado medidas de protección técnicas y organizativas, en particular las que hagan los datos personales ininteligibles para cualquier persona no autorizada a su acceso, como el cifrado.",
           "B": "Siempre que la persona responsable haya procedido a la notificación obligatoria a la autoridad de control competente en el plazo máximo de 72 horas.",
           "C": "Cuando la violación afecte exclusivamente a datos personales que hayan sido objeto de un tratamiento de seudonimización previo al incidente.",
           "D": "Cuando el tratamiento de los datos personales afectados se encuentre amparado por una obligación legal o una misión de interés público."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 148,
         "idpregunta": 148,
         "pregunta": "148.- De acuerdo con el Reglamento (UE) 2016/679, ¿cuál de las siguientes funciones debe desempeñar la persona delegada de protección de datos como parte de sus cometidos mínimos?",
         "opciones": {
-          "A": "Asumir la representación legal y la responsabilidad jurídica de la persona responsable del tratamiento ante cualquier reclamación judicial interpuesta por las personas interesadas.",
+          "A": "Asumir la representación legal y la responsabilidad jurídica de la persona responsable del tratamiento ante cualquier reclamac ión judicial interpuesta por las personas interesadas.",
           "B": "Ofrecer el asesoramiento que se le solicite acerca de la evaluación de impacto relativa a la protección de datos y supervisar su aplicación.",
           "C": "Realizar de forma autónoma la evaluación de impacto relativa a la protección de datos en lugar de la persona responsable del tratamiento.",
-          "D": "Validar técnicamente las aplicaciones y auditar el estándar de cifrado específico aplicado a las bases de datos de la persona responsable."
+          "D": "Validar técnicamente las aplicaciones y auditar el estándar de cifrado específico aplicado a las bases de datos de la persona responsable. 32"
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 149,
         "idpregunta": 149,
-        "pregunta": "149.- ¿En qué lugar tiene derecho a presentar una reclamación ante una autoridad de control una persona interesada que considere que el tratamiento de sus datos personales infringe el Reglamento (UE) 2016/679?",
+        "pregunta": "149.- ¿En qué lugar tiene derecho a presentar una reclamación ante una autoridad de control un a persona interesada que considere que el tratamiento de sus datos personales infringe el Reglamento (UE) 2016/679?",
         "opciones": {
           "A": "Exclusivamente en el Estado miembro donde la persona responsable del tratamiento tenga su administración central o su establecimiento principal.",
           "B": "En el Estado miembro de su residencia habitual, lugar de trabajo o lugar de la supuesta infracción.",
@@ -8996,12 +9002,12 @@ const QUIZZES = {
           "D": "Ante la autoridad de control del Estado miembro donde se localice el servidor físico que aloja los datos personales objeto de la controversia."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 150,
         "idpregunta": 150,
-        "pregunta": "150.- De acuerdo con lo establecido en el Reglamento (UE) 2016/679, ¿de quién tiene derecho a recibir una indemnización toda persona que haya sufrido daños y perjuicios materiales o inmateriales como consecuencia de una infracción de dicho Reglamento?",
+        "pregunta": "150.- De acuerdo con lo establecido en el Reglamento (UE) 2016/679, ¿de quién tiene derecho a recibir una indemnización toda p ersona que haya sufrido daños y perjuicios materiales o inmateriales como consecuencia de una infracción de dicho Reglamento?",
         "opciones": {
           "A": "De la Persona Delegada de Protección de Datos.",
           "B": "De la Agencia Española de Protección de Datos.",
@@ -9009,7 +9015,7 @@ const QUIZZES = {
           "D": "Del Comité Europeo de Protección de Datos."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 151,
@@ -9019,23 +9025,23 @@ const QUIZZES = {
           "A": "La prohibición es absoluta y vinculante para todas las personas legitimadas, incluidas las personas herederas, ya que el derecho fundamental a la protección de datos exige el respeto íntegro a la voluntad de control sobre la propia información incluso tras el fallecimiento.",
           "B": "La prohibición impide el acceso, rectificación o supresión con carácter general, pero no puede afectar al derecho de las personas herederas a acceder a los datos de carácter patrimonial del o de la causante.",
           "C": "El ejercicio de los derechos de acceso y supresión decae únicamente si la prohibición ha sido inscrita en el registro de mandatos e instrucciones previsto por la Ley, siendo ineficaz cualquier otra manifestación de voluntad que no conste en documento público.",
-          "D": "En caso de fallecimiento de personas con discapacidad, la prohibición expresa del o de la causante podrá ser siempre revocada por el Ministerio Fiscal de oficio si considera que el acceso a los datos beneficia el interés superior de las personas herederas."
+          "D": "En caso de fallecimiento de personas con discapacidad, la prohibición expresa del o de la causante pod rá ser siempre revocada por el Ministerio Fiscal de oficio si considera que el acceso a los datos beneficia el interés superior de las personas herederas. 33"
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 152,
         "idpregunta": 152,
         "pregunta": "152.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿quién tiene la potestad legal para ejercer los derechos de acceso, rectificación, cancelación u oposición en nombre de un o una menor de catorce años?",
         "opciones": {
-          "A": "Las personas titulares de la patria potestad, quienes podrán ejercitar tales derechos en nombre y representación del o de la menor, así como cualquier otra persona que pudiera corresponderle en el contexto de la normativa de protección de datos.",
+          "A": "Las personas titulares de la patria potestad, quienes podrán ejercitar tales derechos en nombre y representación del o de l a menor, así como cualquier otra persona que pudiera corresponderle en el contexto de la normativa de protección de datos.",
           "B": "El Ministerio Fiscal, con carácter exclusivo y de oficio, para garantizar la neutralidad y la protección del interés superior de la o del menor frente a posibles usos comerciales de sus datos por parte de sus representantes legales.",
-          "C": "El o la propia menor de edad de forma autónoma, siempre que la persona responsable del tratamiento implemente mecanismos de verificación de madurez que demuestre que la persona afectada comprende las consecuencias del tratamiento de su información.",
+          "C": "El o la propia menor de edad de forma autónoma, siempre que la persona responsable del tratamiento implemente mecanismos de verificación de m adurez que demuestre que la persona afectada comprende las consecuencias del tratamiento de su información.",
           "D": "Únicamente la persona Delegada de Protección de Datos de la institución educativa o entidad donde se traten los datos, actuando como tutora o tutor digital para evitar conflictos de intereses entre el o la menor y sus progenitores."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 153,
@@ -9048,20 +9054,20 @@ const QUIZZES = {
           "D": "Únicamente las asociaciones y organismos que creen sistemas de información generales o sectoriales."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 154,
         "idpregunta": 154,
-        "pregunta": "154.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿cuál de las siguientes afirmaciones es válida en relación con el bloqueo de los datos?",
+        "pregunta": "154.- De acuerdo con lo esta blecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿cuál de las siguientes afirmaciones es válida en relación con el bloqueo de los datos?",
         "opciones": {
           "A": "El bloqueo es una medida facultativa que permite a la persona responsable del tratamiento seguir utilizando la información para fines estadísticos o de investigación interna, siempre que los datos se mantengan en un servidor independiente del principal.",
-          "B": "Los datos bloqueados deben ser objeto de una eliminación física inmediata e irreversible de todos los soportes lógicos, debiendo el responsable emitir un certificado de destrucción para su remisión obligatoria a la Agencia Española de Protección de Datos.",
+          "B": "Los datos bloqueados deben ser objeto de un a eliminación física inmediata e irreversible de todos los soportes lógicos, debiendo el responsable emitir un certificado de destrucción para su remisión obligatoria a la Agencia Española de Protección de Datos.",
           "C": "Consiste en la identificación y reserva de los datos para impedir su tratamiento y visualización, excepto para ponerlos a disposición de jueces y tribunales, el Ministerio Fiscal o las Administraciones Públicas competentes para la exigencia de posibles responsabilidades durante el plazo de prescripción.",
-          "D": "El bloqueo implica una suspensión temporal del acceso a los datos durante un plazo fijo de un año, transcurrido el cual, si la persona afectada no ha reiterado su solicitud de supresión, los datos volverán a estar activos para el tratamiento original."
+          "D": "El bloqueo implica una suspensión temporal del acceso a los datos durante un plazo fijo de un año, transcurrido el cual, si la persona afectada no ha reiterado su solicitud de supresión, los datos volverán a estar activos para el tratamiento original. 34"
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 155,
@@ -9073,8 +9079,8 @@ const QUIZZES = {
           "C": "El Ministerio de Justicia.",
           "D": "El Ministerio de Economía y Empresa."
         },
-        "correcta": "B",
-        "metodo": "estimado_manual"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 156,
@@ -9084,10 +9090,10 @@ const QUIZZES = {
           "A": "Sobre cualquier tratamiento de datos personales realizado por empresas privadas siempre que su domicilio social o su actividad principal se desarrolle dentro del territorio de la respectiva Comunidad Autónoma.",
           "B": "Sobre los tratamientos de datos de personas físicas realizados en el ejercicio de actividades exclusivamente personales o domésticas dentro del ámbito geográfico de la autonomía.",
           "C": "Sobre tratamientos llevados a cabo por personas físicas o jurídicas para el ejercicio de las funciones públicas en materias que sean competencia de la correspondiente Administración Autonómica o Local.",
-          "D": "Exclusivamente como órganos de consulta y asesoramiento del Gobierno autonómico, careciendo de potestad para dictar circulares o ejercer las funciones de inspección y sanción previstas en el Reglamento (UE) 2016/679."
+          "D": "Exclusivamente como órgano s de consulta y asesoramiento del Gobierno autonómico, careciendo de potestad para dictar circulares o ejercer las funciones de inspección y sanción previstas en el Reglamento (UE) 2016/679."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 157,
@@ -9095,12 +9101,12 @@ const QUIZZES = {
         "pregunta": "157.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿en qué supuestos debe la Agencia Española de Protección de Datos (AEPD) acordar obligatoriamente la inadmisión a trámite de una reclamación presentada por una o un ciudadano?",
         "opciones": {
           "A": "Únicamente cuando la reclamante sea una persona jurídica, dado que el derecho fundamental a la protección de datos ampara exclusivamente a las personas físicas y no a las organizaciones o empresas.",
-          "B": "Cuando la reclamación se presente de forma presencial en papel y la persona interesada sea una persona obligada a relacionarse electrónicamente con las Administraciones Públicas, de acuerdo con la Ley 39/2015",
+          "B": "Cuando la reclamación se presente d e forma presencial en papel y la persona interesada sea una persona obligad a a relacionarse electrónicamente con las Administraciones Públicas, de acuerdo con la Ley 39/2015",
           "C": "Cuando el objeto de la queja sea una infracción cuya sanción económica prevista sea inferior a 3.000 euros, considerándose en tal caso que no existe un interés público relevante para iniciar el procedimiento.",
-          "D": "Cuando las reclamaciones presentadas no versen sobre cuestiones de protección de datos personales, carezcan manifiestamente de fundamento, sean abusivas o no aporten indicios racionales de la existencia de una infracción."
+          "D": "Cuando las reclamaciones presentadas no versen sobre cuestiones de protección de datos personales, carezcan manifiestamente de fundamento, sean abu sivas o no aporten indicios racionales de la existencia de una infracción. 35"
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 158,
@@ -9108,12 +9114,12 @@ const QUIZZES = {
         "pregunta": "158.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿cuál de las siguientes conductas es tipificada como una infracción muy grave?",
         "opciones": {
           "A": "La exigencia del pago de un canon para atender las solicitudes de ejercicio de derechos de las personas afectadas cuando el ejercicio sea repetitivo, si la cuantía cobrada excede el importe de los costes de facilitar la información.",
-          "B": "El quebrantamiento, como consecuencia de la falta de la debida diligencia, de las medidas técnicas y organizativas de seguridad que la persona responsable hubiese implantado conforme a lo exigido por el artículo 32.1 del Reglamento (UE) 2016/679.",
+          "B": "El quebrantamiento, como consecuencia de la falta de la debida diligencia, de las medidas técnicas y or ganizativas de seguridad que la persona responsable hubiese implantado conforme a lo exigido por el artículo 32.1 del Re glamento (UE) 2016/679.",
           "C": "El tratamiento de datos personales relacionados con infracciones y sanciones administrativas fuera de los supuestos permitidos por el artículo 27 de esta ley orgánica.",
           "D": "No poner a disposición de la autoridad de protección de datos el registro de actividades de tratamiento cuando éste sea solicitado en el marco de una investigación."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 159,
@@ -9126,7 +9132,7 @@ const QUIZZES = {
           "D": "Durante más de 6 meses."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 160,
@@ -9135,24 +9141,24 @@ const QUIZZES = {
         "opciones": {
           "A": "El acceso a Internet de hombres y mujeres procurará la superación de la brecha de género tanto en el ámbito personal como laboral.",
           "B": "Se garantizará un acceso universal, asequible, de calidad y no discriminatorio para toda la población.",
-          "C": "Se procurará la superación de la brecha generacional mediante acciones dirigidas a la formación y el acceso de las personas mayores.",
+          "C": "Se procurará la superación de la brecha ge neracional mediante acciones dirigidas a la formación y el acceso de las personas mayores.",
           "D": "El derecho de acceso universal implica la obligación de las personas proveedoras de red de suministrar conexión gratuita de banda ancha a toda la ciudadanía residente en entornos rurales con baja densidad demográfica."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 161,
         "idpregunta": 161,
         "pregunta": "161.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, ¿cuál de las siguientes afirmaciones se corresponde con lo dispuesto en relación con el derecho a la desconexión digital en el ámbito laboral?",
         "opciones": {
-          "A": "El derecho a la desconexion faculta a la persona trabajadora para interrumpir de forma discrecional el uso de herramientas tecnologicas durante la jornada laboral efectiva, siempre que se acredite un riesgo de fatiga informatica conforme a la normativa de prevencion de riesgos laborales.",
-          "B": "La persona empleadora, previa audiencia de los y las representantes de las personas trabajadoras, debe elaborar una politica interna que defina las modalidades de ejercicio de este derecho y las acciones de formacion y sensibilizacion sobre un uso razonable de las herramientas tecnologicas.",
-          "C": "Dada la naturaleza de este derecho, su obligatoriedad y el deber empresarial de definir protocolos de desconexion se circunscriben exclusivamente a las personas trabajadoras que prestan servicios a distancia o mediante teletrabajo.",
-          "D": "En defecto de previsiones especificas en la negociacion colectiva, la persona empresaria podra establecer de forma unilateral las condiciones de la desconexion digital, siendo suficiente la notificacion informativa a los y las representantes de las personas trabajadoras para su validez."
+          "A": "El derecho a la desconexión faculta a la persona trabajadora para interrumpir de forma discrecional el uso de herramientas tecnológicas durante la jornada laboral 36 efectiva, siempre que se acredite un riesgo de fatiga informática conforme a la normativa de prevención de riesgos laborales.",
+          "B": "La persona empleadora, previa audiencia de los y las representantes de las personas trabajadoras, debe elaborar una política interna que defina las modalidades de ejercicio de este derecho y las acciones de formación y sensibilización sobre un uso razonable de las herramientas tecnológicas.",
+          "C": "Dada la naturaleza de este derecho, su obligatoriedad y el deber empresarial de definir protocolos de desconexión se circunscriben exclusivamente a las personas trabajadoras que prestan servicios a distancia o mediante teletrabajo.",
+          "D": "En defecto de previsiones específicas en la negociación colectiva, la persona empresaria podrá establecer de forma unilateral las condiciones de la desconexión digital, siendo suficiente la notificación informativa a los y las representantes de las personas trabajadoras para su validez."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 162,
@@ -9160,25 +9166,25 @@ const QUIZZES = {
         "pregunta": "162.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, en relación con la protección de menores en Internet, ¿qué deben cumplir los centros educativos o entidades que desarrollen actividades con menores para publicar o difundir datos personales de estos en redes sociales?",
         "opciones": {
           "A": "Debido a la misión de interés público que desempeñan los centros docentes, estos están facultados para difundir imágenes de actividades escolares sin necesidad de consentimiento, siempre que no se identifique al o a la menor con nombres y apellidos.",
-          "B": "La difusión o publicación de dichos datos en redes sociales o servicios equivalentes requiere obligatoriamente el consentimiento del o de la propia menor o de sus representantes legales, según lo dispuesto en las reglas generales de la Ley sobre consentimiento de menores.",
-          "C": "Para garantizar la seguridad de la o del menor, la normativa prohíbe taxativamente a los centros educativos el uso de redes sociales abiertas, permitiendo la difusión de datos únicamente a través de plataformas educativas cerradas y de acceso restringido a las familias.",
+          "B": "La difusión o publicación de dichos datos en redes sociales o servicios equivalentes requiere obligatoriamente el cons entimiento del o de la propia menor o de sus representantes legales, según lo dispuesto en las reglas generales de la Ley sobre consentimiento de menores.",
+          "C": "Para garantizar la seguridad de la o del menor, la normativa prohíbe taxativamente a los centros educ ativos el uso de redes sociales abiertas, permitiendo la difusión de datos únicamente a través de plataformas educativas cerradas y de acceso restringido a las familias.",
           "D": "El centro educativo podrá publicar la información basándose en el \"interés superior de la o del menor\", bastando con informar previamente a sus tutores legales y dándoles un plazo de diez días para que manifiesten su oposición expresa antes de la subida del contenido."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 163,
         "idpregunta": 163,
-        "pregunta": "163.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, en relación con el ejercicio del derecho al olvido en servicios de redes sociales y servicios equivalentes, ¿cuál de las siguientes afirmaciones es correcta respecto a la supresión de datos facilitados durante la minoría de edad?",
+        "pregunta": "163.- De acuerdo con lo establecido en la Ley Orgánica 3/2018, de 5 de diciemb re, en relación con el ejercicio del derecho al olvido en servicios de redes sociales y servicios equivalentes, ¿cuál de las siguientes afirmaciones es correcta respecto a la supresión de datos facilitados durante la minoría de edad?",
         "opciones": {
-          "A": "El prestador del servicio solo esta obligado a suprimir los datos si la persona afectada demuestra que la informacion es inexacta, no pertinente o excesiva, siguiendo los criterios de ponderacion aplicables a los datos facilitados por terceras personas en la edad adulta.",
-          "B": "El derecho de supresion sobre contenidos de la etapa de minoria de edad decae automaticamente si la persona afectada, una vez alcanzada la mayoria de edad, realiza nuevas publicaciones en el mismo servicio, entendiendose como una validacion tacita de su historial previo.",
-          "C": "En caso de que el derecho se ejercitase por una persona afectada respecto de datos que hubiesen sido facilitados al servicio, por ella o por terceras personas, durante su minoria de edad, la persona prestadora del servicio debera proceder sin dilacion a su supresion por su simple solicitud, sin necesidad de que concurran otras circunstancias.",
-          "D": "Las personas prestadoras de servicios de redes sociales estan exentas de suprimir datos de menores si acreditan que dicha informacion se utiliza unicamente para fines estadisticos."
+          "A": "El prestador del servicio sólo está obligado a suprimir los datos si la persona afectada demuestra que la información es inexacta, no pertinente o excesiva, siguiendo los criterios de ponderación aplicables a los datos facilitados por terceras personas en la edad adulta.",
+          "B": "El derecho de supresión sobre contenidos de la etapa de minoría de edad decae automáticamente si la persona afectada, una vez alcanzada la mayoría de edad, realiza nuevas publicaciones en el mismo servicio, entendiéndose como una validación tácita de su historial previo. 37",
+          "C": "En caso de que el derecho se ejercitase por una persona afectada respecto de datos que hubiesen sido facilitados al servicio, por ella o por terceras personas, durante su minoría de edad, la persona prestadora del servicio deberá proceder sin dilación a su supresión por su simple solicitud, sin necesidad de que concurran otras circunstancias.",
+          "D": "Las personas prestadora s de servicio s de redes sociales están exent as de suprimir datos de menores si acreditan que dicha información se utiliza únicamente para fines estadísticos."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 164,
@@ -9191,7 +9197,7 @@ const QUIZZES = {
           "D": "El derecho fundamental de las personas físicas a la protección de datos personales amparado por el artículo 18.4 de la Constitución."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 165,
@@ -9199,17 +9205,17 @@ const QUIZZES = {
         "pregunta": "165.- ¿A qué personas prestadoras establecidas fuera de España les resulta de aplicación la Ley 6/2020?",
         "opciones": {
           "A": "A todas las personas prestadoras residentes o domiciliadas en otro Estado que operen en España, independientemente de su supervisión.",
-          "B": "A las personas prestadoras residentes o domiciliadas en otro Estado con establecimiento permanente en España, siempre que sus servicios no estén supervisados por la autoridad competente de otro país de la UE.",
-          "C": "A las personas prestadoras residentes o domiciliadas en otro Estado con establecimiento permanente en España, siempre que sus servicios estén supervisados por la autoridad competente de otro país de la UE.",
+          "B": "A las pers onas prestadora s residentes o domiciliadas en otro Estado con establecimiento permanente en España, siempre que sus servicios no estén supervisados por la autoridad competente de otro país de la UE.",
+          "C": "A la s personas prestadoras residentes o domiciliada s en o tro Estado con establecimiento permanente en España, siempre que sus servicios estén supervisados por la autoridad competente de otro país de la UE.",
           "D": "A las personas prestadoras públicas y privadas de servicios electrónicos de confianza establecidos en España."
         },
         "correcta": "B",
-        "metodo": "estimado_manual",
+        "metodo": "fallo->azul",
         "diffs": {
-          "A": "A <span class=\"diff-highlight\">todas</span> las personas prestadoras residentes o domiciliadas en otro Estado <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">operen</span> en España, <span class=\"diff-highlight\">independientemente</span> de <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">supervisión</span>.",
-          "B": "A las personas prestadoras residentes o domiciliadas en otro Estado con establecimiento permanente en España, siempre que sus servicios <span class=\"diff-highlight\">no</span> estén supervisados por la autoridad competente de otro país de la UE.",
-          "C": "A las personas prestadoras residentes o domiciliadas en otro Estado con establecimiento permanente en España, siempre que sus servicios estén supervisados por la autoridad competente de otro país de la UE.",
-          "D": "A las personas prestadoras <span class=\"diff-highlight\">públicas</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">privadas</span> <span class=\"diff-highlight\">de</span> servicios <span class=\"diff-highlight\">electrónicos</span> de <span class=\"diff-highlight\">confianza</span> <span class=\"diff-highlight\">establecidos</span> <span class=\"diff-highlight\">en</span> <span class=\"diff-highlight\">España</span>."
+          "A": "A <span class=\"diff-highlight\">todas</span> <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">personas</span> <span class=\"diff-highlight\">prestadoras</span> residentes o domiciliadas en otro Estado <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">operen</span> en España, <span class=\"diff-highlight\">independientemente</span> de <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">supervisión</span>.",
+          "B": "A <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">pers</span> <span class=\"diff-highlight\">onas</span> <span class=\"diff-highlight\">prestadora</span> <span class=\"diff-highlight\">s</span> residentes o <span class=\"diff-highlight\">domiciliadas</span> en <span class=\"diff-highlight\">otro</span> Estado con establecimiento permanente en España, siempre que sus servicios <span class=\"diff-highlight\">no</span> estén supervisados por la autoridad competente de otro país de la UE.",
+          "C": "A <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">s</span> <span class=\"diff-highlight\">personas</span> <span class=\"diff-highlight\">prestadoras</span> residentes o <span class=\"diff-highlight\">domiciliada</span> <span class=\"diff-highlight\">s</span> en <span class=\"diff-highlight\">o</span> <span class=\"diff-highlight\">tro</span> Estado con establecimiento permanente en España, siempre que sus servicios estén supervisados por la autoridad competente de otro país de la UE.",
+          "D": "A las personas prestadoras <span class=\"diff-highlight\">públicas</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">privadas</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">servicios</span> <span class=\"diff-highlight\">electrónicos</span> <span class=\"diff-highlight\">de</span> <span class=\"diff-highlight\">confianza</span> <span class=\"diff-highlight\">establecidos</span> en España."
         }
       },
       {
@@ -9220,15 +9226,15 @@ const QUIZZES = {
           "A": "Los documentos electrónicos públicos, administrativos y privados, tienen el valor y la eficacia jurídica que corresponda a su respectiva naturaleza, de conformidad con la legislación que les resulte aplicable.",
           "B": "Los documentos electrónicos públicos y administrativos, tienen el valor y la eficacia jurídica que se le otorgue en el ordenamiento jurídico español del Reglamento (UE) 2016/679.",
           "C": "Los documentos electrónicos públicos y privados, tienen el valor y la eficacia jurídica que corresponda a su copia no cualificada según el artículo 3 y la disposición segunda del Reglamento.",
-          "D": "Los documentos electrónicos públicos y privados, tienen el valor y la eficacia jurídica que se le otorgue en el ordenamiento jurídico español del Reglamento (UE) 2016/679."
+          "D": "Los documentos electrónicos públicos y privados, tienen el valor y la eficacia jurídica que se le otorgue en el ordenamiento jurídico español del Reglamento (UE) 2016/679. 38"
         },
         "correcta": "A",
-        "metodo": "estimado_manual",
+        "metodo": "acierto",
         "diffs": {
           "A": "Los documentos electrónicos públicos<span class=\"diff-highlight\">, administrativos</span> y privados, tienen el valor y la eficacia jurídica que corresponda a su <span class=\"diff-highlight\">respectiva</span> <span class=\"diff-highlight\">naturaleza, de</span> <span class=\"diff-highlight\">conformidad</span> <span class=\"diff-highlight\">con</span> la <span class=\"diff-highlight\">legislación</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">les</span> <span class=\"diff-highlight\">resulte</span> <span class=\"diff-highlight\">aplicable</span>.",
-          "B": "Los documentos electrónicos públicos y <span class=\"diff-highlight\">administrativos</span>, tienen el valor y la eficacia jurídica que se le otorgue en el ordenamiento jurídico español del Reglamento (UE) 2016/679.",
-          "C": "Los documentos electrónicos públicos y privados, tienen el valor y la eficacia jurídica que <span class=\"diff-highlight\">corresponda</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">copia</span> <span class=\"diff-highlight\">no</span> <span class=\"diff-highlight\">cualificada</span> <span class=\"diff-highlight\">según</span> el <span class=\"diff-highlight\">artículo</span> <span class=\"diff-highlight\">3</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">disposición</span> <span class=\"diff-highlight\">segunda</span> del Reglamento.",
-          "D": "Los documentos electrónicos públicos y <span class=\"diff-highlight\">privados</span>, tienen el valor y la eficacia jurídica que se le otorgue en el ordenamiento jurídico español del Reglamento (UE) 2016/679."
+          "B": "Los documentos electrónicos públicos y <span class=\"diff-highlight\">administrativos</span>, tienen el valor y la eficacia jurídica que se le otorgue en el ordenamiento jurídico español del Reglamento (UE) 2016/679<span class=\"diff-highlight\">.</span>",
+          "C": "Los documentos electrónicos públicos y privados, tienen el valor y la eficacia jurídica que <span class=\"diff-highlight\">corresponda</span> <span class=\"diff-highlight\">a</span> <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">copia</span> <span class=\"diff-highlight\">no</span> <span class=\"diff-highlight\">cualificada</span> <span class=\"diff-highlight\">según</span> el <span class=\"diff-highlight\">artículo</span> <span class=\"diff-highlight\">3</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">disposición</span> <span class=\"diff-highlight\">segunda</span> del Reglamento<span class=\"diff-highlight\">.</span>",
+          "D": "Los documentos electrónicos públicos y <span class=\"diff-highlight\">privados</span>, tienen el valor y la eficacia jurídica que se le otorgue en el ordenamiento jurídico español del Reglamento (UE) 2016/679<span class=\"diff-highlight\">. 38</span>"
         }
       },
       {
@@ -9242,7 +9248,7 @@ const QUIZZES = {
           "D": "6 años."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 168,
@@ -9255,12 +9261,12 @@ const QUIZZES = {
           "D": "Que se revocará el certificado electrónico."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 169,
         "idpregunta": 169,
-        "pregunta": "169.- Con arreglo a la Ley 6/2020, ¿qué información debe incluir la persona prestadora de servicios electrónicos de confianza en la comunicación a la persona titular cuando revoca o suspende un certificado electrónico?",
+        "pregunta": "169.- Con arreglo a la Ley 6/2020, ¿qué información debe incluir la persona prestadora de servicios electrónicos de confianza en la comunicac ión a la persona titular cuando revoca o suspende un certificado electrónico?",
         "opciones": {
           "A": "Únicamente la fecha en la que el certificado quedará sin efecto, sin necesidad de justificación adicional.",
           "B": "Los motivos, la fecha y la hora en los que el certificado quedará sin efecto.",
@@ -9268,7 +9274,7 @@ const QUIZZES = {
           "D": "La identidad de la autoridad competente que ha ordenado la revocación o suspensión."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 170,
@@ -9278,10 +9284,10 @@ const QUIZZES = {
           "A": "Por su nombre y apellidos y su número de Documento Nacional de Identidad, número de identidad de extranjero o número de identificación fiscal, o a través de un pseudónimo que conste como tal de manera inequívoca.",
           "B": "Por su nombre y apellidos junto con su dirección postal y fecha de nacimiento y/o mediante un pseudónimo.",
           "C": "Por su denominación o razón social y su número de identificación fiscal.",
-          "D": "Por su Documento Nacional de Identidad, número de identidad de extranjero o número de identificación fiscal, o denominación o razón social y su número de identificación fiscal."
+          "D": "Por su Documento Nacional de Id entidad, nú mero de identidad de extranjero o número de identificación fiscal, o denominación o razón social y su número de identificación fiscal. 39"
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 171,
@@ -9291,15 +9297,15 @@ const QUIZZES = {
           "A": "Cuando la persona solicitante aporte una copia compulsada de su Documento Nacional de Identidad junto con una declaración responsable.",
           "B": "Cuando la firma de la persona solicitante en la solicitud de expedición del certificado cualificado haya sido legitimada en presencia notarial.",
           "C": "Cuando la persona solicitante haya obtenido previamente otro certificado cualificado en vigor expedido por el mismo prestador.",
-          "D": "Cuando un representante legal acuda en su nombre con el certificado cualificado compulsado por el departamento competente."
+          "D": "Cuando un representa nte legal acuda en su nombre con el certificado cualificado compulsado por el departamento competente."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 172,
         "idpregunta": 172,
-        "pregunta": "172.- Según la Ley 6/2020, ¿puede utilizarse la videoconferencia como método de identificación para solicitar un certificado cualificado y, en caso afirmativo, bajo qué condición?",
+        "pregunta": "172.- Según la Ley 6/2020, ¿puede utilizarse la videoconferencia como método de identificación para solicitar un certificado cualificado y, en caso afirmativo , bajo qué condición?",
         "opciones": {
           "A": "No, la videoconferencia nunca está permitida ya que la identificación a distancia no garantiza la fiabilidad exigida para los certificados cualificados.",
           "B": "Sí, pero únicamente cuando la persona solicitante resida en el extranjero y no pueda desplazarse a territorio español y se haga en la Embajada Española correspondiente al país en el que reside.",
@@ -9307,7 +9313,7 @@ const QUIZZES = {
           "D": "Sí, siempre que aporte una seguridad equivalente en términos de fiabilidad a la presencia física, según evaluación de un organismo de evaluación de la conformidad, y bajo las condiciones técnicas fijadas por Orden Ministerial."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 173,
@@ -9317,10 +9323,10 @@ const QUIZZES = {
           "A": "Comunicar el pseudónimo utilizado a la autoridad competente para su registro y validación previa.",
           "B": "Garantizar que el pseudónimo no coincida con el de ningún otro certificado expedido por el mismo prestador.",
           "C": "Constatar la verdadera identidad del titular del certificado y conservar la documentación que la acredite.",
-          "D": "No es posible usar pseudónimo en este tipo de certificados electrónicos."
+          "D": "No es posible usar pseudónimo en este tipo de certificados electrónicos. 40"
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 174,
@@ -9329,11 +9335,11 @@ const QUIZZES = {
         "opciones": {
           "A": "1.000.000 de euros, incrementándose en 250.000 euros por cada servicio cualificado adicional que se preste.",
           "B": "1.500.000 euros, salvo para los prestadores del sector público, añadiéndose 500.000 euros más por cada tipo de servicio cualificado adicional.",
-          "C": "1.500.000 euros para cualquier prestador, pudiéndose reducir 500.000 euros si se presta un único servicio cualificado en el sector privado.",
+          "C": "1.500.000 euros para cualquier pre stador, pudiéndose reducir 500.000 euros si se presta un único servicio cualificado en el sector privado.",
           "D": "2.000.000 de euros como importe base, con independencia del número de servicios cualificados que se presten."
         },
-        "correcta": "D",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 175,
@@ -9346,12 +9352,12 @@ const QUIZZES = {
           "D": "Infracción leve, si no se resuelve en el plazo de diez días desde que se produjeron."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 176,
         "idpregunta": 176,
-        "pregunta": "176.- En la Gestión de cambios de la tecnología ITIL4, un cambio abarca: Una modificación de uno o más elementos de configuración que componen el sistema de **información...**",
+        "pregunta": "176.- En la Gestión de cambios de la tecnología ITIL4, un cambio abarca: Una modificación de uno o más elementos de configuración que componen el sistema de información…",
         "opciones": {
           "A": "o de uno o más servicios proporcionados por este sistema de información.",
           "B": "pero no de servicios proporcionados por este sistema de información.",
@@ -9359,7 +9365,7 @@ const QUIZZES = {
           "D": "o de la modificación de un dato."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 177,
@@ -9372,7 +9378,7 @@ const QUIZZES = {
           "D": "Concierne a los cambios autorizados con antelación, que requerirán una evaluación completa."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 178,
@@ -9381,10 +9387,11 @@ const QUIZZES = {
         "opciones": {
           "A": "Es el actor principal en la práctica Gestión de cambios.",
           "B": "Actúa como secretario del CAB.",
-          "C": "Es mejor que sea una persona desconocida en la empresa."
+          "C": "Es mejor que sea una persona desconocida en la empresa. 41",
+          "D": "Debe tener la posibilidad de decir NO a un cambio."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 179,
@@ -9392,12 +9399,12 @@ const QUIZZES = {
         "pregunta": "179.- En la gestión de cambios de la metodología ITIL 4, los miembros permanentes del CAB (Change Advisory Board) son:",
         "opciones": {
           "A": "Un gestor de cambios y una persona representante de cada departamento.",
-          "B": "Un gestor de cambios, la persona propietaria del servicio concernido y una única persona representante entre los diferentes departamentos de la entidad.",
+          "B": "Un gestor de cambios, la persona propietaria del servicio concernido y un a única persona representante entre los diferentes departamentos de la entidad.",
           "C": "La persona propietaria del servicio concernido, expertos técnicos/as y subcontratistas.",
-          "D": "Un gestor de cambios, el propietario del servicio concernido y un/una representante de la práctica Gestión de lanzamiento."
+          "D": "Un gestor de cambios, el propietario del servicio concernido y un /una representante de la práctica Gestión de lanzamiento."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 180,
@@ -9410,7 +9417,7 @@ const QUIZZES = {
           "D": "Restablecer el servicio y encontrar la causa."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 181,
@@ -9423,7 +9430,7 @@ const QUIZZES = {
           "D": "Para codificar un incidente NO es necesario determinar la prioridad."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 182,
@@ -9435,8 +9442,8 @@ const QUIZZES = {
           "C": "El normal funciona tal y como fue concebido y el degradado funciona con un nivel de calidad inferior.",
           "D": "El normal funciona según el acuerdo de servicio (SLA) y el degradado funciona con un nivel de calidad inferior."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 183,
@@ -9446,10 +9453,10 @@ const QUIZZES = {
           "A": "Escalada funcional y escalada vertical.",
           "B": "Escalada vertical y escalada orgánica.",
           "C": "Escalada orgánica y escalada jerárquica.",
-          "D": "Escalada funcional y escalada jerárquica."
+          "D": "Escalada funcional y escalada jerárquica. 42"
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 184,
@@ -9462,7 +9469,7 @@ const QUIZZES = {
           "D": "Todas las anteriores son correctas."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 185,
@@ -9475,7 +9482,7 @@ const QUIZZES = {
           "D": "NINGUNA de las anteriores es correcta."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 186,
@@ -9487,8 +9494,8 @@ const QUIZZES = {
           "C": "Descartar errores conocidos.",
           "D": "Gestionar incidentes graves que se transformaron en problemas."
         },
-        "correcta": "D",
-        "metodo": "estimado_manual"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 187,
@@ -9501,7 +9508,7 @@ const QUIZZES = {
           "D": "De la práctica Gestión de solicitudes de servicio."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 188,
@@ -9513,21 +9520,21 @@ const QUIZZES = {
           "C": "Minimizar el impacto del incidente.",
           "D": "Asignar y asegurar el presupuesto para la mejora continua."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "A",
+        "metodo": "acierto"
       },
       {
         "num": 189,
         "idpregunta": 189,
         "pregunta": "189.- ¿Cuál es el objeto principal del Esquema Nacional de Seguridad (ENS)?",
         "opciones": {
-          "A": "Regular exclusivamente la proteccion de datos de caracter personal en el sector publico.",
-          "B": "Establecer los principios basicos y requisitos minimos para una proteccion adecuada de la informacion tratada y los servicios prestados.",
-          "C": "Sustituir la Ley de Procedimiento Administrativo Comun en materia de administracion digital.",
-          "D": "Definir los estandares tecnicos de interoperabilidad entre administraciones europeas."
+          "A": "Regular exclusivamente la protección de datos de carácter personal en el sector público. 43",
+          "B": "Establecer los principios básicos y requisitos mínimos para una protección adecuada de la información tratada y los servicios prestados.",
+          "C": "Sustituir la Ley de Procedimiento Administrativo Común en materia de administración digital.",
+          "D": "Definir los estándares técnicos de interoperabilidad entre administraciones europeas."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 190,
@@ -9537,10 +9544,10 @@ const QUIZZES = {
           "A": "A todas las entidades tecnológicas que operen en territorio español.",
           "B": "Únicamente a aquellas entidades que traten datos de nivel alto según el RGPD.",
           "C": "A las que presten servicios a entidades del sector público para el ejercicio de sus competencias y potestades administrativas.",
-          "D": "A NINGUNA entidad del sector privado, ya que el ENS solo vincula a la Administración Pública."
+          "D": "A NINGUNA entidad del sector p rivado, ya que el ENS solo vincula a la Administración Pública."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 191,
@@ -9553,7 +9560,7 @@ const QUIZZES = {
           "D": "Vigilancia continua y reevaluación periódica."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 192,
@@ -9563,23 +9570,23 @@ const QUIZZES = {
           "A": "Los roles o funciones de seguridad y la definición de sus deberes y responsabilidades.",
           "B": "El inventario completo de todos los activos de hardware de la organización",
           "C": "El presupuesto detallado anual para ciberseguridad",
-          "D": "La lista nominativa de todas las personas usuarias con acceso a datos de la organización"
+          "D": "La lista nominativa de todas la s personas usuaria s con acceso a datos de la organización"
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 193,
         "idpregunta": 193,
-        "pregunta": "193.- En el Esquema de Seguridad Nacional, ¿qué implica el requisito mínimo de \"Mínimo privilegio\"?",
+        "pregunta": "193.- En el Esquema de Seguridad Nacional, ¿qué implica el requisit o mínimo de \"Mínimo privilegio\"?",
         "opciones": {
           "A": "Que las funciones de operación, administración y registro de actividad serán las de por defecto, sin restricciones de horario ni puntos de acceso facultados.",
           "B": "Reducir el número de administradores del sistema a uno solo por cada departamento.",
           "C": "Que solo el personal con rango de directivo puede acceder a la configuración del sistema.",
-          "D": "Que los sistemas proporcionen la funcionalidad imprescindible para alcanzar los objetivos de la organización."
+          "D": "Que los sistemas proporcionen la funcionalidad imprescindible para alcanzar los objetivos de la organización. 44"
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 194,
@@ -9592,7 +9599,7 @@ const QUIZZES = {
           "D": "En la Declaración de Aplicabilidad."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 195,
@@ -9605,7 +9612,7 @@ const QUIZZES = {
           "D": "Solo cuando se detecte un incidente de seguridad grave."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 196,
@@ -9618,7 +9625,7 @@ const QUIZZES = {
           "D": "No requiere NINGÚN procedimiento de determinación de conformidad."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 197,
@@ -9631,7 +9638,7 @@ const QUIZZES = {
           "D": "La Secretaría de Estado de Digitalización e Inteligencia Artificial."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 198,
@@ -9641,10 +9648,10 @@ const QUIZZES = {
           "A": "Solo la confidencialidad y la disponibilidad.",
           "B": "Costo de reposición, tiempo de recuperación, hardware afectado y software afectado.",
           "C": "Disponibilidad, autenticidad, integridad, confidencialidad y trazabilidad.",
-          "D": "Solo costo de reposición y tiempo de recuperación."
+          "D": "Solo costo de reposición y tiempo de recuperación. 45"
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 199,
@@ -9657,7 +9664,7 @@ const QUIZZES = {
           "D": "Básicas, Medias y Altas."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 200,
@@ -9665,18 +9672,18 @@ const QUIZZES = {
         "pregunta": "200.- Según el Esquema de Seguridad Nacional, ¿qué facultad tiene el CCN-CERT para el cumplimiento de sus funciones de soporte y coordinación en la resolución de incidentes?",
         "opciones": {
           "A": "Puede sancionar económicamente a las entidades que no hayan aplicado las medidas de seguridad preventivas.",
-          "B": "Tiene la potestad de sustituir al personal técnico de la entidad afectada hasta que el incidente esté resuelto.",
+          "B": "Tiene la potestad de sustituir al perso nal técnico de la entidad afectada hasta que el incidente esté resuelto.",
           "C": "Puede recabar informes, registros de auditoría, configuraciones de los sistemas afectados y cualquier otra información o soporte necesario para la investigación.",
           "D": "Todas las anteriores son correctas."
         },
-        "correcta": "B",
-        "metodo": "estimado_manual"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       }
     ]
   },
   "tecnico_superior_informatica": {
     "label": "Tecnico Superior Informatica",
-    "meta": "500 preguntas - RESPUESTAS PRELIMINARES",
+    "meta": "500 preguntas",
     "questions": [
       {
         "num": 1,
@@ -9689,7 +9696,7 @@ const QUIZZES = {
           "D": "Red."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 2,
@@ -9702,7 +9709,7 @@ const QUIZZES = {
           "D": "Aplicación."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 3,
@@ -9715,7 +9722,7 @@ const QUIZZES = {
           "D": "Sesión."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 4,
@@ -9728,7 +9735,7 @@ const QUIZZES = {
           "D": "Aplicación."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 5,
@@ -9741,7 +9748,7 @@ const QUIZZES = {
           "D": "DNS."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 6,
@@ -9753,8 +9760,8 @@ const QUIZZES = {
           "C": "Enlace.",
           "D": "Física."
         },
-        "correcta": "B",
-        "metodo": "estimado_manual"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 7,
@@ -9766,8 +9773,8 @@ const QUIZZES = {
           "C": "ICMP.",
           "D": "RTP."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 8,
@@ -9779,8 +9786,8 @@ const QUIZZES = {
           "C": "Sesión, presentación, transporte, MAC, red, física.",
           "D": "Aplicación, presentación, sesión, transporte, red, conexión o enlace, física."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 9,
@@ -9792,8 +9799,8 @@ const QUIZZES = {
           "C": "Red.",
           "D": "Conexión o enlace."
         },
-        "correcta": "B",
-        "metodo": "estimado_manual"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 10,
@@ -9806,7 +9813,7 @@ const QUIZZES = {
           "D": "Sesión."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 11,
@@ -9818,8 +9825,8 @@ const QUIZZES = {
           "C": "Mediante un protocolo correspondiente a la capa inmediatamente inferior.",
           "D": "Mediante un protocolo correspondiente a esa capa."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 12,
@@ -9831,8 +9838,8 @@ const QUIZZES = {
           "C": "Que las aplicaciones basadas en TCP/IP tienen necesariamente una funcionalidad más reducida que las basadas en OSI.",
           "D": "Que en el modelo OSI se definieron capas que en realidad no sirven para nada."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 13,
@@ -9844,8 +9851,8 @@ const QUIZZES = {
           "C": "La interfaz especifica cómo accede la capa superior a los servicios de la capa inferior, mientras que el protocolo define las reglas de comunicación entre entidades de la misma capa.",
           "D": "Servicio, interfaz y protocolo son términos equivalentes dentro de una arquitectura por capas."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 14,
@@ -9857,8 +9864,8 @@ const QUIZZES = {
           "C": "Celdas.",
           "D": "Tramas."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 15,
@@ -9870,8 +9877,8 @@ const QUIZZES = {
           "C": "Solo es necesario un puerto.",
           "D": "Solo es necesario indicar un protocolo (TCP o UDP)."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "A",
+        "metodo": "acierto"
       },
       {
         "num": 16,
@@ -9883,8 +9890,8 @@ const QUIZZES = {
           "C": "7 capas.",
           "D": "9 capas."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 17,
@@ -9896,8 +9903,8 @@ const QUIZZES = {
           "C": "Proporcionar comunicación extremo a extremo fiable.",
           "D": "Convertir señales analógicas en digitales."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 18,
@@ -9909,8 +9916,8 @@ const QUIZZES = {
           "C": "Garantizar que todas las redes utilicen los mismos medios físicos.",
           "D": "Aumentar la velocidad de transmisión de datos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 19,
@@ -9922,8 +9929,8 @@ const QUIZZES = {
           "C": "Datos - Tramas - Segmentos - Paquetes",
           "D": "Segmentos - Datos - Tramas - Paquetes"
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "A",
+        "metodo": "acierto"
       },
       {
         "num": 20,
@@ -9935,8 +9942,8 @@ const QUIZZES = {
           "C": "Exclusiva del nivel físico.",
           "D": "Posible únicamente en redes locales."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 21,
@@ -9948,8 +9955,8 @@ const QUIZZES = {
           "C": "Entrega extremo a extremo y control de flujo.",
           "D": "Traducción de formatos de datos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 22,
@@ -9962,7 +9969,7 @@ const QUIZZES = {
           "D": "OSI no define servicios."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 23,
@@ -9974,8 +9981,8 @@ const QUIZZES = {
           "C": "El formato físico de las señales transmitidas.",
           "D": "El medio de transmisión utilizado."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 24,
@@ -9988,7 +9995,7 @@ const QUIZZES = {
           "D": "Enlace de datos."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 25,
@@ -10000,8 +10007,8 @@ const QUIZZES = {
           "C": "Transmisiones en banda base Ethernet 100Base-T.",
           "D": "Transmisiones en banda base Ethernet 1000Base-T."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 26,
@@ -10013,8 +10020,8 @@ const QUIZZES = {
           "C": "Anillo.",
           "D": "Estrella."
         },
-        "correcta": "B",
-        "metodo": "estimado_manual"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 27,
@@ -10026,21 +10033,21 @@ const QUIZZES = {
           "C": "Fibra óptica monomodo.",
           "D": "Fibra óptica multimodo."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 28,
         "idpregunta": 28,
-        "pregunta": "28.- ¿En qué variante de la norma IEEE 802.11 se usa MIMO (Multiple-Input MultipleOutput)?",
+        "pregunta": "28.- ¿En qué variante de la norma IEEE 802.11 se usa MIMO (Multiple-Input Multiple- Output)?",
         "opciones": {
           "A": "802.11a.",
           "B": "802.11b.",
           "C": "802.11g.",
           "D": "802.11n."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 29,
@@ -10052,8 +10059,8 @@ const QUIZZES = {
           "C": "BSS y AP.",
           "D": "CSMA y ARP."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 30,
@@ -10065,8 +10072,8 @@ const QUIZZES = {
           "C": "CRC.",
           "D": "FEC."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 31,
@@ -10079,7 +10086,7 @@ const QUIZZES = {
           "D": "Dirección MAC destino, dirección MAC origen, protocolo, datos, longitud de trama, checksum, CRC."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 32,
@@ -10092,7 +10099,7 @@ const QUIZZES = {
           "D": "Aportan información geográfica sobre la ubicación de un equipo."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 33,
@@ -10104,8 +10111,8 @@ const QUIZZES = {
           "C": "Intercambio de mensajes, no fiable, orientado a conexión.",
           "D": "Intercambio de mensajes, no fiable, no orientado a conexión."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 34,
@@ -10117,8 +10124,8 @@ const QUIZZES = {
           "C": "Estándares de seguridad.",
           "D": "Protocolos de redes locales inalámbricas."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 35,
@@ -10130,8 +10137,8 @@ const QUIZZES = {
           "C": "SSL.",
           "D": "IP."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 36,
@@ -10143,8 +10150,8 @@ const QUIZZES = {
           "C": "Los datos HTTP van dentro de un datagrama UDP, que a su vez va dentro de un datagrama IP, que a su vez va dentro de la trama Ethernet.",
           "D": "Los datos HTTP van dentro de un datagrama IP, que a su vez va dentro de un segmento TCP, que a su vez va dentro de la trama Ethernet."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 37,
@@ -10156,8 +10163,8 @@ const QUIZZES = {
           "C": "Fibra óptica.",
           "D": "Cable coaxial."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "A",
+        "metodo": "acierto"
       },
       {
         "num": 38,
@@ -10169,8 +10176,8 @@ const QUIZZES = {
           "C": "Redes de conmutación de mensajes con servicio de datagramas.",
           "D": "Redes de conmutación de circuitos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 39,
@@ -10182,8 +10189,8 @@ const QUIZZES = {
           "C": "Conmutación de mensajes.",
           "D": "Conmutación de frecuencias."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 40,
@@ -10195,8 +10202,8 @@ const QUIZZES = {
           "C": "Funciona únicamente con direccionamiento IP público.",
           "D": "No utiliza protocolos de enlace de datos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 41,
@@ -10209,7 +10216,7 @@ const QUIZZES = {
           "D": "El CRC es incorrecto."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 42,
@@ -10221,8 +10228,8 @@ const QUIZZES = {
           "C": "No se producen colisiones.",
           "D": "Se necesita un hub."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 43,
@@ -10234,8 +10241,8 @@ const QUIZZES = {
           "C": "Trama.",
           "D": "Celda."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 44,
@@ -10247,8 +10254,8 @@ const QUIZZES = {
           "C": "No se utiliza direccionamiento.",
           "D": "Se basa en transmisión analógica."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 45,
@@ -10260,8 +10267,8 @@ const QUIZZES = {
           "C": "No orientado a conexión y fiable.",
           "D": "Orientado a conexión y no fiable."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 46,
@@ -10273,8 +10280,8 @@ const QUIZZES = {
           "C": "Asignar prioridad al tráfico.",
           "D": "Indicar la longitud del segmento TCP."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 47,
@@ -10286,8 +10293,8 @@ const QUIZZES = {
           "C": "Indicar la prioridad de la trama Ethernet.",
           "D": "Establecer la conexión TCP."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 48,
@@ -10300,20 +10307,20 @@ const QUIZZES = {
           "D": "TCP."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 49,
         "idpregunta": 49,
         "pregunta": "49.- ¿Cuál de las siguientes características puede aplicarse en la conmutación de paquetes mediante datagramas?",
         "opciones": {
-          "A": "Previo a la transmisión de los datos, se establece una conexión a fin de elegir la ruta origendestino a seguir por el mensaje, lo que implica la reserva de los recursos necesarios para posibilitar la comunicación.",
+          "A": "Previo a la transmisión de los datos, se establece una conexión a fin de elegir la ruta origen- destino a seguir por el mensaje, lo que implica la reserva de los recursos necesarios para posibilitar la comunicación.",
           "B": "Durante el proceso de transmisión de los paquetes, es necesario el envío previo de un paquete header conteniendo, entre otras, información relativa al destino al que van dirigidos el resto de paquetes.",
           "C": "Para evitar las demoras características de la conmutación de circuitos, la conmutación de paquetes se caracteriza porque cada nodo intermedio ni almacena temporalmente ni procesa cada paquete antes de transmitirlo, sino que efectúa su transmisión según lo recibe.",
           "D": "Cada paquete se transmite independientemente del resto, de forma que pueden seguir caminos distintos y, en consecuencia, recibirse de forma desordenada en el receptor."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 50,
@@ -10325,8 +10332,8 @@ const QUIZZES = {
           "C": "Pasarela (gateway): trabaja en la capa física y es un mero amplificador de señal que solventa el problema de atenuación de la señal en su propagación hacia el destino.",
           "D": "Dispositivo de capa superior: trabaja por debajo de la capa de red para posibilitar la comunicación entre protocolos de la capa correspondiente."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 51,
@@ -10338,8 +10345,8 @@ const QUIZZES = {
           "C": "El número de puerto TCP o UDP.",
           "D": "El campo TTL del paquete."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 52,
@@ -10351,8 +10358,8 @@ const QUIZZES = {
           "C": "Red, transporte y sesión.",
           "D": "Física, red y transporte."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "A",
+        "metodo": "acierto"
       },
       {
         "num": 53,
@@ -10364,8 +10371,8 @@ const QUIZZES = {
           "C": "VLAN de nivel 3 por direcciones de subred: en este caso son los paquetes y no las estaciones finales quienes pertenecen a una VLAN u otra en función de su cabecera de nivel 3.",
           "D": "VLAN de niveles superiores: los miembros de la LAN se diferencian por el puerto al que están conectados al conmutador o medio físico que constituye la red."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 54,
@@ -10378,7 +10385,7 @@ const QUIZZES = {
           "D": "Se unifican las direcciones MAC de ambas redes."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 55,
@@ -10390,8 +10397,8 @@ const QUIZZES = {
           "C": "Un IDS.",
           "D": "Un punto de acceso Wi-Fi."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 56,
@@ -10403,8 +10410,8 @@ const QUIZZES = {
           "C": "A no puede enviar datagramas IP a B porque están en LAN diferentes.",
           "D": "A usa ARP para averiguar la dirección física de B y luego envía a B por la LAN una trama que contiene el datagrama."
         },
-        "correcta": "D",
-        "metodo": "estimado_manual",
+        "correcta": "A",
+        "metodo": "acierto",
         "diffs": {
           "A": "A usa ARP para averiguar la dirección física de <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">pasarela</span> <span class=\"diff-highlight\">P</span> y luego envía a <span class=\"diff-highlight\">P</span> por la LAN una trama que contiene el datagrama.",
           "B": "A usa ARP para averiguar <span class=\"diff-highlight\">las</span> <span class=\"diff-highlight\">direcciones</span> <span class=\"diff-highlight\">físicas</span> de <span class=\"diff-highlight\">B</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">de</span> P y luego envía a P <span class=\"diff-highlight\">el</span> <span class=\"diff-highlight\">datagrama, con</span> <span class=\"diff-highlight\">la</span> <span class=\"diff-highlight\">orden</span> <span class=\"diff-highlight\">de</span> que <span class=\"diff-highlight\">lo</span> <span class=\"diff-highlight\">retransmita</span> <span class=\"diff-highlight\">hacia</span> <span class=\"diff-highlight\">B</span>.",
@@ -10422,8 +10429,8 @@ const QUIZZES = {
           "C": "Un mecanismo utilizado por los hosts y routers para enviar al emisor notificaciones sobre problemas encontrados al procesar datagramas.",
           "D": "Un protocolo de encaminamiento para redes IP."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 58,
@@ -10435,8 +10442,8 @@ const QUIZZES = {
           "C": "FCS (Frame Check Sequence).",
           "D": "Tipo."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 59,
@@ -10449,7 +10456,7 @@ const QUIZZES = {
           "D": "Un AS es una red doméstica cuyos equipos comparten una única dirección IP mediante la técnica NAT."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 60,
@@ -10461,8 +10468,8 @@ const QUIZZES = {
           "C": "IGRP.",
           "D": "BGP."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 61,
@@ -10474,8 +10481,8 @@ const QUIZZES = {
           "C": "Se estructuran en una parte dirección de red y otra dirección de host, de longitudes fijas.",
           "D": "Se estructuran en una parte dirección de red y otra dirección de host, de longitudes variables."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 62,
@@ -10487,8 +10494,8 @@ const QUIZZES = {
           "C": "Traducir direcciones IP a direcciones MAC.",
           "D": "Traducir direcciones IPv4 a direcciones IPv6 y viceversa."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 63,
@@ -10500,8 +10507,8 @@ const QUIZZES = {
           "C": "La dirección MAC de una interfaz se averigua haciendo un cálculo a partir de la dirección IP.",
           "D": "Las direcciones MAC se usan en la capa 2 (enlace de datos)."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 64,
@@ -10514,7 +10521,7 @@ const QUIZZES = {
           "D": "IPSec."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 65,
@@ -10526,8 +10533,8 @@ const QUIZZES = {
           "C": "Para mejorar la escalabilidad del enrutamiento.",
           "D": "Para eliminar routers intermedios."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 66,
@@ -10539,8 +10546,8 @@ const QUIZZES = {
           "C": "Anycast.",
           "D": "Broadcast."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 67,
@@ -10553,7 +10560,7 @@ const QUIZZES = {
           "D": "El router no necesita tablas de encaminamiento."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 68,
@@ -10566,7 +10573,7 @@ const QUIZZES = {
           "D": "Calcula rutas únicamente mediante el algoritmo de Dijkstra."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 69,
@@ -10578,8 +10585,8 @@ const QUIZZES = {
           "C": "La longitud variable del prefijo de red.",
           "D": "La utilización de direcciones MAC en lugar de IP."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 70,
@@ -10591,8 +10598,8 @@ const QUIZZES = {
           "C": "Se establece una conexión TCP.",
           "D": "Se produce un error en la entrega de un datagrama."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 71,
@@ -10604,8 +10611,8 @@ const QUIZZES = {
           "C": "Anycast.",
           "D": "Broadcast."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 72,
@@ -10617,8 +10624,8 @@ const QUIZZES = {
           "C": "Traducir direcciones IP en direcciones MAC.",
           "D": "Asignar direcciones IP dinámicamente."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 73,
@@ -10631,7 +10638,7 @@ const QUIZZES = {
           "D": "Cuadrados."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 74,
@@ -10643,8 +10650,8 @@ const QUIZZES = {
           "C": "Primary Key, Unique, Not Null.",
           "D": "Unique, Not Null y Foreign key."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 75,
@@ -10656,8 +10663,8 @@ const QUIZZES = {
           "C": "División.",
           "D": "Producto cartesiano."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 76,
@@ -10670,7 +10677,7 @@ const QUIZZES = {
           "D": "Es un identificador que puede contener valores nulos siempre que no se repitan."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 77,
@@ -10682,8 +10689,8 @@ const QUIZZES = {
           "C": "MongoDB.",
           "D": "Oracle."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 78,
@@ -10695,8 +10702,8 @@ const QUIZZES = {
           "C": "Multivaluado \"tarjeta\".",
           "D": "Simple \"tarjeta\"."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 79,
@@ -10709,7 +10716,7 @@ const QUIZZES = {
           "D": "Relativa."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 80,
@@ -10721,8 +10728,8 @@ const QUIZZES = {
           "C": "Huérfana.",
           "D": "Débil."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 81,
@@ -10734,8 +10741,8 @@ const QUIZZES = {
           "C": "Larry Ellison.",
           "D": "Michael Stonebraker."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 82,
@@ -10747,8 +10754,8 @@ const QUIZZES = {
           "C": "Representar y definir datos independientemente de la tecnología utilizada.",
           "D": "Diseñar interfaces de usuario."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 83,
@@ -10760,8 +10767,8 @@ const QUIZZES = {
           "C": "Temporales y espaciales.",
           "D": "Primarias y secundarias."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 84,
@@ -10773,8 +10780,8 @@ const QUIZZES = {
           "C": "El número de ocurrencias en cada tipo de entidad que participa en la relación.",
           "D": "La cantidad de atributos que componen la clave primaria de una entidad fuerte."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 85,
@@ -10786,8 +10793,8 @@ const QUIZZES = {
           "C": "Integridad referencial.",
           "D": "Integridad de clave."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 86,
@@ -10799,8 +10806,8 @@ const QUIZZES = {
           "C": "3.",
           "D": "4."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 87,
@@ -10812,8 +10819,8 @@ const QUIZZES = {
           "C": "Determinismo.",
           "D": "Dependencia."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 88,
@@ -10825,8 +10832,8 @@ const QUIZZES = {
           "C": "Una clave parcial y la clave de su entidad fuerte.",
           "D": "Una restricción CHECK."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 89,
@@ -10838,8 +10845,8 @@ const QUIZZES = {
           "C": "Unión (∪).",
           "D": "Selección (σ)."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 90,
@@ -10851,8 +10858,8 @@ const QUIZZES = {
           "C": "Buscar reglas y estructuras a partir de los datos almacenados en almacenes de datos.",
           "D": "Recolectar masivamente los datos y procesarlos en tiempo real."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 91,
@@ -10864,8 +10871,8 @@ const QUIZZES = {
           "C": "Eliminar la redundancia de los datos y prevenir anomalías de actualización, inserción y borrado.",
           "D": "Definir la interfaz de usuario para interactuar con los datos almacenados."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 92,
@@ -10877,8 +10884,8 @@ const QUIZZES = {
           "C": "El grado máximo de la relación (binaria, ternaria, etc.).",
           "D": "El número total de tuplas en la tabla resultante."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 93,
@@ -10890,8 +10897,8 @@ const QUIZZES = {
           "C": "Clave foránea.",
           "D": "Clave principal."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 94,
@@ -10903,8 +10910,8 @@ const QUIZZES = {
           "C": "Modelo orientado a objetos.",
           "D": "Modelo NoSQL."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 95,
@@ -10916,8 +10923,8 @@ const QUIZZES = {
           "C": "Un conjunto de operaciones que se gestionan como una sola unidad atómica para preservar la consistencia del sistema.",
           "D": "Una función del SGBD para definir la estructura física del almacenamiento de los datos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 96,
@@ -10929,8 +10936,8 @@ const QUIZZES = {
           "C": "La clave primaria es la clave candidata elegida para identificar de forma única los registros, y no puede aceptar valores nulos.",
           "D": "No existe diferencia técnica; ambos términos son sinónimos y se usan indistintamente según el gestor de base de datos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 97,
@@ -10943,7 +10950,7 @@ const QUIZZES = {
           "D": "Gestión de la experiencia de canal web (SAP Web Channel Experience Management)."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 98,
@@ -10955,8 +10962,8 @@ const QUIZZES = {
           "C": "Toda la gestión del cumplimiento de pedidos se centraliza en tiempo real mediante el Sales Order Fulfillment Cockpit.",
           "D": "Los estados de pedidos se almacenan en múltiples tablas agregadas para acelerar el reporting."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 99,
@@ -10968,8 +10975,8 @@ const QUIZZES = {
           "C": "Gestión de relaciones con los proveedores (SAP Supplier Relationship Management).",
           "D": "Gestión del portfolio y proyecto (SAP Portfolio and Project Management)."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 100,
@@ -10981,8 +10988,8 @@ const QUIZZES = {
           "C": "SAP HANA es una herramienta de análisis.",
           "D": "Por el momento las soluciones basadas en NetWeaver NO pueden utilizar SAP HANA como base de datos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 101,
@@ -10994,8 +11001,8 @@ const QUIZZES = {
           "C": "La portabilidad de aplicaciones web basadas en SQL Server a SAP HANA es sencilla, precisando en muchos casos únicamente la actualización de la librería ODBC/JDBC de SQL Server a SAP HANA.",
           "D": "SAP HANA incluye un servidor propio de aplicaciones, SAP HANA XS, que utiliza Server-side JavaScript (XSJS) como lenguaje principal."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 102,
@@ -11008,7 +11015,7 @@ const QUIZZES = {
           "D": "Cualquiera de los tres citados."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 103,
@@ -11021,7 +11028,7 @@ const QUIZZES = {
           "D": "Application Engine."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 104,
@@ -11034,7 +11041,7 @@ const QUIZZES = {
           "D": "SAP NetWeaver Gateway."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 105,
@@ -11046,8 +11053,8 @@ const QUIZZES = {
           "C": "ADO.NET.",
           "D": "JDBC."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 106,
@@ -11059,8 +11066,8 @@ const QUIZZES = {
           "C": "Relacional, in-memory.",
           "D": "Relacional, out-memory."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 107,
@@ -11072,8 +11079,8 @@ const QUIZZES = {
           "C": "Un software de planificación de recursos empresariales.",
           "D": "Una herramienta de gestión de relaciones con los clientes."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 108,
@@ -11085,8 +11092,8 @@ const QUIZZES = {
           "C": "Private Cloud.",
           "D": "Private CRM."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 109,
@@ -11098,8 +11105,8 @@ const QUIZZES = {
           "C": "Automatizar procesos de negocio.",
           "D": "Generar informes financieros."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 110,
@@ -11111,8 +11118,8 @@ const QUIZZES = {
           "C": "Soporta almacenamiento orientado a objetos.",
           "D": "Soporta almacenamiento orientado a columnas."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 111,
@@ -11124,8 +11131,8 @@ const QUIZZES = {
           "C": "Proporcionar capacidades de análisis sobre big data integrándose con Hadoop y Spark.",
           "D": "Servir como motor de transacciones OLTP para procesos críticos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 112,
@@ -11137,8 +11144,8 @@ const QUIZZES = {
           "C": "Cloud Deployment Service.",
           "D": "Core Data Services."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 113,
@@ -11151,7 +11158,7 @@ const QUIZZES = {
           "D": "Sustituir el kernel de ABAP por un motor de ejecución basado únicamente en SAP S/4HANA."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 114,
@@ -11163,8 +11170,8 @@ const QUIZZES = {
           "C": "SAPUI5 (UI5).",
           "D": "VBScript."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 115,
@@ -11176,8 +11183,8 @@ const QUIZZES = {
           "C": "Uso exclusivo de OLAP MOLAP.",
           "D": "Analítica offline."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 116,
@@ -11189,8 +11196,8 @@ const QUIZZES = {
           "C": "Cifrado.",
           "D": "Gestión de extensiones y lógica de negocio."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 117,
@@ -11203,7 +11210,7 @@ const QUIZZES = {
           "D": "Desactivar actualizaciones."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 118,
@@ -11215,8 +11222,8 @@ const QUIZZES = {
           "C": "Unificar FI, CO, AA, ML y CO-PA en una tabla única llamada Universal Journal (ACDOCA).",
           "D": "Utilizar tablas duplicadas para versiones alternativas del mismo asiento."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 119,
@@ -11228,8 +11235,8 @@ const QUIZZES = {
           "C": "Visualization Layer, Analytics Layer, Access Layer, Virtualization/Modeling Layer, Persistence Layer.",
           "D": "Planning Layer, ETL Layer, Staging Layer, Semantic Layer."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 120,
@@ -11241,8 +11248,8 @@ const QUIZZES = {
           "C": "SAP Leonardo es un módulo obligatorio para ejecutar procesos financieros centrales.",
           "D": "SAP Leonardo proporciona servicios de machine learning, IoT y big data que amplían las capacidades analíticas de SAP S/4HANA."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 121,
@@ -11254,8 +11261,8 @@ const QUIZZES = {
           "C": "Stakeholders.",
           "D": "Coach."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 122,
@@ -11267,8 +11274,8 @@ const QUIZZES = {
           "C": "La review meeting se activa al concluir el Product Backlog.",
           "D": "La velocidad de un sprint se mide en Story Points."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 123,
@@ -11280,8 +11287,8 @@ const QUIZZES = {
           "C": "Un trabajo concreto, idealmente realizado por una persona dedicando entre medio día y tres días.",
           "D": "Agrupaciones de historias de usuario que definen grandes bloques operativos dentro de un proyecto."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 124,
@@ -11293,8 +11300,8 @@ const QUIZZES = {
           "C": "Burn-down chart.",
           "D": "Spring Planning."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 125,
@@ -11307,7 +11314,7 @@ const QUIZZES = {
           "D": "Sprint Backlog."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 126,
@@ -11319,8 +11326,8 @@ const QUIZZES = {
           "C": "Los que maximizan la entrega de valor.",
           "D": "Los elementos que menos riesgo impliquen."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 127,
@@ -11332,8 +11339,8 @@ const QUIZZES = {
           "C": "Automatizar los tests.",
           "D": "En SCRUM no existe el rol Tester."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 128,
@@ -11345,8 +11352,8 @@ const QUIZZES = {
           "C": "El Líder del Proyecto (Scrum Master).",
           "D": "El Propietario del Producto (Product Owner)."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 129,
@@ -11358,8 +11365,8 @@ const QUIZZES = {
           "C": "Cantidad de trabajo restante con respecto al tiempo.",
           "D": "La velocidad general (en términos ágiles) del equipo."
         },
-        "correcta": "B",
-        "metodo": "estimado_manual"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 130,
@@ -11371,8 +11378,8 @@ const QUIZZES = {
           "C": "Presentar las tareas completadas a las partes interesadas (stakeholders).",
           "D": "El equipo discute las mejoras que se pueden aplicar para los próximos Sprints."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 131,
@@ -11384,8 +11391,8 @@ const QUIZZES = {
           "C": "Un enfoque lineal y secuencial de la gestión de proyectos.",
           "D": "Una metodología centrada únicamente en la documentación."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 132,
@@ -11397,8 +11404,8 @@ const QUIZZES = {
           "C": "Scrum Master, Product Owner, Developer.",
           "D": "Scrum Master, Product Owner, Stakeholder."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 133,
@@ -11410,8 +11417,8 @@ const QUIZZES = {
           "C": "¿Hay algún impedimento en mi camino?.",
           "D": "¿Cómo podemos mejorar el producto?."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 134,
@@ -11423,8 +11430,8 @@ const QUIZZES = {
           "C": "Retrospectiva del sprint (Sprint Retrospective).",
           "D": "Planificación del sprint (Sprint Planning)."
         },
-        "correcta": "D",
-        "metodo": "estimado_manual"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 135,
@@ -11437,7 +11444,7 @@ const QUIZZES = {
           "D": "La primera versión funcional del producto se genera a mitad del proyecto, disponiendo de una ceremonia especial donde se mostrará a las partes interesadas."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 136,
@@ -11450,7 +11457,7 @@ const QUIZZES = {
           "D": "30."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 137,
@@ -11462,8 +11469,8 @@ const QUIZZES = {
           "C": "Promover un ritmo de desarrollo sostenible, constante a lo largo del tiempo.",
           "D": "Fomentar la documentación exhaustiva del proceso y del producto por encima del software funcional."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 138,
@@ -11475,8 +11482,8 @@ const QUIZZES = {
           "C": "ROI.",
           "D": "Lead time."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 139,
@@ -11488,8 +11495,8 @@ const QUIZZES = {
           "C": "1 a 4 semanas.",
           "D": "Depende de la complejidad del Sprint."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 140,
@@ -11501,8 +11508,8 @@ const QUIZZES = {
           "C": "Cuando los requisitos están claramente definidos desde el inicio, son estables y el proyecto se desarrolla en un entorno con baja incertidumbre.",
           "D": "Cuando se necesita entregar valor de forma incremental y obtener retroalimentación constante del cliente para ajustar el producto final."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 141,
@@ -11514,8 +11521,8 @@ const QUIZZES = {
           "C": "Cuando se requiere una colaboración constante y feedback continuo por parte del cliente o del Product Owner.",
           "D": "Cuando el equipo de desarrollo es auto-organizado y se fomenta la comunicación directa y transparente entre sus miembros."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 142,
@@ -11527,8 +11534,8 @@ const QUIZZES = {
           "C": "Priorizar al cliente por encima de los procesos actuales.",
           "D": "Fomentar actos de liderazgo a todos los niveles."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 143,
@@ -11541,7 +11548,7 @@ const QUIZZES = {
           "D": "¿Qué falló?, ¿Qué podemos mejorar?."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 144,
@@ -11553,8 +11560,8 @@ const QUIZZES = {
           "C": "Sprint Goal.",
           "D": "Burndown."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 145,
@@ -11566,8 +11573,8 @@ const QUIZZES = {
           "C": "Validación.",
           "D": "Reingeniería."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 146,
@@ -11580,7 +11587,7 @@ const QUIZZES = {
           "D": "Requisitos de la organización."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 147,
@@ -11592,8 +11599,8 @@ const QUIZZES = {
           "C": "Diagrama de secuencia.",
           "D": "Diagrama de estado."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 148,
@@ -11606,7 +11613,7 @@ const QUIZZES = {
           "D": "Pruebas de versión."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 149,
@@ -11618,8 +11625,8 @@ const QUIZZES = {
           "C": "Pruebas de unidad, de componente y del sistema.",
           "D": "Pruebas de unidad, de componente y de escenario."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 150,
@@ -11631,8 +11638,8 @@ const QUIZZES = {
           "C": "Modificativo.",
           "D": "Adaptativo."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 151,
@@ -11644,8 +11651,8 @@ const QUIZZES = {
           "C": "Captura y Análisis de requisitos, Diseño, Implementación, Integración, Mantenimiento, Explotación.",
           "D": "Captura y Análisis de requisitos, Diseño, Implementación, Integración, Explotación, Mantenimiento."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 152,
@@ -11657,8 +11664,8 @@ const QUIZZES = {
           "C": "Perfectivo.",
           "D": "Modificativo."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 153,
@@ -11671,7 +11678,7 @@ const QUIZZES = {
           "D": "Implementación."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 154,
@@ -11684,7 +11691,7 @@ const QUIZZES = {
           "D": "Waterfall (Cascada)."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 155,
@@ -11696,8 +11703,8 @@ const QUIZZES = {
           "C": "Concepción.",
           "D": "Diseño."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 156,
@@ -11709,8 +11716,8 @@ const QUIZZES = {
           "C": "Prototipado en espiral.",
           "D": "Prototipado en cascada."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 157,
@@ -11722,8 +11729,8 @@ const QUIZZES = {
           "C": "El nivel de complejidad de las actividades en cada cuadrante.",
           "D": "El progreso relativo en el desarrollo de las actividades de cada cuadrante."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 158,
@@ -11736,7 +11743,7 @@ const QUIZZES = {
           "D": "Integración."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 159,
@@ -11748,8 +11755,8 @@ const QUIZZES = {
           "C": "Una especificación precisa y completa de lo que debe hacer el sistema.",
           "D": "Un documento que describe el procedimiento de integración."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 160,
@@ -11762,7 +11769,7 @@ const QUIZZES = {
           "D": "Documento de problemas."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 161,
@@ -11774,8 +11781,8 @@ const QUIZZES = {
           "C": "Requisitos, Análisis, Diseño, Implementación.",
           "D": "Requisitos, Análisis, Diseño, Implementación,Test."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 162,
@@ -11788,7 +11795,7 @@ const QUIZZES = {
           "D": "Diagrama de estados."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 163,
@@ -11800,8 +11807,8 @@ const QUIZZES = {
           "C": "Pruebas unitarias.",
           "D": "Pruebas de humo."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 164,
@@ -11814,7 +11821,7 @@ const QUIZZES = {
           "D": "Herencia múltiple."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 165,
@@ -11826,8 +11833,8 @@ const QUIZZES = {
           "C": "Reducir la cobertura de pruebas, pero manteniendo la rama principal.",
           "D": "Modificar el diseño, utilizando patrones de diseño."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 166,
@@ -11839,8 +11846,8 @@ const QUIZZES = {
           "C": "Cobertura de sentencias (Statement Coverage).",
           "D": "Pruebas de tabla de decisión (Decision Table Testing)."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 167,
@@ -11852,8 +11859,8 @@ const QUIZZES = {
           "C": "Análisis de valores límite (Boundary Value Analysis).",
           "D": "Cobertura de caminos (Path Coverage)."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 168,
@@ -11865,8 +11872,8 @@ const QUIZZES = {
           "C": "El número de rutas de ejecución independientes del programa.",
           "D": "Un número que determina lo complejo que es entender el código del programa."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 169,
@@ -11879,7 +11886,7 @@ const QUIZZES = {
           "D": "Riesgos."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 170,
@@ -11891,8 +11898,8 @@ const QUIZZES = {
           "C": "Método Montecarlo.",
           "D": "Método EDT."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 171,
@@ -11904,8 +11911,8 @@ const QUIZZES = {
           "C": "Disponibilidad de los recursos.",
           "D": "Estándares de calidad."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 172,
@@ -11917,8 +11924,8 @@ const QUIZZES = {
           "C": "Riesgo organizativo.",
           "D": "Riesgo de gestión del proyecto."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 173,
@@ -11930,8 +11937,8 @@ const QUIZZES = {
           "C": "IRC. Índice de rendimiento del coste.",
           "D": "IRP. Índice de rendimiento de la programación."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 174,
@@ -11943,8 +11950,8 @@ const QUIZZES = {
           "C": "Análisis, Planificación, Evaluación, Ejecución, Cierre.",
           "D": "Análisis, Planificación, Monitorización y Control, Ejecución, Cierre."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 175,
@@ -11957,7 +11964,7 @@ const QUIZZES = {
           "D": "Planificación."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 176,
@@ -11969,8 +11976,8 @@ const QUIZZES = {
           "C": "Inicio.",
           "D": "Ejecución."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 177,
@@ -11982,8 +11989,8 @@ const QUIZZES = {
           "C": "Esfuerzo.",
           "D": "Holgura."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 178,
@@ -11995,8 +12002,8 @@ const QUIZZES = {
           "C": "Estructura de despliegue transitoria.",
           "D": "Estructura de desglose de tareas."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 179,
@@ -12009,7 +12016,7 @@ const QUIZZES = {
           "D": "El ciclo de vida se compone de fases mientras que el cronograma se compone de etapas."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 180,
@@ -12021,8 +12028,8 @@ const QUIZZES = {
           "C": "Proveer flexibilidad al proyecto al permitir que cada etapa afecte a la planificación de la siguiente o del proyecto completo.",
           "D": "Todas las demás respuestas son correctas."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 181,
@@ -12034,8 +12041,8 @@ const QUIZZES = {
           "C": "Una fase del análisis del proyecto que divide su ejecución en períodos específicos.",
           "D": "Una oportunidad de inversión en el proyecto que permite demostrar su viabilidad."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 182,
@@ -12047,8 +12054,8 @@ const QUIZZES = {
           "C": "Es la fase donde se desarrollan los diferentes planes de gestión.",
           "D": "Es la fase donde se ejecutan el análisis, diseño y codificación de la aplicación."
         },
-        "correcta": "D",
-        "metodo": "estimado_manual"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 183,
@@ -12060,8 +12067,8 @@ const QUIZZES = {
           "C": "Seguimiento y control.",
           "D": "Ejecución."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 184,
@@ -12073,8 +12080,8 @@ const QUIZZES = {
           "C": "Porque la planificación y la ejecución son dos fases que deben llevarse a cabo simultáneamente.",
           "D": "Porque la fase de Cierre debe solaparse con la fase de Seguimiento y Control para garantizar que se han conseguido los entregables."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 185,
@@ -12087,7 +12094,7 @@ const QUIZZES = {
           "D": "Burndown."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 186,
@@ -12100,7 +12107,7 @@ const QUIZZES = {
           "D": "Plazo."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 187,
@@ -12112,8 +12119,8 @@ const QUIZZES = {
           "C": "Método del Camino Mínimo.",
           "D": "Método de la Duración Crítica."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 188,
@@ -12125,8 +12132,8 @@ const QUIZZES = {
           "C": "El diccionario de la WBS junto con la lista de entregables.",
           "D": "El análisis de requisitos del proyecto."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 189,
@@ -12138,8 +12145,8 @@ const QUIZZES = {
           "C": "Estimación por juicio de expertos.",
           "D": "Estimación paramétrica."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 190,
@@ -12151,8 +12158,8 @@ const QUIZZES = {
           "C": "Paquete de Trabajo.",
           "D": "Tarea."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 191,
@@ -12164,8 +12171,8 @@ const QUIZZES = {
           "C": "Responsable, Aprobador, Consultor, Informado.",
           "D": "Recursos, Actividades, Costos, Ingresos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 192,
@@ -12177,8 +12184,8 @@ const QUIZZES = {
           "C": "Método DELPHI.",
           "D": "Método DAFO."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 193,
@@ -12190,8 +12197,8 @@ const QUIZZES = {
           "C": "Una función.",
           "D": "Un rol."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 194,
@@ -12203,8 +12210,8 @@ const QUIZZES = {
           "C": "Un medio de proporcionar valor a los clientes, facilitando los resultados que desean obtener, sin asumir toda la responsabilidad de los costes o riesgos.",
           "D": "El resultado de trabajos en talleres que presentan los beneficios y las ventajas de determinadas acciones, en sectores y contextos diferentes."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 195,
@@ -12217,7 +12224,7 @@ const QUIZZES = {
           "D": "La gestión de la relación comercial."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 196,
@@ -12229,8 +12236,8 @@ const QUIZZES = {
           "C": "Proceso de coordinación del diseño.",
           "D": "Proceso de gestión de activos de servicio y configuraciones."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 197,
@@ -12242,8 +12249,8 @@ const QUIZZES = {
           "C": "Gestión de problemas.",
           "D": "Gestión de restauraciones."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 198,
@@ -12255,8 +12262,8 @@ const QUIZZES = {
           "C": "Mejora continua.",
           "D": "Mejora iterativa."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 199,
@@ -12269,7 +12276,7 @@ const QUIZZES = {
           "D": "Las actividades de gobernanza."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 200,
@@ -12282,7 +12289,7 @@ const QUIZZES = {
           "D": "Una oferta de un proveedor de servicios de TI."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 201,
@@ -12294,8 +12301,8 @@ const QUIZZES = {
           "C": "Progresar de forma iterativa con retroalimentación.",
           "D": "Optimizar y automatizar."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 202,
@@ -12307,8 +12314,8 @@ const QUIZZES = {
           "C": "Colaborar y promover la visibilidad.",
           "D": "Centrarse en el valor."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 203,
@@ -12320,8 +12327,8 @@ const QUIZZES = {
           "C": "Focalizarse siempre en el valor proporcionado a las partes integrantes.",
           "D": "Focalizarse en los riesgos para la empresa."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 204,
@@ -12334,7 +12341,7 @@ const QUIZZES = {
           "D": "Manning."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 205,
@@ -12346,8 +12353,8 @@ const QUIZZES = {
           "C": "El enfoque holístico.",
           "D": "La reestructuración."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 206,
@@ -12359,8 +12366,8 @@ const QUIZZES = {
           "C": "Añadir más etapas.",
           "D": "Continuar utilizándolo sin cambios."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 207,
@@ -12372,8 +12379,8 @@ const QUIZZES = {
           "C": "7.",
           "D": "34."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 208,
@@ -12385,8 +12392,8 @@ const QUIZZES = {
           "C": "Priorizar la automatización inmediata de todas las tareas manuales para acelerar el cambio organizacional.",
           "D": "Solicitar retroalimentación constante al cliente antes de realizar cualquier pequeña modificación en la infraestructura."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 209,
@@ -12398,8 +12405,8 @@ const QUIZZES = {
           "C": "Un problema es la causa de uno o más incidentes.",
           "D": "No hay diferencias."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 210,
@@ -12412,7 +12419,7 @@ const QUIZZES = {
           "D": "Planificar, Mejorar, Diseño y transición, Compilar, Obtener/crear, Entrega y soporte."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 211,
@@ -12425,7 +12432,7 @@ const QUIZZES = {
           "D": "Gestión de riesgos."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 212,
@@ -12438,7 +12445,7 @@ const QUIZZES = {
           "D": "Un documento que describe los pasos detallados que el equipo de soporte debe seguir para resolver un incidente específico."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 213,
@@ -12450,8 +12457,8 @@ const QUIZZES = {
           "C": "En centrarse únicamente en la tecnología y olvidar los procesos.",
           "D": "En utilizar todos los departamentos la misma tecnología."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 214,
@@ -12463,8 +12470,8 @@ const QUIZZES = {
           "C": "Eliminar los \"silos\" de trabajo y asegurar que todos entiendan los objetivos.",
           "D": "Reducir el número de reuniones para que el equipo trabaje más rápido."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 215,
@@ -12476,8 +12483,8 @@ const QUIZZES = {
           "C": "Solo si el departamento de Recursos Humanos detecta conflictos interpersonales entre los programadores.",
           "D": "Cuando la empresa quiere eliminar por completo el uso de procesos y centrarse solo en la programación ágil."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 216,
@@ -12489,8 +12496,8 @@ const QUIZZES = {
           "C": "Un proceso financiero utilizado para calcular el valor monetario de los activos de hardware al final de su vida útil.",
           "D": "Una jerarquía estricta de mando que determina quién debe aprobar los cambios en la infraestructura de TI."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 217,
@@ -12502,8 +12509,8 @@ const QUIZZES = {
           "C": "Minería de datos.",
           "D": "Interpretación y evaluación de modelos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 218,
@@ -12515,8 +12522,8 @@ const QUIZZES = {
           "C": "Tomar un subconjunto de un cubo eligiendo un valor concreto para una de las dimensiones.",
           "D": "Navegar desde una vista con menor detalle a otra con más nivel de detalle en las dimensiones."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 219,
@@ -12529,7 +12536,7 @@ const QUIZZES = {
           "D": "Los datos que entran a la fase de selección, limpieza y transformación de datos son los datos que se van a minar."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 220,
@@ -12541,8 +12548,8 @@ const QUIZZES = {
           "C": "Encontrar reglas que muestran la relación que existe entre los distintos atributos de los datos analizados.",
           "D": "Encontrar un modelo que, aplicado a un ejemplo sin clasificar, lo clasifique dentro de un conjunto predefinido de clases."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 221,
@@ -12554,8 +12561,8 @@ const QUIZZES = {
           "C": "Evaluación de agrupamientos.",
           "D": "Evaluación de reglas de asociación."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 222,
@@ -12568,7 +12575,7 @@ const QUIZZES = {
           "D": "R."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 223,
@@ -12580,8 +12587,8 @@ const QUIZZES = {
           "C": "Extraer, Transformar, Cargar",
           "D": "Ejecutar, Transferir, Cargar"
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 224,
@@ -12593,8 +12600,8 @@ const QUIZZES = {
           "C": "Knowledge, Development and Dissemination.",
           "D": "Knowledge Data Discovery."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 225,
@@ -12606,8 +12613,8 @@ const QUIZZES = {
           "C": "Datos históricos integrados, obtenidos de fuentes internas y externas.",
           "D": "Datos externos a la organización que se integran con los operacionales."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 226,
@@ -12619,8 +12626,8 @@ const QUIZZES = {
           "C": "Una superposición de tablas bidimensionales en un SGBD relacional.",
           "D": "Una tabla de múltiples columnas, estructuradas a su vez en sub-columnas, en un SGBD No-SQL."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 227,
@@ -12632,8 +12639,8 @@ const QUIZZES = {
           "C": "HOLAP: OLAP híbrida.",
           "D": "TOLAP: OLAP transaccional."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 228,
@@ -12646,7 +12653,7 @@ const QUIZZES = {
           "D": "Kaggle."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 229,
@@ -12658,8 +12665,8 @@ const QUIZZES = {
           "C": "Es una representación gráfica de datos, donde los valores individuales contenidos en una matriz se representan como colores.",
           "D": "Es un mapa en el que se presentan datos estadísticos por regiones, colocando un número o coloreando las diferentes zonas, en función del dato que representa."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 230,
@@ -12672,7 +12679,7 @@ const QUIZZES = {
           "D": "Todas las demás respuestas son correctas."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 231,
@@ -12684,8 +12691,8 @@ const QUIZZES = {
           "C": "Un Data Mart almacena únicamente datos externos, mientras que un Data Warehouse almacena solo datos internos.",
           "D": "No hay diferencia; ambos términos son equivalentes."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 232,
@@ -12697,8 +12704,8 @@ const QUIZZES = {
           "C": "Es un subconjunto de un Data Warehouse orientado a un área específica de la empresa.",
           "D": "Es una base de datos relacional optimizada para transacciones OLTP."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 233,
@@ -12710,8 +12717,8 @@ const QUIZZES = {
           "C": "Mantiene la escala geográfica exacta de los territorios.",
           "D": "Permite identificar patrones y distribuciones sobre un mapa."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 234,
@@ -12723,8 +12730,8 @@ const QUIZZES = {
           "C": "La interacción con un entorno, recibiendo recompensas mayores o menores según sus acciones.",
           "D": "La combinación de varias reglas de asociación predefinidas."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 235,
@@ -12736,8 +12743,8 @@ const QUIZZES = {
           "C": "Machine Learning y Deep Learning son conceptos completamente independientes sin relación jerárquica.",
           "D": "Deep Learning reemplaza por completo a Machine Learning en cualquier tipo de análisis de datos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 236,
@@ -12749,8 +12756,8 @@ const QUIZZES = {
           "C": "Son sistemas que combinan inteligencia artificial, análisis de datos y aprendizaje automático para asistir en la toma de decisiones.",
           "D": "Son plataformas diseñadas para analizar grandes volúmenes de datos empresariales y generar insights accionables mediante técnicas avanzadas de IA."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 237,
@@ -12762,8 +12769,8 @@ const QUIZZES = {
           "C": "Escalado de Infraestructuras",
           "D": "Interfaz de usuario"
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 238,
@@ -12775,8 +12782,8 @@ const QUIZZES = {
           "C": "Es la creación de sitios web utilizando lenguajes de programación como HTML, CSS y JavaScript.",
           "D": "Es el análisis de patrones de navegación y comportamiento de usuarios en sitios web para mejorar servicios o recomendaciones."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 239,
@@ -12788,8 +12795,8 @@ const QUIZZES = {
           "C": "Un método específico de almacenamiento masivo de información en la nube.",
           "D": "Una disciplina interdisciplinar que combina estadística, programación y conocimiento del dominio para analizar datos y apoyar la toma de decisiones."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 240,
@@ -12802,7 +12809,7 @@ const QUIZZES = {
           "D": "Históricos y transaccionales"
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 241,
@@ -12814,8 +12821,8 @@ const QUIZZES = {
           "C": "Las costas son a cargo de quien formuló la impugnación.",
           "D": "No se prevé ninguna consecuencia económica para el impugnante."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 242,
@@ -12827,8 +12834,8 @@ const QUIZZES = {
           "C": "Se puede entender desestimada la solicitud (silencio negativo).",
           "D": "El prestador puede iniciar la actividad de forma provisional."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 243,
@@ -12840,8 +12847,8 @@ const QUIZZES = {
           "C": "Cuando su firma en la solicitud haya sido legitimada en presencia notarial.",
           "D": "Cuando aporte copia compulsada del DNI ante el prestador."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 244,
@@ -12853,8 +12860,8 @@ const QUIZZES = {
           "C": "Las respuestas a) y b) son correctas.",
           "D": "No tiene obligación de registrar información adicional más allá del NIF de la entidad."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 245,
@@ -12866,8 +12873,8 @@ const QUIZZES = {
           "C": "En casos de duda sobre la violación del secreto de los datos de creación o falsedad de los datos del certificado.",
           "D": "Por inseguridad en los mecanismos criptográficos"
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "A",
+        "metodo": "acierto"
       },
       {
         "num": 246,
@@ -12879,8 +12886,8 @@ const QUIZZES = {
           "C": "4 años.",
           "D": "3 años."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 247,
@@ -12892,8 +12899,8 @@ const QUIZZES = {
           "C": "Confidencialidad e integridad de los datos firmados, y no repudio por parte del receptor/a.",
           "D": "Integridad de los datos firmados, autenticación del/la firmante, y no repudio por parte del/la firmante."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 248,
@@ -12905,8 +12912,8 @@ const QUIZZES = {
           "C": "Únicamente su número de identificación fiscal.",
           "D": "Únicamente su denominación o razón social."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 249,
@@ -12918,8 +12925,8 @@ const QUIZZES = {
           "C": "El prestador cualificado que vaya a cesar en su actividad deberá comunicarlo al órgano de supervisión con una antelación mínima de dos semanas al cese efectivo de la actividad, sin que sea necesario comunicarlo a los clientes.",
           "D": "Almacenar de forma permanente todos los datos de creación de firma, sello o autenticación de sitio web de las personas físicas o jurídicas a las que haya prestado sus servicios."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 250,
@@ -12931,8 +12938,8 @@ const QUIZZES = {
           "C": "El hecho indicado no constituye una infracción.",
           "D": "Leve."
         },
-        "correcta": "A",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 251,
@@ -12944,8 +12951,8 @@ const QUIZZES = {
           "C": "Autenticación del emisor.",
           "D": "Entrega garantizada"
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 252,
@@ -12957,8 +12964,8 @@ const QUIZZES = {
           "C": "Haber sido creada utilizando datos de creación de la firma electrónica que el firmante. puede utilizar, con un alto nivel de confianza, bajo su control exclusivo.",
           "D": "Permitir la identificación del firmante."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 253,
@@ -12970,8 +12977,8 @@ const QUIZZES = {
           "C": "Que haya sido realizada con un certificado emitido por un prestador cualificado de servicios de confianza.",
           "D": "Que vaya acompañada de una firma manuscrita."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 254,
@@ -12983,8 +12990,8 @@ const QUIZZES = {
           "C": "Considera la autenticación de sitios web utilizando certificados cualificados, que incluyan la identificación del sitio web, además de la identificación del proveedor de servicios de confianza.",
           "D": "Recomienda la autenticación de sitios web utilizando certificados auto-firmados."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 255,
@@ -12996,13 +13003,13 @@ const QUIZZES = {
           "C": "Que incluya la firma electrónica avanzada o el sello electrónico avanzado del prestador de servicios de confianza expedidor.",
           "D": "Que contenga el número de serie del dispositivo cualificado usado para almacenar la firma."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 256,
         "idpregunta": 256,
-        "pregunta": "256.- La definición \"datos en formato electrónico ajenos a otros datos en formato electrónico, o asociados de manera lógica con ellos, para garantizar el origen y la integridad de estos últimos\" corresponde a:",
+        "pregunta": "256.- La definición \"datos en formato electrónico anejos a otros datos en formato electrónico, o asociados de manera lógica con ellos, para garantizar el origen y la integridad de estos últimos\" corresponde a:",
         "opciones": {
           "A": "Sello electrónico.",
           "B": "Firma electrónica.",
@@ -13010,7 +13017,7 @@ const QUIZZES = {
           "D": "Identificación electrónica."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 257,
@@ -13023,7 +13030,7 @@ const QUIZZES = {
           "D": "La resistencia, obstrucción, excusa o negativa a la actuación inspectora de los órganos facultados para llevarla a cabo con arreglo a esta Ley."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 258,
@@ -13035,8 +13042,8 @@ const QUIZZES = {
           "C": "Quince años.",
           "D": "Veinte años."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 259,
@@ -13048,8 +13055,8 @@ const QUIZZES = {
           "C": "Nueve meses.",
           "D": "Doce meses"
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 260,
@@ -13061,8 +13068,8 @@ const QUIZZES = {
           "C": "1.500.000 euros.",
           "D": "2.000.000 euros."
         },
-        "correcta": "D",
-        "metodo": "estimado_manual"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 261,
@@ -13074,8 +13081,8 @@ const QUIZZES = {
           "C": "En el plazo de tres meses.",
           "D": "Antes de iniciar la actividad."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 262,
@@ -13087,8 +13094,8 @@ const QUIZZES = {
           "C": "El Centro Criptológico Nacional",
           "D": "La Comisión Europea"
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 263,
@@ -13100,8 +13107,8 @@ const QUIZZES = {
           "C": "Se inicia automáticamente un procedimiento sancionador por infracción grave.",
           "D": "Se retira la cualificación al prestador y al servicio, eliminándolo de la lista de confianza."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 264,
@@ -13113,8 +13120,8 @@ const QUIZZES = {
           "C": "Solo podrá utilizarse pseudónimo en certificados no cualificados.",
           "D": "La identidad real únicamente podrá revelarse con autorización del propio titular."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 265,
@@ -13126,8 +13133,8 @@ const QUIZZES = {
           "C": "Derecho al olvido.",
           "D": "Derecho de publicidad."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 266,
@@ -13140,7 +13147,7 @@ const QUIZZES = {
           "D": "Derecho relativos a la salud."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 267,
@@ -13152,8 +13159,8 @@ const QUIZZES = {
           "C": "Elaboración de perfiles.",
           "D": "Tratamiento de datos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 268,
@@ -13165,8 +13172,8 @@ const QUIZZES = {
           "C": "Por un/a delegado/a de protección de datos de cada Estado miembro y por el/la Delegado/a Europeo de Protección de Datos o sus representantes respectivos.",
           "D": "Por el/la director/a de una autoridad de control de cada Estado miembro y por el/la Supervisor/a Europeo de Protección de Datos o sus representantes respectivos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 269,
@@ -13179,7 +13186,7 @@ const QUIZZES = {
           "D": "A una multa administrativa de 50.000.000 EUR o, tratándose de una empresa, de una cuantía equivalente al 5% del volumen de negocio total anual global del ejercicio financiero anterior."
         },
         "correcta": "A",
-        "metodo": "fallback_A",
+        "metodo": "acierto",
         "diffs": {
           "A": "A una multa administrativa de <span class=\"diff-highlight\">20</span>.000.000 EUR o, tratándose de una empresa, de una cuantía equivalente al 4% del volumen de negocio total anual global del ejercicio financiero anterior.",
           "B": "A una multa administrativa de <span class=\"diff-highlight\">50</span>.000.000 EUR o, tratándose de una empresa, de una cuantía equivalente al 4% del volumen de negocio total anual global del ejercicio financiero anterior.",
@@ -13197,8 +13204,8 @@ const QUIZZES = {
           "C": "No cabrá la oposición cuando la aportación del documento se exigiera en el marco del ejercicio de potestades sancionadoras o de inspección.",
           "D": "No cabrá la oposición únicamente cuando la aportación del documento se exigiera en el marco del ejercicio de potestades sancionadoras."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 271,
@@ -13210,8 +13217,8 @@ const QUIZZES = {
           "C": "Nombre y Apellidos.",
           "D": "Creencias."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 272,
@@ -13223,8 +13230,8 @@ const QUIZZES = {
           "C": "La ley no especifica este aspecto.",
           "D": "Lo decidirá la persona obligada a mantener ese deber de confidencialidad."
         },
-        "correcta": "A",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 273,
@@ -13236,8 +13243,8 @@ const QUIZZES = {
           "C": "RGPD",
           "D": "LOPDGDD"
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 274,
@@ -13249,8 +13256,8 @@ const QUIZZES = {
           "C": "No, debe crearlo y custodiarlo pero no tiene obligación de publicarlo.",
           "D": "Sí, cuando se hayan tratado datos personales de categoría especial."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 275,
@@ -13263,7 +13270,7 @@ const QUIZZES = {
           "D": "18 años."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 276,
@@ -13275,8 +13282,8 @@ const QUIZZES = {
           "C": "Datos sobre ideología.",
           "D": "Datos sobre nivel educativo."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 277,
@@ -13288,8 +13295,8 @@ const QUIZZES = {
           "C": "Solo pueden ser tratados para fines de prevención, investigación, detección o enjuiciamiento de infracciones penales o de ejecución de sanciones penales.",
           "D": "Solo pueden ser tratados cuando se encuentre amparado en una norma de Derecho de la Unión, en la ley orgánica o en otras normas de rango legal."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 278,
@@ -13301,8 +13308,8 @@ const QUIZZES = {
           "C": "Siempre que lo autorice la persona afectada.",
           "D": "Cuando los datos sean utilizados para fines de prevención, investigación, detección o enjuiciamiento de infracciones penales."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 279,
@@ -13314,8 +13321,8 @@ const QUIZZES = {
           "C": "Cuando los datos personales no hayan sido obtenidos de la persona afectada.",
           "D": "Siempre que se trate de datos personales relativos a condenas e infracciones penales."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 280,
@@ -13328,7 +13335,7 @@ const QUIZZES = {
           "D": "No tiene ninguna obligación específica mientras los datos se utilicen dentro de la empresa."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 281,
@@ -13340,8 +13347,8 @@ const QUIZZES = {
           "C": "Principio de confidencialidad.",
           "D": "Principio de limitación de finalidad."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 282,
@@ -13353,8 +13360,8 @@ const QUIZZES = {
           "C": "Derecho a la neutralidad.",
           "D": "Derecho de portabilidad."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 283,
@@ -13366,8 +13373,8 @@ const QUIZZES = {
           "C": "Solo el/la administrador/a de sistemas.",
           "D": "La propia persona interesada."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 284,
@@ -13380,7 +13387,7 @@ const QUIZZES = {
           "D": "No tienen obligación legal."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 285,
@@ -13393,7 +13400,7 @@ const QUIZZES = {
           "D": "Ninguna medida es obligatoria."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 286,
@@ -13405,8 +13412,8 @@ const QUIZZES = {
           "C": "El Tribunal Supremo.",
           "D": "El Defensor del Pueblo."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 287,
@@ -13418,8 +13425,8 @@ const QUIZZES = {
           "C": "Medidas de naturaleza física.",
           "D": "Medidas de naturaleza ofensiva."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 288,
@@ -13432,7 +13439,7 @@ const QUIZZES = {
           "D": "La detección y corrección de problemas en el software."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 289,
@@ -13444,8 +13451,8 @@ const QUIZZES = {
           "C": "Las decisiones para satisfacer los requisitos de seguridad.",
           "D": "La forma de implementar la seguridad en el sistema."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 290,
@@ -13457,8 +13464,8 @@ const QUIZZES = {
           "C": "Cada tres años.",
           "D": "Cada cinco años."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 291,
@@ -13471,7 +13478,7 @@ const QUIZZES = {
           "D": "Resiliencia operativa ante ciberataques."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 292,
@@ -13483,8 +13490,8 @@ const QUIZZES = {
           "C": "Cumplir los requisitos ENS necesarios según los resultados del análisis de riesgos correspondiente.",
           "D": "Designar un Responsable de Seguridad de la Información independiente del contratista principal."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 293,
@@ -13496,8 +13503,8 @@ const QUIZZES = {
           "C": "Que sean objeto de una auditoría extraordinaria por un organismo externo acreditado.",
           "D": "Que el responsable del sistema informe a la Agencia Española de Protección de Datos antes de su aplicación."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 294,
@@ -13509,8 +13516,8 @@ const QUIZZES = {
           "C": "El Centro Criptológico Nacional.",
           "D": "La Agencia Española de Protección de Datos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 295,
@@ -13522,8 +13529,8 @@ const QUIZZES = {
           "C": "Cada tres años.",
           "D": "Cada cinco años."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 296,
@@ -13535,8 +13542,8 @@ const QUIZZES = {
           "C": "El presupuesto asignado a la seguridad del sistema en el ejercicio presupuestario en curso.",
           "D": "La clasificación del organismo responsable dentro de la estructura de la Administración General del Estado."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 297,
@@ -13549,7 +13556,7 @@ const QUIZZES = {
           "D": "Treinta y seis meses desde la entrada en vigor."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 298,
@@ -13561,8 +13568,8 @@ const QUIZZES = {
           "C": "A todas las empresas privadas con más de 250 personas empleadas que operen en territorio español.",
           "D": "A las entidades del sector público y a las organizaciones del sector privado que les presten servicios."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 299,
@@ -13575,7 +13582,7 @@ const QUIZZES = {
           "D": "Carácter vinculante exclusivamente cuando así lo determine el CCN (Centro Criptológico Nacional) en cada instrucción concreta."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 300,
@@ -13588,7 +13595,7 @@ const QUIZZES = {
           "D": "Designar a un/a delegado/a de protección de datos con funciones exclusivas de auditoría del ENS."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 301,
@@ -13601,7 +13608,7 @@ const QUIZZES = {
           "D": "Artículo 156 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público."
         },
         "correcta": "B",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 302,
@@ -13613,8 +13620,8 @@ const QUIZZES = {
           "C": "El Centro Criptológico Nacional, previo informe del contratista.",
           "D": "El órgano contratante de la Administración Pública correspondiente."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 303,
@@ -13626,8 +13633,8 @@ const QUIZZES = {
           "C": "Que se establezcan cortafuegos perimetrales en todos los sistemas de categoría alta",
           "D": "Que todos los elementos del sistema —personas, tecnología y procesos— sean considerados de forma integrada."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 304,
@@ -13639,8 +13646,8 @@ const QUIZZES = {
           "C": "Se exige que el/la responsable de la información, el/la responsable del servicio y el/la responsable del sistema sean personas o entidades distintas.",
           "D": "El personal de operaciones no podrá tener acceso a funciones de auditoría interna bajo ninguna circunstancia."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 305,
@@ -13653,7 +13660,7 @@ const QUIZZES = {
           "D": "La Agencia Española de Protección de Datos."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 306,
@@ -13666,7 +13673,7 @@ const QUIZZES = {
           "D": "Mediante la superación del cuestionario INES (Informe Nacional del Estado de la Seguridad)."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 307,
@@ -13679,7 +13686,7 @@ const QUIZZES = {
           "D": "El marco jurídico vigente en cada momento."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 308,
@@ -13691,8 +13698,8 @@ const QUIZZES = {
           "C": "Marco estratégico, marco táctico y marco operativo.",
           "D": "Marco organizativo, marco operacional y medidas de protección."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 309,
@@ -13705,7 +13712,7 @@ const QUIZZES = {
           "D": "Evitar la duplicidad de auditorías de seguridad entre entidades de la misma comunidad autónoma."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 310,
@@ -13717,8 +13724,8 @@ const QUIZZES = {
           "C": "Clave simétrica.",
           "D": "Clave pública."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 311,
@@ -13730,8 +13737,8 @@ const QUIZZES = {
           "C": "RC4.",
           "D": "AES."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 312,
@@ -13743,8 +13750,8 @@ const QUIZZES = {
           "C": "X.508.",
           "D": "X.509."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 313,
@@ -13756,8 +13763,8 @@ const QUIZZES = {
           "C": "El conjunto de herramientas, políticas, personas y recursos necesarios para permitir la puesta en marcha de un entorno de seguridad basado en criptografía de clave pública, donde las personas usuarias pueden disponer de los servicios de autenticación e integridad.",
           "D": "El conjunto de herramientas, políticas, personas y recursos necesarios para permitir la puesta en marcha de un entorno de seguridad basado en criptografía de clave pública, donde las personas usuarias pueden disponer de los servicios de autenticación, integridad y no repudio."
         },
-        "correcta": "B",
-        "metodo": "estimado_manual",
+        "correcta": "D",
+        "metodo": "fallo->azul",
         "diffs": {
           "A": "El conjunto de herramientas, políticas, personas y recursos necesarios para permitir la puesta en marcha de un entorno de seguridad basado en criptografía de clave pública, donde las personas usuarias pueden disponer de los servicios de integridad y no repudio.",
           "B": "El conjunto de herramientas, políticas, personas y recursos necesarios para permitir la puesta en marcha de un entorno de seguridad basado en criptografía de clave pública, donde las personas usuarias pueden disponer de los servicios de autenticación y no repudio.",
@@ -13776,7 +13783,7 @@ const QUIZZES = {
           "D": "SHA-2."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 315,
@@ -13788,8 +13795,8 @@ const QUIZZES = {
           "C": "HTTPS solo proporciona autenticación, pero no cifrado de la información.",
           "D": "HTTPS funciona únicamente en redes locales."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 316,
@@ -13801,8 +13808,8 @@ const QUIZZES = {
           "C": "Criptografía simétrica.",
           "D": "Firma digital."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 317,
@@ -13814,8 +13821,8 @@ const QUIZZES = {
           "C": "TLS.",
           "D": "WPA."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "A",
+        "metodo": "acierto"
       },
       {
         "num": 318,
@@ -13827,8 +13834,8 @@ const QUIZZES = {
           "C": "Un certificado digital del/la ciudadano/a.",
           "D": "Dos certificados digitales del/la ciudadano/a con sus correspondientes claves privadas."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 319,
@@ -13840,8 +13847,8 @@ const QUIZZES = {
           "C": "No requiere intercambio de claves.",
           "D": "Utiliza certificados digitales."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 320,
@@ -13853,8 +13860,8 @@ const QUIZZES = {
           "C": "La clave pública del receptor.",
           "D": "La clave privada del receptor."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 321,
@@ -13866,8 +13873,8 @@ const QUIZZES = {
           "C": "Establecer una clave secreta compartida.",
           "D": "Firmar digitalmente documentos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 322,
@@ -13879,8 +13886,8 @@ const QUIZZES = {
           "C": "Que sea resistente a colisiones.",
           "D": "Que utilice clave pública."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 323,
@@ -13892,8 +13899,8 @@ const QUIZZES = {
           "C": "Su propia clave pública.",
           "D": "La clave privada del receptor."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 324,
@@ -13905,8 +13912,8 @@ const QUIZZES = {
           "C": "Impedir que el emisor niegue haber enviado el mensaje.",
           "D": "Acelerar el proceso de cifrado."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 325,
@@ -13919,7 +13926,7 @@ const QUIZZES = {
           "D": "Servidor DNS."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 326,
@@ -13931,8 +13938,8 @@ const QUIZZES = {
           "C": "El algoritmo hash del mensaje original.",
           "D": "La contraseña del/la usuario/a."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 327,
@@ -13944,8 +13951,8 @@ const QUIZZES = {
           "C": "Generar códigos de estado HTTP.",
           "D": "Reemplazar completamente la criptografía simétrica."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 328,
@@ -13957,8 +13964,8 @@ const QUIZZES = {
           "C": "Integridad.",
           "D": "Autorización."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 329,
@@ -13970,8 +13977,8 @@ const QUIZZES = {
           "C": "Traducción de direcciones IP.",
           "D": "Compresión de datos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 330,
@@ -13983,8 +13990,8 @@ const QUIZZES = {
           "C": "Generar funciones hash.",
           "D": "Emitir certificados digitales."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 331,
@@ -13996,8 +14003,8 @@ const QUIZZES = {
           "C": "La autorización cifra datos; la autenticación no.",
           "D": "La autenticación se realiza solo con hash."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 332,
@@ -14009,8 +14016,8 @@ const QUIZZES = {
           "C": "DSA.",
           "D": "Diffie-Hellman."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 333,
@@ -14022,8 +14029,8 @@ const QUIZZES = {
           "C": "Garantizar integridad y autenticidad.",
           "D": "Ocultar la identidad del/la firmante."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 334,
@@ -14035,8 +14042,8 @@ const QUIZZES = {
           "C": "Cumplimiento de las exigencias del entorno legal.",
           "D": "Asignación de los máximos privilegios."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 335,
@@ -14048,8 +14055,8 @@ const QUIZZES = {
           "C": "Acceso independiente con doble paridad.",
           "D": "Acceso independiente con un disco dedicado a paridad."
         },
-        "correcta": "B",
-        "metodo": "estimado_manual"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 336,
@@ -14061,8 +14068,8 @@ const QUIZZES = {
           "C": "Definición de responsabilidades y asignación de recursos.",
           "D": "Ejecutar las recomendaciones de la auditoría."
         },
-        "correcta": "B",
-        "metodo": "estimado_manual"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 337,
@@ -14074,8 +14081,8 @@ const QUIZZES = {
           "C": "Activa.",
           "D": "Detectiva."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 338,
@@ -14087,8 +14094,8 @@ const QUIZZES = {
           "C": "Confidencialidad, integridad y disponibilidad.",
           "D": "Integridad, autenticación y privacidad."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 339,
@@ -14100,8 +14107,8 @@ const QUIZZES = {
           "C": "Integridad.",
           "D": "Confidencialidad."
         },
-        "correcta": "B",
-        "metodo": "estimado_manual"
+        "correcta": "A",
+        "metodo": "acierto"
       },
       {
         "num": 340,
@@ -14113,8 +14120,8 @@ const QUIZZES = {
           "C": "Técnico, legal, humano, integral.",
           "D": "Técnico, legal, empresarial, organizativo."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 341,
@@ -14126,8 +14133,8 @@ const QUIZZES = {
           "C": "Disponibilidad.",
           "D": "Autenticación."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 342,
@@ -14139,8 +14146,8 @@ const QUIZZES = {
           "C": "Confidencialidad.",
           "D": "Disponibilidad."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 343,
@@ -14152,8 +14159,8 @@ const QUIZZES = {
           "C": "Defensa en niveles.",
           "D": "Defensa en profundidad."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 344,
@@ -14165,8 +14172,8 @@ const QUIZZES = {
           "C": "No, siempre existirá un riesgo residual.",
           "D": "Sí, aplicando medidas técnicas y legales."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 345,
@@ -14178,8 +14185,8 @@ const QUIZZES = {
           "C": "Formación en seguridad para empleados/as.",
           "D": "Cifrado de discos duros."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 346,
@@ -14192,7 +14199,7 @@ const QUIZZES = {
           "D": "Todas las anteriores."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 347,
@@ -14205,7 +14212,7 @@ const QUIZZES = {
           "D": "EFSA."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 348,
@@ -14217,8 +14224,8 @@ const QUIZZES = {
           "C": "Política de seguridad.",
           "D": "Procedimiento de seguridad."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 349,
@@ -14231,7 +14238,7 @@ const QUIZZES = {
           "D": "Intranet, DMZ y extranet."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 350,
@@ -14244,7 +14251,7 @@ const QUIZZES = {
           "D": "RAID 5."
         },
         "correcta": "C",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 351,
@@ -14256,8 +14263,8 @@ const QUIZZES = {
           "C": "Eliminar la necesidad de copias de seguridad.",
           "D": "Sustituir el SGSI."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 352,
@@ -14269,8 +14276,8 @@ const QUIZZES = {
           "C": "Confidencialidad.",
           "D": "Autenticación."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 353,
@@ -14282,8 +14289,8 @@ const QUIZZES = {
           "C": "Evaluar el cumplimiento de las políticas y controles establecidos.",
           "D": "Incrementar la disponibilidad de los sistemas."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 354,
@@ -14295,8 +14302,8 @@ const QUIZZES = {
           "C": "Plan de continuidad de negocio.",
           "D": "Declaración de aplicabilidad."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 355,
@@ -14308,8 +14315,8 @@ const QUIZZES = {
           "C": "Los/las administradores deben tener todos los privilegios posibles.",
           "D": "El acceso debe ser anónimo para mayor seguridad."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 356,
@@ -14321,8 +14328,8 @@ const QUIZZES = {
           "C": "Vulnerabilidad x impacto.",
           "D": "Probabilidad x impacto."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 357,
@@ -14334,8 +14341,8 @@ const QUIZZES = {
           "C": "Implantar directamente medidas técnicas.",
           "D": "Garantizar el cumplimiento legal automático."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 358,
@@ -14347,8 +14354,8 @@ const QUIZZES = {
           "C": "SOA persigue la independencia del negocio respecto de la tecnología.",
           "D": "SOA busca una orientación a eventos de negocio, que disparan la orquestación de los servicios mediante mensajería preferentemente síncrona."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 359,
@@ -14361,7 +14368,7 @@ const QUIZZES = {
           "D": "Abstraer el diseño de los servicios de su entorno y de los sistemas que los usan garantiza su autonomía, aumenta su reusabilidad y disminuye su acoplamiento."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 360,
@@ -14373,8 +14380,8 @@ const QUIZZES = {
           "C": "Plantearlo como un cambio estratégico que, aplicado de forma constante e iterativa, extenderá con el tiempo bastantes de sus beneficios y mejoras al resto de la organización.",
           "D": "Plantearlo como la solución inmediata a todos los problemas de integración horizontal entre sistemas de la organización."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 361,
@@ -14386,8 +14393,8 @@ const QUIZZES = {
           "C": "Definir los tipos de datos que participan en la semántica del negocio.",
           "D": "Identificar nuevos servicios, nuevas composiciones o nuevas versiones de los existentes."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 362,
@@ -14399,8 +14406,8 @@ const QUIZZES = {
           "C": "Los estándares.",
           "D": "El catálogo de servicios."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 363,
@@ -14408,12 +14415,12 @@ const QUIZZES = {
         "pregunta": "363.- ¿Cuál de las siguientes afirmaciones es FALSA respecto al catálogo de servicios en una estrategia SOA?",
         "opciones": {
           "A": "La obtención de un Catálogo de Servicios mediante el enfoque Bottom up (de abajo arriba) es más inmediata y asequible que la estrategia Top down (de arriba abajo).",
-          "B": "El enfoque Bottom up (de abajo nuevos sistemas y para nuevos requerimientos.",
+          "B": "El enfoque Bottom up (de abajo arriba) es más indicada para nuevos sistemas y para nuevos requerimientos.",
           "C": "El enfoque Top down (de arriba abajo) es más costoso en recursos y en plazos, puesto que se necesitan conocimientos en modelado de procesos de negocio.",
           "D": "El enfoque Bottom up (de abajo arriba) intenta cambiar el patrón “petición-respuesta” por el de “proveedor-consumidor” mediante listas de suscripción."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 364,
@@ -14425,8 +14432,8 @@ const QUIZZES = {
           "C": "Los estándares.",
           "D": "El catálogo de servicios."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 365,
@@ -14438,8 +14445,8 @@ const QUIZZES = {
           "C": "Nginx.",
           "D": "Eureka."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 366,
@@ -14448,11 +14455,11 @@ const QUIZZES = {
         "opciones": {
           "A": "POST.",
           "B": "PUT.",
-          "C": "REMOVE. arriba) es más indicada para",
+          "C": "REMOVE.",
           "D": "PATCH."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 367,
@@ -14464,8 +14471,8 @@ const QUIZZES = {
           "C": "Relational Environment Safe Token",
           "D": "Request Extended Secure Transfer"
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 368,
@@ -14477,8 +14484,8 @@ const QUIZZES = {
           "C": "Resuelve los problemas del carácter monolítico de la aplicación.",
           "D": "Presenta problemas similares a los del escalado horizontal."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 369,
@@ -14490,8 +14497,8 @@ const QUIZZES = {
           "C": "Limita la autonomía de la cadena de despliegue.",
           "D": "Una actualización de un microservicio siempre afecta al resto de los microservicios."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 370,
@@ -14504,7 +14511,7 @@ const QUIZZES = {
           "D": "Fuerte acoplamiento entre los servicios."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 371,
@@ -14516,8 +14523,8 @@ const QUIZZES = {
           "C": "Que cada equipo de desarrollo es responsable de todo el ciclo completo de un microservicio.",
           "D": "Que los fallos en un microservicio no se propagan en la cadena de servicios."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 372,
@@ -14529,8 +14536,8 @@ const QUIZZES = {
           "C": "Service Registry.",
           "D": "Event Sourcing."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 373,
@@ -14542,8 +14549,8 @@ const QUIZZES = {
           "C": "Es una base de datos compartida por todos los microservicios.",
           "D": "Es un mecanismo de autenticación interno entre microservicios."
         },
-        "correcta": "D",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 374,
@@ -14556,7 +14563,7 @@ const QUIZZES = {
           "D": "La elección entre comunicación síncrona y asíncrona depende de los requisitos del negocio."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 375,
@@ -14568,8 +14575,8 @@ const QUIZZES = {
           "C": "Despliegue rápido e independiente de cada microservicio.",
           "D": "Eliminación completa de la necesidad de orquestación."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 376,
@@ -14581,8 +14588,8 @@ const QUIZZES = {
           "C": "Base de datos compartida entre los microservicios implicados.",
           "D": "Llamadas síncronas encadenadas entre todos los microservicios participantes."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 377,
@@ -14594,8 +14601,8 @@ const QUIZZES = {
           "C": "Introduce un punto único de fallo si no se despliega con alta disponibilidad.",
           "D": "Obliga a usar comunicación síncrona entre todos los servicios."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 378,
@@ -14607,8 +14614,8 @@ const QUIZZES = {
           "C": "Es el protocolo de comunicación acordado entre dos microservicios.",
           "D": "Es el límite lógico dentro del cual un modelo de dominio tiene un significado consistente y bien definido."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 379,
@@ -14620,8 +14627,8 @@ const QUIZZES = {
           "C": "Imposibilidad de usar diferentes tecnologías en cada servicio.",
           "D": "Mayor acoplamiento entre los componentes del sistema."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 380,
@@ -14634,7 +14641,7 @@ const QUIZZES = {
           "D": "La coreografía requiere siempre comunicación síncrona mientras que la orquestación usa mensajería asíncrona."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 381,
@@ -14646,8 +14653,8 @@ const QUIZZES = {
           "C": "IaaS.",
           "D": "AaaS."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 382,
@@ -14659,8 +14666,8 @@ const QUIZZES = {
           "C": "El consumidor NO necesita instalación ni mantenimiento del software.",
           "D": "La empresa tiene un coste fijo mensual independiente del uso y personas usuarias que tenga la plataforma, lo que permite hacer una planificación más ajustada de los costes de explotación."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 383,
@@ -14672,8 +14679,8 @@ const QUIZZES = {
           "C": "La infraestructura de una nube privada es gestionada íntegramente por una organización.",
           "D": "Una nube comunitaria es la forma menos habitual de despliegue de computación en la nube, siendo el NIST el único que suele recoger este modelo de despliegue."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 384,
@@ -14686,7 +14693,7 @@ const QUIZZES = {
           "D": "AaaS."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 385,
@@ -14698,8 +14705,8 @@ const QUIZZES = {
           "C": "Un riesgo.",
           "D": "Un incidente."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 386,
@@ -14711,8 +14718,8 @@ const QUIZZES = {
           "C": "Se basa en una plataforma software que monitoriza y gestiona todos los dispositivos móviles.",
           "D": "Permite a las aplicaciones funcionar en servidores back-end en vez de en los dispositivos móviles."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 387,
@@ -14724,8 +14731,8 @@ const QUIZZES = {
           "C": "IaaS.",
           "D": "AaaS."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 388,
@@ -14737,8 +14744,8 @@ const QUIZZES = {
           "C": "Conmutación de circuitos.",
           "D": "Conmutación de circuitos mediante paquetes virtuales."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 389,
@@ -14751,7 +14758,7 @@ const QUIZZES = {
           "D": "VirtualBox."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 390,
@@ -14764,7 +14771,7 @@ const QUIZZES = {
           "D": "4XX."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 391,
@@ -14776,8 +14783,8 @@ const QUIZZES = {
           "C": "Una herramienta para definir contenedores que implementan múltiples servicios.",
           "D": "Una herramienta para definir y ejecutar aplicaciones multi-contenedor."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 392,
@@ -14789,8 +14796,8 @@ const QUIZZES = {
           "C": "Almacenamiento de información.",
           "D": "a), b), y c) son correctas."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 393,
@@ -14802,8 +14809,8 @@ const QUIZZES = {
           "C": "Kubernetes.",
           "D": "Docker."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 394,
@@ -14816,7 +14823,7 @@ const QUIZZES = {
           "D": "AaaS."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 395,
@@ -14828,8 +14835,8 @@ const QUIZZES = {
           "C": "La computación cloud permite incrementar y reducir rápidamente los recursos utilizados.",
           "D": "La computación cloud exige que todas las aplicaciones corporativas sean portadas a la plataforma del proveedor."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 396,
@@ -14842,7 +14849,7 @@ const QUIZZES = {
           "D": "Integridad de los datos."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 397,
@@ -14854,8 +14861,8 @@ const QUIZZES = {
           "C": "Almacenamiento local con procesamiento remoto.",
           "D": "Servicio y facturación flexible."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 398,
@@ -14867,8 +14874,8 @@ const QUIZZES = {
           "C": "Virtualización completa y paravirtualización.",
           "D": "Virtualización de aplicaciones."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 399,
@@ -14881,7 +14888,7 @@ const QUIZZES = {
           "D": "Replicación de los datos."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 400,
@@ -14893,8 +14900,8 @@ const QUIZZES = {
           "C": "Ventaja tecnológica, pudiendo aprovechar de forma inmediata las últimas funcionalidades disponibles.",
           "D": "Independencia del proveedor, al poder migrar fácilmente de un proveedor cloud a otro."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 401,
@@ -14906,8 +14913,8 @@ const QUIZZES = {
           "C": "Todos los microservicios deben compartir la misma base de datos.",
           "D": "Los microservicios eliminan la necesidad de monitoreo y gestión de fallos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 402,
@@ -14919,8 +14926,8 @@ const QUIZZES = {
           "C": "Los contenedores no requieren orquestación para escalar.",
           "D": "Los contenedores reemplazan la necesidad de infraestructura de red en la nube."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 403,
@@ -14933,7 +14940,7 @@ const QUIZZES = {
           "D": "Ejecutar todas las aplicaciones en un único servidor potente."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 404,
@@ -14945,8 +14952,8 @@ const QUIZZES = {
           "C": "Ejecutar únicamente aplicaciones críticas en la nube.",
           "D": "Posibilidad de aumentar o reducir recursos automáticamente según la demanda."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 405,
@@ -14958,8 +14965,8 @@ const QUIZZES = {
           "C": "La persona usuaria controla solo las aplicaciones y datos, el proveedor gestiona infraestructura, virtualización y red.",
           "D": "La persona usuaria controla la red y almacenamiento, el proveedor solo el cómputo."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 406,
@@ -14971,8 +14978,8 @@ const QUIZZES = {
           "C": "Detectar actividades sospechosas analizando el tráfico de red.",
           "D": "Gestionar direcciones IP dentro de la red."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 407,
@@ -14985,7 +14992,7 @@ const QUIZZES = {
           "D": "El uso exclusivo de un único proveedor tecnológico."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 408,
@@ -14997,8 +15004,8 @@ const QUIZZES = {
           "C": "Una vez realizada una limpieza manual se procede a modificar las contraseñas.",
           "D": "La realización de un análisis completo del sistema precede a la modificación de contraseñas."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 409,
@@ -15010,8 +15017,8 @@ const QUIZZES = {
           "C": "Detección.",
           "D": "Prevención."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 410,
@@ -15024,7 +15031,7 @@ const QUIZZES = {
           "D": "IPS."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 411,
@@ -15037,7 +15044,7 @@ const QUIZZES = {
           "D": "Capacitación general en ofimática."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 412,
@@ -15050,7 +15057,7 @@ const QUIZZES = {
           "D": "Todos los citados."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 413,
@@ -15062,8 +15069,8 @@ const QUIZZES = {
           "C": "Certificados, Firmas Digitales, Sellos Digitales.",
           "D": "Confidencialidad, Integridad, Disponibilidad."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 414,
@@ -15075,8 +15082,8 @@ const QUIZZES = {
           "C": "a), b), y d) son correctas.",
           "D": "Controles y registros de accesos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 415,
@@ -15089,7 +15096,7 @@ const QUIZZES = {
           "D": "Replicación de datos."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 416,
@@ -15101,8 +15108,8 @@ const QUIZZES = {
           "C": "DNS poisoning.",
           "D": "DNS reversing."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 417,
@@ -15114,8 +15121,8 @@ const QUIZZES = {
           "C": "Encriptación de datos.",
           "D": "Gestión de identidades."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 418,
@@ -15127,8 +15134,8 @@ const QUIZZES = {
           "C": "Gusano.",
           "D": "Rootkit."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 419,
@@ -15140,8 +15147,8 @@ const QUIZZES = {
           "C": "Proteger únicamente las contraseñas de usuarios.",
           "D": "Encriptar la información de la red."
         },
-        "correcta": "D",
-        "metodo": "estimado_manual"
+        "correcta": "A",
+        "metodo": "acierto"
       },
       {
         "num": 420,
@@ -15153,8 +15160,8 @@ const QUIZZES = {
           "C": "DDoS.",
           "D": "Phishing."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 421,
@@ -15166,8 +15173,8 @@ const QUIZZES = {
           "C": "DDoS.",
           "D": "Man-in-the-middle."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 422,
@@ -15180,7 +15187,7 @@ const QUIZZES = {
           "D": "Spoofing."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 423,
@@ -15192,8 +15199,8 @@ const QUIZZES = {
           "C": "Compresión.",
           "D": "Tokenización."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 424,
@@ -15205,8 +15212,8 @@ const QUIZZES = {
           "C": "Rootkit.",
           "D": "Spyware."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 425,
@@ -15219,7 +15226,7 @@ const QUIZZES = {
           "D": "Todas las anteriores."
         },
         "correcta": "D",
-        "metodo": "estimado_manual"
+        "metodo": "fallo->azul"
       },
       {
         "num": 426,
@@ -15232,7 +15239,7 @@ const QUIZZES = {
           "D": "Spyware."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 427,
@@ -15244,8 +15251,8 @@ const QUIZZES = {
           "C": "SQL Injection.",
           "D": "Cross-Site Scripting."
         },
-        "correcta": "C",
-        "metodo": "estimado_manual"
+        "correcta": "A",
+        "metodo": "acierto"
       },
       {
         "num": 428,
@@ -15257,8 +15264,8 @@ const QUIZZES = {
           "C": "Variedad.",
           "D": "Volumen."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 429,
@@ -15270,8 +15277,8 @@ const QUIZZES = {
           "C": "Base: Información Cúspide: Sabiduría.",
           "D": "Base: Datos Cúspide: Sabiduría."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 430,
@@ -15283,8 +15290,8 @@ const QUIZZES = {
           "C": "Gobierno de los datos.",
           "D": "Infraestructura tecnológica."
         },
-        "correcta": "A",
-        "metodo": "estimado_manual"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 431,
@@ -15297,7 +15304,7 @@ const QUIZZES = {
           "D": "Los sistemas de apoyo al proceso de toma de decisiones de los directivos es un sistema OLTP."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 432,
@@ -15309,8 +15316,8 @@ const QUIZZES = {
           "C": "La aproximación HOLAP es más ineficiente que la aproximación MOLAP en cuanto al espacio utilizado.",
           "D": "La aproximación ROLAP utiliza menos espacio de almacenamiento que la aproximación MOLAP."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 433,
@@ -15323,7 +15330,7 @@ const QUIZZES = {
           "D": "NFS."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 434,
@@ -15335,8 +15342,8 @@ const QUIZZES = {
           "C": "Tamaño, complejidad y velocidad de crecimiento.",
           "D": "Complejidad."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 435,
@@ -15348,8 +15355,8 @@ const QUIZZES = {
           "C": "Hbase.",
           "D": "Hive."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 436,
@@ -15361,8 +15368,8 @@ const QUIZZES = {
           "C": "Un lenguaje para especificar programas de análisis de datos y un compilador para convertirlos en procesos MapReduce.",
           "D": "Una interfaz web para Apache Spark."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 437,
@@ -15374,8 +15381,8 @@ const QUIZZES = {
           "C": "El analista de negocio.",
           "D": "El analista de inteligencia de negocio."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 438,
@@ -15388,7 +15395,7 @@ const QUIZZES = {
           "D": "Un sistema de ficheros distribuido y tolerante a fallos."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 439,
@@ -15400,8 +15407,8 @@ const QUIZZES = {
           "C": "Procesamiento por lotes y procesamiento en streaming, usando herramientas diferenciadas para cada tipo de procesamiento.",
           "D": "Procesamiento por lotes y procesamiento en streaming, existiendo herramientas que pueden usarse para ambos tipos de procesamiento."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 440,
@@ -15413,8 +15420,8 @@ const QUIZZES = {
           "C": "Hive.",
           "D": "YARN."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 441,
@@ -15426,8 +15433,8 @@ const QUIZZES = {
           "C": "Digitalización empresarial.",
           "D": "Monetización de los datos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 442,
@@ -15439,8 +15446,8 @@ const QUIZZES = {
           "C": "Puesta en marcha.",
           "D": "Todas las fases forman parte del ciclo vital de la analítica de datos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 443,
@@ -15453,7 +15460,7 @@ const QUIZZES = {
           "D": "La eliminación de hipótesis en estadística."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 444,
@@ -15465,8 +15472,8 @@ const QUIZZES = {
           "C": "Reducción de costes operativos.",
           "D": "Incremento del presupuesto de TI."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 445,
@@ -15479,7 +15486,7 @@ const QUIZZES = {
           "D": "Consulta interactiva SQL sobre datos estructurados."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 446,
@@ -15491,8 +15498,8 @@ const QUIZZES = {
           "C": "El ETL desaparece.",
           "D": "Todo debe estar en un único servidor."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 447,
@@ -15504,8 +15511,8 @@ const QUIZZES = {
           "C": "Implementación de arquitecturas MPP para acelerar el data warehouse.",
           "D": "Aplicación de modelos de segmentación para campañas de marketing."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 448,
@@ -15517,8 +15524,8 @@ const QUIZZES = {
           "C": "Integrar nuevas arquitecturas con sistemas existentes.",
           "D": "b) y c) son correctas."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 449,
@@ -15530,8 +15537,8 @@ const QUIZZES = {
           "C": "Optimizar almacenamiento para acelerar consultas.",
           "D": "Combinar múltiples fuentes para mejorar análisis."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 450,
@@ -15541,10 +15548,10 @@ const QUIZZES = {
           "A": "Automatizar decisiones sin supervisión humana en contextos críticos.",
           "B": "Sobreajustar los modelos analíticos a datos históricos sin validar su generalización.",
           "C": "Priorizar indicadores financieros de corto plazo frente a métricas estratégicas de largo plazo.",
-          "D": "Ignorar sesgos cognitivos. CASO PRÁCTICO 1 GESTIÓN DE PACIENTES DESCRIPCIÓN DEL CASO El sistema sanitario OsaNet (nombre ficticio) quiere mejorar su proceso de gestión de pacientes creando un sistema digital que pueda realizar un seguimiento de los historiales médicos y las citas de los pacientes. El sistema también debe permitir a los médicos actualizar los historiales de los pacientes y programar citas. OsaNet necesita desarrollar un diagrama entidad/relación para garantizar que la base de datos refleje con precisión las relaciones entre las distintas entidades implicadas en el proceso de gestión de pacientes, doctores/as y citas. Se ha comenzado con el siguiente diseño de tablas y relaciones. OsaNet dispone también de un sistema online, dentro de su intranet, que permite conocer la disponibilidad de agenda de un/a doctor/a. Este sistema, accesible desde el dominio (ficticio) intranet.osanet.eus, se ha implementado como un microservicio al que puede accederse vía API REST por HTTPS. Antes de asignar una nueva cita a un doctor/a se puede realizar una consulta GET para conocer la disponibilidad del facultativo. El sistema OsaNet está considerando implementar nuevas funcionalidades para su intranet. Para gestionar el proyecto de desarrollo se seguirá el framework Scrum, generando entre otros artefactos, un backlog de producto y un backlog de sprint. PREGUNTAS: 451-475"
+          "D": "Ignorar sesgos cognitivos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 451,
@@ -15556,8 +15563,8 @@ const QUIZZES = {
           "C": "En la entidad Cita, la columna doctor es clave foránea, la columna paciente es clave foránea y la columna id es clave primaria.",
           "D": "En la entidad Cita, la columna doctor es clave primaria, la columna paciente es clave primaria y la columna id es clave foránea."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 452,
@@ -15569,8 +15576,8 @@ const QUIZZES = {
           "C": "Hay una relación 1:1 entre Doctor y Cita. También hay una relación 1:1 entre Cita y Paciente.",
           "D": "Hay una relación N:M entre Doctor y Cita. También hay una relación N:M entre Cita y Paciente"
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 453,
@@ -15582,8 +15589,8 @@ const QUIZZES = {
           "C": "Es un problema con el navegador de la persona usuaria, borrando las cookies y volviendo a intentar la petición probablemente se solucione.",
           "D": "Es un error interno en la parte del servidor."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 454,
@@ -15595,8 +15602,8 @@ const QUIZZES = {
           "C": "GET o POST indistintamente.",
           "D": "PUSH."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 455,
@@ -15608,8 +15615,8 @@ const QUIZZES = {
           "C": "SHA-256.",
           "D": "DRAGON-512."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 456,
@@ -15621,8 +15628,8 @@ const QUIZZES = {
           "C": "Backlog del sprint: es una lista priorizada de características, mejoras y correcciones de errores que definen los requisitos del producto. La gestiona el Equipo de Desarrollo. Backlog del producto: contiene un subconjunto de elementos del backlog del sprint. Lo gestiona el Product Owner.",
           "D": "Backlog del producto: es una lista priorizada de características, mejoras y correcciones de errores que definen los requisitos del producto. La gestiona el Equipo de Desarrollo. Backlog del sprint: contiene un subconjunto de elementos del backlog del producto. Lo gestiona el Product Owner."
         },
-        "correcta": "A",
-        "metodo": "fallback_A",
+        "correcta": "B",
+        "metodo": "fallo->azul",
         "diffs": {
           "A": "Backlog del <span class=\"diff-highlight\">sprint</span>: es una lista priorizada de características, mejoras y correcciones de errores que definen los requisitos del producto. La gestiona el Product Owner. Backlog del <span class=\"diff-highlight\">producto</span>: contiene un subconjunto de elementos del backlog del <span class=\"diff-highlight\">sprint</span>. Lo gestiona el Equipo de Desarrollo.",
           "B": "Backlog del <span class=\"diff-highlight\">producto</span>: es una lista priorizada de características, mejoras y correcciones de errores que definen los requisitos del producto. La gestiona el Product Owner. Backlog del <span class=\"diff-highlight\">sprint</span>: contiene un subconjunto de elementos del backlog del <span class=\"diff-highlight\">producto</span>. Lo gestiona el Equipo de Desarrollo.",
@@ -15640,8 +15647,8 @@ const QUIZZES = {
           "C": "¿Cuándo terminarás tu tarea o proyecto? ¿Cuántas horas trabajaste ayer? ¿Hay algún impedimento o bloqueo que te impida cumplir con tu trabajo?",
           "D": "¿Qué hiciste desde la última reunión diaria? ¿Cuántas horas trabajaste ayer? ¿Cuál es el estado general del proyecto?"
         },
-        "correcta": "D",
-        "metodo": "estimado_manual"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 458,
@@ -15653,8 +15660,8 @@ const QUIZZES = {
           "C": "https://intranet.osanet.eus/agenda&dni=12345678A?fecha=151120231100",
           "D": "https://intranet.osanet.eus/agenda dni=12345678A fecha=151120231100"
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 459,
@@ -15666,8 +15673,8 @@ const QUIZZES = {
           "C": "Asegura que no existan citas duplicadas.",
           "D": "Evita almacenar fecha y hora."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 460,
@@ -15680,7 +15687,7 @@ const QUIZZES = {
           "D": "Debe eliminar la disponibilidad anterior."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 461,
@@ -15692,8 +15699,8 @@ const QUIZZES = {
           "C": "Rechazar la operación mediante restricción clave extranjera (FK)",
           "D": "Eliminar solo su email."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 462,
@@ -15705,8 +15712,8 @@ const QUIZZES = {
           "C": "Podría modificar la tabla Cita.",
           "D": "Podría autenticar clientes sin permiso."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 463,
@@ -15718,8 +15725,8 @@ const QUIZZES = {
           "C": "Método gestionar() en la tabla Doctor",
           "D": "Atributo booleano en la tabla Doctor."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 464,
@@ -15731,8 +15738,8 @@ const QUIZZES = {
           "C": "Agruparse en la misma tabla",
           "D": "Convertirse en métodos"
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 465,
@@ -15744,8 +15751,8 @@ const QUIZZES = {
           "C": "Dos asociaciones: Paciente → Cita y Doctor → Cita.",
           "D": "Una herencia desde Paciente y Doctor a Cita."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 466,
@@ -15757,8 +15764,8 @@ const QUIZZES = {
           "C": "Herencia Cita→Paciente.",
           "D": "Una lista de Pacientes dentro de Cita."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 467,
@@ -15770,8 +15777,8 @@ const QUIZZES = {
           "C": "Ambos pueden tener listas si el sistema lo necesita.",
           "D": "No hay relación directa."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 468,
@@ -15783,8 +15790,8 @@ const QUIZZES = {
           "C": "“extends”.",
           "D": "“include”."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 469,
@@ -15796,8 +15803,8 @@ const QUIZZES = {
           "C": "El caso de uso “Programar cita” ejecuta “Solicitar confirmación al doctor” solo si la nueva cita modifica otra ya existente.",
           "D": "El caso de uso “Registrar paciente” siempre llama a “Crear tarjeta sanitaria”."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 470,
@@ -15809,8 +15816,8 @@ const QUIZZES = {
           "C": "Pruebas estáticas.",
           "D": "Pruebas de localización."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 471,
@@ -15823,7 +15830,7 @@ const QUIZZES = {
           "D": "Caja blanca sobre el front-end."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 472,
@@ -15835,8 +15842,8 @@ const QUIZZES = {
           "C": "Integración.",
           "D": "Estática."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 473,
@@ -15849,7 +15856,7 @@ const QUIZZES = {
           "D": "Cobertura de datos."
         },
         "correcta": "A",
-        "metodo": "estimado_manual"
+        "metodo": "acierto"
       },
       {
         "num": 474,
@@ -15861,8 +15868,8 @@ const QUIZZES = {
           "C": "Crear dos clases independientes sin relación entre ellas.",
           "D": "Crear una relación 1:N entre Paciente y Tutor."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 475,
@@ -15872,10 +15879,10 @@ const QUIZZES = {
           "A": "Duplicar las clases DoctorPrimaria y DoctorEspecialista sin relación entre ellas.",
           "B": "Añadir todos los atributos en una única clase Doctor y dejar algunos vacíos según el tipo.",
           "C": "Crear una clase base Doctor y derivar de ella DoctorPrimaria y DoctorEspecialista mediante herencia",
-          "D": "Crear una relación N:M entre Doctor y TipoDoctor. CASO PRÁCTICO 2 INFRAESTRUCTURA DE CLAVE PÚBLICA EN EL MARCO DE UNA ORGANIZACIÓN SANITARIA DESCRIPCIÓN DEL CASO Para dar soporte a las necesidades de nuestra organización sanitaria, ponemos en marcha una infraestructura de clave pública (PKI) cuya pieza central es una autoridad de certificación (AC) que emite certificados para:    Personal de la organización sanitaria. Servidores web: portal del paciente, servidores de imágenes médicas, etc. Dispositivos IoT: monitores de pacientes, monitores de edificios, dispositivos de captación de imágenes médicas, etc. Dicha AC es totalmente autónoma, partiendo de un certificado autofirmado. La AC tiene dos modos de emisión de certificados:   Modo 1 (simplificado). El titular del certificado acredita su identidad. La AC la verifica y genera una pareja de claves pública-privada para ese titular. Se emite el certificado y se le entrega conjuntamente con la clave privada. Modo 2 (avanzado). El titular del certificado genera por su cuenta una pareja de claves pública-privada. Solicita el certificado acreditando su identidad y entregando la clave pública. La AC verifica la identidad y la validez de la clave, entregando al titular el certificado. Nuestra PKI también incluye un servicio para comprobar online la validez de un certificado. Se describen a continuación tres casos de uso de nuestra PKI, a los cuales corresponden las preguntas de este caso práctico. Nota importante: en todo este caso práctico se entiende que un certificado digital incluye la identidad del titular y la clave pública del mismo. La clave privada correspondiente se puede distribuir conjuntamente con el certificado (como se indica al describir el modo de emisión 1), pero no forma parte del mismo. USO 1: FIRMA DIGITAL La disponibilidad de esta PKI permite implementar procedimientos de firma digital sobre aquellos documentos digitales que lo requieran. Los procesos de firma de documentos se realizan de manera off-line (fuera del navegador web): para firmar un documento en formato PDF tiene que estar en el ordenador de un usuario/a. Dicho usuario/a utiliza programas como “Autofirma” (Gobierno de España) o “Adobe Acrobat” para generar la versión firmada del documento. Suponemos que nuestros/as usuarios/as utilizan ordenadores corporativos con Windows y tienen instalados los elementos criptográficos indicados previamente (que incluyen, pero no están limitados a, certificado del/la usuario/a, clave privada asociada, certificado de la AC). USO 2: SERVIDORES WEB HTTPS Los servidores web de la organización sanitaria han sido configurados, usando certificados emitidos para ello por nuestra AC, para que el acceso a los mismos sea siempre usando HTTPS. Todos los PCs corporativos de la organización sanitaria llevan instalado el certificado de la AC, lo que evita errores de acceso. Sin embargo, la AC no está reconocida por ordenadores no corporativos, externos a la organización sanitaria. En la organización sanitaria, el servicio web de imágenes médicas tiene como dirección (ficticia) https://imagenes.os.org. Debido al gran volumen de accesos y tráfico que tiene, dicho servicio está implementado con 8 servidores físicos, y la distribución de carga entre ellos se realiza usando round-robin DNS. Decidimos cambiar la implementación de este servicio, haciendo que el nombre \"imagenes.os.org\" corresponda a una única dirección IP, asociada a una máquina en la que está instalado Nginx haciendo de equilibrador de carga (load balancer), tal como se muestra en la figura. Detrás del equilibrador de carga están los 8 servidores físicos que implementan realmente el servicio. Implementamos un sistema Nginx SSL Termination: las comunicaciones externas con el servicio de imágenes médicas son HTTPS, las internas (la distribución de la carga a los servidores reales) son HTTP \"plano\" (véase la figura). SSL Termination y equilibrado de carga. Nótese que solo se representan dos servidores físicos, pero en el caso descrito se usan 8, que están en la red privada. Imagen tomada de https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-loadbalancing-with- ssl-termination, con licencia CC-BY-NC-SA. USO 3: CERTIFICADOS DE DISPOSITIVOS IOT La instalación de certificados en los dispositivos IoT permite la comunicación segura (usando TLS) entre y con dichos dispositivos. Hay que tener en cuenta que los dispositivos IoT pueden estar en lugares no fácilmente accesibles, y ser muy numerosos. USO 4: SERVIDORES PARA ALMACENAMIENTO DE DATOS AVANZADO Los servidores de la Organización sanitaria van a cumplir la funcionalidad de almacenamiento de datos generados por los distintos centros y se están planteando distintas arquitecturas para poder proporcionar distintos servicios a empleado/as y pacientes de los centros sanitarios. Responda a las siguientes preguntas PREGUNTAS: 476-500"
+          "D": "Crear una relación N:M entre Doctor y TipoDoctor."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 476,
@@ -15887,8 +15894,8 @@ const QUIZZES = {
           "C": "No se requiere validar que el usuario posee la clave privada asociada a su clave pública, puesto que ambas han sido generadas de forma controlada por la AC.",
           "D": "a), b) y c) son correctas."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 477,
@@ -15901,7 +15908,7 @@ const QUIZZES = {
           "D": "No se puede excluir del certificado la clave privada de la persona usuaria."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 478,
@@ -15913,8 +15920,8 @@ const QUIZZES = {
           "C": "OCSP.",
           "D": "HTTPS."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 479,
@@ -15926,8 +15933,8 @@ const QUIZZES = {
           "C": "El certificado de la persona usuaria se utiliza para cifrar el documento antes de enviarlo.",
           "D": "La firma digital consiste en añadir únicamente el certificado de la persona usuaria al documento."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 480,
@@ -15939,8 +15946,8 @@ const QUIZZES = {
           "C": "Un tercero podría generar firmas válidas en nombre de la persona usuaria.",
           "D": "El documento firmado se descifrará automáticamente al detectarse el compromiso."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 481,
@@ -15952,8 +15959,8 @@ const QUIZZES = {
           "C": "Tener acceso al sistema donde se generó la firma.",
           "D": "Disponer del certificado de todas las personas usuarias de la organización."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 482,
@@ -15965,8 +15972,8 @@ const QUIZZES = {
           "C": "Tanto el usuario/a corporativo/a como el externo/a podrán conectarse al servidor usando HTTPS, con autenticación del servidor y cifrado de la conexión.",
           "D": "El usuario/a corporativo/a podrá conectar su navegador sin problemas usando HTTPS. Sin embargo, el usuario/a externo/a recibirá un aviso indicando que no es posible autenticar al servidor. El navegador dará al usuario/a externo/a la posibilidad de comunicarse con el servidor a su cuenta y riesgo y la conexión estará cifrada."
         },
-        "correcta": "A",
-        "metodo": "fallback_A",
+        "correcta": "D",
+        "metodo": "fallo->azul",
         "diffs": {
           "A": "El usuario/a corporativo/a podrá conectar su navegador sin problemas usando HTTPS. Sin embargo, el usuario/a externo/a recibirá un aviso indicando que no es posible autenticar al servidor<span class=\"diff-highlight\">; </span>el navegador <span class=\"diff-highlight\">bloqueará</span> la <span class=\"diff-highlight\">conexión</span> con el <span class=\"diff-highlight\">mismo</span> <span class=\"diff-highlight\">y</span> <span class=\"diff-highlight\">no</span> <span class=\"diff-highlight\">será</span> <span class=\"diff-highlight\">posible</span> <span class=\"diff-highlight\">continuar</span> la <span class=\"diff-highlight\">navegación</span> <span class=\"diff-highlight\">con</span> <span class=\"diff-highlight\">ese</span> <span class=\"diff-highlight\">sitio</span> <span class=\"diff-highlight\">web</span>.",
           "B": "El usuario/a corporativo/a podrá conectar su navegador sin problemas usando HTTPS. Sin embargo, el usuario/a externo/a recibirá un aviso indicando que no es posible autenticar al servidor. El navegador dará al usuario/a externo/a la posibilidad de comunicarse con el servidor a su cuenta y riesgo<span class=\"diff-highlight\">, pero</span> la conexión <span class=\"diff-highlight\">no</span> estará cifrada.",
@@ -15985,7 +15992,7 @@ const QUIZZES = {
           "D": "Al abrir la conexión TLS (HTTPS), el proceso de autenticación del servidor lleva implícita la autenticación del cliente."
         },
         "correcta": "A",
-        "metodo": "estimado_manual",
+        "metodo": "acierto",
         "diffs": {
           "A": "Validación mediante envío de certificado digital y firma. <span class=\"diff-highlight\">El/la</span> <span class=\"diff-highlight\">cliente</span> <span class=\"diff-highlight\">envía</span> <span class=\"diff-highlight\">su</span> <span class=\"diff-highlight\">certificado; el</span> <span class=\"diff-highlight\">servidor</span> <span class=\"diff-highlight\">comprueba</span> <span class=\"diff-highlight\">que</span> <span class=\"diff-highlight\">es</span> <span class=\"diff-highlight\">válido; </span>el servidor envía un texto aleatorio (un \"reto\") al cliente, que lo devuelve firmado con su clave <span class=\"diff-highlight\">privada</span>. Se valida la firma, lo que indica que el/la cliente posee una pareja de claves pública-privada correcta. Así se da por comprobada la identidad del<span class=\"diff-highlight\">/la</span> cliente.",
           "B": "Validación mediante envío de certificado digital. El/la cliente envía su certificado<span class=\"diff-highlight\">, </span>el servidor comprueba que es válido. Así se da por comprobada la identidad del/la cliente.",
@@ -16003,8 +16010,8 @@ const QUIZZES = {
           "C": "Instalar en su PC el certificado de nuestra AC.",
           "D": "Instalar en su PC el certificado de la FNMT."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 485,
@@ -16016,8 +16023,8 @@ const QUIZZES = {
           "C": "La clave privada está desde el momento de su generación protegida por una contraseña, que debe facilitarse para poder usarla.",
           "D": "La clave privada va ligada al hardware del dispositivo en el que está instalada. Por lo tanto, un robo de la misma es inútil porque no funcionará en otro dispositivo."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 486,
@@ -16030,7 +16037,7 @@ const QUIZZES = {
           "D": "El/la usuario/a firmante cifra el documento completo con la clave pública de la AC y añade su certificado digital, lo que garantiza la autenticidad e integridad del documento."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 487,
@@ -16042,8 +16049,8 @@ const QUIZZES = {
           "C": "Solo es necesaria una dirección IP pública.",
           "D": "Sigue siendo necesario usar round-robin DNS sobre el nombre \"imágenes.os.org\" para distribuir la carga entre los 8 servidores reales."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "D",
+        "metodo": "fallo->azul"
       },
       {
         "num": 488,
@@ -16055,8 +16062,8 @@ const QUIZZES = {
           "C": "Genera certificados digitales para los servidores internos.",
           "D": "Verifica la identidad de los usuarios que acceden al servicio."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 489,
@@ -16068,8 +16075,8 @@ const QUIZZES = {
           "C": "El navegador mostrará un aviso de seguridad indicando que el certificado no es válido.",
           "D": "El servidor renovará automáticamente el certificado sin intervención."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 490,
@@ -16081,8 +16088,8 @@ const QUIZZES = {
           "C": "Evita la necesidad de utilizar certificados digitales.",
           "D": "Garantiza que los usuarios estén autenticados en todos los casos."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 491,
@@ -16094,8 +16101,8 @@ const QUIZZES = {
           "C": "Cuando un certificado IoT queda invalidado, solo se necesita que la AC genere uno nuevo y sea enviado al dispositivo por la red, sin necesidad de cifrar nada, porque la información transferida no es sensible.",
           "D": "Las plataformas CMS (Certificate Management System) están diseñadas para gestionar todo el ciclo de vida de los certificados IoT (instalación, revocación, renovación, etc.)."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 492,
@@ -16108,7 +16115,7 @@ const QUIZZES = {
           "D": "Solo es necesario instalar certificados en los servidores, no en los dispositivos."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 493,
@@ -16120,8 +16127,8 @@ const QUIZZES = {
           "C": "Compartir el mismo certificado entre todos los dispositivos para facilitar la configuración.",
           "D": "No renovar los certificados para evitar interrupciones del servicio."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "B",
+        "metodo": "fallo->azul"
       },
       {
         "num": 494,
@@ -16133,8 +16140,8 @@ const QUIZZES = {
           "C": "Se incrementa el riesgo si la clave privada es comprometida durante largos periodos.",
           "D": "Se evita la necesidad de confiar en la AC."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 495,
@@ -16146,8 +16153,8 @@ const QUIZZES = {
           "C": "Necesitaríamos una herramienta como Apache Hadoop para gestionar la distribución de los datos.",
           "D": "a), b), y c) son correctas"
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 496,
@@ -16160,7 +16167,7 @@ const QUIZZES = {
           "D": "Apache HBase."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 497,
@@ -16173,7 +16180,7 @@ const QUIZZES = {
           "D": "a), b), y c) son correctas"
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       },
       {
         "num": 498,
@@ -16185,8 +16192,8 @@ const QUIZZES = {
           "C": "Podríamos migrar tanto el procesado como el almacenamiento de los datos.",
           "D": "No podríamos realizar el migrado, puesto que los datos provienen de fuentes distintas, generando así datos no estructurados, incompatibles con la nube."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 499,
@@ -16198,8 +16205,8 @@ const QUIZZES = {
           "C": "El uso de técnicas Big Data para la predicción de problemas en los monitores de los pacientes.",
           "D": "El uso de técnicas Big Data para mantener las previsiones de uso de recursos hospitalarios estables."
         },
-        "correcta": "A",
-        "metodo": "fallback_A"
+        "correcta": "C",
+        "metodo": "fallo->azul"
       },
       {
         "num": 500,
@@ -16212,7 +16219,7 @@ const QUIZZES = {
           "D": "Support Vector Machines."
         },
         "correcta": "A",
-        "metodo": "fallback_A"
+        "metodo": "acierto"
       }
     ]
   }

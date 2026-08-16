@@ -10,7 +10,7 @@
       "D": "Red."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 2,
@@ -23,7 +23,7 @@
       "D": "Aplicación."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 3,
@@ -36,7 +36,7 @@
       "D": "Sesión."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 4,
@@ -49,7 +49,7 @@
       "D": "Aplicación."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 5,
@@ -62,7 +62,7 @@
       "D": "DNS."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 6,
@@ -74,8 +74,8 @@
       "C": "Enlace.",
       "D": "Física."
     },
-    "correcta": "B",
-    "metodo": "estimado_manual"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 7,
@@ -87,8 +87,8 @@
       "C": "ICMP.",
       "D": "RTP."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 8,
@@ -100,8 +100,8 @@
       "C": "Sesión, presentación, transporte, MAC, red, física.",
       "D": "Aplicación, presentación, sesión, transporte, red, conexión o enlace, física."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 9,
@@ -113,8 +113,8 @@
       "C": "Red.",
       "D": "Conexión o enlace."
     },
-    "correcta": "B",
-    "metodo": "estimado_manual"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 10,
@@ -127,7 +127,7 @@
       "D": "Sesión."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 11,
@@ -139,8 +139,8 @@
       "C": "Mediante un protocolo correspondiente a la capa inmediatamente inferior.",
       "D": "Mediante un protocolo correspondiente a esa capa."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 12,
@@ -152,8 +152,8 @@
       "C": "Que las aplicaciones basadas en TCP/IP tienen necesariamente una funcionalidad más reducida que las basadas en OSI.",
       "D": "Que en el modelo OSI se definieron capas que en realidad no sirven para nada."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 13,
@@ -165,8 +165,8 @@
       "C": "La interfaz especifica cómo accede la capa superior a los servicios de la capa inferior, mientras que el protocolo define las reglas de comunicación entre entidades de la misma capa.",
       "D": "Servicio, interfaz y protocolo son términos equivalentes dentro de una arquitectura por capas."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 14,
@@ -178,8 +178,8 @@
       "C": "Celdas.",
       "D": "Tramas."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 15,
@@ -191,8 +191,8 @@
       "C": "Solo es necesario un puerto.",
       "D": "Solo es necesario indicar un protocolo (TCP o UDP)."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "A",
+    "metodo": "acierto"
   },
   {
     "num": 16,
@@ -204,8 +204,8 @@
       "C": "7 capas.",
       "D": "9 capas."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 17,
@@ -217,8 +217,8 @@
       "C": "Proporcionar comunicación extremo a extremo fiable.",
       "D": "Convertir señales analógicas en digitales."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 18,
@@ -230,8 +230,8 @@
       "C": "Garantizar que todas las redes utilicen los mismos medios físicos.",
       "D": "Aumentar la velocidad de transmisión de datos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 19,
@@ -243,8 +243,8 @@
       "C": "Datos - Tramas - Segmentos - Paquetes",
       "D": "Segmentos - Datos - Tramas - Paquetes"
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "A",
+    "metodo": "acierto"
   },
   {
     "num": 20,
@@ -256,8 +256,8 @@
       "C": "Exclusiva del nivel físico.",
       "D": "Posible únicamente en redes locales."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 21,
@@ -269,8 +269,8 @@
       "C": "Entrega extremo a extremo y control de flujo.",
       "D": "Traducción de formatos de datos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 22,
@@ -283,7 +283,7 @@
       "D": "OSI no define servicios."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 23,
@@ -295,8 +295,8 @@
       "C": "El formato físico de las señales transmitidas.",
       "D": "El medio de transmisión utilizado."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 24,
@@ -309,7 +309,7 @@
       "D": "Enlace de datos."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 25,
@@ -321,8 +321,8 @@
       "C": "Transmisiones en banda base Ethernet 100Base-T.",
       "D": "Transmisiones en banda base Ethernet 1000Base-T."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 26,
@@ -334,8 +334,8 @@
       "C": "Anillo.",
       "D": "Estrella."
     },
-    "correcta": "B",
-    "metodo": "estimado_manual"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 27,
@@ -347,21 +347,21 @@
       "C": "Fibra óptica monomodo.",
       "D": "Fibra óptica multimodo."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 28,
     "idpregunta": 28,
-    "pregunta": "28.- ¿En qué variante de la norma IEEE 802.11 se usa MIMO (Multiple-Input MultipleOutput)?",
+    "pregunta": "28.- ¿En qué variante de la norma IEEE 802.11 se usa MIMO (Multiple-Input Multiple- Output)?",
     "opciones": {
       "A": "802.11a.",
       "B": "802.11b.",
       "C": "802.11g.",
       "D": "802.11n."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 29,
@@ -373,8 +373,8 @@
       "C": "BSS y AP.",
       "D": "CSMA y ARP."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 30,
@@ -386,8 +386,8 @@
       "C": "CRC.",
       "D": "FEC."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 31,
@@ -400,7 +400,7 @@
       "D": "Dirección MAC destino, dirección MAC origen, protocolo, datos, longitud de trama, checksum, CRC."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 32,
@@ -413,7 +413,7 @@
       "D": "Aportan información geográfica sobre la ubicación de un equipo."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 33,
@@ -425,8 +425,8 @@
       "C": "Intercambio de mensajes, no fiable, orientado a conexión.",
       "D": "Intercambio de mensajes, no fiable, no orientado a conexión."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 34,
@@ -438,8 +438,8 @@
       "C": "Estándares de seguridad.",
       "D": "Protocolos de redes locales inalámbricas."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 35,
@@ -451,8 +451,8 @@
       "C": "SSL.",
       "D": "IP."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 36,
@@ -464,8 +464,8 @@
       "C": "Los datos HTTP van dentro de un datagrama UDP, que a su vez va dentro de un datagrama IP, que a su vez va dentro de la trama Ethernet.",
       "D": "Los datos HTTP van dentro de un datagrama IP, que a su vez va dentro de un segmento TCP, que a su vez va dentro de la trama Ethernet."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 37,
@@ -477,8 +477,8 @@
       "C": "Fibra óptica.",
       "D": "Cable coaxial."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "A",
+    "metodo": "acierto"
   },
   {
     "num": 38,
@@ -490,8 +490,8 @@
       "C": "Redes de conmutación de mensajes con servicio de datagramas.",
       "D": "Redes de conmutación de circuitos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 39,
@@ -503,8 +503,8 @@
       "C": "Conmutación de mensajes.",
       "D": "Conmutación de frecuencias."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 40,
@@ -516,8 +516,8 @@
       "C": "Funciona únicamente con direccionamiento IP público.",
       "D": "No utiliza protocolos de enlace de datos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 41,
@@ -530,7 +530,7 @@
       "D": "El CRC es incorrecto."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 42,
@@ -542,8 +542,8 @@
       "C": "No se producen colisiones.",
       "D": "Se necesita un hub."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 43,
@@ -555,8 +555,8 @@
       "C": "Trama.",
       "D": "Celda."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 44,
@@ -568,8 +568,8 @@
       "C": "No se utiliza direccionamiento.",
       "D": "Se basa en transmisión analógica."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 45,
@@ -581,8 +581,8 @@
       "C": "No orientado a conexión y fiable.",
       "D": "Orientado a conexión y no fiable."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 46,
@@ -594,8 +594,8 @@
       "C": "Asignar prioridad al tráfico.",
       "D": "Indicar la longitud del segmento TCP."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 47,
@@ -607,8 +607,8 @@
       "C": "Indicar la prioridad de la trama Ethernet.",
       "D": "Establecer la conexión TCP."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 48,
@@ -621,20 +621,20 @@
       "D": "TCP."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 49,
     "idpregunta": 49,
     "pregunta": "49.- ¿Cuál de las siguientes características puede aplicarse en la conmutación de paquetes mediante datagramas?",
     "opciones": {
-      "A": "Previo a la transmisión de los datos, se establece una conexión a fin de elegir la ruta origendestino a seguir por el mensaje, lo que implica la reserva de los recursos necesarios para posibilitar la comunicación.",
+      "A": "Previo a la transmisión de los datos, se establece una conexión a fin de elegir la ruta origen- destino a seguir por el mensaje, lo que implica la reserva de los recursos necesarios para posibilitar la comunicación.",
       "B": "Durante el proceso de transmisión de los paquetes, es necesario el envío previo de un paquete header conteniendo, entre otras, información relativa al destino al que van dirigidos el resto de paquetes.",
       "C": "Para evitar las demoras características de la conmutación de circuitos, la conmutación de paquetes se caracteriza porque cada nodo intermedio ni almacena temporalmente ni procesa cada paquete antes de transmitirlo, sino que efectúa su transmisión según lo recibe.",
       "D": "Cada paquete se transmite independientemente del resto, de forma que pueden seguir caminos distintos y, en consecuencia, recibirse de forma desordenada en el receptor."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 50,
@@ -646,8 +646,8 @@
       "C": "Pasarela (gateway): trabaja en la capa física y es un mero amplificador de señal que solventa el problema de atenuación de la señal en su propagación hacia el destino.",
       "D": "Dispositivo de capa superior: trabaja por debajo de la capa de red para posibilitar la comunicación entre protocolos de la capa correspondiente."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 51,
@@ -659,8 +659,8 @@
       "C": "El número de puerto TCP o UDP.",
       "D": "El campo TTL del paquete."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 52,
@@ -672,8 +672,8 @@
       "C": "Red, transporte y sesión.",
       "D": "Física, red y transporte."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "A",
+    "metodo": "acierto"
   },
   {
     "num": 53,
@@ -685,8 +685,8 @@
       "C": "VLAN de nivel 3 por direcciones de subred: en este caso son los paquetes y no las estaciones finales quienes pertenecen a una VLAN u otra en función de su cabecera de nivel 3.",
       "D": "VLAN de niveles superiores: los miembros de la LAN se diferencian por el puerto al que están conectados al conmutador o medio físico que constituye la red."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 54,
@@ -699,7 +699,7 @@
       "D": "Se unifican las direcciones MAC de ambas redes."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 55,
@@ -711,8 +711,8 @@
       "C": "Un IDS.",
       "D": "Un punto de acceso Wi-Fi."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 56,
@@ -724,8 +724,8 @@
       "C": "A no puede enviar datagramas IP a B porque están en LAN diferentes.",
       "D": "A usa ARP para averiguar la dirección física de B y luego envía a B por la LAN una trama que contiene el datagrama."
     },
-    "correcta": "D",
-    "metodo": "estimado_manual"
+    "correcta": "A",
+    "metodo": "acierto"
   },
   {
     "num": 57,
@@ -737,8 +737,8 @@
       "C": "Un mecanismo utilizado por los hosts y routers para enviar al emisor notificaciones sobre problemas encontrados al procesar datagramas.",
       "D": "Un protocolo de encaminamiento para redes IP."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 58,
@@ -750,8 +750,8 @@
       "C": "FCS (Frame Check Sequence).",
       "D": "Tipo."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 59,
@@ -764,7 +764,7 @@
       "D": "Un AS es una red doméstica cuyos equipos comparten una única dirección IP mediante la técnica NAT."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 60,
@@ -776,8 +776,8 @@
       "C": "IGRP.",
       "D": "BGP."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 61,
@@ -789,8 +789,8 @@
       "C": "Se estructuran en una parte dirección de red y otra dirección de host, de longitudes fijas.",
       "D": "Se estructuran en una parte dirección de red y otra dirección de host, de longitudes variables."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 62,
@@ -802,8 +802,8 @@
       "C": "Traducir direcciones IP a direcciones MAC.",
       "D": "Traducir direcciones IPv4 a direcciones IPv6 y viceversa."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 63,
@@ -815,8 +815,8 @@
       "C": "La dirección MAC de una interfaz se averigua haciendo un cálculo a partir de la dirección IP.",
       "D": "Las direcciones MAC se usan en la capa 2 (enlace de datos)."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 64,
@@ -829,7 +829,7 @@
       "D": "IPSec."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 65,
@@ -841,8 +841,8 @@
       "C": "Para mejorar la escalabilidad del enrutamiento.",
       "D": "Para eliminar routers intermedios."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 66,
@@ -854,8 +854,8 @@
       "C": "Anycast.",
       "D": "Broadcast."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 67,
@@ -868,7 +868,7 @@
       "D": "El router no necesita tablas de encaminamiento."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 68,
@@ -881,7 +881,7 @@
       "D": "Calcula rutas únicamente mediante el algoritmo de Dijkstra."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 69,
@@ -893,8 +893,8 @@
       "C": "La longitud variable del prefijo de red.",
       "D": "La utilización de direcciones MAC en lugar de IP."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 70,
@@ -906,8 +906,8 @@
       "C": "Se establece una conexión TCP.",
       "D": "Se produce un error en la entrega de un datagrama."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 71,
@@ -919,8 +919,8 @@
       "C": "Anycast.",
       "D": "Broadcast."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 72,
@@ -932,8 +932,8 @@
       "C": "Traducir direcciones IP en direcciones MAC.",
       "D": "Asignar direcciones IP dinámicamente."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 73,
@@ -946,7 +946,7 @@
       "D": "Cuadrados."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 74,
@@ -958,8 +958,8 @@
       "C": "Primary Key, Unique, Not Null.",
       "D": "Unique, Not Null y Foreign key."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 75,
@@ -971,8 +971,8 @@
       "C": "División.",
       "D": "Producto cartesiano."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 76,
@@ -985,7 +985,7 @@
       "D": "Es un identificador que puede contener valores nulos siempre que no se repitan."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 77,
@@ -997,8 +997,8 @@
       "C": "MongoDB.",
       "D": "Oracle."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 78,
@@ -1010,8 +1010,8 @@
       "C": "Multivaluado \"tarjeta\".",
       "D": "Simple \"tarjeta\"."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 79,
@@ -1024,7 +1024,7 @@
       "D": "Relativa."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 80,
@@ -1036,8 +1036,8 @@
       "C": "Huérfana.",
       "D": "Débil."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 81,
@@ -1049,8 +1049,8 @@
       "C": "Larry Ellison.",
       "D": "Michael Stonebraker."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 82,
@@ -1062,8 +1062,8 @@
       "C": "Representar y definir datos independientemente de la tecnología utilizada.",
       "D": "Diseñar interfaces de usuario."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 83,
@@ -1075,8 +1075,8 @@
       "C": "Temporales y espaciales.",
       "D": "Primarias y secundarias."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 84,
@@ -1088,8 +1088,8 @@
       "C": "El número de ocurrencias en cada tipo de entidad que participa en la relación.",
       "D": "La cantidad de atributos que componen la clave primaria de una entidad fuerte."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 85,
@@ -1101,8 +1101,8 @@
       "C": "Integridad referencial.",
       "D": "Integridad de clave."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 86,
@@ -1114,8 +1114,8 @@
       "C": "3.",
       "D": "4."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 87,
@@ -1127,8 +1127,8 @@
       "C": "Determinismo.",
       "D": "Dependencia."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 88,
@@ -1140,8 +1140,8 @@
       "C": "Una clave parcial y la clave de su entidad fuerte.",
       "D": "Una restricción CHECK."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 89,
@@ -1153,8 +1153,8 @@
       "C": "Unión (∪).",
       "D": "Selección (σ)."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 90,
@@ -1166,8 +1166,8 @@
       "C": "Buscar reglas y estructuras a partir de los datos almacenados en almacenes de datos.",
       "D": "Recolectar masivamente los datos y procesarlos en tiempo real."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 91,
@@ -1179,8 +1179,8 @@
       "C": "Eliminar la redundancia de los datos y prevenir anomalías de actualización, inserción y borrado.",
       "D": "Definir la interfaz de usuario para interactuar con los datos almacenados."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 92,
@@ -1192,8 +1192,8 @@
       "C": "El grado máximo de la relación (binaria, ternaria, etc.).",
       "D": "El número total de tuplas en la tabla resultante."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 93,
@@ -1205,8 +1205,8 @@
       "C": "Clave foránea.",
       "D": "Clave principal."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 94,
@@ -1218,8 +1218,8 @@
       "C": "Modelo orientado a objetos.",
       "D": "Modelo NoSQL."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 95,
@@ -1231,8 +1231,8 @@
       "C": "Un conjunto de operaciones que se gestionan como una sola unidad atómica para preservar la consistencia del sistema.",
       "D": "Una función del SGBD para definir la estructura física del almacenamiento de los datos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 96,
@@ -1244,8 +1244,8 @@
       "C": "La clave primaria es la clave candidata elegida para identificar de forma única los registros, y no puede aceptar valores nulos.",
       "D": "No existe diferencia técnica; ambos términos son sinónimos y se usan indistintamente según el gestor de base de datos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 97,
@@ -1258,7 +1258,7 @@
       "D": "Gestión de la experiencia de canal web (SAP Web Channel Experience Management)."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 98,
@@ -1270,8 +1270,8 @@
       "C": "Toda la gestión del cumplimiento de pedidos se centraliza en tiempo real mediante el Sales Order Fulfillment Cockpit.",
       "D": "Los estados de pedidos se almacenan en múltiples tablas agregadas para acelerar el reporting."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 99,
@@ -1283,8 +1283,8 @@
       "C": "Gestión de relaciones con los proveedores (SAP Supplier Relationship Management).",
       "D": "Gestión del portfolio y proyecto (SAP Portfolio and Project Management)."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 100,
@@ -1296,8 +1296,8 @@
       "C": "SAP HANA es una herramienta de análisis.",
       "D": "Por el momento las soluciones basadas en NetWeaver NO pueden utilizar SAP HANA como base de datos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 101,
@@ -1309,8 +1309,8 @@
       "C": "La portabilidad de aplicaciones web basadas en SQL Server a SAP HANA es sencilla, precisando en muchos casos únicamente la actualización de la librería ODBC/JDBC de SQL Server a SAP HANA.",
       "D": "SAP HANA incluye un servidor propio de aplicaciones, SAP HANA XS, que utiliza Server-side JavaScript (XSJS) como lenguaje principal."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 102,
@@ -1323,7 +1323,7 @@
       "D": "Cualquiera de los tres citados."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 103,
@@ -1336,7 +1336,7 @@
       "D": "Application Engine."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 104,
@@ -1349,7 +1349,7 @@
       "D": "SAP NetWeaver Gateway."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 105,
@@ -1361,8 +1361,8 @@
       "C": "ADO.NET.",
       "D": "JDBC."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 106,
@@ -1374,8 +1374,8 @@
       "C": "Relacional, in-memory.",
       "D": "Relacional, out-memory."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 107,
@@ -1387,8 +1387,8 @@
       "C": "Un software de planificación de recursos empresariales.",
       "D": "Una herramienta de gestión de relaciones con los clientes."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 108,
@@ -1400,8 +1400,8 @@
       "C": "Private Cloud.",
       "D": "Private CRM."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 109,
@@ -1413,8 +1413,8 @@
       "C": "Automatizar procesos de negocio.",
       "D": "Generar informes financieros."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 110,
@@ -1426,8 +1426,8 @@
       "C": "Soporta almacenamiento orientado a objetos.",
       "D": "Soporta almacenamiento orientado a columnas."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 111,
@@ -1439,8 +1439,8 @@
       "C": "Proporcionar capacidades de análisis sobre big data integrándose con Hadoop y Spark.",
       "D": "Servir como motor de transacciones OLTP para procesos críticos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 112,
@@ -1452,8 +1452,8 @@
       "C": "Cloud Deployment Service.",
       "D": "Core Data Services."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 113,
@@ -1466,7 +1466,7 @@
       "D": "Sustituir el kernel de ABAP por un motor de ejecución basado únicamente en SAP S/4HANA."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 114,
@@ -1478,8 +1478,8 @@
       "C": "SAPUI5 (UI5).",
       "D": "VBScript."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 115,
@@ -1491,8 +1491,8 @@
       "C": "Uso exclusivo de OLAP MOLAP.",
       "D": "Analítica offline."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 116,
@@ -1504,8 +1504,8 @@
       "C": "Cifrado.",
       "D": "Gestión de extensiones y lógica de negocio."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 117,
@@ -1518,7 +1518,7 @@
       "D": "Desactivar actualizaciones."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 118,
@@ -1530,8 +1530,8 @@
       "C": "Unificar FI, CO, AA, ML y CO-PA en una tabla única llamada Universal Journal (ACDOCA).",
       "D": "Utilizar tablas duplicadas para versiones alternativas del mismo asiento."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 119,
@@ -1543,8 +1543,8 @@
       "C": "Visualization Layer, Analytics Layer, Access Layer, Virtualization/Modeling Layer, Persistence Layer.",
       "D": "Planning Layer, ETL Layer, Staging Layer, Semantic Layer."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 120,
@@ -1556,8 +1556,8 @@
       "C": "SAP Leonardo es un módulo obligatorio para ejecutar procesos financieros centrales.",
       "D": "SAP Leonardo proporciona servicios de machine learning, IoT y big data que amplían las capacidades analíticas de SAP S/4HANA."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 121,
@@ -1569,8 +1569,8 @@
       "C": "Stakeholders.",
       "D": "Coach."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 122,
@@ -1582,8 +1582,8 @@
       "C": "La review meeting se activa al concluir el Product Backlog.",
       "D": "La velocidad de un sprint se mide en Story Points."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 123,
@@ -1595,8 +1595,8 @@
       "C": "Un trabajo concreto, idealmente realizado por una persona dedicando entre medio día y tres días.",
       "D": "Agrupaciones de historias de usuario que definen grandes bloques operativos dentro de un proyecto."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 124,
@@ -1608,8 +1608,8 @@
       "C": "Burn-down chart.",
       "D": "Spring Planning."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 125,
@@ -1622,7 +1622,7 @@
       "D": "Sprint Backlog."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 126,
@@ -1634,8 +1634,8 @@
       "C": "Los que maximizan la entrega de valor.",
       "D": "Los elementos que menos riesgo impliquen."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 127,
@@ -1647,8 +1647,8 @@
       "C": "Automatizar los tests.",
       "D": "En SCRUM no existe el rol Tester."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 128,
@@ -1660,8 +1660,8 @@
       "C": "El Líder del Proyecto (Scrum Master).",
       "D": "El Propietario del Producto (Product Owner)."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 129,
@@ -1673,8 +1673,8 @@
       "C": "Cantidad de trabajo restante con respecto al tiempo.",
       "D": "La velocidad general (en términos ágiles) del equipo."
     },
-    "correcta": "B",
-    "metodo": "estimado_manual"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 130,
@@ -1686,8 +1686,8 @@
       "C": "Presentar las tareas completadas a las partes interesadas (stakeholders).",
       "D": "El equipo discute las mejoras que se pueden aplicar para los próximos Sprints."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 131,
@@ -1699,8 +1699,8 @@
       "C": "Un enfoque lineal y secuencial de la gestión de proyectos.",
       "D": "Una metodología centrada únicamente en la documentación."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 132,
@@ -1712,8 +1712,8 @@
       "C": "Scrum Master, Product Owner, Developer.",
       "D": "Scrum Master, Product Owner, Stakeholder."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 133,
@@ -1725,8 +1725,8 @@
       "C": "¿Hay algún impedimento en mi camino?.",
       "D": "¿Cómo podemos mejorar el producto?."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 134,
@@ -1738,8 +1738,8 @@
       "C": "Retrospectiva del sprint (Sprint Retrospective).",
       "D": "Planificación del sprint (Sprint Planning)."
     },
-    "correcta": "D",
-    "metodo": "estimado_manual"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 135,
@@ -1752,7 +1752,7 @@
       "D": "La primera versión funcional del producto se genera a mitad del proyecto, disponiendo de una ceremonia especial donde se mostrará a las partes interesadas."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 136,
@@ -1765,7 +1765,7 @@
       "D": "30."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 137,
@@ -1777,8 +1777,8 @@
       "C": "Promover un ritmo de desarrollo sostenible, constante a lo largo del tiempo.",
       "D": "Fomentar la documentación exhaustiva del proceso y del producto por encima del software funcional."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 138,
@@ -1790,8 +1790,8 @@
       "C": "ROI.",
       "D": "Lead time."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 139,
@@ -1803,8 +1803,8 @@
       "C": "1 a 4 semanas.",
       "D": "Depende de la complejidad del Sprint."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 140,
@@ -1816,8 +1816,8 @@
       "C": "Cuando los requisitos están claramente definidos desde el inicio, son estables y el proyecto se desarrolla en un entorno con baja incertidumbre.",
       "D": "Cuando se necesita entregar valor de forma incremental y obtener retroalimentación constante del cliente para ajustar el producto final."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 141,
@@ -1829,8 +1829,8 @@
       "C": "Cuando se requiere una colaboración constante y feedback continuo por parte del cliente o del Product Owner.",
       "D": "Cuando el equipo de desarrollo es auto-organizado y se fomenta la comunicación directa y transparente entre sus miembros."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 142,
@@ -1842,8 +1842,8 @@
       "C": "Priorizar al cliente por encima de los procesos actuales.",
       "D": "Fomentar actos de liderazgo a todos los niveles."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 143,
@@ -1856,7 +1856,7 @@
       "D": "¿Qué falló?, ¿Qué podemos mejorar?."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 144,
@@ -1868,8 +1868,8 @@
       "C": "Sprint Goal.",
       "D": "Burndown."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 145,
@@ -1881,8 +1881,8 @@
       "C": "Validación.",
       "D": "Reingeniería."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 146,
@@ -1895,7 +1895,7 @@
       "D": "Requisitos de la organización."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 147,
@@ -1907,8 +1907,8 @@
       "C": "Diagrama de secuencia.",
       "D": "Diagrama de estado."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 148,
@@ -1921,7 +1921,7 @@
       "D": "Pruebas de versión."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 149,
@@ -1933,8 +1933,8 @@
       "C": "Pruebas de unidad, de componente y del sistema.",
       "D": "Pruebas de unidad, de componente y de escenario."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 150,
@@ -1946,8 +1946,8 @@
       "C": "Modificativo.",
       "D": "Adaptativo."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 151,
@@ -1959,8 +1959,8 @@
       "C": "Captura y Análisis de requisitos, Diseño, Implementación, Integración, Mantenimiento, Explotación.",
       "D": "Captura y Análisis de requisitos, Diseño, Implementación, Integración, Explotación, Mantenimiento."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 152,
@@ -1972,8 +1972,8 @@
       "C": "Perfectivo.",
       "D": "Modificativo."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 153,
@@ -1986,7 +1986,7 @@
       "D": "Implementación."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 154,
@@ -1999,7 +1999,7 @@
       "D": "Waterfall (Cascada)."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 155,
@@ -2011,8 +2011,8 @@
       "C": "Concepción.",
       "D": "Diseño."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 156,
@@ -2024,8 +2024,8 @@
       "C": "Prototipado en espiral.",
       "D": "Prototipado en cascada."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 157,
@@ -2037,8 +2037,8 @@
       "C": "El nivel de complejidad de las actividades en cada cuadrante.",
       "D": "El progreso relativo en el desarrollo de las actividades de cada cuadrante."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 158,
@@ -2051,7 +2051,7 @@
       "D": "Integración."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 159,
@@ -2063,8 +2063,8 @@
       "C": "Una especificación precisa y completa de lo que debe hacer el sistema.",
       "D": "Un documento que describe el procedimiento de integración."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 160,
@@ -2077,7 +2077,7 @@
       "D": "Documento de problemas."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 161,
@@ -2089,8 +2089,8 @@
       "C": "Requisitos, Análisis, Diseño, Implementación.",
       "D": "Requisitos, Análisis, Diseño, Implementación,Test."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 162,
@@ -2103,7 +2103,7 @@
       "D": "Diagrama de estados."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 163,
@@ -2115,8 +2115,8 @@
       "C": "Pruebas unitarias.",
       "D": "Pruebas de humo."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 164,
@@ -2129,7 +2129,7 @@
       "D": "Herencia múltiple."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 165,
@@ -2141,8 +2141,8 @@
       "C": "Reducir la cobertura de pruebas, pero manteniendo la rama principal.",
       "D": "Modificar el diseño, utilizando patrones de diseño."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 166,
@@ -2154,8 +2154,8 @@
       "C": "Cobertura de sentencias (Statement Coverage).",
       "D": "Pruebas de tabla de decisión (Decision Table Testing)."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 167,
@@ -2167,8 +2167,8 @@
       "C": "Análisis de valores límite (Boundary Value Analysis).",
       "D": "Cobertura de caminos (Path Coverage)."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 168,
@@ -2180,8 +2180,8 @@
       "C": "El número de rutas de ejecución independientes del programa.",
       "D": "Un número que determina lo complejo que es entender el código del programa."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 169,
@@ -2194,7 +2194,7 @@
       "D": "Riesgos."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 170,
@@ -2206,8 +2206,8 @@
       "C": "Método Montecarlo.",
       "D": "Método EDT."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 171,
@@ -2219,8 +2219,8 @@
       "C": "Disponibilidad de los recursos.",
       "D": "Estándares de calidad."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 172,
@@ -2232,8 +2232,8 @@
       "C": "Riesgo organizativo.",
       "D": "Riesgo de gestión del proyecto."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 173,
@@ -2245,8 +2245,8 @@
       "C": "IRC. Índice de rendimiento del coste.",
       "D": "IRP. Índice de rendimiento de la programación."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 174,
@@ -2258,8 +2258,8 @@
       "C": "Análisis, Planificación, Evaluación, Ejecución, Cierre.",
       "D": "Análisis, Planificación, Monitorización y Control, Ejecución, Cierre."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 175,
@@ -2272,7 +2272,7 @@
       "D": "Planificación."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 176,
@@ -2284,8 +2284,8 @@
       "C": "Inicio.",
       "D": "Ejecución."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 177,
@@ -2297,8 +2297,8 @@
       "C": "Esfuerzo.",
       "D": "Holgura."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 178,
@@ -2310,8 +2310,8 @@
       "C": "Estructura de despliegue transitoria.",
       "D": "Estructura de desglose de tareas."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 179,
@@ -2324,7 +2324,7 @@
       "D": "El ciclo de vida se compone de fases mientras que el cronograma se compone de etapas."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 180,
@@ -2336,8 +2336,8 @@
       "C": "Proveer flexibilidad al proyecto al permitir que cada etapa afecte a la planificación de la siguiente o del proyecto completo.",
       "D": "Todas las demás respuestas son correctas."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 181,
@@ -2349,8 +2349,8 @@
       "C": "Una fase del análisis del proyecto que divide su ejecución en períodos específicos.",
       "D": "Una oportunidad de inversión en el proyecto que permite demostrar su viabilidad."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 182,
@@ -2362,8 +2362,8 @@
       "C": "Es la fase donde se desarrollan los diferentes planes de gestión.",
       "D": "Es la fase donde se ejecutan el análisis, diseño y codificación de la aplicación."
     },
-    "correcta": "D",
-    "metodo": "estimado_manual"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 183,
@@ -2375,8 +2375,8 @@
       "C": "Seguimiento y control.",
       "D": "Ejecución."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 184,
@@ -2388,8 +2388,8 @@
       "C": "Porque la planificación y la ejecución son dos fases que deben llevarse a cabo simultáneamente.",
       "D": "Porque la fase de Cierre debe solaparse con la fase de Seguimiento y Control para garantizar que se han conseguido los entregables."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 185,
@@ -2402,7 +2402,7 @@
       "D": "Burndown."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 186,
@@ -2415,7 +2415,7 @@
       "D": "Plazo."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 187,
@@ -2427,8 +2427,8 @@
       "C": "Método del Camino Mínimo.",
       "D": "Método de la Duración Crítica."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 188,
@@ -2440,8 +2440,8 @@
       "C": "El diccionario de la WBS junto con la lista de entregables.",
       "D": "El análisis de requisitos del proyecto."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 189,
@@ -2453,8 +2453,8 @@
       "C": "Estimación por juicio de expertos.",
       "D": "Estimación paramétrica."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 190,
@@ -2466,8 +2466,8 @@
       "C": "Paquete de Trabajo.",
       "D": "Tarea."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 191,
@@ -2479,8 +2479,8 @@
       "C": "Responsable, Aprobador, Consultor, Informado.",
       "D": "Recursos, Actividades, Costos, Ingresos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 192,
@@ -2492,8 +2492,8 @@
       "C": "Método DELPHI.",
       "D": "Método DAFO."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 193,
@@ -2505,8 +2505,8 @@
       "C": "Una función.",
       "D": "Un rol."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 194,
@@ -2518,8 +2518,8 @@
       "C": "Un medio de proporcionar valor a los clientes, facilitando los resultados que desean obtener, sin asumir toda la responsabilidad de los costes o riesgos.",
       "D": "El resultado de trabajos en talleres que presentan los beneficios y las ventajas de determinadas acciones, en sectores y contextos diferentes."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 195,
@@ -2532,7 +2532,7 @@
       "D": "La gestión de la relación comercial."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 196,
@@ -2544,8 +2544,8 @@
       "C": "Proceso de coordinación del diseño.",
       "D": "Proceso de gestión de activos de servicio y configuraciones."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 197,
@@ -2557,8 +2557,8 @@
       "C": "Gestión de problemas.",
       "D": "Gestión de restauraciones."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 198,
@@ -2570,8 +2570,8 @@
       "C": "Mejora continua.",
       "D": "Mejora iterativa."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 199,
@@ -2584,7 +2584,7 @@
       "D": "Las actividades de gobernanza."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 200,
@@ -2597,7 +2597,7 @@
       "D": "Una oferta de un proveedor de servicios de TI."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 201,
@@ -2609,8 +2609,8 @@
       "C": "Progresar de forma iterativa con retroalimentación.",
       "D": "Optimizar y automatizar."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 202,
@@ -2622,8 +2622,8 @@
       "C": "Colaborar y promover la visibilidad.",
       "D": "Centrarse en el valor."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 203,
@@ -2635,8 +2635,8 @@
       "C": "Focalizarse siempre en el valor proporcionado a las partes integrantes.",
       "D": "Focalizarse en los riesgos para la empresa."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 204,
@@ -2649,7 +2649,7 @@
       "D": "Manning."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 205,
@@ -2661,8 +2661,8 @@
       "C": "El enfoque holístico.",
       "D": "La reestructuración."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 206,
@@ -2674,8 +2674,8 @@
       "C": "Añadir más etapas.",
       "D": "Continuar utilizándolo sin cambios."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 207,
@@ -2687,8 +2687,8 @@
       "C": "7.",
       "D": "34."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 208,
@@ -2700,8 +2700,8 @@
       "C": "Priorizar la automatización inmediata de todas las tareas manuales para acelerar el cambio organizacional.",
       "D": "Solicitar retroalimentación constante al cliente antes de realizar cualquier pequeña modificación en la infraestructura."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 209,
@@ -2713,8 +2713,8 @@
       "C": "Un problema es la causa de uno o más incidentes.",
       "D": "No hay diferencias."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 210,
@@ -2727,7 +2727,7 @@
       "D": "Planificar, Mejorar, Diseño y transición, Compilar, Obtener/crear, Entrega y soporte."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 211,
@@ -2740,7 +2740,7 @@
       "D": "Gestión de riesgos."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 212,
@@ -2753,7 +2753,7 @@
       "D": "Un documento que describe los pasos detallados que el equipo de soporte debe seguir para resolver un incidente específico."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 213,
@@ -2765,8 +2765,8 @@
       "C": "En centrarse únicamente en la tecnología y olvidar los procesos.",
       "D": "En utilizar todos los departamentos la misma tecnología."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 214,
@@ -2778,8 +2778,8 @@
       "C": "Eliminar los \"silos\" de trabajo y asegurar que todos entiendan los objetivos.",
       "D": "Reducir el número de reuniones para que el equipo trabaje más rápido."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 215,
@@ -2791,8 +2791,8 @@
       "C": "Solo si el departamento de Recursos Humanos detecta conflictos interpersonales entre los programadores.",
       "D": "Cuando la empresa quiere eliminar por completo el uso de procesos y centrarse solo en la programación ágil."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 216,
@@ -2804,8 +2804,8 @@
       "C": "Un proceso financiero utilizado para calcular el valor monetario de los activos de hardware al final de su vida útil.",
       "D": "Una jerarquía estricta de mando que determina quién debe aprobar los cambios en la infraestructura de TI."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 217,
@@ -2817,8 +2817,8 @@
       "C": "Minería de datos.",
       "D": "Interpretación y evaluación de modelos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 218,
@@ -2830,8 +2830,8 @@
       "C": "Tomar un subconjunto de un cubo eligiendo un valor concreto para una de las dimensiones.",
       "D": "Navegar desde una vista con menor detalle a otra con más nivel de detalle en las dimensiones."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 219,
@@ -2844,7 +2844,7 @@
       "D": "Los datos que entran a la fase de selección, limpieza y transformación de datos son los datos que se van a minar."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 220,
@@ -2856,8 +2856,8 @@
       "C": "Encontrar reglas que muestran la relación que existe entre los distintos atributos de los datos analizados.",
       "D": "Encontrar un modelo que, aplicado a un ejemplo sin clasificar, lo clasifique dentro de un conjunto predefinido de clases."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 221,
@@ -2869,8 +2869,8 @@
       "C": "Evaluación de agrupamientos.",
       "D": "Evaluación de reglas de asociación."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 222,
@@ -2883,7 +2883,7 @@
       "D": "R."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 223,
@@ -2895,8 +2895,8 @@
       "C": "Extraer, Transformar, Cargar",
       "D": "Ejecutar, Transferir, Cargar"
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 224,
@@ -2908,8 +2908,8 @@
       "C": "Knowledge, Development and Dissemination.",
       "D": "Knowledge Data Discovery."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 225,
@@ -2921,8 +2921,8 @@
       "C": "Datos históricos integrados, obtenidos de fuentes internas y externas.",
       "D": "Datos externos a la organización que se integran con los operacionales."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 226,
@@ -2934,8 +2934,8 @@
       "C": "Una superposición de tablas bidimensionales en un SGBD relacional.",
       "D": "Una tabla de múltiples columnas, estructuradas a su vez en sub-columnas, en un SGBD No-SQL."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 227,
@@ -2947,8 +2947,8 @@
       "C": "HOLAP: OLAP híbrida.",
       "D": "TOLAP: OLAP transaccional."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 228,
@@ -2961,7 +2961,7 @@
       "D": "Kaggle."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 229,
@@ -2973,8 +2973,8 @@
       "C": "Es una representación gráfica de datos, donde los valores individuales contenidos en una matriz se representan como colores.",
       "D": "Es un mapa en el que se presentan datos estadísticos por regiones, colocando un número o coloreando las diferentes zonas, en función del dato que representa."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 230,
@@ -2987,7 +2987,7 @@
       "D": "Todas las demás respuestas son correctas."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 231,
@@ -2999,8 +2999,8 @@
       "C": "Un Data Mart almacena únicamente datos externos, mientras que un Data Warehouse almacena solo datos internos.",
       "D": "No hay diferencia; ambos términos son equivalentes."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 232,
@@ -3012,8 +3012,8 @@
       "C": "Es un subconjunto de un Data Warehouse orientado a un área específica de la empresa.",
       "D": "Es una base de datos relacional optimizada para transacciones OLTP."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 233,
@@ -3025,8 +3025,8 @@
       "C": "Mantiene la escala geográfica exacta de los territorios.",
       "D": "Permite identificar patrones y distribuciones sobre un mapa."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 234,
@@ -3038,8 +3038,8 @@
       "C": "La interacción con un entorno, recibiendo recompensas mayores o menores según sus acciones.",
       "D": "La combinación de varias reglas de asociación predefinidas."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 235,
@@ -3051,8 +3051,8 @@
       "C": "Machine Learning y Deep Learning son conceptos completamente independientes sin relación jerárquica.",
       "D": "Deep Learning reemplaza por completo a Machine Learning en cualquier tipo de análisis de datos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 236,
@@ -3064,8 +3064,8 @@
       "C": "Son sistemas que combinan inteligencia artificial, análisis de datos y aprendizaje automático para asistir en la toma de decisiones.",
       "D": "Son plataformas diseñadas para analizar grandes volúmenes de datos empresariales y generar insights accionables mediante técnicas avanzadas de IA."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 237,
@@ -3077,8 +3077,8 @@
       "C": "Escalado de Infraestructuras",
       "D": "Interfaz de usuario"
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 238,
@@ -3090,8 +3090,8 @@
       "C": "Es la creación de sitios web utilizando lenguajes de programación como HTML, CSS y JavaScript.",
       "D": "Es el análisis de patrones de navegación y comportamiento de usuarios en sitios web para mejorar servicios o recomendaciones."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 239,
@@ -3103,8 +3103,8 @@
       "C": "Un método específico de almacenamiento masivo de información en la nube.",
       "D": "Una disciplina interdisciplinar que combina estadística, programación y conocimiento del dominio para analizar datos y apoyar la toma de decisiones."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 240,
@@ -3117,7 +3117,7 @@
       "D": "Históricos y transaccionales"
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 241,
@@ -3129,8 +3129,8 @@
       "C": "Las costas son a cargo de quien formuló la impugnación.",
       "D": "No se prevé ninguna consecuencia económica para el impugnante."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 242,
@@ -3142,8 +3142,8 @@
       "C": "Se puede entender desestimada la solicitud (silencio negativo).",
       "D": "El prestador puede iniciar la actividad de forma provisional."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 243,
@@ -3155,8 +3155,8 @@
       "C": "Cuando su firma en la solicitud haya sido legitimada en presencia notarial.",
       "D": "Cuando aporte copia compulsada del DNI ante el prestador."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 244,
@@ -3168,8 +3168,8 @@
       "C": "Las respuestas a) y b) son correctas.",
       "D": "No tiene obligación de registrar información adicional más allá del NIF de la entidad."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 245,
@@ -3181,8 +3181,8 @@
       "C": "En casos de duda sobre la violación del secreto de los datos de creación o falsedad de los datos del certificado.",
       "D": "Por inseguridad en los mecanismos criptográficos"
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "A",
+    "metodo": "acierto"
   },
   {
     "num": 246,
@@ -3194,8 +3194,8 @@
       "C": "4 años.",
       "D": "3 años."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 247,
@@ -3207,8 +3207,8 @@
       "C": "Confidencialidad e integridad de los datos firmados, y no repudio por parte del receptor/a.",
       "D": "Integridad de los datos firmados, autenticación del/la firmante, y no repudio por parte del/la firmante."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 248,
@@ -3220,8 +3220,8 @@
       "C": "Únicamente su número de identificación fiscal.",
       "D": "Únicamente su denominación o razón social."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 249,
@@ -3233,8 +3233,8 @@
       "C": "El prestador cualificado que vaya a cesar en su actividad deberá comunicarlo al órgano de supervisión con una antelación mínima de dos semanas al cese efectivo de la actividad, sin que sea necesario comunicarlo a los clientes.",
       "D": "Almacenar de forma permanente todos los datos de creación de firma, sello o autenticación de sitio web de las personas físicas o jurídicas a las que haya prestado sus servicios."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 250,
@@ -3246,8 +3246,8 @@
       "C": "El hecho indicado no constituye una infracción.",
       "D": "Leve."
     },
-    "correcta": "A",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 251,
@@ -3259,8 +3259,8 @@
       "C": "Autenticación del emisor.",
       "D": "Entrega garantizada"
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 252,
@@ -3272,8 +3272,8 @@
       "C": "Haber sido creada utilizando datos de creación de la firma electrónica que el firmante. puede utilizar, con un alto nivel de confianza, bajo su control exclusivo.",
       "D": "Permitir la identificación del firmante."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 253,
@@ -3285,8 +3285,8 @@
       "C": "Que haya sido realizada con un certificado emitido por un prestador cualificado de servicios de confianza.",
       "D": "Que vaya acompañada de una firma manuscrita."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 254,
@@ -3298,8 +3298,8 @@
       "C": "Considera la autenticación de sitios web utilizando certificados cualificados, que incluyan la identificación del sitio web, además de la identificación del proveedor de servicios de confianza.",
       "D": "Recomienda la autenticación de sitios web utilizando certificados auto-firmados."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 255,
@@ -3311,13 +3311,13 @@
       "C": "Que incluya la firma electrónica avanzada o el sello electrónico avanzado del prestador de servicios de confianza expedidor.",
       "D": "Que contenga el número de serie del dispositivo cualificado usado para almacenar la firma."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 256,
     "idpregunta": 256,
-    "pregunta": "256.- La definición \"datos en formato electrónico ajenos a otros datos en formato electrónico, o asociados de manera lógica con ellos, para garantizar el origen y la integridad de estos últimos\" corresponde a:",
+    "pregunta": "256.- La definición \"datos en formato electrónico anejos a otros datos en formato electrónico, o asociados de manera lógica con ellos, para garantizar el origen y la integridad de estos últimos\" corresponde a:",
     "opciones": {
       "A": "Sello electrónico.",
       "B": "Firma electrónica.",
@@ -3325,7 +3325,7 @@
       "D": "Identificación electrónica."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 257,
@@ -3338,7 +3338,7 @@
       "D": "La resistencia, obstrucción, excusa o negativa a la actuación inspectora de los órganos facultados para llevarla a cabo con arreglo a esta Ley."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 258,
@@ -3350,8 +3350,8 @@
       "C": "Quince años.",
       "D": "Veinte años."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 259,
@@ -3363,8 +3363,8 @@
       "C": "Nueve meses.",
       "D": "Doce meses"
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 260,
@@ -3376,8 +3376,8 @@
       "C": "1.500.000 euros.",
       "D": "2.000.000 euros."
     },
-    "correcta": "D",
-    "metodo": "estimado_manual"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 261,
@@ -3389,8 +3389,8 @@
       "C": "En el plazo de tres meses.",
       "D": "Antes de iniciar la actividad."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 262,
@@ -3402,8 +3402,8 @@
       "C": "El Centro Criptológico Nacional",
       "D": "La Comisión Europea"
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 263,
@@ -3415,8 +3415,8 @@
       "C": "Se inicia automáticamente un procedimiento sancionador por infracción grave.",
       "D": "Se retira la cualificación al prestador y al servicio, eliminándolo de la lista de confianza."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 264,
@@ -3428,8 +3428,8 @@
       "C": "Solo podrá utilizarse pseudónimo en certificados no cualificados.",
       "D": "La identidad real únicamente podrá revelarse con autorización del propio titular."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 265,
@@ -3441,8 +3441,8 @@
       "C": "Derecho al olvido.",
       "D": "Derecho de publicidad."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 266,
@@ -3455,7 +3455,7 @@
       "D": "Derecho relativos a la salud."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 267,
@@ -3467,8 +3467,8 @@
       "C": "Elaboración de perfiles.",
       "D": "Tratamiento de datos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 268,
@@ -3480,8 +3480,8 @@
       "C": "Por un/a delegado/a de protección de datos de cada Estado miembro y por el/la Delegado/a Europeo de Protección de Datos o sus representantes respectivos.",
       "D": "Por el/la director/a de una autoridad de control de cada Estado miembro y por el/la Supervisor/a Europeo de Protección de Datos o sus representantes respectivos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 269,
@@ -3494,7 +3494,7 @@
       "D": "A una multa administrativa de 50.000.000 EUR o, tratándose de una empresa, de una cuantía equivalente al 5% del volumen de negocio total anual global del ejercicio financiero anterior."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 270,
@@ -3506,8 +3506,8 @@
       "C": "No cabrá la oposición cuando la aportación del documento se exigiera en el marco del ejercicio de potestades sancionadoras o de inspección.",
       "D": "No cabrá la oposición únicamente cuando la aportación del documento se exigiera en el marco del ejercicio de potestades sancionadoras."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 271,
@@ -3519,8 +3519,8 @@
       "C": "Nombre y Apellidos.",
       "D": "Creencias."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 272,
@@ -3532,8 +3532,8 @@
       "C": "La ley no especifica este aspecto.",
       "D": "Lo decidirá la persona obligada a mantener ese deber de confidencialidad."
     },
-    "correcta": "A",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 273,
@@ -3545,8 +3545,8 @@
       "C": "RGPD",
       "D": "LOPDGDD"
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 274,
@@ -3558,8 +3558,8 @@
       "C": "No, debe crearlo y custodiarlo pero no tiene obligación de publicarlo.",
       "D": "Sí, cuando se hayan tratado datos personales de categoría especial."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 275,
@@ -3572,7 +3572,7 @@
       "D": "18 años."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 276,
@@ -3584,8 +3584,8 @@
       "C": "Datos sobre ideología.",
       "D": "Datos sobre nivel educativo."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 277,
@@ -3597,8 +3597,8 @@
       "C": "Solo pueden ser tratados para fines de prevención, investigación, detección o enjuiciamiento de infracciones penales o de ejecución de sanciones penales.",
       "D": "Solo pueden ser tratados cuando se encuentre amparado en una norma de Derecho de la Unión, en la ley orgánica o en otras normas de rango legal."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 278,
@@ -3610,8 +3610,8 @@
       "C": "Siempre que lo autorice la persona afectada.",
       "D": "Cuando los datos sean utilizados para fines de prevención, investigación, detección o enjuiciamiento de infracciones penales."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 279,
@@ -3623,8 +3623,8 @@
       "C": "Cuando los datos personales no hayan sido obtenidos de la persona afectada.",
       "D": "Siempre que se trate de datos personales relativos a condenas e infracciones penales."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 280,
@@ -3637,7 +3637,7 @@
       "D": "No tiene ninguna obligación específica mientras los datos se utilicen dentro de la empresa."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 281,
@@ -3649,8 +3649,8 @@
       "C": "Principio de confidencialidad.",
       "D": "Principio de limitación de finalidad."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 282,
@@ -3662,8 +3662,8 @@
       "C": "Derecho a la neutralidad.",
       "D": "Derecho de portabilidad."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 283,
@@ -3675,8 +3675,8 @@
       "C": "Solo el/la administrador/a de sistemas.",
       "D": "La propia persona interesada."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 284,
@@ -3689,7 +3689,7 @@
       "D": "No tienen obligación legal."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 285,
@@ -3702,7 +3702,7 @@
       "D": "Ninguna medida es obligatoria."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 286,
@@ -3714,8 +3714,8 @@
       "C": "El Tribunal Supremo.",
       "D": "El Defensor del Pueblo."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 287,
@@ -3727,8 +3727,8 @@
       "C": "Medidas de naturaleza física.",
       "D": "Medidas de naturaleza ofensiva."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 288,
@@ -3741,7 +3741,7 @@
       "D": "La detección y corrección de problemas en el software."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 289,
@@ -3753,8 +3753,8 @@
       "C": "Las decisiones para satisfacer los requisitos de seguridad.",
       "D": "La forma de implementar la seguridad en el sistema."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 290,
@@ -3766,8 +3766,8 @@
       "C": "Cada tres años.",
       "D": "Cada cinco años."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 291,
@@ -3780,7 +3780,7 @@
       "D": "Resiliencia operativa ante ciberataques."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 292,
@@ -3792,8 +3792,8 @@
       "C": "Cumplir los requisitos ENS necesarios según los resultados del análisis de riesgos correspondiente.",
       "D": "Designar un Responsable de Seguridad de la Información independiente del contratista principal."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 293,
@@ -3805,8 +3805,8 @@
       "C": "Que sean objeto de una auditoría extraordinaria por un organismo externo acreditado.",
       "D": "Que el responsable del sistema informe a la Agencia Española de Protección de Datos antes de su aplicación."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 294,
@@ -3818,8 +3818,8 @@
       "C": "El Centro Criptológico Nacional.",
       "D": "La Agencia Española de Protección de Datos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 295,
@@ -3831,8 +3831,8 @@
       "C": "Cada tres años.",
       "D": "Cada cinco años."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 296,
@@ -3844,8 +3844,8 @@
       "C": "El presupuesto asignado a la seguridad del sistema en el ejercicio presupuestario en curso.",
       "D": "La clasificación del organismo responsable dentro de la estructura de la Administración General del Estado."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 297,
@@ -3858,7 +3858,7 @@
       "D": "Treinta y seis meses desde la entrada en vigor."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 298,
@@ -3870,8 +3870,8 @@
       "C": "A todas las empresas privadas con más de 250 personas empleadas que operen en territorio español.",
       "D": "A las entidades del sector público y a las organizaciones del sector privado que les presten servicios."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 299,
@@ -3884,7 +3884,7 @@
       "D": "Carácter vinculante exclusivamente cuando así lo determine el CCN (Centro Criptológico Nacional) en cada instrucción concreta."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 300,
@@ -3897,7 +3897,7 @@
       "D": "Designar a un/a delegado/a de protección de datos con funciones exclusivas de auditoría del ENS."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 301,
@@ -3910,7 +3910,7 @@
       "D": "Artículo 156 de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público."
     },
     "correcta": "B",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 302,
@@ -3922,8 +3922,8 @@
       "C": "El Centro Criptológico Nacional, previo informe del contratista.",
       "D": "El órgano contratante de la Administración Pública correspondiente."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 303,
@@ -3935,8 +3935,8 @@
       "C": "Que se establezcan cortafuegos perimetrales en todos los sistemas de categoría alta",
       "D": "Que todos los elementos del sistema —personas, tecnología y procesos— sean considerados de forma integrada."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 304,
@@ -3948,8 +3948,8 @@
       "C": "Se exige que el/la responsable de la información, el/la responsable del servicio y el/la responsable del sistema sean personas o entidades distintas.",
       "D": "El personal de operaciones no podrá tener acceso a funciones de auditoría interna bajo ninguna circunstancia."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 305,
@@ -3962,7 +3962,7 @@
       "D": "La Agencia Española de Protección de Datos."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 306,
@@ -3975,7 +3975,7 @@
       "D": "Mediante la superación del cuestionario INES (Informe Nacional del Estado de la Seguridad)."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 307,
@@ -3988,7 +3988,7 @@
       "D": "El marco jurídico vigente en cada momento."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 308,
@@ -4000,8 +4000,8 @@
       "C": "Marco estratégico, marco táctico y marco operativo.",
       "D": "Marco organizativo, marco operacional y medidas de protección."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 309,
@@ -4014,7 +4014,7 @@
       "D": "Evitar la duplicidad de auditorías de seguridad entre entidades de la misma comunidad autónoma."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 310,
@@ -4026,8 +4026,8 @@
       "C": "Clave simétrica.",
       "D": "Clave pública."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 311,
@@ -4039,8 +4039,8 @@
       "C": "RC4.",
       "D": "AES."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 312,
@@ -4052,8 +4052,8 @@
       "C": "X.508.",
       "D": "X.509."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 313,
@@ -4065,8 +4065,8 @@
       "C": "El conjunto de herramientas, políticas, personas y recursos necesarios para permitir la puesta en marcha de un entorno de seguridad basado en criptografía de clave pública, donde las personas usuarias pueden disponer de los servicios de autenticación e integridad.",
       "D": "El conjunto de herramientas, políticas, personas y recursos necesarios para permitir la puesta en marcha de un entorno de seguridad basado en criptografía de clave pública, donde las personas usuarias pueden disponer de los servicios de autenticación, integridad y no repudio."
     },
-    "correcta": "B",
-    "metodo": "estimado_manual"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 314,
@@ -4079,7 +4079,7 @@
       "D": "SHA-2."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 315,
@@ -4091,8 +4091,8 @@
       "C": "HTTPS solo proporciona autenticación, pero no cifrado de la información.",
       "D": "HTTPS funciona únicamente en redes locales."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 316,
@@ -4104,8 +4104,8 @@
       "C": "Criptografía simétrica.",
       "D": "Firma digital."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 317,
@@ -4117,8 +4117,8 @@
       "C": "TLS.",
       "D": "WPA."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "A",
+    "metodo": "acierto"
   },
   {
     "num": 318,
@@ -4130,8 +4130,8 @@
       "C": "Un certificado digital del/la ciudadano/a.",
       "D": "Dos certificados digitales del/la ciudadano/a con sus correspondientes claves privadas."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 319,
@@ -4143,8 +4143,8 @@
       "C": "No requiere intercambio de claves.",
       "D": "Utiliza certificados digitales."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 320,
@@ -4156,8 +4156,8 @@
       "C": "La clave pública del receptor.",
       "D": "La clave privada del receptor."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 321,
@@ -4169,8 +4169,8 @@
       "C": "Establecer una clave secreta compartida.",
       "D": "Firmar digitalmente documentos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 322,
@@ -4182,8 +4182,8 @@
       "C": "Que sea resistente a colisiones.",
       "D": "Que utilice clave pública."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 323,
@@ -4195,8 +4195,8 @@
       "C": "Su propia clave pública.",
       "D": "La clave privada del receptor."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 324,
@@ -4208,8 +4208,8 @@
       "C": "Impedir que el emisor niegue haber enviado el mensaje.",
       "D": "Acelerar el proceso de cifrado."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 325,
@@ -4222,7 +4222,7 @@
       "D": "Servidor DNS."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 326,
@@ -4234,8 +4234,8 @@
       "C": "El algoritmo hash del mensaje original.",
       "D": "La contraseña del/la usuario/a."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 327,
@@ -4247,8 +4247,8 @@
       "C": "Generar códigos de estado HTTP.",
       "D": "Reemplazar completamente la criptografía simétrica."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 328,
@@ -4260,8 +4260,8 @@
       "C": "Integridad.",
       "D": "Autorización."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 329,
@@ -4273,8 +4273,8 @@
       "C": "Traducción de direcciones IP.",
       "D": "Compresión de datos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 330,
@@ -4286,8 +4286,8 @@
       "C": "Generar funciones hash.",
       "D": "Emitir certificados digitales."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 331,
@@ -4299,8 +4299,8 @@
       "C": "La autorización cifra datos; la autenticación no.",
       "D": "La autenticación se realiza solo con hash."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 332,
@@ -4312,8 +4312,8 @@
       "C": "DSA.",
       "D": "Diffie-Hellman."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 333,
@@ -4325,8 +4325,8 @@
       "C": "Garantizar integridad y autenticidad.",
       "D": "Ocultar la identidad del/la firmante."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 334,
@@ -4338,8 +4338,8 @@
       "C": "Cumplimiento de las exigencias del entorno legal.",
       "D": "Asignación de los máximos privilegios."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 335,
@@ -4351,8 +4351,8 @@
       "C": "Acceso independiente con doble paridad.",
       "D": "Acceso independiente con un disco dedicado a paridad."
     },
-    "correcta": "B",
-    "metodo": "estimado_manual"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 336,
@@ -4364,8 +4364,8 @@
       "C": "Definición de responsabilidades y asignación de recursos.",
       "D": "Ejecutar las recomendaciones de la auditoría."
     },
-    "correcta": "B",
-    "metodo": "estimado_manual"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 337,
@@ -4377,8 +4377,8 @@
       "C": "Activa.",
       "D": "Detectiva."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 338,
@@ -4390,8 +4390,8 @@
       "C": "Confidencialidad, integridad y disponibilidad.",
       "D": "Integridad, autenticación y privacidad."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 339,
@@ -4403,8 +4403,8 @@
       "C": "Integridad.",
       "D": "Confidencialidad."
     },
-    "correcta": "B",
-    "metodo": "estimado_manual"
+    "correcta": "A",
+    "metodo": "acierto"
   },
   {
     "num": 340,
@@ -4416,8 +4416,8 @@
       "C": "Técnico, legal, humano, integral.",
       "D": "Técnico, legal, empresarial, organizativo."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 341,
@@ -4429,8 +4429,8 @@
       "C": "Disponibilidad.",
       "D": "Autenticación."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 342,
@@ -4442,8 +4442,8 @@
       "C": "Confidencialidad.",
       "D": "Disponibilidad."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 343,
@@ -4455,8 +4455,8 @@
       "C": "Defensa en niveles.",
       "D": "Defensa en profundidad."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 344,
@@ -4468,8 +4468,8 @@
       "C": "No, siempre existirá un riesgo residual.",
       "D": "Sí, aplicando medidas técnicas y legales."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 345,
@@ -4481,8 +4481,8 @@
       "C": "Formación en seguridad para empleados/as.",
       "D": "Cifrado de discos duros."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 346,
@@ -4495,7 +4495,7 @@
       "D": "Todas las anteriores."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 347,
@@ -4508,7 +4508,7 @@
       "D": "EFSA."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 348,
@@ -4520,8 +4520,8 @@
       "C": "Política de seguridad.",
       "D": "Procedimiento de seguridad."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 349,
@@ -4534,7 +4534,7 @@
       "D": "Intranet, DMZ y extranet."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 350,
@@ -4547,7 +4547,7 @@
       "D": "RAID 5."
     },
     "correcta": "C",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 351,
@@ -4559,8 +4559,8 @@
       "C": "Eliminar la necesidad de copias de seguridad.",
       "D": "Sustituir el SGSI."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 352,
@@ -4572,8 +4572,8 @@
       "C": "Confidencialidad.",
       "D": "Autenticación."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 353,
@@ -4585,8 +4585,8 @@
       "C": "Evaluar el cumplimiento de las políticas y controles establecidos.",
       "D": "Incrementar la disponibilidad de los sistemas."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 354,
@@ -4598,8 +4598,8 @@
       "C": "Plan de continuidad de negocio.",
       "D": "Declaración de aplicabilidad."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 355,
@@ -4611,8 +4611,8 @@
       "C": "Los/las administradores deben tener todos los privilegios posibles.",
       "D": "El acceso debe ser anónimo para mayor seguridad."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 356,
@@ -4624,8 +4624,8 @@
       "C": "Vulnerabilidad x impacto.",
       "D": "Probabilidad x impacto."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 357,
@@ -4637,8 +4637,8 @@
       "C": "Implantar directamente medidas técnicas.",
       "D": "Garantizar el cumplimiento legal automático."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 358,
@@ -4650,8 +4650,8 @@
       "C": "SOA persigue la independencia del negocio respecto de la tecnología.",
       "D": "SOA busca una orientación a eventos de negocio, que disparan la orquestación de los servicios mediante mensajería preferentemente síncrona."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 359,
@@ -4664,7 +4664,7 @@
       "D": "Abstraer el diseño de los servicios de su entorno y de los sistemas que los usan garantiza su autonomía, aumenta su reusabilidad y disminuye su acoplamiento."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 360,
@@ -4676,8 +4676,8 @@
       "C": "Plantearlo como un cambio estratégico que, aplicado de forma constante e iterativa, extenderá con el tiempo bastantes de sus beneficios y mejoras al resto de la organización.",
       "D": "Plantearlo como la solución inmediata a todos los problemas de integración horizontal entre sistemas de la organización."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 361,
@@ -4689,8 +4689,8 @@
       "C": "Definir los tipos de datos que participan en la semántica del negocio.",
       "D": "Identificar nuevos servicios, nuevas composiciones o nuevas versiones de los existentes."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 362,
@@ -4702,8 +4702,8 @@
       "C": "Los estándares.",
       "D": "El catálogo de servicios."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 363,
@@ -4711,12 +4711,12 @@
     "pregunta": "363.- ¿Cuál de las siguientes afirmaciones es FALSA respecto al catálogo de servicios en una estrategia SOA?",
     "opciones": {
       "A": "La obtención de un Catálogo de Servicios mediante el enfoque Bottom up (de abajo arriba) es más inmediata y asequible que la estrategia Top down (de arriba abajo).",
-      "B": "El enfoque Bottom up (de abajo nuevos sistemas y para nuevos requerimientos.",
+      "B": "El enfoque Bottom up (de abajo arriba) es más indicada para nuevos sistemas y para nuevos requerimientos.",
       "C": "El enfoque Top down (de arriba abajo) es más costoso en recursos y en plazos, puesto que se necesitan conocimientos en modelado de procesos de negocio.",
       "D": "El enfoque Bottom up (de abajo arriba) intenta cambiar el patrón “petición-respuesta” por el de “proveedor-consumidor” mediante listas de suscripción."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 364,
@@ -4728,8 +4728,8 @@
       "C": "Los estándares.",
       "D": "El catálogo de servicios."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 365,
@@ -4741,8 +4741,8 @@
       "C": "Nginx.",
       "D": "Eureka."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 366,
@@ -4751,11 +4751,11 @@
     "opciones": {
       "A": "POST.",
       "B": "PUT.",
-      "C": "REMOVE. arriba) es más indicada para",
+      "C": "REMOVE.",
       "D": "PATCH."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 367,
@@ -4767,8 +4767,8 @@
       "C": "Relational Environment Safe Token",
       "D": "Request Extended Secure Transfer"
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 368,
@@ -4780,8 +4780,8 @@
       "C": "Resuelve los problemas del carácter monolítico de la aplicación.",
       "D": "Presenta problemas similares a los del escalado horizontal."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 369,
@@ -4793,8 +4793,8 @@
       "C": "Limita la autonomía de la cadena de despliegue.",
       "D": "Una actualización de un microservicio siempre afecta al resto de los microservicios."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 370,
@@ -4807,7 +4807,7 @@
       "D": "Fuerte acoplamiento entre los servicios."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 371,
@@ -4819,8 +4819,8 @@
       "C": "Que cada equipo de desarrollo es responsable de todo el ciclo completo de un microservicio.",
       "D": "Que los fallos en un microservicio no se propagan en la cadena de servicios."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 372,
@@ -4832,8 +4832,8 @@
       "C": "Service Registry.",
       "D": "Event Sourcing."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 373,
@@ -4845,8 +4845,8 @@
       "C": "Es una base de datos compartida por todos los microservicios.",
       "D": "Es un mecanismo de autenticación interno entre microservicios."
     },
-    "correcta": "D",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 374,
@@ -4859,7 +4859,7 @@
       "D": "La elección entre comunicación síncrona y asíncrona depende de los requisitos del negocio."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 375,
@@ -4871,8 +4871,8 @@
       "C": "Despliegue rápido e independiente de cada microservicio.",
       "D": "Eliminación completa de la necesidad de orquestación."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 376,
@@ -4884,8 +4884,8 @@
       "C": "Base de datos compartida entre los microservicios implicados.",
       "D": "Llamadas síncronas encadenadas entre todos los microservicios participantes."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 377,
@@ -4897,8 +4897,8 @@
       "C": "Introduce un punto único de fallo si no se despliega con alta disponibilidad.",
       "D": "Obliga a usar comunicación síncrona entre todos los servicios."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 378,
@@ -4910,8 +4910,8 @@
       "C": "Es el protocolo de comunicación acordado entre dos microservicios.",
       "D": "Es el límite lógico dentro del cual un modelo de dominio tiene un significado consistente y bien definido."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 379,
@@ -4923,8 +4923,8 @@
       "C": "Imposibilidad de usar diferentes tecnologías en cada servicio.",
       "D": "Mayor acoplamiento entre los componentes del sistema."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 380,
@@ -4937,7 +4937,7 @@
       "D": "La coreografía requiere siempre comunicación síncrona mientras que la orquestación usa mensajería asíncrona."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 381,
@@ -4949,8 +4949,8 @@
       "C": "IaaS.",
       "D": "AaaS."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 382,
@@ -4962,8 +4962,8 @@
       "C": "El consumidor NO necesita instalación ni mantenimiento del software.",
       "D": "La empresa tiene un coste fijo mensual independiente del uso y personas usuarias que tenga la plataforma, lo que permite hacer una planificación más ajustada de los costes de explotación."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 383,
@@ -4975,8 +4975,8 @@
       "C": "La infraestructura de una nube privada es gestionada íntegramente por una organización.",
       "D": "Una nube comunitaria es la forma menos habitual de despliegue de computación en la nube, siendo el NIST el único que suele recoger este modelo de despliegue."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 384,
@@ -4989,7 +4989,7 @@
       "D": "AaaS."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 385,
@@ -5001,8 +5001,8 @@
       "C": "Un riesgo.",
       "D": "Un incidente."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 386,
@@ -5014,8 +5014,8 @@
       "C": "Se basa en una plataforma software que monitoriza y gestiona todos los dispositivos móviles.",
       "D": "Permite a las aplicaciones funcionar en servidores back-end en vez de en los dispositivos móviles."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 387,
@@ -5027,8 +5027,8 @@
       "C": "IaaS.",
       "D": "AaaS."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 388,
@@ -5040,8 +5040,8 @@
       "C": "Conmutación de circuitos.",
       "D": "Conmutación de circuitos mediante paquetes virtuales."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 389,
@@ -5054,7 +5054,7 @@
       "D": "VirtualBox."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 390,
@@ -5067,7 +5067,7 @@
       "D": "4XX."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 391,
@@ -5079,8 +5079,8 @@
       "C": "Una herramienta para definir contenedores que implementan múltiples servicios.",
       "D": "Una herramienta para definir y ejecutar aplicaciones multi-contenedor."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 392,
@@ -5092,8 +5092,8 @@
       "C": "Almacenamiento de información.",
       "D": "a), b), y c) son correctas."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 393,
@@ -5105,8 +5105,8 @@
       "C": "Kubernetes.",
       "D": "Docker."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 394,
@@ -5119,7 +5119,7 @@
       "D": "AaaS."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 395,
@@ -5131,8 +5131,8 @@
       "C": "La computación cloud permite incrementar y reducir rápidamente los recursos utilizados.",
       "D": "La computación cloud exige que todas las aplicaciones corporativas sean portadas a la plataforma del proveedor."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 396,
@@ -5145,7 +5145,7 @@
       "D": "Integridad de los datos."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 397,
@@ -5157,8 +5157,8 @@
       "C": "Almacenamiento local con procesamiento remoto.",
       "D": "Servicio y facturación flexible."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 398,
@@ -5170,8 +5170,8 @@
       "C": "Virtualización completa y paravirtualización.",
       "D": "Virtualización de aplicaciones."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 399,
@@ -5184,7 +5184,7 @@
       "D": "Replicación de los datos."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 400,
@@ -5196,8 +5196,8 @@
       "C": "Ventaja tecnológica, pudiendo aprovechar de forma inmediata las últimas funcionalidades disponibles.",
       "D": "Independencia del proveedor, al poder migrar fácilmente de un proveedor cloud a otro."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 401,
@@ -5209,8 +5209,8 @@
       "C": "Todos los microservicios deben compartir la misma base de datos.",
       "D": "Los microservicios eliminan la necesidad de monitoreo y gestión de fallos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 402,
@@ -5222,8 +5222,8 @@
       "C": "Los contenedores no requieren orquestación para escalar.",
       "D": "Los contenedores reemplazan la necesidad de infraestructura de red en la nube."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 403,
@@ -5236,7 +5236,7 @@
       "D": "Ejecutar todas las aplicaciones en un único servidor potente."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 404,
@@ -5248,8 +5248,8 @@
       "C": "Ejecutar únicamente aplicaciones críticas en la nube.",
       "D": "Posibilidad de aumentar o reducir recursos automáticamente según la demanda."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 405,
@@ -5261,8 +5261,8 @@
       "C": "La persona usuaria controla solo las aplicaciones y datos, el proveedor gestiona infraestructura, virtualización y red.",
       "D": "La persona usuaria controla la red y almacenamiento, el proveedor solo el cómputo."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 406,
@@ -5274,8 +5274,8 @@
       "C": "Detectar actividades sospechosas analizando el tráfico de red.",
       "D": "Gestionar direcciones IP dentro de la red."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 407,
@@ -5288,7 +5288,7 @@
       "D": "El uso exclusivo de un único proveedor tecnológico."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 408,
@@ -5300,8 +5300,8 @@
       "C": "Una vez realizada una limpieza manual se procede a modificar las contraseñas.",
       "D": "La realización de un análisis completo del sistema precede a la modificación de contraseñas."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 409,
@@ -5313,8 +5313,8 @@
       "C": "Detección.",
       "D": "Prevención."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 410,
@@ -5327,7 +5327,7 @@
       "D": "IPS."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 411,
@@ -5340,7 +5340,7 @@
       "D": "Capacitación general en ofimática."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 412,
@@ -5353,7 +5353,7 @@
       "D": "Todos los citados."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 413,
@@ -5365,8 +5365,8 @@
       "C": "Certificados, Firmas Digitales, Sellos Digitales.",
       "D": "Confidencialidad, Integridad, Disponibilidad."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 414,
@@ -5378,8 +5378,8 @@
       "C": "a), b), y d) son correctas.",
       "D": "Controles y registros de accesos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 415,
@@ -5392,7 +5392,7 @@
       "D": "Replicación de datos."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 416,
@@ -5404,8 +5404,8 @@
       "C": "DNS poisoning.",
       "D": "DNS reversing."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 417,
@@ -5417,8 +5417,8 @@
       "C": "Encriptación de datos.",
       "D": "Gestión de identidades."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 418,
@@ -5430,8 +5430,8 @@
       "C": "Gusano.",
       "D": "Rootkit."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 419,
@@ -5443,8 +5443,8 @@
       "C": "Proteger únicamente las contraseñas de usuarios.",
       "D": "Encriptar la información de la red."
     },
-    "correcta": "D",
-    "metodo": "estimado_manual"
+    "correcta": "A",
+    "metodo": "acierto"
   },
   {
     "num": 420,
@@ -5456,8 +5456,8 @@
       "C": "DDoS.",
       "D": "Phishing."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 421,
@@ -5469,8 +5469,8 @@
       "C": "DDoS.",
       "D": "Man-in-the-middle."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 422,
@@ -5483,7 +5483,7 @@
       "D": "Spoofing."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 423,
@@ -5495,8 +5495,8 @@
       "C": "Compresión.",
       "D": "Tokenización."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 424,
@@ -5508,8 +5508,8 @@
       "C": "Rootkit.",
       "D": "Spyware."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 425,
@@ -5522,7 +5522,7 @@
       "D": "Todas las anteriores."
     },
     "correcta": "D",
-    "metodo": "estimado_manual"
+    "metodo": "fallo->azul"
   },
   {
     "num": 426,
@@ -5535,7 +5535,7 @@
       "D": "Spyware."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 427,
@@ -5547,8 +5547,8 @@
       "C": "SQL Injection.",
       "D": "Cross-Site Scripting."
     },
-    "correcta": "C",
-    "metodo": "estimado_manual"
+    "correcta": "A",
+    "metodo": "acierto"
   },
   {
     "num": 428,
@@ -5560,8 +5560,8 @@
       "C": "Variedad.",
       "D": "Volumen."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 429,
@@ -5573,8 +5573,8 @@
       "C": "Base: Información Cúspide: Sabiduría.",
       "D": "Base: Datos Cúspide: Sabiduría."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 430,
@@ -5586,8 +5586,8 @@
       "C": "Gobierno de los datos.",
       "D": "Infraestructura tecnológica."
     },
-    "correcta": "A",
-    "metodo": "estimado_manual"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 431,
@@ -5600,7 +5600,7 @@
       "D": "Los sistemas de apoyo al proceso de toma de decisiones de los directivos es un sistema OLTP."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 432,
@@ -5612,8 +5612,8 @@
       "C": "La aproximación HOLAP es más ineficiente que la aproximación MOLAP en cuanto al espacio utilizado.",
       "D": "La aproximación ROLAP utiliza menos espacio de almacenamiento que la aproximación MOLAP."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 433,
@@ -5626,7 +5626,7 @@
       "D": "NFS."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 434,
@@ -5638,8 +5638,8 @@
       "C": "Tamaño, complejidad y velocidad de crecimiento.",
       "D": "Complejidad."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 435,
@@ -5651,8 +5651,8 @@
       "C": "Hbase.",
       "D": "Hive."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 436,
@@ -5664,8 +5664,8 @@
       "C": "Un lenguaje para especificar programas de análisis de datos y un compilador para convertirlos en procesos MapReduce.",
       "D": "Una interfaz web para Apache Spark."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 437,
@@ -5677,8 +5677,8 @@
       "C": "El analista de negocio.",
       "D": "El analista de inteligencia de negocio."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 438,
@@ -5691,7 +5691,7 @@
       "D": "Un sistema de ficheros distribuido y tolerante a fallos."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 439,
@@ -5703,8 +5703,8 @@
       "C": "Procesamiento por lotes y procesamiento en streaming, usando herramientas diferenciadas para cada tipo de procesamiento.",
       "D": "Procesamiento por lotes y procesamiento en streaming, existiendo herramientas que pueden usarse para ambos tipos de procesamiento."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 440,
@@ -5716,8 +5716,8 @@
       "C": "Hive.",
       "D": "YARN."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 441,
@@ -5729,8 +5729,8 @@
       "C": "Digitalización empresarial.",
       "D": "Monetización de los datos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 442,
@@ -5742,8 +5742,8 @@
       "C": "Puesta en marcha.",
       "D": "Todas las fases forman parte del ciclo vital de la analítica de datos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 443,
@@ -5756,7 +5756,7 @@
       "D": "La eliminación de hipótesis en estadística."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 444,
@@ -5768,8 +5768,8 @@
       "C": "Reducción de costes operativos.",
       "D": "Incremento del presupuesto de TI."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 445,
@@ -5782,7 +5782,7 @@
       "D": "Consulta interactiva SQL sobre datos estructurados."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 446,
@@ -5794,8 +5794,8 @@
       "C": "El ETL desaparece.",
       "D": "Todo debe estar en un único servidor."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 447,
@@ -5807,8 +5807,8 @@
       "C": "Implementación de arquitecturas MPP para acelerar el data warehouse.",
       "D": "Aplicación de modelos de segmentación para campañas de marketing."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 448,
@@ -5820,8 +5820,8 @@
       "C": "Integrar nuevas arquitecturas con sistemas existentes.",
       "D": "b) y c) son correctas."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 449,
@@ -5833,8 +5833,8 @@
       "C": "Optimizar almacenamiento para acelerar consultas.",
       "D": "Combinar múltiples fuentes para mejorar análisis."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 450,
@@ -5844,10 +5844,10 @@
       "A": "Automatizar decisiones sin supervisión humana en contextos críticos.",
       "B": "Sobreajustar los modelos analíticos a datos históricos sin validar su generalización.",
       "C": "Priorizar indicadores financieros de corto plazo frente a métricas estratégicas de largo plazo.",
-      "D": "Ignorar sesgos cognitivos. CASO PRÁCTICO 1 GESTIÓN DE PACIENTES DESCRIPCIÓN DEL CASO El sistema sanitario OsaNet (nombre ficticio) quiere mejorar su proceso de gestión de pacientes creando un sistema digital que pueda realizar un seguimiento de los historiales médicos y las citas de los pacientes. El sistema también debe permitir a los médicos actualizar los historiales de los pacientes y programar citas. OsaNet necesita desarrollar un diagrama entidad/relación para garantizar que la base de datos refleje con precisión las relaciones entre las distintas entidades implicadas en el proceso de gestión de pacientes, doctores/as y citas. Se ha comenzado con el siguiente diseño de tablas y relaciones. OsaNet dispone también de un sistema online, dentro de su intranet, que permite conocer la disponibilidad de agenda de un/a doctor/a. Este sistema, accesible desde el dominio (ficticio) intranet.osanet.eus, se ha implementado como un microservicio al que puede accederse vía API REST por HTTPS. Antes de asignar una nueva cita a un doctor/a se puede realizar una consulta GET para conocer la disponibilidad del facultativo. El sistema OsaNet está considerando implementar nuevas funcionalidades para su intranet. Para gestionar el proyecto de desarrollo se seguirá el framework Scrum, generando entre otros artefactos, un backlog de producto y un backlog de sprint. PREGUNTAS: 451-475"
+      "D": "Ignorar sesgos cognitivos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 451,
@@ -5859,8 +5859,8 @@
       "C": "En la entidad Cita, la columna doctor es clave foránea, la columna paciente es clave foránea y la columna id es clave primaria.",
       "D": "En la entidad Cita, la columna doctor es clave primaria, la columna paciente es clave primaria y la columna id es clave foránea."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 452,
@@ -5872,8 +5872,8 @@
       "C": "Hay una relación 1:1 entre Doctor y Cita. También hay una relación 1:1 entre Cita y Paciente.",
       "D": "Hay una relación N:M entre Doctor y Cita. También hay una relación N:M entre Cita y Paciente"
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 453,
@@ -5885,8 +5885,8 @@
       "C": "Es un problema con el navegador de la persona usuaria, borrando las cookies y volviendo a intentar la petición probablemente se solucione.",
       "D": "Es un error interno en la parte del servidor."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 454,
@@ -5898,8 +5898,8 @@
       "C": "GET o POST indistintamente.",
       "D": "PUSH."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 455,
@@ -5911,8 +5911,8 @@
       "C": "SHA-256.",
       "D": "DRAGON-512."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 456,
@@ -5924,8 +5924,8 @@
       "C": "Backlog del sprint: es una lista priorizada de características, mejoras y correcciones de errores que definen los requisitos del producto. La gestiona el Equipo de Desarrollo. Backlog del producto: contiene un subconjunto de elementos del backlog del sprint. Lo gestiona el Product Owner.",
       "D": "Backlog del producto: es una lista priorizada de características, mejoras y correcciones de errores que definen los requisitos del producto. La gestiona el Equipo de Desarrollo. Backlog del sprint: contiene un subconjunto de elementos del backlog del producto. Lo gestiona el Product Owner."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 457,
@@ -5937,8 +5937,8 @@
       "C": "¿Cuándo terminarás tu tarea o proyecto? ¿Cuántas horas trabajaste ayer? ¿Hay algún impedimento o bloqueo que te impida cumplir con tu trabajo?",
       "D": "¿Qué hiciste desde la última reunión diaria? ¿Cuántas horas trabajaste ayer? ¿Cuál es el estado general del proyecto?"
     },
-    "correcta": "D",
-    "metodo": "estimado_manual"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 458,
@@ -5950,8 +5950,8 @@
       "C": "https://intranet.osanet.eus/agenda&dni=12345678A?fecha=151120231100",
       "D": "https://intranet.osanet.eus/agenda dni=12345678A fecha=151120231100"
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 459,
@@ -5963,8 +5963,8 @@
       "C": "Asegura que no existan citas duplicadas.",
       "D": "Evita almacenar fecha y hora."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 460,
@@ -5977,7 +5977,7 @@
       "D": "Debe eliminar la disponibilidad anterior."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 461,
@@ -5989,8 +5989,8 @@
       "C": "Rechazar la operación mediante restricción clave extranjera (FK)",
       "D": "Eliminar solo su email."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 462,
@@ -6002,8 +6002,8 @@
       "C": "Podría modificar la tabla Cita.",
       "D": "Podría autenticar clientes sin permiso."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 463,
@@ -6015,8 +6015,8 @@
       "C": "Método gestionar() en la tabla Doctor",
       "D": "Atributo booleano en la tabla Doctor."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 464,
@@ -6028,8 +6028,8 @@
       "C": "Agruparse en la misma tabla",
       "D": "Convertirse en métodos"
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 465,
@@ -6041,8 +6041,8 @@
       "C": "Dos asociaciones: Paciente → Cita y Doctor → Cita.",
       "D": "Una herencia desde Paciente y Doctor a Cita."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 466,
@@ -6054,8 +6054,8 @@
       "C": "Herencia Cita→Paciente.",
       "D": "Una lista de Pacientes dentro de Cita."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 467,
@@ -6067,8 +6067,8 @@
       "C": "Ambos pueden tener listas si el sistema lo necesita.",
       "D": "No hay relación directa."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 468,
@@ -6080,8 +6080,8 @@
       "C": "“extends”.",
       "D": "“include”."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 469,
@@ -6093,8 +6093,8 @@
       "C": "El caso de uso “Programar cita” ejecuta “Solicitar confirmación al doctor” solo si la nueva cita modifica otra ya existente.",
       "D": "El caso de uso “Registrar paciente” siempre llama a “Crear tarjeta sanitaria”."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 470,
@@ -6106,8 +6106,8 @@
       "C": "Pruebas estáticas.",
       "D": "Pruebas de localización."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 471,
@@ -6120,7 +6120,7 @@
       "D": "Caja blanca sobre el front-end."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 472,
@@ -6132,8 +6132,8 @@
       "C": "Integración.",
       "D": "Estática."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 473,
@@ -6146,7 +6146,7 @@
       "D": "Cobertura de datos."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 474,
@@ -6158,8 +6158,8 @@
       "C": "Crear dos clases independientes sin relación entre ellas.",
       "D": "Crear una relación 1:N entre Paciente y Tutor."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 475,
@@ -6169,10 +6169,10 @@
       "A": "Duplicar las clases DoctorPrimaria y DoctorEspecialista sin relación entre ellas.",
       "B": "Añadir todos los atributos en una única clase Doctor y dejar algunos vacíos según el tipo.",
       "C": "Crear una clase base Doctor y derivar de ella DoctorPrimaria y DoctorEspecialista mediante herencia",
-      "D": "Crear una relación N:M entre Doctor y TipoDoctor. CASO PRÁCTICO 2 INFRAESTRUCTURA DE CLAVE PÚBLICA EN EL MARCO DE UNA ORGANIZACIÓN SANITARIA DESCRIPCIÓN DEL CASO Para dar soporte a las necesidades de nuestra organización sanitaria, ponemos en marcha una infraestructura de clave pública (PKI) cuya pieza central es una autoridad de certificación (AC) que emite certificados para:    Personal de la organización sanitaria. Servidores web: portal del paciente, servidores de imágenes médicas, etc. Dispositivos IoT: monitores de pacientes, monitores de edificios, dispositivos de captación de imágenes médicas, etc. Dicha AC es totalmente autónoma, partiendo de un certificado autofirmado. La AC tiene dos modos de emisión de certificados:   Modo 1 (simplificado). El titular del certificado acredita su identidad. La AC la verifica y genera una pareja de claves pública-privada para ese titular. Se emite el certificado y se le entrega conjuntamente con la clave privada. Modo 2 (avanzado). El titular del certificado genera por su cuenta una pareja de claves pública-privada. Solicita el certificado acreditando su identidad y entregando la clave pública. La AC verifica la identidad y la validez de la clave, entregando al titular el certificado. Nuestra PKI también incluye un servicio para comprobar online la validez de un certificado. Se describen a continuación tres casos de uso de nuestra PKI, a los cuales corresponden las preguntas de este caso práctico. Nota importante: en todo este caso práctico se entiende que un certificado digital incluye la identidad del titular y la clave pública del mismo. La clave privada correspondiente se puede distribuir conjuntamente con el certificado (como se indica al describir el modo de emisión 1), pero no forma parte del mismo. USO 1: FIRMA DIGITAL La disponibilidad de esta PKI permite implementar procedimientos de firma digital sobre aquellos documentos digitales que lo requieran. Los procesos de firma de documentos se realizan de manera off-line (fuera del navegador web): para firmar un documento en formato PDF tiene que estar en el ordenador de un usuario/a. Dicho usuario/a utiliza programas como “Autofirma” (Gobierno de España) o “Adobe Acrobat” para generar la versión firmada del documento. Suponemos que nuestros/as usuarios/as utilizan ordenadores corporativos con Windows y tienen instalados los elementos criptográficos indicados previamente (que incluyen, pero no están limitados a, certificado del/la usuario/a, clave privada asociada, certificado de la AC). USO 2: SERVIDORES WEB HTTPS Los servidores web de la organización sanitaria han sido configurados, usando certificados emitidos para ello por nuestra AC, para que el acceso a los mismos sea siempre usando HTTPS. Todos los PCs corporativos de la organización sanitaria llevan instalado el certificado de la AC, lo que evita errores de acceso. Sin embargo, la AC no está reconocida por ordenadores no corporativos, externos a la organización sanitaria. En la organización sanitaria, el servicio web de imágenes médicas tiene como dirección (ficticia) https://imagenes.os.org. Debido al gran volumen de accesos y tráfico que tiene, dicho servicio está implementado con 8 servidores físicos, y la distribución de carga entre ellos se realiza usando round-robin DNS. Decidimos cambiar la implementación de este servicio, haciendo que el nombre \"imagenes.os.org\" corresponda a una única dirección IP, asociada a una máquina en la que está instalado Nginx haciendo de equilibrador de carga (load balancer), tal como se muestra en la figura. Detrás del equilibrador de carga están los 8 servidores físicos que implementan realmente el servicio. Implementamos un sistema Nginx SSL Termination: las comunicaciones externas con el servicio de imágenes médicas son HTTPS, las internas (la distribución de la carga a los servidores reales) son HTTP \"plano\" (véase la figura). SSL Termination y equilibrado de carga. Nótese que solo se representan dos servidores físicos, pero en el caso descrito se usan 8, que están en la red privada. Imagen tomada de https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-loadbalancing-with- ssl-termination, con licencia CC-BY-NC-SA. USO 3: CERTIFICADOS DE DISPOSITIVOS IOT La instalación de certificados en los dispositivos IoT permite la comunicación segura (usando TLS) entre y con dichos dispositivos. Hay que tener en cuenta que los dispositivos IoT pueden estar en lugares no fácilmente accesibles, y ser muy numerosos. USO 4: SERVIDORES PARA ALMACENAMIENTO DE DATOS AVANZADO Los servidores de la Organización sanitaria van a cumplir la funcionalidad de almacenamiento de datos generados por los distintos centros y se están planteando distintas arquitecturas para poder proporcionar distintos servicios a empleado/as y pacientes de los centros sanitarios. Responda a las siguientes preguntas PREGUNTAS: 476-500"
+      "D": "Crear una relación N:M entre Doctor y TipoDoctor."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 476,
@@ -6184,8 +6184,8 @@
       "C": "No se requiere validar que el usuario posee la clave privada asociada a su clave pública, puesto que ambas han sido generadas de forma controlada por la AC.",
       "D": "a), b) y c) son correctas."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 477,
@@ -6198,7 +6198,7 @@
       "D": "No se puede excluir del certificado la clave privada de la persona usuaria."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 478,
@@ -6210,8 +6210,8 @@
       "C": "OCSP.",
       "D": "HTTPS."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 479,
@@ -6223,8 +6223,8 @@
       "C": "El certificado de la persona usuaria se utiliza para cifrar el documento antes de enviarlo.",
       "D": "La firma digital consiste en añadir únicamente el certificado de la persona usuaria al documento."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 480,
@@ -6236,8 +6236,8 @@
       "C": "Un tercero podría generar firmas válidas en nombre de la persona usuaria.",
       "D": "El documento firmado se descifrará automáticamente al detectarse el compromiso."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 481,
@@ -6249,8 +6249,8 @@
       "C": "Tener acceso al sistema donde se generó la firma.",
       "D": "Disponer del certificado de todas las personas usuarias de la organización."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 482,
@@ -6262,8 +6262,8 @@
       "C": "Tanto el usuario/a corporativo/a como el externo/a podrán conectarse al servidor usando HTTPS, con autenticación del servidor y cifrado de la conexión.",
       "D": "El usuario/a corporativo/a podrá conectar su navegador sin problemas usando HTTPS. Sin embargo, el usuario/a externo/a recibirá un aviso indicando que no es posible autenticar al servidor. El navegador dará al usuario/a externo/a la posibilidad de comunicarse con el servidor a su cuenta y riesgo y la conexión estará cifrada."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 483,
@@ -6276,7 +6276,7 @@
       "D": "Al abrir la conexión TLS (HTTPS), el proceso de autenticación del servidor lleva implícita la autenticación del cliente."
     },
     "correcta": "A",
-    "metodo": "estimado_manual"
+    "metodo": "acierto"
   },
   {
     "num": 484,
@@ -6288,8 +6288,8 @@
       "C": "Instalar en su PC el certificado de nuestra AC.",
       "D": "Instalar en su PC el certificado de la FNMT."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 485,
@@ -6301,8 +6301,8 @@
       "C": "La clave privada está desde el momento de su generación protegida por una contraseña, que debe facilitarse para poder usarla.",
       "D": "La clave privada va ligada al hardware del dispositivo en el que está instalada. Por lo tanto, un robo de la misma es inútil porque no funcionará en otro dispositivo."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 486,
@@ -6315,7 +6315,7 @@
       "D": "El/la usuario/a firmante cifra el documento completo con la clave pública de la AC y añade su certificado digital, lo que garantiza la autenticidad e integridad del documento."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 487,
@@ -6327,8 +6327,8 @@
       "C": "Solo es necesaria una dirección IP pública.",
       "D": "Sigue siendo necesario usar round-robin DNS sobre el nombre \"imágenes.os.org\" para distribuir la carga entre los 8 servidores reales."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "D",
+    "metodo": "fallo->azul"
   },
   {
     "num": 488,
@@ -6340,8 +6340,8 @@
       "C": "Genera certificados digitales para los servidores internos.",
       "D": "Verifica la identidad de los usuarios que acceden al servicio."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 489,
@@ -6353,8 +6353,8 @@
       "C": "El navegador mostrará un aviso de seguridad indicando que el certificado no es válido.",
       "D": "El servidor renovará automáticamente el certificado sin intervención."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 490,
@@ -6366,8 +6366,8 @@
       "C": "Evita la necesidad de utilizar certificados digitales.",
       "D": "Garantiza que los usuarios estén autenticados en todos los casos."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 491,
@@ -6379,8 +6379,8 @@
       "C": "Cuando un certificado IoT queda invalidado, solo se necesita que la AC genere uno nuevo y sea enviado al dispositivo por la red, sin necesidad de cifrar nada, porque la información transferida no es sensible.",
       "D": "Las plataformas CMS (Certificate Management System) están diseñadas para gestionar todo el ciclo de vida de los certificados IoT (instalación, revocación, renovación, etc.)."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 492,
@@ -6393,7 +6393,7 @@
       "D": "Solo es necesario instalar certificados en los servidores, no en los dispositivos."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 493,
@@ -6405,8 +6405,8 @@
       "C": "Compartir el mismo certificado entre todos los dispositivos para facilitar la configuración.",
       "D": "No renovar los certificados para evitar interrupciones del servicio."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "B",
+    "metodo": "fallo->azul"
   },
   {
     "num": 494,
@@ -6418,8 +6418,8 @@
       "C": "Se incrementa el riesgo si la clave privada es comprometida durante largos periodos.",
       "D": "Se evita la necesidad de confiar en la AC."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 495,
@@ -6431,8 +6431,8 @@
       "C": "Necesitaríamos una herramienta como Apache Hadoop para gestionar la distribución de los datos.",
       "D": "a), b), y c) son correctas"
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 496,
@@ -6445,7 +6445,7 @@
       "D": "Apache HBase."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 497,
@@ -6458,7 +6458,7 @@
       "D": "a), b), y c) son correctas"
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   },
   {
     "num": 498,
@@ -6470,8 +6470,8 @@
       "C": "Podríamos migrar tanto el procesado como el almacenamiento de los datos.",
       "D": "No podríamos realizar el migrado, puesto que los datos provienen de fuentes distintas, generando así datos no estructurados, incompatibles con la nube."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 499,
@@ -6483,8 +6483,8 @@
       "C": "El uso de técnicas Big Data para la predicción de problemas en los monitores de los pacientes.",
       "D": "El uso de técnicas Big Data para mantener las previsiones de uso de recursos hospitalarios estables."
     },
-    "correcta": "A",
-    "metodo": "fallback_A"
+    "correcta": "C",
+    "metodo": "fallo->azul"
   },
   {
     "num": 500,
@@ -6497,6 +6497,6 @@
       "D": "Support Vector Machines."
     },
     "correcta": "A",
-    "metodo": "fallback_A"
+    "metodo": "acierto"
   }
 ]

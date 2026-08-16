@@ -41,6 +41,16 @@ TESTS = {
         'num':    300,
         'label':  'Temario comun. Categorias C2, C3, D y E. 300 preguntas',
     },
+    'tecnico_informatica': {
+        'aukera': 'ope26osakitecespinf',
+        'num':    200,
+        'label':  'Tecnico Especialista Informatica',
+    },
+    'tecnico_superior_informatica': {
+        'aukera': 'ope26osakitecinf',
+        'num':    500,
+        'label':  'Tecnico Superior Informatica',
+    },
 }
 
 def paths(slug):
