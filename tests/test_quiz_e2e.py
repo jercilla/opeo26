@@ -91,6 +91,11 @@ class QuizE2E:
         self.page.locator("#btn-quit-quiz").click()
         self.page.wait_for_selector("#screen-menu", state="visible")
 
+    def current_qnum(self):
+        """Numero de la pregunta mostrada (el enunciado empieza por 'N.- ...')."""
+        txt = self.page.locator("#question-text").inner_text()
+        return int(txt.strip().split('.', 1)[0])
+
     def back_to_menu_from_results(self):
         self.page.locator("#btn-back-menu").click()
         self.page.wait_for_selector("#screen-menu", state="visible")
@@ -779,6 +784,50 @@ class QuizE2E:
         count = card.locator(".stat-value").nth(idx_cuesta).inner_text()
         self.assert_eq(int(count), 1, "la tarjeta del menu muestra 1 'me cuesta'")
 
+    def test_happy_difficulty_order(self):
+        """Modo 'Por dificultad': ordena por intentos asc, luego tasa de fallo,
+        luego 'me cuestan', dentro del rango por numero de pregunta."""
+        self.refresh_and_clear()
+        quiz = self.page.evaluate("() => Object.keys(QUIZZES)[0]")
+        idps = self.page.evaluate(f"() => QUIZZES['{quiz}'].questions.slice(0,6).map(q => String(q.idpregunta))")
+
+        # Escenario controlado sobre las preguntas num 1..6:
+        #   num1: 4 aciertos, 0 fallos            -> intentos 4, fr 0
+        #   num2: (sin registro)                  -> intentos 0
+        #   num3: 1 acierto, 1 fallo              -> intentos 2, fr 0.5
+        #   num4: 0 aciertos, 2 fallos            -> intentos 2, fr 1.0
+        #   num5: 0 aciertos, 1 fallo             -> intentos 1, fr 1.0
+        #   num6: 1 acierto, 1 fallo, me-cuesta   -> intentos 2, fr 0.5, cuesta
+        seed = {
+            idps[0]: {"aciertos": 4, "fallos": 0},
+            idps[2]: {"aciertos": 1, "fallos": 1},
+            idps[3]: {"aciertos": 0, "fallos": 2},
+            idps[4]: {"aciertos": 0, "fallos": 1},
+            idps[5]: {"aciertos": 1, "fallos": 1, "cuesta": True},
+        }
+        self.page.evaluate("""
+            (args) => {
+                const [quiz, seed] = args;
+                const pp = {}; pp[quiz] = seed;
+                localStorage.setItem('quiz_user_User 1_por_pregunta', JSON.stringify(pp));
+            }
+        """, [quiz, seed])
+
+        # Sesion en modo dificultad, rango 1-6, en Probar (no altera stats)
+        self.open_first_quiz()
+        self.page.locator("#radio-difficulty").check()
+        self.page.locator("#diff-start").fill("1")
+        self.page.locator("#diff-end").fill("6")
+        self.start_practice()
+
+        nums = []
+        for _ in range(6):
+            nums.append(self.current_qnum())
+            self.answer_and_validate(0)
+            self.click_next()
+
+        self.assert_eq(nums, [2, 5, 4, 6, 3, 1], "orden por dificultad")
+
     def run_all(self):
         tests = [
             self.test_happy_sequential_completes_and_updates_stats,
@@ -798,6 +847,7 @@ class QuizE2E:
             self.test_happy_delete_highlight_and_import_conflict,
             self.test_happy_toggle_diffs_off,
             self.test_happy_cuesta_button,
+            self.test_happy_difficulty_order,
         ]
         passed = 0
         for t in tests:

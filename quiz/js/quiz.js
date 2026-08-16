@@ -32,6 +32,34 @@ const Quiz = (() => {
     return a;
   }
 
+  // Orden por dificultad dentro del rango [start,end] (por numero de pregunta).
+  // Criterios (prioridad alta -> baja):
+  //   1) menos intentos (aciertos+fallos) primero
+  //   2) mayor tasa de fallo (fallos/intentos, 0 si nunca respondida)
+  //   3) marcadas 'me cuesta' primero
+  //   4) orden de pregunta (estable)
+  function buildDifficultyOrder(start, end) {
+    const dStart = Math.max(0, (start || 1) - 1);
+    const dEnd = Math.min(questions.length, end || questions.length);
+    const pp = State.getPorPregunta(user, quizSlug);
+    const pool = [];
+    for (let i = dStart; i < dEnd; i++) pool.push(i);
+    pool.sort((a, b) => {
+      const ra = pp[questions[a].idpregunta] || {};
+      const rb = pp[questions[b].idpregunta] || {};
+      const ia = (ra.aciertos || 0) + (ra.fallos || 0);
+      const ib = (rb.aciertos || 0) + (rb.fallos || 0);
+      if (ia !== ib) return ia - ib;
+      const fa = ia ? (ra.fallos || 0) / ia : 0;
+      const fb = ib ? (rb.fallos || 0) / ib : 0;
+      if (fa !== fb) return fb - fa;
+      const ca = ra.cuesta ? 1 : 0, cb = rb.cuesta ? 1 : 0;
+      if (ca !== cb) return cb - ca;
+      return a - b;
+    });
+    return pool;
+  }
+
   function start(config) {
     user = config.user;
     quizSlug = config.slug;
@@ -67,6 +95,8 @@ const Quiz = (() => {
       const rEnd = Math.min(questions.length, config.randEnd || questions.length);
       const pool = questions.map((_, i) => i).slice(rStart, rEnd);
       order = shuffle(pool);
+    } else if (config.mode === 'difficulty') {
+      order = buildDifficultyOrder(config.diffStart, config.diffEnd);
     } else {
       const sStart = Math.max(0, (config.seqStart || 1) - 1);
       const sEnd = Math.min(questions.length, config.seqEnd || questions.length);
