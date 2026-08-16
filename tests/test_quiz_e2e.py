@@ -664,6 +664,47 @@ class QuizE2E:
 
         incognito.close()
 
+    def test_happy_toggle_diffs_off(self):
+        """El resaltado de diferencias se puede desactivar desde la pantalla de sesion."""
+        self.refresh_and_clear()
+        # Buscar en el primer quiz una pregunta que tenga resaltado (diff-highlight)
+        quiz = self.page.evaluate("() => Object.keys(QUIZZES)[0]")
+        diff_num = self.page.evaluate(f"""
+            () => {{
+                const qs = QUIZZES['{quiz}'].questions;
+                for (let i = 0; i < qs.length; i++) {{
+                    const d = qs[i].diffs;
+                    if (d && Object.values(d).some(v => v.includes('diff-highlight'))) return i + 1;
+                }}
+                return null;
+            }}
+        """)
+        self.assert_true(diff_num is not None, "hay alguna pregunta con resaltado en el primer quiz")
+        if diff_num is None:
+            return
+
+        # --- Resaltado ACTIVADO (por defecto) ---
+        self.open_first_quiz()
+        self.page.locator("#seq-start").fill(str(diff_num))
+        self.page.locator("#seq-end").fill(str(diff_num))
+        self.assert_true(self.page.locator("#chk-show-diffs").is_checked(),
+                         "el checkbox de resaltado viene activado por defecto")
+        self.start_practice()
+        html_on = self.page.locator("#options-list").inner_html()
+        self.assert_true("diff-highlight" in html_on, "con resaltado ON aparece diff-highlight")
+        self.quit_to_menu()
+
+        # --- Resaltado DESACTIVADO ---
+        self.open_first_quiz()
+        self.page.locator("#seq-start").fill(str(diff_num))
+        self.page.locator("#seq-end").fill(str(diff_num))
+        self.page.locator("#chk-show-diffs").uncheck()
+        self.start_practice()
+        html_off = self.page.locator("#options-list").inner_html()
+        self.assert_true("diff-highlight" not in html_off, "con resaltado OFF no aparece diff-highlight")
+        self.assert_true("option-text" in html_off, "el texto de opciones sigue presente sin resaltado")
+        self.quit_to_menu()
+
     def run_all(self):
         tests = [
             self.test_happy_sequential_completes_and_updates_stats,
@@ -681,6 +722,7 @@ class QuizE2E:
             self.test_happy_user_highlight_post_validate,
             self.test_happy_export_import_incognito,
             self.test_happy_delete_highlight_and_import_conflict,
+            self.test_happy_toggle_diffs_off,
         ]
         passed = 0
         for t in tests:

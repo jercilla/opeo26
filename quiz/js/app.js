@@ -131,6 +131,7 @@ const App = (() => {
     document.getElementById('seq-end').value = r.seqEnd || qLen;
     document.getElementById('rand-start').value = r.randStart || 1;
     document.getElementById('rand-end').value = r.randEnd || qLen;
+    document.getElementById('chk-show-diffs').checked = r.showDiffs !== false;
 
     show('session');
   }
@@ -141,13 +142,14 @@ const App = (() => {
     const seqEnd = parseInt(document.getElementById('seq-end').value, 10) || 1;
     const randStart = parseInt(document.getElementById('rand-start').value, 10) || 1;
     const randEnd = parseInt(document.getElementById('rand-end').value, 10) || 1;
+    const showDiffs = document.getElementById('chk-show-diffs').checked;
 
     // Save last used ranges
     const last = State.get(currentUser, 'last_ranges', {});
-    last[selectedQuizSlug] = { mode, seqStart, seqEnd, randStart, randEnd };
+    last[selectedQuizSlug] = { mode, seqStart, seqEnd, randStart, randEnd, showDiffs };
     State.set(currentUser, 'last_ranges', last);
 
-    Quiz.start({ user: currentUser, slug: selectedQuizSlug, mode, seqStart, seqEnd, randStart, randEnd, resume, practice });
+    Quiz.start({ user: currentUser, slug: selectedQuizSlug, mode, seqStart, seqEnd, randStart, randEnd, showDiffs, resume, practice });
     show('quiz');
   }
 

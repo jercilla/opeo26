@@ -8,6 +8,7 @@ const Quiz = (() => {
   let current = null;
   let validated = false;
   let practice = false;
+  let showDiffs = true;
 
   const els = {
     progress: document.getElementById('quiz-progress'),
@@ -35,6 +36,7 @@ const Quiz = (() => {
     quizSlug = config.slug;
     questions = QUIZZES[quizSlug].questions;
     practice = config.practice || false;
+    showDiffs = config.showDiffs !== false;
     els.label.textContent = QUIZZES[quizSlug].label + (practice ? ' (Prueba)' : '');
 
     if (config.resume) {
@@ -45,6 +47,7 @@ const Quiz = (() => {
         session = saved.session || { aciertos: 0, fallos: 0, falladas: [] };
         validated = saved.validated || false;
         selectedLetter = saved.selectedLetter || null;
+        if (saved.showDiffs !== undefined) showDiffs = saved.showDiffs;
         renderQuestion();
         return;
       }
@@ -80,7 +83,7 @@ const Quiz = (() => {
 
   function saveProgress() {
     if (practice) return;
-    State.setSession(user, quizSlug, { order, idx, session, validated, selectedLetter });
+    State.setSession(user, quizSlug, { order, idx, session, validated, selectedLetter, showDiffs });
   }
 
   function renderQuestion() {
@@ -126,7 +129,7 @@ const Quiz = (() => {
         btn.setAttribute('role', 'button');
         btn.setAttribute('tabindex', '0');
         btn.dataset.letter = letter;
-        let html = current.diffs && current.diffs[letter] ? current.diffs[letter] : escapeHtml(txt);
+        let html = (showDiffs && current.diffs && current.diffs[letter]) ? current.diffs[letter] : escapeHtml(txt);
         btn.innerHTML = `<span class="option-letter">${letter}</span><span class="option-text">${html}</span>`;
         btn.addEventListener('click', () => selectOption(letter));
         btn.addEventListener('keydown', (e) => {
