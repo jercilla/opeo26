@@ -34,7 +34,14 @@ Herramientas para preparar la OPE Osakidetza 2026:
   - Hacer cambios y commit en local, avisar, y esperar confirmacion.
   - El usuario prefiere probar en local (`file:///.../quiz/index.html`) antes de subir.
 
+## Tests
+- **Scraper (sin navegador)**: `python3 actualizar.py --self-test` -- valida la logica de diff.
+- **Quiz (E2E con Playwright)**: arrancan un `http.server` y Chromium headless.
+  - `python3 tests/test_quiz.py` -- stats en modo Empezar vs Probar (2 casos).
+  - `python3 tests/test_quiz_e2e.py` -- suite por casos de uso (15 casos). Sale con `exit 1` si algo falla.
+  - Requieren `playwright` + Chromium instalados.
+  - Los tests E2E deben usar las funciones REALES de la app (`Users.exportData()`, `Users.previewImport().apply()`), no reimplementar la logica en JS inline.
+
 ## Convenciones
 - Variables con nombres en espanol/euskera (`aukera`, `eranmota`, `pregunta`, `correcta`).
-- No hay test runner. `--self-test` es la unica verificacion automatizada.
 - No hay `requirements.txt`, `pyproject.toml` ni lockfiles. Instalar `playwright` manualmente.

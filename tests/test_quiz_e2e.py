@@ -482,17 +482,8 @@ class QuizE2E:
         self.click_next()
         self.quit_to_menu()
 
-        # Extraer datos de localStorage (simular exportar)
-        exported = self.page.evaluate("""
-            () => {
-                const data = {};
-                for (let i = 0; i < localStorage.length; i++) {
-                    const k = localStorage.key(i);
-                    if (k && k.startsWith('quiz_')) data[k] = localStorage.getItem(k);
-                }
-                return data;
-            }
-        """)
+        # Exportar datos con la funcion REAL de la app
+        exported = self.page.evaluate("() => Users.exportData()")
         self.assert_true(len(exported) > 0, "hay datos para exportar")
 
         # Crear contexto incognito (localStorage limpio)
@@ -501,23 +492,21 @@ class QuizE2E:
         page2.set_viewport_size({"width": 1280, "height": 800})
         page2.goto(BASE_URL, wait_until="networkidle")
 
-        # Verificar localStorage vacio
-        keys_before = page2.evaluate("() => Object.keys(localStorage).filter(k => k.startsWith('quiz_')).length")
-        self.assert_eq(keys_before, 0, "incognito empieza con localStorage limpio")
+        # El incognito arranca solo con el perfil por defecto (ensureDefault crea
+        # 'User 1' al cargar), sin datos importados todavia: no debe haber stats.
+        stats_before = page2.evaluate("""
+            () => {
+                const raw = localStorage.getItem('quiz_user_User 1_global');
+                return raw ? JSON.parse(raw) : null;
+            }
+        """)
+        self.assert_true(stats_before is None,
+                         "incognito sin stats importadas antes de importar")
 
-        # Importar datos via JS
+        # Importar con la funcion REAL de la app (merge + aplicar conflictos)
         page2.evaluate("""
-            (data) => {
-                // Simular Users.importData
-                const existingUsers = JSON.parse(localStorage.getItem('quiz_users') || '[]');
-                const importedUsers = JSON.parse(data['quiz_users'] || '[]');
-                const merged = [...new Set([...existingUsers, ...importedUsers])];
-                localStorage.setItem('quiz_users', JSON.stringify(merged));
-
-                for (const [key, value] of Object.entries(data)) {
-                    if (key === 'quiz_users') continue;
-                    localStorage.setItem(key, value);
-                }
+            (exported) => {
+                Users.previewImport(exported).apply();
             }
         """, exported)
 
@@ -611,17 +600,8 @@ class QuizE2E:
         """, [slug, qid, first_letter])
         self.assert_true(has_delete, "delete logueado en deleted_highlights")
 
-        # Exportar datos
-        exported = self.page.evaluate("""
-            () => {
-                const data = {};
-                for (let i = 0; i < localStorage.length; i++) {
-                    const k = localStorage.key(i);
-                    if (k && k.startsWith('quiz_')) data[k] = localStorage.getItem(k);
-                }
-                return data;
-            }
-        """)
+        # Exportar datos con la funcion REAL de la app
+        exported = self.page.evaluate("() => Users.exportData()")
 
         # Contexto incognito donde el highlight aun existe
         incognito = self.browser.new_context()
@@ -642,45 +622,23 @@ class QuizE2E:
             }
         """, [slug, qid, first_letter])
 
-        # Importar el archivo que tiene el delete logueado
-        page2.evaluate("""
+        # Previsualizar el import con la funcion REAL de la app.
+        # previewImport() solo DETECTA conflictos (highlights borrados en origen
+        # que aun existen en local); no muta localStorage todavia.
+        conflicts = page2.evaluate("""
             (exported) => {
-                for (const [key, value] of Object.entries(exported)) {
-                    if (key === 'quiz_users') {
-                        const existing = JSON.parse(localStorage.getItem(key) || '[]');
-                        const imported = JSON.parse(value);
-                        const merged = [...new Set([...existing, ...imported])];
-                        localStorage.setItem(key, JSON.stringify(merged));
-                        continue;
-                    }
-                    if (key.endsWith('_deleted_highlights')) {
-                        const existing = JSON.parse(localStorage.getItem(key) || '{}');
-                        const imported = JSON.parse(value);
-                        for (const [quiz, questions] of Object.entries(imported)) {
-                            if (!existing[quiz]) existing[quiz] = questions;
-                            else {
-                                for (const [qid, letters] of Object.entries(questions)) {
-                                    if (!existing[quiz][qid]) existing[quiz][qid] = letters;
-                                    else {
-                                        for (const [letter, texts] of Object.entries(letters)) {
-                                            if (!existing[quiz][qid][letter]) existing[quiz][qid][letter] = texts;
-                                            else {
-                                                existing[quiz][qid][letter] = [...new Set([...existing[quiz][qid][letter], ...texts])];
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        localStorage.setItem(key, JSON.stringify(existing));
-                        continue;
-                    }
-                    localStorage.setItem(key, value);
-                }
+                window.__preview = Users.previewImport(exported);
+                return window.__preview.conflicts;
             }
         """, exported)
 
-        # Verificar que el highlight sigue existiendo (no se elimino automaticamente)
+        # El highlight local debe detectarse como conflicto (borrado en origen)
+        self.assert_true(
+            any(c.get('text') == 'testword' for c in conflicts),
+            "previewImport detecta el highlight borrado como conflicto",
+        )
+
+        # Verificar que el highlight sigue existiendo (previewImport no elimina nada)
         highlight_exists = page2.evaluate("""
             (args) => {
                 const [slug, qid, letter] = args;
@@ -690,22 +648,9 @@ class QuizE2E:
         """, [slug, qid, first_letter])
         self.assert_true(highlight_exists, "highlight sigue existiendo antes de aplicar deletes")
 
-        # Simular que el usuario acepta eliminar desde el modal
-        page2.evaluate("""
-            (args) => {
-                const [slug, qid, letter] = args;
-                const h = JSON.parse(localStorage.getItem('quiz_user_User 1_highlights') || '{}');
-                if (h[slug] && h[slug][qid] && h[slug][qid][letter]) {
-                    const arr = h[slug][qid][letter];
-                    const idx = arr.indexOf('testword');
-                    if (idx >= 0) {
-                        arr.splice(idx, 1);
-                        if (arr.length === 0) delete h[slug][qid][letter];
-                        localStorage.setItem('quiz_user_User 1_highlights', JSON.stringify(h));
-                    }
-                }
-            }
-        """, [slug, qid, first_letter])
+        # El usuario acepta el import desde el modal -> apply() hace merge + borra
+        # los conflictos detectados. Es la funcion REAL de la app.
+        page2.evaluate("() => window.__preview.apply()")
 
         # Verificar que el highlight fue eliminado
         highlight_gone = page2.evaluate("""
@@ -741,16 +686,17 @@ class QuizE2E:
         for t in tests:
             name = t.__name__
             print(f"\n>>> RUNNING {name}")
+            before = len(self.failures)
             try:
                 t()
-                if not any(name in f for f in self.failures):
+                new_failures = self.failures[before:]
+                if not new_failures:
                     print(f"[PASS] {name}")
                     passed += 1
                 else:
-                    # Si hay fallos acumulados de este test, imprimirlos
-                    for f in self.failures:
-                        if name in f:
-                            print(f)
+                    # Imprimir los fallos que este test acumulo
+                    for f in new_failures:
+                        print(f)
             except Exception as e:
                 print(f"[ERROR] {name}: {e}")
         return passed, len(tests)
