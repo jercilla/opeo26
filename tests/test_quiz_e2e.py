@@ -705,6 +705,80 @@ class QuizE2E:
         self.assert_true("option-text" in html_off, "el texto de opciones sigue presente sin resaltado")
         self.quit_to_menu()
 
+    def test_happy_cuesta_button(self):
+        """Boton 'Esta me cuesta': oculto en Probar; en Empezar marca/desmarca,
+        persiste por pregunta y se cuenta en resultados y en la tarjeta del menu."""
+        self.refresh_and_clear()
+        quiz = self.page.evaluate("() => Object.keys(QUIZZES)[0]")
+        idp1 = str(self.page.evaluate(f"() => QUIZZES['{quiz}'].questions[0].idpregunta"))
+
+        def cuesta_persisted():
+            return self.page.evaluate("""
+                (args) => {
+                    const [q, idp] = args;
+                    const pp = JSON.parse(localStorage.getItem('quiz_user_User 1_por_pregunta') || '{}');
+                    const rec = pp[q] && pp[q][idp];
+                    return !!(rec && rec.cuesta === true);
+                }
+            """, [quiz, idp1])
+
+        # --- Modo Probar: el boton NO debe aparecer tras validar ---
+        self.open_first_quiz()
+        self.page.locator("#seq-start").fill("1")
+        self.page.locator("#seq-end").fill("2")
+        self.start_practice()
+        self.answer_and_validate(0)
+        self.assert_true(self.page.locator("#btn-cuesta").is_hidden(),
+                         "en Probar el boton 'me cuesta' no aparece")
+        self.quit_to_menu()
+
+        # --- Modo Empezar: rango 1-2 ---
+        self.open_first_quiz()
+        self.page.locator("#seq-start").fill("1")
+        self.page.locator("#seq-end").fill("2")
+        self.start_normal()
+
+        # Q1: validar -> el boton aparece; marcar -> estado + persistencia
+        self.answer_and_validate(0)
+        self.assert_true(self.page.locator("#btn-cuesta").is_visible(),
+                         "en Empezar el boton 'me cuesta' aparece tras validar")
+        self.page.locator("#btn-cuesta").click()
+        cls = self.page.locator("#btn-cuesta").get_attribute("class") or ""
+        self.assert_true("marked" in cls, "el boton pasa a estado marcado")
+        self.assert_true(cuesta_persisted(), "cuesta=true persistido en por_pregunta")
+
+        # Toggle: desmarcar -> deja de estar persistido
+        self.page.locator("#btn-cuesta").click()
+        self.assert_true(not cuesta_persisted(), "toggle desmarca (cuesta ya no es true)")
+
+        # Marcar de nuevo para el recuento final
+        self.page.locator("#btn-cuesta").click()
+        self.assert_true(cuesta_persisted(), "re-marcado persistido")
+
+        # Q2: validar sin marcar, y terminar la sesion
+        self.click_next()
+        self.answer_and_validate(0)
+        self.click_next()
+
+        # Resultados: recuento de 'me cuesta' de la sesion
+        self.page.wait_for_selector("#screen-results", state="visible")
+        cuesta_txt = self.page.locator("#result-cuesta").inner_text()
+        self.assert_true("1" in cuesta_txt,
+                         f"resultados muestran 1 'me cuesta' (texto: {cuesta_txt!r})")
+
+        # Tarjeta del menu: contador 'Me cuesta' == 1
+        self.back_to_menu_from_results()
+        card = self.page.locator(".quiz-card").first
+        idx_cuesta = self.page.evaluate("""
+            () => {
+                const labels = Array.from(document.querySelectorAll('.quiz-card')[0].querySelectorAll('.stat-label'));
+                return labels.findIndex(l => l.textContent.trim() === 'Me cuestan');
+            }
+        """)
+        self.assert_true(idx_cuesta >= 0, "la tarjeta tiene un stat 'Me cuestan'")
+        count = card.locator(".stat-value").nth(idx_cuesta).inner_text()
+        self.assert_eq(int(count), 1, "la tarjeta del menu muestra 1 'me cuesta'")
+
     def run_all(self):
         tests = [
             self.test_happy_sequential_completes_and_updates_stats,
@@ -723,6 +797,7 @@ class QuizE2E:
             self.test_happy_export_import_incognito,
             self.test_happy_delete_highlight_and_import_conflict,
             self.test_happy_toggle_diffs_off,
+            self.test_happy_cuesta_button,
         ]
         passed = 0
         for t in tests:

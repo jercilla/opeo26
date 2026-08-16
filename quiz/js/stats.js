@@ -21,6 +21,27 @@ const Stats = (() => {
 
   function getGlobal(user, quizSlug) { return State.getGlobal(user, quizSlug); }
 
+  // Marca/desmarca una pregunta como "me cuesta" (estado intermedio, independiente
+  // de acierto/fallo). Se guarda en el detalle por pregunta.
+  function setCuesta(user, quizSlug, idpregunta, value) {
+    const pp = State.getPorPregunta(user, quizSlug);
+    const rec = pp[idpregunta] || { aciertos: 0, fallos: 0, ultimo_resultado: null };
+    rec.cuesta = !!value;
+    pp[idpregunta] = rec;
+    State.setPorPregunta(user, quizSlug, pp);
+    return rec.cuesta;
+  }
+
+  function isCuesta(user, quizSlug, idpregunta) {
+    const pp = State.getPorPregunta(user, quizSlug);
+    return !!(pp[idpregunta] && pp[idpregunta].cuesta);
+  }
+
+  function countCuesta(user, quizSlug) {
+    const pp = State.getPorPregunta(user, quizSlug);
+    return Object.values(pp).filter(r => r && r.cuesta).length;
+  }
+
   function getRankingFallos(user, quizSlug, questions) {
     const pp = State.getPorPregunta(user, quizSlug);
     const arr = questions.map(q => {
@@ -31,5 +52,5 @@ const Stats = (() => {
     return arr;
   }
 
-  return { record, getGlobal, getRankingFallos };
+  return { record, getGlobal, getRankingFallos, setCuesta, isCuesta, countCuesta };
 })();

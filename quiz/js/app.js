@@ -74,6 +74,7 @@ const App = (() => {
             <div class="stat"><span class="stat-value">${g.total_respondidas}</span><span class="stat-label">Respondidas</span></div>
             <div class="stat"><span class="stat-value">${g.total_aciertos}</span><span class="stat-label">Aciertos</span></div>
             <div class="stat"><span class="stat-value">${g.total_fallos}</span><span class="stat-label">Fallos</span></div>
+            <div class="stat"><span class="stat-value">${Stats.countCuesta(currentUser, slug)}</span><span class="stat-label">Me cuestan</span></div>
           </div>
           <button class="btn btn-primary btn-block btn-open-session" data-slug="${escapeHtml(slug)}">Entrar</button>
         </div>
@@ -336,6 +337,7 @@ const App = (() => {
 
     document.getElementById('btn-validate').addEventListener('click', () => Quiz.validate());
     document.getElementById('btn-next').addEventListener('click', () => Quiz.next());
+    document.getElementById('btn-cuesta').addEventListener('click', () => Quiz.toggleCuesta());
     document.getElementById('btn-quit-quiz').addEventListener('click', () => {
       goMenu();
     });

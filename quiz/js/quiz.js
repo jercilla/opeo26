@@ -4,7 +4,7 @@ const Quiz = (() => {
   let questions = [];
   let order = [];
   let idx = 0;
-  let session = { aciertos: 0, fallos: 0, falladas: [] };
+  let session = { aciertos: 0, fallos: 0, falladas: [], cuesta: [] };
   let current = null;
   let validated = false;
   let practice = false;
@@ -18,6 +18,7 @@ const Quiz = (() => {
     options: document.getElementById('options-list'),
     validate: document.getElementById('btn-validate'),
     next: document.getElementById('btn-next'),
+    cuesta: document.getElementById('btn-cuesta'),
     feedback: document.getElementById('feedback'),
     feedbackText: document.getElementById('feedback-text'),
   };
@@ -44,7 +45,8 @@ const Quiz = (() => {
       if (saved) {
         order = saved.order;
         idx = saved.idx;
-        session = saved.session || { aciertos: 0, fallos: 0, falladas: [] };
+        session = saved.session || { aciertos: 0, fallos: 0, falladas: [], cuesta: [] };
+        if (!session.cuesta) session.cuesta = [];
         validated = saved.validated || false;
         selectedLetter = saved.selectedLetter || null;
         if (saved.showDiffs !== undefined) showDiffs = saved.showDiffs;
@@ -56,7 +58,7 @@ const Quiz = (() => {
     if (!practice) {
       State.clearSession(user, quizSlug);
     }
-    session = { aciertos: 0, fallos: 0, falladas: [] };
+    session = { aciertos: 0, fallos: 0, falladas: [], cuesta: [] };
     validated = false;
     selectedLetter = null;
 
@@ -143,6 +145,7 @@ const Quiz = (() => {
       els.feedback.classList.add('hidden');
       els.feedback.className = 'feedback hidden';
     }
+    updateCuestaButton();
   }
 
   function renderOptionText(btn, letter) {
@@ -206,10 +209,37 @@ const Quiz = (() => {
     els.feedback.className = 'feedback ' + (acierto ? 'correct' : 'wrong');
     els.feedbackText.textContent = acierto ? 'Correcto!' : `La correcta era la ${correct}`;
     els.score.innerHTML = `&#9989; ${session.aciertos} - &#10060; ${session.fallos}`;
+    // Mostrar el boton 'me cuesta' ANTES de medir el scroll: al aparecer empuja
+    // 'Siguiente' hacia abajo, y queremos desplazar hasta su posicion final.
+    updateCuestaButton();
     const nextRect = els.next.getBoundingClientRect();
     if (nextRect.bottom > window.innerHeight) {
       els.next.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
+  }
+
+  // Estado "me cuesta": marcable tras validar (solo modo Empezar). Persiste en
+  // el detalle por pregunta y se cuenta en los resultados de la sesion.
+  function updateCuestaButton() {
+    if (!els.cuesta) return;
+    const show = validated && !practice && current;
+    els.cuesta.classList.toggle('hidden', !show);
+    if (!show) return;
+    const marked = Stats.isCuesta(user, quizSlug, current.idpregunta);
+    els.cuesta.classList.toggle('marked', marked);
+    els.cuesta.textContent = marked ? '✓ Me cuesta' : 'Esta me cuesta';
+  }
+
+  function toggleCuesta() {
+    if (!validated || practice || !current) return;
+    const idp = current.idpregunta;
+    const marked = Stats.setCuesta(user, quizSlug, idp, !Stats.isCuesta(user, quizSlug, idp));
+    if (!session.cuesta) session.cuesta = [];
+    const i = session.cuesta.indexOf(idp);
+    if (marked && i === -1) session.cuesta.push(idp);
+    else if (!marked && i !== -1) session.cuesta.splice(i, 1);
+    updateCuestaButton();
+    saveProgress();
   }
 
   function next() {
@@ -235,6 +265,15 @@ const Quiz = (() => {
     document.getElementById('result-aciertos').textContent = session.aciertos;
     document.getElementById('result-fallos').textContent = session.fallos;
     document.getElementById('result-detail').textContent = `${session.aciertos + session.fallos} de ${order.length} preguntas`;
+
+    const nCuesta = (session.cuesta || []).length;
+    const cuestaEl = document.getElementById('result-cuesta');
+    if (nCuesta > 0) {
+      cuestaEl.textContent = `Marcaste ${nCuesta} como "me cuesta"`;
+      cuestaEl.classList.remove('hidden');
+    } else {
+      cuestaEl.classList.add('hidden');
+    }
 
     const container = document.getElementById('result-falladas');
     container.innerHTML = '';
@@ -489,5 +528,5 @@ const Quiz = (() => {
     return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
 
-  return { start, validate, next };
+  return { start, validate, next, toggleCuesta };
 })();
