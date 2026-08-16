@@ -122,24 +122,6 @@ QUIZ_SOURCES = [
         'meta': '300 preguntas - Temario comun',
     },
     {
-        'slug': 'celador',
-        'file': 'celador.last.json',
-        'label': 'Celador',
-        'meta': '200 preguntas',
-    },
-    {
-        'slug': 'operario',
-        'file': 'operario.last.json',
-        'label': 'Operario',
-        'meta': '200 preguntas',
-    },
-    {
-        'slug': 'auxiliar_administrativo',
-        'file': 'auxiliar_administrativo.last.json',
-        'label': 'Auxiliar Administrativo',
-        'meta': '200 preguntas',
-    },
-    {
         'slug': 'tecnico_informatica',
         'file': 'tecnico_informatica.json',
         'label': 'Tecnico Especialista Informatica',
