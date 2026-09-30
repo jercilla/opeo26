@@ -156,8 +156,11 @@ const App = (() => {
     last[selectedQuizSlug] = { mode, seqStart, seqEnd, randStart, randEnd, diffStart, diffEnd, showDiffs };
     State.set(currentUser, 'last_ranges', last);
 
-    Quiz.start({ user: currentUser, slug: selectedQuizSlug, mode, seqStart, seqEnd, randStart, randEnd, diffStart, diffEnd, showDiffs, resume, practice });
+    // Mostrar la pantalla de quiz ANTES de arrancar: si la sesion queda vacia
+    // (p.ej. "Solo dificiles" sin nada que repasar, o rango vacio), Quiz.start
+    // cambia por su cuenta a la pantalla de resultados y debe ganar.
     show('quiz');
+    Quiz.start({ user: currentUser, slug: selectedQuizSlug, mode, seqStart, seqEnd, randStart, randEnd, diffStart, diffEnd, showDiffs, resume, practice });
   }
 
   function renderUserDropdown() {
@@ -344,6 +347,7 @@ const App = (() => {
     document.getElementById('btn-validate').addEventListener('click', () => Quiz.validate());
     document.getElementById('btn-next').addEventListener('click', () => Quiz.next());
     document.getElementById('btn-cuesta').addEventListener('click', () => Quiz.toggleCuesta());
+    document.getElementById('btn-repaso-remove').addEventListener('click', () => Quiz.removeFromRepaso());
     document.getElementById('btn-quit-quiz').addEventListener('click', () => {
       goMenu();
     });

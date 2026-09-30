@@ -93,6 +93,11 @@
             <span class="start-label">y</span>
             <input type="number" id="diff-end" class="inline-num" min="1" value="1" title="Fin">
           </label>
+          <label class="mode-option">
+            <input type="radio" name="session-mode" value="only_hard" id="radio-only-hard">
+            <span class="mode-label">Solo difíciles</span>
+            <span class="start-label">(repaso de falladas y "me cuesta")</span>
+          </label>
         </div>
 
         <label class="session-toggle">
@@ -127,6 +132,7 @@
         <div class="quiz-actions">
           <button class="btn btn-primary btn-block" id="btn-validate">Validar</button>
           <button class="btn btn-block hidden btn-cuesta" id="btn-cuesta">Esta me cuesta</button>
+          <button class="btn btn-block hidden btn-repaso" id="btn-repaso-remove">Quitar de repaso</button>
           <button class="btn btn-secondary btn-block hidden" id="btn-next">Siguiente</button>
         </div>
       </div>
@@ -136,6 +142,7 @@
     <section id="screen-results" class="screen hidden">
       <div class="container">
         <h1>Resultados</h1>
+        <p class="result-empty hidden" id="result-empty">¡No tienes preguntas difíciles pendientes! 🎉<br>Repasa fallando alguna o marcándola como "me cuesta".</p>
         <div class="result-summary">
           <div class="result-circle">
             <span class="result-value" id="result-aciertos">0</span>

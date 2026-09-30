@@ -32,6 +32,7 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 .btn-danger { background: #dc2626; color: #fff; }
 .btn-cuesta { background: #fff; color: #b45309; border: 1px solid #f59e0b; }
 .btn-cuesta.marked { background: #f59e0b; color: #fff; border-color: #f59e0b; }
+.btn-repaso { background: #fff; color: #475569; border: 1px solid #cbd5e1; }
 .btn-block { width: calc(100% - 1rem); }
 .btn:disabled { opacity: .5; cursor: not-allowed; }
 .btn-icon {
@@ -252,6 +253,7 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 .result-value { font-size: 1.8rem; font-weight: 700; color: #0f172a; }
 .result-label { font-size: 0.8rem; color: #64748b; margin-top: 0.15rem; }
 .result-detail { text-align: center; color: #64748b; margin-bottom: 0.5rem; }
+.result-empty { text-align: center; color: #0f172a; font-size: 1.1rem; line-height: 1.5; margin: 2rem 0; }
 .result-cuesta { text-align: center; color: #b45309; font-weight: 600; margin-bottom: 1.5rem; }
 
 .result-falladas { margin-top: 1.5rem; }

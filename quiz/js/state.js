@@ -32,6 +32,40 @@ const State = (() => {
     set(user, 'por_pregunta', all);
   }
 
+  // Lista de repaso ("Solo dificiles"): { [quizSlug]: { [idpregunta]: true } }.
+  // Se rellena al fallar o marcar "me cuesta"; editable a mano.
+  function getRepaso(user, quizSlug) {
+    const all = get(user, 'repaso', {});
+    return all[quizSlug] || {};
+  }
+  function setRepaso(user, quizSlug, data) {
+    const all = get(user, 'repaso', {});
+    all[quizSlug] = data;
+    set(user, 'repaso', all);
+  }
+  function addRepaso(user, quizSlug, idpregunta) {
+    const all = get(user, 'repaso', {});
+    if (!all[quizSlug]) all[quizSlug] = {};
+    all[quizSlug][idpregunta] = true;
+    set(user, 'repaso', all);
+  }
+  function removeRepaso(user, quizSlug, idpregunta) {
+    const all = get(user, 'repaso', {});
+    if (all[quizSlug]) {
+      delete all[quizSlug][idpregunta];
+      set(user, 'repaso', all);
+    }
+  }
+  function hasRepaso(user, quizSlug, idpregunta) {
+    const all = get(user, 'repaso', {});
+    return !!(all[quizSlug] && all[quizSlug][idpregunta]);
+  }
+  // true si la lista del slug ya se inicializo alguna vez (aunque este vacia):
+  // distingue "nunca sembrada" de "vaciada a mano" para la migracion de la 1a vez.
+  function repasoInitialized(user, quizSlug) {
+    return Object.prototype.hasOwnProperty.call(get(user, 'repaso', {}), quizSlug);
+  }
+
   function getSession(user, quizSlug) {
     const all = get(user, 'session', {});
     return all[quizSlug] || null;
@@ -95,5 +129,5 @@ const State = (() => {
     return all[quizSlug] || {};
   }
 
-  return { get, set, getGlobal, setGlobal, getPorPregunta, setPorPregunta, getSession, setSession, clearSession, getHighlights, setHighlights, addHighlight, removeHighlight, logDelete, getDeletedHighlights };
+  return { get, set, getGlobal, setGlobal, getPorPregunta, setPorPregunta, getRepaso, setRepaso, addRepaso, removeRepaso, hasRepaso, repasoInitialized, getSession, setSession, clearSession, getHighlights, setHighlights, addHighlight, removeHighlight, logDelete, getDeletedHighlights };
 })();

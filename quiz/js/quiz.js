@@ -9,6 +9,7 @@ const Quiz = (() => {
   let validated = false;
   let practice = false;
   let showDiffs = true;
+  let mode = null;
 
   const els = {
     progress: document.getElementById('quiz-progress'),
@@ -19,6 +20,7 @@ const Quiz = (() => {
     validate: document.getElementById('btn-validate'),
     next: document.getElementById('btn-next'),
     cuesta: document.getElementById('btn-cuesta'),
+    repasoRemove: document.getElementById('btn-repaso-remove'),
     feedback: document.getElementById('feedback'),
     feedbackText: document.getElementById('feedback-text'),
   };
@@ -60,6 +62,16 @@ const Quiz = (() => {
     return pool;
   }
 
+  // Modo "Solo dificiles": recorre la lista de repaso persistente, en orden
+  // SECUENCIAL por numero de pregunta (sin rango). Siembra la lista la 1a vez.
+  function buildOnlyHardOrder() {
+    Stats.ensureRepaso(user, quizSlug);
+    const rep = State.getRepaso(user, quizSlug);
+    const ord = [];
+    questions.forEach((q, i) => { if (rep[q.idpregunta]) ord.push(i); });
+    return ord;
+  }
+
   function start(config) {
     user = config.user;
     quizSlug = config.slug;
@@ -78,6 +90,7 @@ const Quiz = (() => {
         validated = saved.validated || false;
         selectedLetter = saved.selectedLetter || null;
         if (saved.showDiffs !== undefined) showDiffs = saved.showDiffs;
+        mode = saved.mode || null;
         renderQuestion();
         return;
       }
@@ -89,6 +102,7 @@ const Quiz = (() => {
     session = { aciertos: 0, fallos: 0, falladas: [], cuesta: [] };
     validated = false;
     selectedLetter = null;
+    mode = config.mode;
 
     if (config.mode === 'random') {
       const rStart = Math.max(0, (config.randStart || 1) - 1);
@@ -97,6 +111,8 @@ const Quiz = (() => {
       order = shuffle(pool);
     } else if (config.mode === 'difficulty') {
       order = buildDifficultyOrder(config.diffStart, config.diffEnd);
+    } else if (config.mode === 'only_hard') {
+      order = buildOnlyHardOrder();
     } else {
       const sStart = Math.max(0, (config.seqStart || 1) - 1);
       const sEnd = Math.min(questions.length, config.seqEnd || questions.length);
@@ -115,7 +131,7 @@ const Quiz = (() => {
 
   function saveProgress() {
     if (practice) return;
-    State.setSession(user, quizSlug, { order, idx, session, validated, selectedLetter, showDiffs });
+    State.setSession(user, quizSlug, { order, idx, session, validated, selectedLetter, showDiffs, mode });
   }
 
   function renderQuestion() {
@@ -176,6 +192,7 @@ const Quiz = (() => {
       els.feedback.className = 'feedback hidden';
     }
     updateCuestaButton();
+    updateRepasoButton();
   }
 
   function renderOptionText(btn, letter) {
@@ -252,7 +269,9 @@ const Quiz = (() => {
   // el detalle por pregunta y se cuenta en los resultados de la sesion.
   function updateCuestaButton() {
     if (!els.cuesta) return;
-    const show = validated && !practice && current;
+    // En modo "Solo dificiles" la pregunta ya esta en la lista de repaso: marcar
+    // "me cuesta" seria redundante. Ahi solo tiene sentido "Quitar de repaso".
+    const show = validated && !practice && current && mode !== 'only_hard';
     els.cuesta.classList.toggle('hidden', !show);
     if (!show) return;
     const marked = Stats.isCuesta(user, quizSlug, current.idpregunta);
@@ -270,6 +289,31 @@ const Quiz = (() => {
     else if (!marked && i !== -1) session.cuesta.splice(i, 1);
     updateCuestaButton();
     saveProgress();
+  }
+
+  // Boton "Quitar de repaso": solo visible en modo "Solo dificiles". Permite
+  // sacar la pregunta actual de la lista persistente (antes o despues de validar).
+  function updateRepasoButton() {
+    if (!els.repasoRemove) return;
+    const show = mode === 'only_hard' && current;
+    els.repasoRemove.classList.toggle('hidden', !show);
+  }
+
+  function removeFromRepaso() {
+    if (mode !== 'only_hard' || !current) return;
+    State.removeRepaso(user, quizSlug, current.idpregunta);
+    order.splice(idx, 1);
+    selectedLetter = null;
+    validated = false;
+    session.lastResult = null;
+    saveProgress();
+    if (idx >= order.length) {
+      if (!practice) State.clearSession(user, quizSlug);
+      showResults();
+      return;
+    }
+    renderQuestion();
+    els.text.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
   function next() {
@@ -292,6 +336,22 @@ const Quiz = (() => {
   function showResults() {
     document.getElementById('screen-quiz').classList.add('hidden');
     document.getElementById('screen-results').classList.remove('hidden');
+
+    // Caso lista de repaso vacia (modo "Solo dificiles" sin nada que repasar):
+    // mensaje amable en vez del resumen 0/0.
+    const emptyEl = document.getElementById('result-empty');
+    const summaryEl = document.querySelector('#screen-results .result-summary');
+    const detailEl = document.getElementById('result-detail');
+    const isEmptyRepaso = order.length === 0 && (session.aciertos + session.fallos) === 0;
+    if (emptyEl) emptyEl.classList.toggle('hidden', !isEmptyRepaso);
+    if (summaryEl) summaryEl.classList.toggle('hidden', isEmptyRepaso);
+    if (detailEl) detailEl.classList.toggle('hidden', isEmptyRepaso);
+    if (isEmptyRepaso) {
+      document.getElementById('result-cuesta').classList.add('hidden');
+      document.getElementById('result-falladas').innerHTML = '';
+      return;
+    }
+
     document.getElementById('result-aciertos').textContent = session.aciertos;
     document.getElementById('result-fallos').textContent = session.fallos;
     document.getElementById('result-detail').textContent = `${session.aciertos + session.fallos} de ${order.length} preguntas`;
@@ -558,5 +618,5 @@ const Quiz = (() => {
     return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
 
-  return { start, validate, next, toggleCuesta };
+  return { start, validate, next, toggleCuesta, removeFromRepaso };
 })();

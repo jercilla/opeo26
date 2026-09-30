@@ -16,7 +16,26 @@ const Stats = (() => {
     pp[idpregunta] = rec;
     State.setPorPregunta(user, quizSlug, pp);
 
+    // Al fallar, entra en la lista de repaso.
+    if (!acierto) {
+      ensureRepaso(user, quizSlug);
+      State.addRepaso(user, quizSlug, idpregunta);
+    }
+
     return acierto;
+  }
+
+  // Siembra la lista de repaso la primera vez (desde las preguntas con fallos>0 o
+  // marcadas "me cuesta"). No re-siembra si ya se inicializo (aunque este vacia).
+  function ensureRepaso(user, quizSlug) {
+    if (State.repasoInitialized(user, quizSlug)) return;
+    const pp = State.getPorPregunta(user, quizSlug);
+    const rep = {};
+    Object.keys(pp).forEach(id => {
+      const r = pp[id];
+      if ((r.fallos || 0) > 0 || r.cuesta) rep[id] = true;
+    });
+    State.setRepaso(user, quizSlug, rep);
   }
 
   function getGlobal(user, quizSlug) { return State.getGlobal(user, quizSlug); }
@@ -29,6 +48,11 @@ const Stats = (() => {
     rec.cuesta = !!value;
     pp[idpregunta] = rec;
     State.setPorPregunta(user, quizSlug, pp);
+    // Marcar "me cuesta" tambien la anade a la lista de repaso.
+    if (rec.cuesta) {
+      ensureRepaso(user, quizSlug);
+      State.addRepaso(user, quizSlug, idpregunta);
+    }
     return rec.cuesta;
   }
 
@@ -52,5 +76,5 @@ const Stats = (() => {
     return arr;
   }
 
-  return { record, getGlobal, getRankingFallos, setCuesta, isCuesta, countCuesta };
+  return { record, getGlobal, getRankingFallos, setCuesta, isCuesta, countCuesta, ensureRepaso };
 })();

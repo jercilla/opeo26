@@ -828,6 +828,124 @@ class QuizE2E:
 
         self.assert_eq(nums, [2, 5, 4, 6, 3, 1], "orden por dificultad")
 
+    def test_happy_only_hard_order_and_remove(self):
+        """Modo 'Solo dificiles': recorre la lista de repaso en orden secuencial por
+        numero, y 'Quitar de repaso' saca la pregunta (persistente) y avanza."""
+        self.refresh_and_clear()
+        quiz = self.page.evaluate("() => Object.keys(QUIZZES)[0]")
+        idps = self.page.evaluate(f"() => QUIZZES['{quiz}'].questions.slice(0,6).map(q => String(q.idpregunta))")
+
+        # Sembrar la lista de repaso con las preguntas num 2, 4 y 5 (desordenadas).
+        seed = {idps[3]: True, idps[1]: True, idps[4]: True}
+        self.page.evaluate("""
+            (args) => {
+                const [quiz, seed] = args;
+                const rep = {}; rep[quiz] = seed;
+                localStorage.setItem('quiz_user_User 1_repaso', JSON.stringify(rep));
+            }
+        """, [quiz, seed])
+
+        # 1) Orden secuencial [2, 4, 5]
+        self.open_first_quiz()
+        self.page.locator("#radio-only-hard").check()
+        self.start_practice()
+        nums = []
+        for _ in range(3):
+            nums.append(self.current_qnum())
+            self.answer_and_validate(0)
+            self.click_next()
+        self.assert_eq(nums, [2, 4, 5], "orden secuencial en solo-dificiles")
+
+        # 2) Quitar de repaso: reiniciar, quitar la primera (num 2) y verificar
+        self.back_to_menu_from_results()
+        self.open_first_quiz()
+        self.page.locator("#radio-only-hard").check()
+        self.start_practice()
+        self.assert_eq(self.current_qnum(), 2, "primera pregunta del repaso")
+        self.page.locator("#btn-repaso-remove").click()
+        # Tras quitar, avanza a la num 4
+        self.assert_eq(self.current_qnum(), 4, "avanza tras quitar de repaso")
+        # La num 2 ya no esta en la lista persistente
+        rep = self.page.evaluate(f"() => JSON.parse(localStorage.getItem('quiz_user_User 1_repaso') || '{{}}')['{quiz}']")
+        self.assert_true(idps[1] not in rep, "id quitado ya no esta en repaso")
+        self.assert_true(idps[3] in rep and idps[4] in rep, "el resto sigue en repaso")
+        # Recorrido restante [4, 5]
+        rest = [self.current_qnum()]
+        self.answer_and_validate(0)
+        self.click_next()
+        rest.append(self.current_qnum())
+        self.assert_eq(rest, [4, 5], "recorrido restante tras quitar")
+
+    def test_happy_only_hard_seed_from_stats(self):
+        """Primera vez: si no hay lista de repaso, se siembra desde por_pregunta
+        (preguntas con fallos>0 o marcadas 'me cuesta')."""
+        self.refresh_and_clear()
+        quiz = self.page.evaluate("() => Object.keys(QUIZZES)[0]")
+        idps = self.page.evaluate(f"() => QUIZZES['{quiz}'].questions.slice(0,6).map(q => String(q.idpregunta))")
+
+        # num1: solo aciertos (fuera); num2: fallo (dentro); num3: solo aciertos (fuera);
+        # num4: me-cuesta (dentro); num5: fallos (dentro). SIN clave 'repaso'.
+        seed = {
+            idps[0]: {"aciertos": 3, "fallos": 0},
+            idps[1]: {"aciertos": 0, "fallos": 1},
+            idps[2]: {"aciertos": 2, "fallos": 0},
+            idps[3]: {"aciertos": 2, "fallos": 0, "cuesta": True},
+            idps[4]: {"aciertos": 0, "fallos": 2},
+        }
+        self.page.evaluate("""
+            (args) => {
+                const [quiz, seed] = args;
+                const pp = {}; pp[quiz] = seed;
+                localStorage.setItem('quiz_user_User 1_por_pregunta', JSON.stringify(pp));
+            }
+        """, [quiz, seed])
+
+        self.open_first_quiz()
+        self.page.locator("#radio-only-hard").check()
+        self.start_practice()
+        nums = []
+        for _ in range(3):
+            nums.append(self.current_qnum())
+            self.answer_and_validate(0)
+            self.click_next()
+        self.assert_eq(nums, [2, 4, 5], "siembra desde fallos>0 o cuesta, en orden")
+
+        # La lista quedo persistida con exactamente esas 3 preguntas.
+        rep = self.page.evaluate(f"() => JSON.parse(localStorage.getItem('quiz_user_User 1_repaso') || '{{}}')['{quiz}']")
+        self.assert_true(rep is not None, "repaso persistido tras la siembra")
+        self.assert_eq(sorted(rep.keys()), sorted([idps[1], idps[3], idps[4]]), "contenido sembrado correcto")
+
+    def test_corner_only_hard_empty_shows_results_not_quiz(self):
+        """Regresion: 'Solo dificiles' con lista vacia debe mostrar la pantalla de
+        resultados con el mensaje de vacio, NO la pantalla de quiz con contenido
+        rancio de una sesion anterior (bug de orden show('quiz') vs showResults)."""
+        self.refresh_and_clear()
+        quiz = self.page.evaluate("() => Object.keys(QUIZZES)[0]")
+
+        # Primero, una sesion normal en modo Probar para dejar contenido en la
+        # pantalla de quiz (simula la sesion anterior del bug real).
+        self.open_first_quiz()
+        self.page.locator("#radio-sequential").check()
+        self.page.locator("#seq-start").fill("1")
+        self.page.locator("#seq-end").fill("2")
+        self.start_practice()
+        self.answer_and_validate(0)
+        stale_q = self.page.locator("#question-text").inner_text()[:20]
+        self.quit_to_menu()
+
+        # Ahora "Solo dificiles" con la lista vacia (no se ha fallado nada real).
+        self.open_first_quiz()
+        self.page.locator("#radio-only-hard").check()
+        self.page.locator("#btn-start-session").click()
+        self.page.wait_for_timeout(400)
+
+        quiz_visible = self.page.evaluate("() => !document.getElementById('screen-quiz').classList.contains('hidden')")
+        results_visible = self.page.evaluate("() => !document.getElementById('screen-results').classList.contains('hidden')")
+        empty_visible = self.page.evaluate("() => !document.getElementById('result-empty').classList.contains('hidden')")
+        self.assert_true(results_visible, "muestra pantalla de resultados con lista vacia")
+        self.assert_true(empty_visible, "muestra el mensaje de 'sin dificiles'")
+        self.assert_true(not quiz_visible, "NO muestra la pantalla de quiz (contenido rancio)")
+
     def run_all(self):
         tests = [
             self.test_happy_sequential_completes_and_updates_stats,
@@ -848,6 +966,9 @@ class QuizE2E:
             self.test_happy_toggle_diffs_off,
             self.test_happy_cuesta_button,
             self.test_happy_difficulty_order,
+            self.test_happy_only_hard_order_and_remove,
+            self.test_happy_only_hard_seed_from_stats,
+            self.test_corner_only_hard_empty_shows_results_not_quiz,
         ]
         passed = 0
         for t in tests:

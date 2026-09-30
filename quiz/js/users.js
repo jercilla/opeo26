@@ -208,6 +208,13 @@ const Users = (() => {
       }
       return existing;
     }
+    if (key.endsWith('_repaso')) {
+      for (const [quiz, ids] of Object.entries(imported)) {
+        if (!existing[quiz]) existing[quiz] = ids;
+        else for (const [qid, val] of Object.entries(ids)) if (val) existing[quiz][qid] = true;
+      }
+      return existing;
+    }
     // For other keys (collapsed, last_ranges, session): overwrite
     return imported;
   }
