@@ -876,21 +876,24 @@ class QuizE2E:
         rest.append(self.current_qnum())
         self.assert_eq(rest, [4, 5], "recorrido restante tras quitar")
 
-    def test_happy_only_hard_seed_from_stats(self):
-        """Primera vez: si no hay lista de repaso, se siembra desde por_pregunta
-        (preguntas con fallos>0 o marcadas 'me cuesta')."""
+    def test_happy_only_hard_seed_from_last_result(self):
+        """Primera vez: si no hay lista de repaso, se siembra SOLO desde el ultimo
+        resultado de cada pregunta (ultimo_resultado==='fallo') o 'me cuesta'. El
+        historico acumulado (fallos>0) NO cuenta si la ultima vez se acerto."""
         self.refresh_and_clear()
         quiz = self.page.evaluate("() => Object.keys(QUIZZES)[0]")
         idps = self.page.evaluate(f"() => QUIZZES['{quiz}'].questions.slice(0,6).map(q => String(q.idpregunta))")
 
-        # num1: solo aciertos (fuera); num2: fallo (dentro); num3: solo aciertos (fuera);
-        # num4: me-cuesta (dentro); num5: fallos (dentro). SIN clave 'repaso'.
+        # num1: ultimo acierto (fuera); num2: ultimo fallo (dentro);
+        # num3: fallo historico PERO ultimo acierto (FUERA, clave del cambio);
+        # num4: me-cuesta con ultimo acierto (dentro por cuesta);
+        # num5: ultimo fallo (dentro). SIN clave 'repaso'.
         seed = {
-            idps[0]: {"aciertos": 3, "fallos": 0},
-            idps[1]: {"aciertos": 0, "fallos": 1},
-            idps[2]: {"aciertos": 2, "fallos": 0},
-            idps[3]: {"aciertos": 2, "fallos": 0, "cuesta": True},
-            idps[4]: {"aciertos": 0, "fallos": 2},
+            idps[0]: {"aciertos": 3, "fallos": 0, "ultimo_resultado": "acierto"},
+            idps[1]: {"aciertos": 0, "fallos": 1, "ultimo_resultado": "fallo"},
+            idps[2]: {"aciertos": 2, "fallos": 2, "ultimo_resultado": "acierto"},
+            idps[3]: {"aciertos": 2, "fallos": 0, "ultimo_resultado": "acierto", "cuesta": True},
+            idps[4]: {"aciertos": 0, "fallos": 2, "ultimo_resultado": "fallo"},
         }
         self.page.evaluate("""
             (args) => {
@@ -908,12 +911,13 @@ class QuizE2E:
             nums.append(self.current_qnum())
             self.answer_and_validate(0)
             self.click_next()
-        self.assert_eq(nums, [2, 4, 5], "siembra desde fallos>0 o cuesta, en orden")
+        self.assert_eq(nums, [2, 4, 5], "siembra desde ultimo fallo o cuesta, en orden")
 
-        # La lista quedo persistida con exactamente esas 3 preguntas.
+        # La lista quedo persistida con exactamente esas 3 (num3 excluida pese a fallos>0).
         rep = self.page.evaluate(f"() => JSON.parse(localStorage.getItem('quiz_user_User 1_repaso') || '{{}}')['{quiz}']")
         self.assert_true(rep is not None, "repaso persistido tras la siembra")
         self.assert_eq(sorted(rep.keys()), sorted([idps[1], idps[3], idps[4]]), "contenido sembrado correcto")
+        self.assert_true(idps[2] not in rep, "fallo historico con ultimo acierto NO se siembra")
 
     def test_happy_practice_does_not_register_fails(self):
         """Modo 'Probar': fallar preguntas NO debe registrar nada en la cuenta
@@ -1008,7 +1012,7 @@ class QuizE2E:
             self.test_happy_cuesta_button,
             self.test_happy_difficulty_order,
             self.test_happy_only_hard_order_and_remove,
-            self.test_happy_only_hard_seed_from_stats,
+            self.test_happy_only_hard_seed_from_last_result,
             self.test_corner_only_hard_empty_shows_results_not_quiz,
             self.test_happy_practice_does_not_register_fails,
         ]

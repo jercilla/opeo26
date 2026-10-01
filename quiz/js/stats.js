@@ -25,15 +25,17 @@ const Stats = (() => {
     return acierto;
   }
 
-  // Siembra la lista de repaso la primera vez (desde las preguntas con fallos>0 o
-  // marcadas "me cuesta"). No re-siembra si ya se inicializo (aunque este vacia).
+  // Siembra la lista de repaso la primera vez, SOLO desde el resultado mas reciente
+  // de cada pregunta (ultimo_resultado==='fallo') o las marcadas "me cuesta". No usa
+  // el historico acumulado: si fallaste antes pero la ultima vez acertaste, no entra.
+  // No re-siembra si ya se inicializo (aunque este vacia).
   function ensureRepaso(user, quizSlug) {
     if (State.repasoInitialized(user, quizSlug)) return;
     const pp = State.getPorPregunta(user, quizSlug);
     const rep = {};
     Object.keys(pp).forEach(id => {
       const r = pp[id];
-      if ((r.fallos || 0) > 0 || r.cuesta) rep[id] = true;
+      if (r.ultimo_resultado === 'fallo' || r.cuesta) rep[id] = true;
     });
     State.setRepaso(user, quizSlug, rep);
   }
