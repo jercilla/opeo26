@@ -915,6 +915,47 @@ class QuizE2E:
         self.assert_true(rep is not None, "repaso persistido tras la siembra")
         self.assert_eq(sorted(rep.keys()), sorted([idps[1], idps[3], idps[4]]), "contenido sembrado correcto")
 
+    def test_happy_practice_does_not_register_fails(self):
+        """Modo 'Probar': fallar preguntas NO debe registrar nada en la cuenta
+        (ni global, ni fallos por pregunta, ni lista de repaso)."""
+        self.refresh_and_clear()
+        quiz = self.page.evaluate("() => Object.keys(QUIZZES)[0]")
+
+        self.open_first_quiz()
+        self.page.locator("#radio-sequential").check()
+        self.page.locator("#seq-start").fill("1")
+        self.page.locator("#seq-end").fill("3")
+        self.start_practice()
+
+        # Fallar las 3 a proposito (elegir una opcion distinta de la correcta).
+        for _ in range(3):
+            # elegir la primera opcion cuyo data-letter != correcta de la pregunta actual
+            self.page.evaluate("""() => {
+                const letters = ['A','B','C','D'];
+                const opts = [...document.querySelectorAll('#options-list .option')];
+                // la correcta se marca tras validar; antes, la deducimos via QUIZZES
+                // buscando la pregunta por su enunciado visible
+                const qtext = document.getElementById('question-text').textContent;
+                let correcta = null;
+                for (const slug of Object.keys(QUIZZES)) {
+                    const q = QUIZZES[slug].questions.find(x => qtext.startsWith(x.pregunta.slice(0,15)));
+                    if (q) { correcta = q.correcta; break; }
+                }
+                const wrong = opts.find(o => o.dataset.letter !== correcta) || opts[0];
+                wrong.click();
+            }""")
+            self.page.locator("#btn-validate").click()
+            self.page.wait_for_selector("#btn-next", state="visible")
+            self.page.locator("#btn-next").click()
+            self.page.wait_for_timeout(100)
+
+        gl = self.page.evaluate(f"() => (JSON.parse(localStorage.getItem('quiz_user_User 1_global')||'{{}}'))['{quiz}']")
+        pp = self.page.evaluate(f"() => (JSON.parse(localStorage.getItem('quiz_user_User 1_por_pregunta')||'{{}}'))['{quiz}']")
+        rep = self.page.evaluate(f"() => (JSON.parse(localStorage.getItem('quiz_user_User 1_repaso')||'{{}}'))['{quiz}']")
+        self.assert_true(not gl, "modo Probar no registra stats globales")
+        self.assert_true(not pp, "modo Probar no registra fallos por pregunta")
+        self.assert_true(not rep, "modo Probar no anade a la lista de repaso")
+
     def test_corner_only_hard_empty_shows_results_not_quiz(self):
         """Regresion: 'Solo dificiles' con lista vacia debe mostrar la pantalla de
         resultados con el mensaje de vacio, NO la pantalla de quiz con contenido
@@ -969,6 +1010,7 @@ class QuizE2E:
             self.test_happy_only_hard_order_and_remove,
             self.test_happy_only_hard_seed_from_stats,
             self.test_corner_only_hard_empty_shows_results_not_quiz,
+            self.test_happy_practice_does_not_register_fails,
         ]
         passed = 0
         for t in tests:
