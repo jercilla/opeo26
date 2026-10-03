@@ -67,8 +67,17 @@ const Quiz = (() => {
   function buildOnlyHardOrder() {
     Stats.ensureRepaso(user, quizSlug);
     const rep = State.getRepaso(user, quizSlug);
+    const pp = State.getPorPregunta(user, quizSlug);
     const ord = [];
     questions.forEach((q, i) => { if (rep[q.idpregunta]) ord.push(i); });
+    // Primero las preguntas con error (ultimo_resultado==='fallo'), luego el resto
+    // (las que estan por "me cuesta"). Orden secuencial estable dentro de cada grupo.
+    const isError = (i) => (pp[questions[i].idpregunta] || {}).ultimo_resultado === 'fallo';
+    ord.sort((a, b) => {
+      const ea = isError(a) ? 0 : 1, eb = isError(b) ? 0 : 1;
+      if (ea !== eb) return ea - eb;
+      return a - b;
+    });
     return ord;
   }
 

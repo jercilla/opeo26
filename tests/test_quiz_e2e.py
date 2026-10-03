@@ -911,7 +911,8 @@ class QuizE2E:
             nums.append(self.current_qnum())
             self.answer_and_validate(0)
             self.click_next()
-        self.assert_eq(nums, [2, 4, 5], "siembra desde ultimo fallo o cuesta, en orden")
+        # Errores primero (num2 y num5, ultimo fallo), luego 'me cuesta' (num4).
+        self.assert_eq(nums, [2, 5, 4], "siembra desde ultimo fallo o cuesta; errores primero")
 
         # La lista quedo persistida con exactamente esas 3 (num3 excluida pese a fallos>0).
         rep = self.page.evaluate(f"() => JSON.parse(localStorage.getItem('quiz_user_User 1_repaso') || '{{}}')['{quiz}']")
@@ -959,6 +960,41 @@ class QuizE2E:
         self.assert_true(not gl, "modo Probar no registra stats globales")
         self.assert_true(not pp, "modo Probar no registra fallos por pregunta")
         self.assert_true(not rep, "modo Probar no anade a la lista de repaso")
+
+    def test_happy_only_hard_errors_before_cuesta(self):
+        """En 'Solo dificiles' se recorren primero las preguntas con error
+        (ultimo_resultado==='fallo') y luego las de 'me cuesta', manteniendo el
+        orden secuencial por numero dentro de cada grupo."""
+        self.refresh_and_clear()
+        quiz = self.page.evaluate("() => Object.keys(QUIZZES)[0]")
+        idps = self.page.evaluate(f"() => QUIZZES['{quiz}'].questions.slice(0,6).map(q => String(q.idpregunta))")
+
+        # num2: error; num3: me-cuesta; num4: me-cuesta; num5: error.
+        # Esperado: errores primero [2,5] luego cuesta [3,4] -> [2,5,3,4].
+        pp = {
+            idps[1]: {"aciertos": 0, "fallos": 1, "ultimo_resultado": "fallo"},
+            idps[2]: {"aciertos": 1, "fallos": 0, "ultimo_resultado": "acierto", "cuesta": True},
+            idps[3]: {"aciertos": 1, "fallos": 0, "ultimo_resultado": "acierto", "cuesta": True},
+            idps[4]: {"aciertos": 0, "fallos": 1, "ultimo_resultado": "fallo"},
+        }
+        rep = {idps[1]: True, idps[2]: True, idps[3]: True, idps[4]: True}
+        self.page.evaluate("""
+            (args) => {
+                const [quiz, pp, rep] = args;
+                const PP = {}; PP[quiz] = pp; localStorage.setItem('quiz_user_User 1_por_pregunta', JSON.stringify(PP));
+                const R = {}; R[quiz] = rep; localStorage.setItem('quiz_user_User 1_repaso', JSON.stringify(R));
+            }
+        """, [quiz, pp, rep])
+
+        self.open_first_quiz()
+        self.page.locator("#radio-only-hard").check()
+        self.start_practice()
+        nums = []
+        for _ in range(4):
+            nums.append(self.current_qnum())
+            self.answer_and_validate(0)
+            self.click_next()
+        self.assert_eq(nums, [2, 5, 3, 4], "errores primero, luego me cuesta")
 
     def test_corner_only_hard_empty_shows_results_not_quiz(self):
         """Regresion: 'Solo dificiles' con lista vacia debe mostrar la pantalla de
@@ -1013,6 +1049,7 @@ class QuizE2E:
             self.test_happy_difficulty_order,
             self.test_happy_only_hard_order_and_remove,
             self.test_happy_only_hard_seed_from_last_result,
+            self.test_happy_only_hard_errors_before_cuesta,
             self.test_corner_only_hard_empty_shows_results_not_quiz,
             self.test_happy_practice_does_not_register_fails,
         ]
