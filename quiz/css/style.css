@@ -33,6 +33,7 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 .btn-cuesta { background: #fff; color: #b45309; border: 1px solid #f59e0b; }
 .btn-cuesta.marked { background: #f59e0b; color: #fff; border-color: #f59e0b; }
 .btn-repaso { background: #fff; color: #475569; border: 1px solid #cbd5e1; }
+.btn-repaso.confirm { background: #dc2626; color: #fff; border-color: #dc2626; }
 .btn-block { width: calc(100% - 1rem); }
 .btn:disabled { opacity: .5; cursor: not-allowed; }
 .btn-icon {

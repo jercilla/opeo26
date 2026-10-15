@@ -10,6 +10,7 @@ const Quiz = (() => {
   let practice = false;
   let showDiffs = true;
   let mode = null;
+  let repasoConfirm = false;
 
   const els = {
     progress: document.getElementById('quiz-progress'),
@@ -306,10 +307,23 @@ const Quiz = (() => {
     if (!els.repasoRemove) return;
     const show = mode === 'only_hard' && current;
     els.repasoRemove.classList.toggle('hidden', !show);
+    // Al (re)renderizar una pregunta el boton vuelve a su estado inicial.
+    repasoConfirm = false;
+    els.repasoRemove.classList.remove('confirm');
+    els.repasoRemove.textContent = 'Quitar de repaso';
   }
 
   function removeFromRepaso() {
     if (mode !== 'only_hard' || !current) return;
+    // Primera pulsacion: pedir confirmacion (cambia color y texto).
+    if (!repasoConfirm) {
+      repasoConfirm = true;
+      els.repasoRemove.classList.add('confirm');
+      els.repasoRemove.textContent = 'Confirmar';
+      return;
+    }
+    // Segunda pulsacion: eliminar de verdad.
+    repasoConfirm = false;
     State.removeRepaso(user, quizSlug, current.idpregunta);
     order.splice(idx, 1);
     selectedLetter = null;

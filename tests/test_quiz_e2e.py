@@ -862,9 +862,16 @@ class QuizE2E:
         self.page.locator("#radio-only-hard").check()
         self.start_practice()
         self.assert_eq(self.current_qnum(), 2, "primera pregunta del repaso")
+        # Doble pulsacion: 1a arma la confirmacion, 2a elimina.
         self.page.locator("#btn-repaso-remove").click()
-        # Tras quitar, avanza a la num 4
-        self.assert_eq(self.current_qnum(), 4, "avanza tras quitar de repaso")
+        self.assert_eq(self.page.locator("#btn-repaso-remove").inner_text(), "Confirmar", "1a pulsacion pide confirmar")
+        self.assert_true("confirm" in (self.page.locator("#btn-repaso-remove").get_attribute("class") or ""), "1a pulsacion cambia estilo")
+        self.assert_eq(self.current_qnum(), 2, "tras 1a pulsacion sigue en la misma pregunta")
+        self.page.locator("#btn-repaso-remove").click()
+        # Tras confirmar, avanza a la num 4
+        self.assert_eq(self.current_qnum(), 4, "avanza tras confirmar quitar de repaso")
+        # El boton vuelve a su estado inicial en la nueva pregunta
+        self.assert_eq(self.page.locator("#btn-repaso-remove").inner_text(), "Quitar de repaso", "boton reseteado en nueva pregunta")
         # La num 2 ya no esta en la lista persistente
         rep = self.page.evaluate(f"() => JSON.parse(localStorage.getItem('quiz_user_User 1_repaso') || '{{}}')['{quiz}']")
         self.assert_true(idps[1] not in rep, "id quitado ya no esta en repaso")
