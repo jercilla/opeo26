@@ -16,7 +16,7 @@ body {
    linea en cualquier pantalla (portatil o tablet) aunque el navegador renderice
    la letra a distinto tamano. El enunciado va en negrita como el examen. */
 #screen-quiz .container {
-  max-width: 104ch;
+  max-width: 99ch;
   font-family: 'Times New Roman', Times, serif;
   font-size: 13pt;
 }
