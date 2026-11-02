@@ -194,10 +194,23 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 .option.correct { border-color: #16a34a; background: #f0fdf4; }
 .option.wrong { border-color: #dc2626; background: #fef2f2; }
 .option-letter {
-  flex-shrink: 0; width: 1.6rem; height: 1.6rem; border-radius: 50%;
-  background: #e2e8f0; color: #0f172a; font-weight: 700; font-size: 0.85rem;
+  flex-shrink: 0; color: #0f172a; font-weight: 700; font-size: 0.95rem;
   display: inline-flex; align-items: center; justify-content: center;
+  text-transform: lowercase; padding-top: 0.2rem;
 }
+/* Por defecto: "a)" "b)"... sin circulo. */
+.option-letter::after { content: ")"; }
+/* Al seleccionar o validar, vuelve el circulo con la letra en mayuscula. */
+.option.selected .option-letter,
+.option.correct .option-letter,
+.option.wrong .option-letter {
+  width: 1.6rem; height: 1.6rem; border-radius: 50%;
+  background: #e2e8f0; font-size: 0.85rem;
+  padding-top: 0;
+}
+.option.selected .option-letter::after,
+.option.correct .option-letter::after,
+.option.wrong .option-letter::after { content: ""; }
 .option.selected .option-letter { background: #2563eb; color: #fff; }
 .option.correct .option-letter { background: #16a34a; color: #fff; }
 .option.wrong .option-letter { background: #dc2626; color: #fff; }
