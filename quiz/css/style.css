@@ -1,14 +1,34 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { font-size: 16px; -webkit-tap-highlight-color: transparent; }
+html {
+  font-size: 16px; -webkit-tap-highlight-color: transparent;
+  /* Evita que los navegadores de tablet/movil inflen el tamano de letra:
+     asi 11pt es 11pt real y las lineas rompen como en el examen. */
+  -webkit-text-size-adjust: 100%; text-size-adjust: 100%;
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   background: #f1f5f9; color: #1e293b; min-height: 100vh; overflow-x: hidden;
 }
 #app { margin: 0 auto; min-height: 100vh; position: relative; }
 .container { padding: 1rem; max-width: 600px; margin: 0 auto; }
-#screen-quiz .container { max-width: 960px; }
-@media (orientation: landscape) {
-  #screen-quiz .container { max-width: 1200px; }
+/* Columna de lectura como el examen real. El ancho se fija en CARACTERES (ch),
+   relativo a la fuente del examen, para que entren los mismos caracteres por
+   linea en cualquier pantalla (portatil o tablet) aunque el navegador renderice
+   la letra a distinto tamano. El enunciado va en negrita como el examen. */
+#screen-quiz .container {
+  max-width: 104ch;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13pt;
+}
+/* La interfaz (cabecera, etiquetas, insignias A-D, feedback y botones) sigue en
+   sans-serif y con sus tamanos; solo el texto del examen usa Times. */
+#screen-quiz .quiz-header,
+#screen-quiz .quiz-label,
+#screen-quiz .option-letter,
+#screen-quiz .feedback,
+#screen-quiz .btn,
+#screen-quiz h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 .screen { min-height: 100vh; display: none; }
 .screen:not(.hidden) { display: block; }
@@ -157,12 +177,14 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
   padding: 1.25rem; margin-bottom: 1.25rem;
 }
 .question-text {
-  font-size: 1.05rem; line-height: 1.55; color: #0f172a; margin-bottom: 1.25rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13pt; line-height: 1.4; text-align: justify; font-weight: 700;
+  color: #0f172a; margin-bottom: 1.25rem;
 }
 .options-list { display: flex; flex-direction: column; gap: 0.6rem; }
 .option {
-  display: flex; align-items: flex-start; gap: 0.6rem;
-  padding: 0.85rem 1rem; background: #f8fafc; border: 1px solid #cbd5e1;
+  display: flex; align-items: flex-start; gap: 0.5rem;
+  padding: 0.75rem 0.5rem; background: #f8fafc; border: 1px solid #cbd5e1;
   border-radius: 0.75rem; cursor: pointer; transition: border-color .15s, background .15s;
   text-align: left; width: 100%; font-size: 0.95rem; color: #1e293b;
   -webkit-user-select: text; user-select: text;
@@ -179,7 +201,11 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 .option.selected .option-letter { background: #2563eb; color: #fff; }
 .option.correct .option-letter { background: #16a34a; color: #fff; }
 .option.wrong .option-letter { background: #dc2626; color: #fff; }
-.option-text { line-height: 1.45; -webkit-user-select: text; user-select: text; }
+.option-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13pt; line-height: 1.4; text-align: justify;
+  -webkit-user-select: text; user-select: text;
+}
 #screen-quiz.validated .option-text,
 #screen-quiz.validated .question-text {
   -webkit-touch-callout: none;
@@ -342,10 +368,9 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 .import-conflict-text .conf-opt { color: #64748b; font-size: 0.85rem; }
 .modal-actions { display: flex; gap: 0.5rem; justify-content: flex-end; }
 
-/* Tablet */
+/* Tablet: el enunciado y las opciones del examen usan Times New Roman 11pt
+   fijo (ver .question-text/.option-text), igual que el examen real. */
 @media (min-width: 600px) {
   .container { padding: 1.5rem; }
   h1 { font-size: 1.75rem; }
-  .question-text { font-size: 1.5rem; }
-  .option { font-size: 1.15rem; }
 }
