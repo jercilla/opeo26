@@ -178,7 +178,7 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 }
 .question-text {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 13pt; line-height: 1.4; text-align: justify; font-weight: 700;
+  font-size: 13pt; line-height: 1.4; text-align: left; font-weight: 700;
   color: #0f172a; margin-bottom: 1.25rem;
 }
 .options-list { display: flex; flex-direction: column; gap: 0.6rem; }
@@ -203,7 +203,7 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 .option.wrong .option-letter { background: #dc2626; color: #fff; }
 .option-text {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 13pt; line-height: 1.4; text-align: justify;
+  font-size: 13pt; line-height: 1.4; text-align: left;
   -webkit-user-select: text; user-select: text;
 }
 #screen-quiz.validated .option-text,
@@ -373,4 +373,7 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: #94a3b8; 
 @media (min-width: 600px) {
   .container { padding: 1.5rem; }
   h1 { font-size: 1.75rem; }
+  /* En tablet (ancho suficiente) justificamos como el examen en papel.
+     En movil queda a la izquierda para evitar huecos grandes entre palabras. */
+  #screen-quiz .question-text, #screen-quiz .option-text { text-align: justify; }
 }
